@@ -1,0 +1,12 @@
+Integrity Audit Report | 2026-04-03T05:00:34.086872+00:00
+========================================================================================
+[PASS] Config Directory | required=8 | missing=0 | broken_json=0
+[PASS] Main Connectivity | all required modules initialized and invoked
+[PASS] Import Integrity | all target modules imported cleanly
+[PASS] Circular Import Scan | no self-import cycles detected
+[PASS] ExitManager | hard-loss/time-exit logic responded as expected
+[PASS] AdaptiveFilter | dummy high-confidence signal evaluated cleanly
+[PASS] AdmissionController | RR hard gate rejects 0.5R and admits 3.0R
+[PASS] UserTradeLearner | entry/exit capture and learned weights are functional
+========================================================================================
+Summary | Passed=8 | Failed=0 | Total=8

@@ -1,0 +1,225 @@
+"""
+Configuration file in YAML format.
+All trading parameters defined here - NO hardcoding.
+"""
+
+app_name: "AlgoTradingBot Pro"
+version: "2.0.0"
+
+# ============================================================================
+# RISK MANAGEMENT
+# ============================================================================
+risk:
+  mode: "balanced"  # conservative, balanced, aggressive
+  max_position_size: 0.02  # 2% risk per trade
+  max_daily_loss: 0.05  # 5% max daily loss
+  max_drawdown: 0.20  # 20% max drawdown
+  max_open_trades: 10
+  min_risk_reward_ratio: 1.5
+  
+  # Position sizing
+  position_sizing: "equity_risk"  # fixed, equity_risk, atr_based, kelly
+  fixed_lot: 0.01
+  equity_risk_percent: 2.0
+  
+  # Stop loss
+  sl_type: "atr"  # fixed, atr, volatility, chandelier
+  atr_multiple: 2.0
+  
+  # Take profit
+  tp_type: "fixed"
+  tp_multiple: 2.0
+  
+  # Protection
+  trailing_stop: true
+  trailing_stop_atr: 1.5
+  break_even_enabled: true
+  partial_profit_points: [0.5, 0.75, 1.0]
+
+# ============================================================================
+# STRATEGIES
+# ============================================================================
+strategies:
+  - name: "sma_crossover"
+    enabled: true
+    weight: 0.4
+    fast_period: 20
+    slow_period: 50
+    min_pips_apart: 10
+  
+  - name: "mean_reversion"
+    enabled: true
+    weight: 0.3
+    bb_period: 20
+    bb_std: 2.0
+    rsi_period: 14
+    rsi_oversold: 30
+    rsi_overbought: 70
+  
+  - name: "breakout"
+    enabled: true
+    weight: 0.3
+    consolidation_period: 20
+    breakout_threshold_pips: 20
+    min_consolidation_pips: 10
+
+# ============================================================================
+# SIGNAL FILTERS
+# ============================================================================
+filters:
+  adx_trend_floor: 10.0
+
+# ============================================================================
+# MACHINE LEARNING
+# ============================================================================
+ml:
+  enabled: true
+  model_type: "xgboost"  # xgboost, random_forest, lstm
+  retrain_frequency: "weekly"  # daily, weekly, monthly
+  confidence_threshold: 0.65
+  quality_floor: 0.35
+  
+  # Training
+  train_size: 0.70
+  test_size: 0.15
+  val_size: 0.15
+  
+  # Model parameters
+  n_estimators: 100
+  max_depth: 10
+  learning_rate: 0.01
+  
+  # Features
+  use_technical: true
+  use_volatility: true
+  use_returns: true
+  use_time_features: true
+
+# ============================================================================
+# BACKTESTING
+# ============================================================================
+backtest:
+  enabled: true
+  start_date: "2023-01-01"
+  end_date: "2024-12-31"
+  initial_capital: 10000.0
+  
+  # Simulation
+  spread_bps: 2.0  # Bid-ask spread
+  slippage_bps: 1.0
+  commission_pct: 0.001
+  latency_ms: 100
+  
+  # Validation
+  optimization_enabled: true
+  optimization_method: "grid"  # grid, genetic, bayesian
+  walk_forward_enabled: true
+  monte_carlo_enabled: true
+  monte_carlo_simulations: 1000
+
+# ============================================================================
+# BROKER
+# ============================================================================
+broker:
+  broker: "mt5"  # mt5, oanda
+  login: 123456789  # Your MT5 login
+  password: "your_password"
+  server: "MetaQuotes-Demo"
+  timeout: 30
+  max_retries: 3
+  retry_delay: 5
+
+# ============================================================================
+# DATA MANAGEMENT
+# ============================================================================
+data:
+  cache_enabled: true
+  cache_dir: "data/cache"
+  historical_dir: "data/historical"
+  
+  # Trading pairs
+  pairs:
+    - "EURUSD"
+    - "GBPUSD"
+    - "USDJPY"
+    - "XAUUSD"
+  
+  # Data parameters
+  granularity: "H1"  # H1, H4, D1
+  lookback_candles: 500
+  
+# ============================================================================
+# MONITORING & ALERTS
+# ============================================================================
+monitoring:
+  log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  json_log: true
+  heartbeat_interval_seconds: 2
+  
+  # Telegram alerts
+  telegram_enabled: false
+  telegram_token: ""
+  telegram_chat_id: ""
+  
+  # Discord alerts
+  discord_enabled: false
+  discord_webhook: ""
+  
+  # Web dashboard
+  dashboard_enabled: false
+  dashboard_port: 8000
+
+# ============================================================================
+# NEWS / MACRO
+# ============================================================================
+news:
+  enabled: true
+  provider: "newsapi"  # newsapi or mock
+  api_key: "${NEWS_API_KEY}"
+  mock_mode: false
+  require_live_data: false
+  min_impact: "HIGH"
+
+# ============================================================================
+# AI ADVISORY / OLLAMA
+# ============================================================================
+ai:
+  advisory:
+    enabled: true
+    pre_admission_model: "qwen3.5:0.8b"
+    final_execution_model: "qwen3.5:4b"
+    fast_model: "qwen3.5:0.8b"
+    heavy_model: "qwen3.5:4b"
+    fast_timeout_seconds: 2
+    heavy_timeout_seconds: 8
+    retry_attempts: 1
+    startup_retries: 3
+
+recovery:
+  technical_only_quality_floor_mock: 58.0
+  basket_small_win_target_usd: 10.0
+
+# ============================================================================
+# DIAGNOSTICS
+# ============================================================================
+diagnostics:
+  diagnostic_force_trade: false
+
+# ============================================================================
+# TRADING SESSIONS
+# ============================================================================
+trading_sessions:
+  sydney:
+    enabled: true
+    start_hour: 21
+    end_hour: 7
+  
+  london:
+    enabled: true
+    start_hour: 7
+    end_hour: 16
+  
+  newyork:
+    enabled: true
+    start_hour: 12
+    end_hour: 21

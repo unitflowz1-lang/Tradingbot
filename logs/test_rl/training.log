@@ -1,0 +1,5 @@
+2025-08-04 03:08:43,242 - rl.training - INFO - Starting training for DQN agent
+2025-08-04 03:08:43,244 - rl.training - INFO - Training configuration: {
+  "learning_rate": 0.001
+}
+2025-08-04 03:08:43,244 - rl.training - INFO - Episode 1: {"episode": 1, "reward": 10.5, "loss": 0.1, "epsilon": 0.9, "duration": 1.2, "timestamp": "2025-08-04T03:08:43.244293"}

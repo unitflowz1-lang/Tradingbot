@@ -1,0 +1,129 @@
+//@version=5
+strategy("High Reward Reversal Peaks", overlay=true, initial_capital=100000, pyramiding=0, commission_type=strategy.commission.percent, commission_value=0.01)
+
+bbLength = input.int(20, "BB Length", minval=1)
+bbStd = input.float(2.0, "BB StdDev", minval=0.1, step=0.1)
+rsiLength = input.int(14, "RSI Length", minval=1)
+atrLength = input.int(14, "ATR Length", minval=1)
+volSmaLength = input.int(10, "Volume SMA Length", minval=1)
+pivotLeft = input.int(5, "Pivot Left", minval=1)
+pivotRight = input.int(5, "Pivot Right", minval=1)
+divMinBars = input.int(5, "Divergence Min Bars", minval=1)
+divMaxBars = input.int(60, "Divergence Max Bars", minval=2)
+volSpikeMult = input.float(1.5, "Volume Spike Mult", minval=0.1, step=0.1)
+stopAtrBuffer = input.float(0.5, "Stop ATR Buffer", minval=0.1, step=0.1)
+trailActivationR = input.float(1.5, "Trail Activation (R)", minval=0.1, step=0.1)
+trailAtrMult = input.float(3.0, "Trail ATR Mult", minval=0.1, step=0.1)
+riskPct = input.float(1.0, "Risk % Equity", minval=0.1, step=0.1)
+
+basis = ta.sma(close, bbLength)
+dev = ta.stdev(close, bbLength) * bbStd
+bbUpper = basis + dev
+bbLower = basis - dev
+rsiValue = ta.rsi(close, rsiLength)
+atrValue = ta.atr(atrLength)
+volSma = ta.sma(volume, volSmaLength)
+
+ph = ta.pivothigh(high, pivotLeft, pivotRight)
+pl = ta.pivotlow(low, pivotLeft, pivotRight)
+rsiPh = ta.valuewhen(not na(ph), rsiValue[pivotRight], 0)
+rsiPhPrev = ta.valuewhen(not na(ph), rsiValue[pivotRight], 1)
+pricePh = ta.valuewhen(not na(ph), high[pivotRight], 0)
+pricePhPrev = ta.valuewhen(not na(ph), high[pivotRight], 1)
+phBar = ta.valuewhen(not na(ph), bar_index[pivotRight], 0)
+phBarPrev = ta.valuewhen(not na(ph), bar_index[pivotRight], 1)
+
+rsiPl = ta.valuewhen(not na(pl), rsiValue[pivotRight], 0)
+rsiPlPrev = ta.valuewhen(not na(pl), rsiValue[pivotRight], 1)
+pricePl = ta.valuewhen(not na(pl), low[pivotRight], 0)
+pricePlPrev = ta.valuewhen(not na(pl), low[pivotRight], 1)
+plBar = ta.valuewhen(not na(pl), bar_index[pivotRight], 0)
+plBarPrev = ta.valuewhen(not na(pl), bar_index[pivotRight], 1)
+
+bearDiv = not na(ph) and (pricePh > pricePhPrev) and (rsiPh < rsiPhPrev) and ((phBar - phBarPrev) >= divMinBars) and ((phBar - phBarPrev) <= divMaxBars)
+bullDiv = not na(pl) and (pricePl < pricePlPrev) and (rsiPl > rsiPlPrev) and ((plBar - plBarPrev) >= divMinBars) and ((plBar - plBarPrev) <= divMaxBars)
+
+shortPeakValid = bearDiv and close[pivotRight] > bbUpper[pivotRight] and volume[pivotRight] >= volSpikeMult * volSma[pivotRight]
+longPeakValid = bullDiv and close[pivotRight] < bbLower[pivotRight] and volume[pivotRight] >= volSpikeMult * volSma[pivotRight]
+
+shortStop = pricePh + (stopAtrBuffer * atrValue[pivotRight])
+longStop = pricePl - (stopAtrBuffer * atrValue[pivotRight])
+
+longRisk = math.abs(close - longStop)
+shortRisk = math.abs(shortStop - close)
+longQty = longRisk > 0 ? (strategy.equity * (riskPct / 100.0)) / longRisk : na
+shortQty = shortRisk > 0 ? (strategy.equity * (riskPct / 100.0)) / shortRisk : na
+
+if longPeakValid and strategy.position_size == 0 and not na(longQty)
+    strategy.entry("Long", strategy.long, qty=longQty)
+
+if shortPeakValid and strategy.position_size == 0 and not na(shortQty)
+    strategy.entry("Short", strategy.short, qty=shortQty)
+
+var float longInitialStop = na
+var float shortInitialStop = na
+var float longActivation = na
+var float shortActivation = na
+var bool longTrailActive = false
+var bool shortTrailActive = false
+var float longTrailStop = na
+var float shortTrailStop = na
+var float highestSinceActivation = na
+var float lowestSinceActivation = na
+
+newLong = strategy.position_size > 0 and strategy.position_size[1] <= 0
+newShort = strategy.position_size < 0 and strategy.position_size[1] >= 0
+flatNow = strategy.position_size == 0
+
+if newLong
+    longInitialStop := longStop
+    longActivation := strategy.position_avg_price + trailActivationR * math.abs(strategy.position_avg_price - longInitialStop)
+    longTrailActive := false
+    longTrailStop := na
+    highestSinceActivation := na
+
+if newShort
+    shortInitialStop := shortStop
+    shortActivation := strategy.position_avg_price - trailActivationR * math.abs(shortInitialStop - strategy.position_avg_price)
+    shortTrailActive := false
+    shortTrailStop := na
+    lowestSinceActivation := na
+
+if strategy.position_size > 0
+    if not longTrailActive and high >= longActivation
+        longTrailActive := true
+        highestSinceActivation := high
+    if longTrailActive
+        highestSinceActivation := math.max(nz(highestSinceActivation, high), high)
+        longTrailStop := highestSinceActivation - trailAtrMult * atrValue
+    strategy.exit("Long Exit", "Long", stop=math.max(longInitialStop, nz(longTrailStop, longInitialStop)))
+
+if strategy.position_size < 0
+    if not shortTrailActive and low <= shortActivation
+        shortTrailActive := true
+        lowestSinceActivation := low
+    if shortTrailActive
+        lowestSinceActivation := math.min(nz(lowestSinceActivation, low), low)
+        shortTrailStop := lowestSinceActivation + trailAtrMult * atrValue
+    strategy.exit("Short Exit", "Short", stop=math.min(shortInitialStop, nz(shortTrailStop, shortInitialStop)))
+
+if flatNow
+    longInitialStop := na
+    shortInitialStop := na
+    longActivation := na
+    shortActivation := na
+    longTrailActive := false
+    shortTrailActive := false
+    longTrailStop := na
+    shortTrailStop := na
+    highestSinceActivation := na
+    lowestSinceActivation := na
+
+plot(bbUpper, "BB Upper", color=color.red)
+plot(basis, "BB Basis", color=color.gray)
+plot(bbLower, "BB Lower", color=color.green)
+plot(strategy.position_size > 0 ? math.max(longInitialStop, nz(longTrailStop, longInitialStop)) : na, "Long Trail Stop", color=color.orange, linewidth=2, style=plot.style_linebr)
+plot(strategy.position_size < 0 ? math.min(shortInitialStop, nz(shortTrailStop, shortInitialStop)) : na, "Short Trail Stop", color=color.aqua, linewidth=2, style=plot.style_linebr)
+
+plotshape(longPeakValid, title="Long Entry", style=shape.triangleup, color=color.lime, location=location.belowbar, size=size.tiny, text="L")
+plotshape(shortPeakValid, title="Short Entry", style=shape.triangledown, color=color.red, location=location.abovebar, size=size.tiny, text="S")

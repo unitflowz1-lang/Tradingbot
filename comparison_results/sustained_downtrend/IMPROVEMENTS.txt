@@ -1,0 +1,26 @@
+================================================================================
+IMPROVEMENTS REPORT: SUSTAINED_DOWNTREND
+================================================================================
+
+BEFORE vs AFTER COMPARISON
+--------------------------------------------------------------------------------
+
+Max Drawdown % (✅ IMPROVED)
+  Before: 0.65
+  After:  0.46
+  Change: -29.7%
+
+Total Signals (⚠️ DEGRADED)
+  Before: 4491.00
+  After:  4491.00
+  Change: +0.0%
+
+Risk Breaches (⚠️ DEGRADED)
+  Before: 0.00
+  After:  0.00
+  Change: +0.0%
+
+Final Equity $ (⚠️ DEGRADED)
+  Before: 204559.34
+  After:  183199.68
+  Change: -10.4%

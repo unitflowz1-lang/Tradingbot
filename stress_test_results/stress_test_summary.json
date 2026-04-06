@@ -1,0 +1,117 @@
+{
+  "test_timestamp": "2026-02-14T16:01:29.600383",
+  "configuration": {
+    "initial_capital": 100000.0,
+    "risk_per_trade": 0.02,
+    "position_sizing_method": "equity_%",
+    "strategies": [
+      "sma",
+      "mean_reversion",
+      "breakout"
+    ],
+    "strategy_weights": {
+      "sma": 0.4,
+      "mean_reversion": 0.35,
+      "breakout": 0.25
+    }
+  },
+  "baseline_results": {
+    "flash_crash": {
+      "scenario": "flash_crash_baseline",
+      "timestamp": "2026-02-14T16:01:27.075913",
+      "position_sizing_decisions": 1497,
+      "strategy_signals": 4491,
+      "ml_evaluations": 1494,
+      "regime_switches": 0,
+      "risk_breaches": 0,
+      "drawdown_events": 1497,
+      "max_drawdown_pct": 0.5230574572750373,
+      "max_drawdown_time": "2024-01-19T22:00:00",
+      "final_equity": 168977.96821525783
+    },
+    "sustained_downtrend": {
+      "scenario": "sustained_downtrend_baseline",
+      "timestamp": "2026-02-14T16:01:27.482548",
+      "position_sizing_decisions": 1497,
+      "strategy_signals": 4491,
+      "ml_evaluations": 1494,
+      "regime_switches": 0,
+      "risk_breaches": 0,
+      "drawdown_events": 1497,
+      "max_drawdown_pct": 0.5975676126487064,
+      "max_drawdown_time": "2024-01-09T19:00:00",
+      "final_equity": 207532.61169181432
+    },
+    "high_volatility": {
+      "scenario": "high_volatility_baseline",
+      "timestamp": "2026-02-14T16:01:27.850306",
+      "position_sizing_decisions": 1497,
+      "strategy_signals": 4491,
+      "ml_evaluations": 1494,
+      "regime_switches": 0,
+      "risk_breaches": 0,
+      "drawdown_events": 1497,
+      "max_drawdown_pct": 0.6034757558080285,
+      "max_drawdown_time": "2024-01-04T02:00:00",
+      "final_equity": 208073.42373729014
+    }
+  },
+  "stress_results": {
+    "flash_crash": {
+      "scenario": "flash_crash",
+      "timestamp": "2026-02-14T16:01:28.299251",
+      "position_sizing_decisions": 1497,
+      "strategy_signals": 4491,
+      "ml_evaluations": 1494,
+      "regime_switches": 9,
+      "risk_breaches": 0,
+      "drawdown_events": 1497,
+      "max_drawdown_pct": 0.6266919272178436,
+      "max_drawdown_time": "2024-01-03T06:00:00",
+      "final_equity": 176104.4506120745
+    },
+    "sustained_downtrend": {
+      "scenario": "sustained_downtrend",
+      "timestamp": "2026-02-14T16:01:28.832515",
+      "position_sizing_decisions": 1497,
+      "strategy_signals": 4491,
+      "ml_evaluations": 1494,
+      "regime_switches": 9,
+      "risk_breaches": 0,
+      "drawdown_events": 1497,
+      "max_drawdown_pct": 0.518964729584842,
+      "max_drawdown_time": "2024-01-07T05:00:00",
+      "final_equity": 214057.1621132728
+    },
+    "high_volatility": {
+      "scenario": "high_volatility",
+      "timestamp": "2026-02-14T16:01:29.381893",
+      "position_sizing_decisions": 1497,
+      "strategy_signals": 4491,
+      "ml_evaluations": 1494,
+      "regime_switches": 9,
+      "risk_breaches": 0,
+      "drawdown_events": 1497,
+      "max_drawdown_pct": 0.764275221439535,
+      "max_drawdown_time": "2024-01-10T17:00:00",
+      "final_equity": 214829.24080747468
+    }
+  },
+  "comparative_analysis": {
+    "flash_crash": {
+      "drawdown_impact": 0.10363446994280634,
+      "risk_breach_increase": 0,
+      "signal_change": 0
+    },
+    "sustained_downtrend": {
+      "drawdown_impact": -0.07860288306386443,
+      "risk_breach_increase": 0,
+      "signal_change": 0
+    },
+    "high_volatility": {
+      "drawdown_impact": 0.1607994656315065,
+      "risk_breach_increase": 0,
+      "signal_change": 0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-04-06T02:47:40.620818+00:00",
+  "source": "news_unavailable_volatility_fallback",
+  "penalties": {
+    "EURUSD": 0.0,
+    "GBPUSD": 0.0,
+    "USDJPY": 0.0,
+    "USDCHF": 0.0,
+    "AUDUSD": 0.0,
+    "USDCAD": 0.0,
+    "NZDUSD": 0.0
+  },
+  "reasons": {
+    "EURUSD": "VOLATILITY_NORMAL_FALLBACK",
+    "GBPUSD": "VOLATILITY_NORMAL_FALLBACK",
+    "USDJPY": "VOLATILITY_NORMAL_FALLBACK",
+    "USDCHF": "VOLATILITY_NORMAL_FALLBACK",
+    "AUDUSD": "VOLATILITY_NORMAL_FALLBACK",
+    "USDCAD": "VOLATILITY_NORMAL_FALLBACK",
+    "NZDUSD": "VOLATILITY_NORMAL_FALLBACK"
+  }
+}

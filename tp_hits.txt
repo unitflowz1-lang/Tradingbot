@@ -1,0 +1,2 @@
+﻿{"timestamp": "2026-02-19T08:16:49.197096+00:00", "level": "CRITICAL", "logger": "src.trading.position_manager", "message": "[EXIT_REASON] TP_HIT for position 55302830434", "module": "position_manager", "function": "monitor_positions", "line": 1174}
+{"timestamp": "2026-02-19T08:16:49.198624+00:00", "level": "CRITICAL", "logger": "src.trading.position_manager", "message": "[EXIT_REASON] TP_HIT for position 55302844866", "module": "position_manager", "function": "monitor_positions", "line": 1174}

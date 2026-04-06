@@ -1,0 +1,55 @@
+{
+  "trained_at": "2026-02-26T13:35:26.735411+00:00",
+  "accuracy_score": 0.4959839357429719,
+  "brier_score": 0.25003480233551606,
+  "log_loss": 0.6932165865278934,
+  "meta_accuracy_score": 0.4879518072289157,
+  "meta_model_enabled": true,
+  "training_samples": 2986,
+  "meta_samples": 996,
+  "test_samples": 996,
+  "calibration_method": "sigmoid",
+  "top_features": {
+    "atr": 0.10670396433182067,
+    "adx": 0.10663275660632156,
+    "macd_hist": 0.10241794355760041,
+    "rsi": 0.09963539861301482,
+    "ret_5": 0.09672954628973386,
+    "ret_1": 0.09587432479692062,
+    "absorption_ratio": 0.09272535676587068,
+    "w_r": 0.09156101789559541,
+    "bb_pos": 0.08493758472625476,
+    "ret_3": 0.08464036953445273
+  },
+  "structural_feature_ranks": {
+    "is_liquidity_sweep": {
+      "rank": 14,
+      "importance": 0.0027448279769367195
+    },
+    "absorption_ratio": {
+      "rank": 7,
+      "importance": 0.09272535676587068
+    },
+    "is_displacement_mss": {
+      "rank": 13,
+      "importance": 0.005296294706175479
+    }
+  },
+  "feature_names": [
+    "rsi",
+    "adx",
+    "w_r",
+    "macd_hist",
+    "bb_pos",
+    "atr",
+    "htf_trend_alignment",
+    "bars_since_last_loss",
+    "volatility_regime_state",
+    "is_liquidity_sweep",
+    "absorption_ratio",
+    "is_displacement_mss",
+    "ret_1",
+    "ret_3",
+    "ret_5"
+  ]
+}

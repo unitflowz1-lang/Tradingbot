@@ -1,0 +1,1118 @@
+14:03:25 | AI Forex Trading Bot v1.0.0 initialized
+14:03:28 | [1;34m[INIT][0m >> AI Forex Trading Bot Starting...
+14:03:28 | Hot-reload enabled for configuration files in config
+14:03:28 | Health check system started
+14:03:28 | Initializing MT5 Broker...
+14:03:28 | Connection attempt (Process Elevation: Standard User)
+14:03:28 | [1;33mBot is NOT running as Administrator. If MT5 is elevated, IPC connection WILL fail with timeout.[0m
+14:03:29 | Connecting to existing terminal...
+14:03:30 | [1;32m[OK][0m Connected to running MT5 terminal
+14:03:30 | [1;32m[OK][0m Already logged in to account 5044383203
+14:03:30 | --------------------------------------------------
+14:03:30 | [1;32m[OK][0m AI TRADING BOT ACTIVATED | v2.1.0
+14:03:30 | --------------------------------------------------
+14:03:30 | [1;32m[OK][0m Mode: ACTIVE TRADING
+14:03:30 | [1;32m[OK][0m Strategy: TREND FOLLOWING + ML
+14:03:30 | [1;32m[OK][0m Feature: MAXOUT MODE [ON] (Aggressive Scaling)
+14:03:30 | [1;32m[OK][0m Feature: AUTO-TRAIL [ON] (Dynamic Stop Loss)
+14:03:30 | [1;32m[OK][0m Feature: SECURE PROFIT [ON] (Bank Gains > $50)
+14:03:30 | [1;32m[OK][0m Feature: PARTIAL PROFIT [ON] (Multi-stage exits)
+14:03:30 | [1;32m[OK][0m Feature: TIME EXIT [ON] (Close stagnated trades)
+14:03:30 | [1;32m[OK][0m Feature: LIVE IMPROVEMENTS [ON] (Margin, Slippage, Sizing)
+14:03:30 | --------------------------------------------------
+14:03:30 | [1;34m[INIT][0m Initializing live trading improvements...
+14:03:30 | [1;32m[OK][0m Live trading improvements initialized [OK]
+14:03:30 | [1;32m[OK][0m Profit protector initialized (Breakeven: $50, Max Drawdown: $20)
+14:03:30 | [1;32m[OK][0m Position direction tracker initialized
+14:03:30 | Daily loss limit set to $100.00
+14:03:30 | [1;34m[INIT][0m Initializing Three-Layer Architecture...
+14:03:30 | [1;34m[INIT][0m Three-Layer Architecture initialized [OK]
+14:03:30 | [1;34m[INIT][0m Initializing Enhanced Signal Validator...
+14:03:30 | [1;32m[OK][0m Enhanced Signal Validator initialized (Min Score: 45, MTF: 1 TFs)
+14:03:30 | [1;34m[INIT][0m Bot initialization complete | Symbols: ['EUR/USD', 'GBP/USD', 'USD/JPY', 'AUD/USD']
+14:03:30 | [36m[STATS][0m --- [CYCLE 1] ---
+14:03:30 | [36m[STATS][0m Balance: 97845.77 | Equity: 97847.17 | Active: 3 | Margin: 97720.07 | Util: 0.1%
+14:03:30 | [POSITION STATS] Open: 3 | Unrealized: $1.40 | Daily Loss: $0.00/100.00
+14:03:30 | [LONG POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:03:30 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:03:30 | [TOTAL] Open: 0 | Unrealized: $0.00
+14:03:30 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:03:30 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:03:30 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:03:30 | First run for USD/JPY: Training ML model on 100 bars...
+14:03:30 | [ANALYSIS] USD/JPY | Price: 157.45100 | RSI: 60.7 | ADX: 35.3 | ML: UP(50%)
+14:03:30 | SL/TP Details: Entry=157.45110, ATR=0.15429, sl_dist=1.54286, tp_dist=4.62857, SL=155.90824, TP=162.07967
+14:03:30 | ATR-based SL/TP: Entry=157.45110, Dir=LONG, SL=155.90824, TP=162.07967, Period=14, RR=3.0
+14:03:30 | [SIGNAL ACCEPTED] USD/JPY | Quality: 88% | Entry: 157.45110
+14:03:30 | SL/TP Details: Entry=157.45110, ATR=0.15429, sl_dist=1.54286, tp_dist=2.31429, SL=155.90824, TP=159.76539
+14:03:30 | [1;36m[SIGNAL][0m USD/JPY | LONG | Entry=157.45110 | SL=155.90824 | TP=159.76539 | Confidence=0.98
+14:03:30 | [1;33m[DECISION][0m USD/JPY | LONG @ 157.45110 | SL: 155.90824 | TP: 159.76539
+14:03:30 | [ENHANCED VALIDATOR] USD/JPY LONG | [APPROVED] | Score: 56.6/100
+14:03:30 |   MTF: 19 | Vol: 70 | Mom: 70 | Liq: 70 | Confluence: 58 | Size Mult: 0.72x
+14:03:30 | [ENHANCED FILTER] USD/JPY LONG APPROVED | Score: 56.6/100 | MTF: 19 | Vol: 70 | Mom: 70 | Liq: 70 | Size: 0.72x
+14:03:30 | [1;33m[ACTION][0m Risk OK | Score: 0.02 | RawSize: 0.9800% | EquitySize: 19.5694 | Final: 0.04 lots
+14:03:30 | Executing order order_1767967410 for USD/JPY
+14:03:30 | Using filling mode: 0 for USD/JPY
+14:03:30 | Order placed successfully: 54619827648
+14:03:30 | Order order_1767967410 executed: success=True, price=157.455
+14:03:30 | [POSITION CALL] LONG | USD/JPY | Entry: 157.45110 | Qty: 0.01
+14:03:30 | [92m[OPEN] USD/JPY | LONG | Qty=0.010 lots | Entry=157.45110 | SL=155.90824 | TP=159.76539 | Order: 54619827648[0m
+14:03:30 | [POSITION CALL] USD/JPY | LONG: 1 | SHORT: 0
+14:03:30 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:03:30 | [IDLE] Waiting for next market pulse...
+14:03:40 | [36m[STATS][0m --- [CYCLE 2] ---
+14:03:40 | [36m[STATS][0m Balance: 97845.77 | Equity: 97847.10 | Active: 4 | Margin: 97680.00 | Util: 0.2%
+14:03:40 | [POSITION STATS] Open: 4 | Unrealized: $1.33 | Daily Loss: $0.00/100.00
+14:03:40 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:03:40 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:03:40 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:03:40 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:03:40 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:03:40 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:03:40 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:03:40 | [IDLE] Waiting for next market pulse...
+14:03:50 | [36m[STATS][0m --- [CYCLE 3] ---
+14:03:50 | [36m[STATS][0m Balance: 97845.77 | Equity: 97847.33 | Active: 4 | Margin: 97680.23 | Util: 0.2%
+14:03:50 | [POSITION STATS] Open: 4 | Unrealized: $1.56 | Daily Loss: $0.00/100.00
+14:03:50 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:03:50 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:03:50 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:03:50 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:03:50 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:03:50 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:03:50 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:03:50 | [IDLE] Waiting for next market pulse...
+14:04:01 | [36m[STATS][0m --- [CYCLE 4] ---
+14:04:01 | [36m[STATS][0m Balance: 97845.77 | Equity: 97849.46 | Active: 4 | Margin: 97682.36 | Util: 0.2%
+14:04:01 | [POSITION STATS] Open: 4 | Unrealized: $3.69 | Daily Loss: $0.00/100.00
+14:04:01 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:04:01 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:04:01 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:04:01 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:04:01 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:04:01 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:04:01 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:04:01 | [IDLE] Waiting for next market pulse...
+14:04:11 | [36m[STATS][0m --- [CYCLE 5] ---
+14:04:11 | [36m[STATS][0m Balance: 97845.77 | Equity: 97848.39 | Active: 4 | Margin: 97681.29 | Util: 0.2%
+14:04:11 | [POSITION STATS] Open: 4 | Unrealized: $2.62 | Daily Loss: $0.00/100.00
+14:04:11 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:04:11 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:04:11 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:04:11 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:04:11 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:04:11 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:04:11 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:04:11 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 1/5 | Exits: 0 (Market: 0, Admin: 0)
+14:04:11 | [IDLE] Waiting for next market pulse...
+14:04:21 | [36m[STATS][0m --- [CYCLE 6] ---
+14:04:21 | [36m[STATS][0m Balance: 97845.77 | Equity: 97846.38 | Active: 4 | Margin: 97679.28 | Util: 0.2%
+14:04:21 | [POSITION STATS] Open: 4 | Unrealized: $0.61 | Daily Loss: $0.00/100.00
+14:04:21 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:04:21 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:04:21 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:04:21 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:04:21 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:04:21 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:04:21 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:04:21 | [IDLE] Waiting for next market pulse...
+14:04:32 | [36m[STATS][0m --- [CYCLE 7] ---
+14:04:32 | [36m[STATS][0m Balance: 97845.77 | Equity: 97846.51 | Active: 4 | Margin: 97679.41 | Util: 0.2%
+14:04:32 | [POSITION STATS] Open: 4 | Unrealized: $0.74 | Daily Loss: $0.00/100.00
+14:04:32 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:04:32 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:04:32 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:04:32 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:04:32 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:04:32 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:04:32 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:04:32 | [IDLE] Waiting for next market pulse...
+14:04:42 | [36m[STATS][0m --- [CYCLE 8] ---
+14:04:42 | [36m[STATS][0m Balance: 97845.77 | Equity: 97845.54 | Active: 4 | Margin: 97678.44 | Util: 0.2%
+14:04:42 | [POSITION STATS] Open: 4 | Unrealized: $-0.23 | Daily Loss: $0.00/100.00
+14:04:42 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:04:42 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:04:42 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:04:42 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:04:42 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:04:42 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:04:42 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:04:42 | [IDLE] Waiting for next market pulse...
+14:04:52 | [36m[STATS][0m --- [CYCLE 9] ---
+14:04:52 | [36m[STATS][0m Balance: 97845.77 | Equity: 97845.46 | Active: 4 | Margin: 97678.36 | Util: 0.2%
+14:04:52 | [POSITION STATS] Open: 4 | Unrealized: $-0.31 | Daily Loss: $0.00/100.00
+14:04:52 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:04:52 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:04:52 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:04:52 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:04:52 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:04:52 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:04:52 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:04:52 | [IDLE] Waiting for next market pulse...
+14:05:03 | [36m[STATS][0m --- [CYCLE 10] ---
+14:05:03 | [36m[STATS][0m Balance: 97845.77 | Equity: 97844.38 | Active: 4 | Margin: 97677.28 | Util: 0.2%
+14:05:03 | [POSITION STATS] Open: 4 | Unrealized: $-1.39 | Daily Loss: $0.00/100.00
+14:05:03 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:05:03 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:05:03 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:05:03 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:05:03 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:05:03 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:05:03 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:05:03 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 1/5 | Exits: 0 (Market: 0, Admin: 0)
+14:05:03 | [IDLE] Waiting for next market pulse...
+14:05:13 | [36m[STATS][0m --- [CYCLE 11] ---
+14:05:13 | [36m[STATS][0m Balance: 97845.77 | Equity: 97845.04 | Active: 4 | Margin: 97677.94 | Util: 0.2%
+14:05:13 | [POSITION STATS] Open: 4 | Unrealized: $-0.73 | Daily Loss: $0.00/100.00
+14:05:13 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:05:13 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:05:13 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:05:13 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:05:13 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:05:13 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:05:13 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:05:13 | [IDLE] Waiting for next market pulse...
+14:05:23 | [36m[STATS][0m --- [CYCLE 12] ---
+14:05:23 | [36m[STATS][0m Balance: 97845.77 | Equity: 97845.58 | Active: 4 | Margin: 97678.48 | Util: 0.2%
+14:05:23 | [POSITION STATS] Open: 4 | Unrealized: $-0.19 | Daily Loss: $0.00/100.00
+14:05:23 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:05:23 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:05:23 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:05:23 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:05:23 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:05:23 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:05:23 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:05:23 | [IDLE] Waiting for next market pulse...
+14:05:34 | [36m[STATS][0m --- [CYCLE 13] ---
+14:05:34 | [36m[STATS][0m Balance: 97845.77 | Equity: 97845.73 | Active: 4 | Margin: 97678.63 | Util: 0.2%
+14:05:34 | [POSITION STATS] Open: 4 | Unrealized: $-0.04 | Daily Loss: $0.00/100.00
+14:05:34 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:05:34 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:05:34 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:05:34 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:05:34 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:05:34 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:05:34 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:05:34 | [IDLE] Waiting for next market pulse...
+14:05:44 | [36m[STATS][0m --- [CYCLE 14] ---
+14:05:44 | [36m[STATS][0m Balance: 97845.77 | Equity: 97846.91 | Active: 4 | Margin: 97679.81 | Util: 0.2%
+14:05:44 | [POSITION STATS] Open: 4 | Unrealized: $1.14 | Daily Loss: $0.00/100.00
+14:05:44 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:05:44 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:05:44 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:05:44 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:05:44 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:05:44 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:05:44 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:05:44 | [IDLE] Waiting for next market pulse...
+14:05:54 | [36m[STATS][0m --- [CYCLE 15] ---
+14:05:54 | [36m[STATS][0m Balance: 97845.77 | Equity: 97846.55 | Active: 4 | Margin: 97679.45 | Util: 0.2%
+14:05:54 | [POSITION STATS] Open: 4 | Unrealized: $0.78 | Daily Loss: $0.00/100.00
+14:05:54 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:05:54 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:05:54 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:05:54 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:05:54 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:05:54 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:05:54 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:05:54 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 1/5 | Exits: 0 (Market: 0, Admin: 0)
+14:05:54 | [IDLE] Waiting for next market pulse...
+14:06:05 | [36m[STATS][0m --- [CYCLE 16] ---
+14:06:05 | [36m[STATS][0m Balance: 97845.77 | Equity: 97845.97 | Active: 4 | Margin: 97678.87 | Util: 0.2%
+14:06:05 | [POSITION STATS] Open: 4 | Unrealized: $0.20 | Daily Loss: $0.00/100.00
+14:06:05 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:06:05 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:06:05 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:06:05 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:06:05 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:06:05 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:06:05 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:06:05 | [IDLE] Waiting for next market pulse...
+14:06:15 | [36m[STATS][0m --- [CYCLE 17] ---
+14:06:15 | [36m[STATS][0m Balance: 97845.77 | Equity: 97847.17 | Active: 4 | Margin: 97680.07 | Util: 0.2%
+14:06:15 | [POSITION STATS] Open: 4 | Unrealized: $1.40 | Daily Loss: $0.00/100.00
+14:06:15 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:06:15 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:06:15 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:06:15 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:06:15 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:06:15 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:06:15 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:06:15 | [IDLE] Waiting for next market pulse...
+14:06:25 | [36m[STATS][0m --- [CYCLE 18] ---
+14:06:25 | [36m[STATS][0m Balance: 97845.77 | Equity: 97846.77 | Active: 4 | Margin: 97679.67 | Util: 0.2%
+14:06:25 | [POSITION STATS] Open: 4 | Unrealized: $1.00 | Daily Loss: $0.00/100.00
+14:06:25 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:06:25 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:06:25 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:06:25 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:06:25 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:06:25 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:06:25 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:06:25 | [IDLE] Waiting for next market pulse...
+14:06:36 | [36m[STATS][0m --- [CYCLE 19] ---
+14:06:36 | [36m[STATS][0m Balance: 97845.77 | Equity: 97846.79 | Active: 4 | Margin: 97679.69 | Util: 0.2%
+14:06:36 | [POSITION STATS] Open: 4 | Unrealized: $1.02 | Daily Loss: $0.00/100.00
+14:06:36 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:06:36 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:06:36 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:06:36 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:06:36 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:06:36 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:06:36 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:06:36 | [IDLE] Waiting for next market pulse...
+14:06:46 | [36m[STATS][0m --- [CYCLE 20] ---
+14:06:46 | [36m[STATS][0m Balance: 97845.77 | Equity: 97844.75 | Active: 4 | Margin: 97677.65 | Util: 0.2%
+14:06:46 | [POSITION STATS] Open: 4 | Unrealized: $-1.02 | Daily Loss: $0.00/100.00
+14:06:46 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:06:46 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:06:46 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:06:46 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:06:46 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:06:46 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:06:46 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:06:46 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 1/5 | Exits: 0 (Market: 0, Admin: 0)
+14:06:46 | [IDLE] Waiting for next market pulse...
+14:06:56 | [36m[STATS][0m --- [CYCLE 21] ---
+14:06:56 | [36m[STATS][0m Balance: 97845.77 | Equity: 97843.55 | Active: 4 | Margin: 97676.45 | Util: 0.2%
+14:06:56 | [POSITION STATS] Open: 4 | Unrealized: $-2.22 | Daily Loss: $0.00/100.00
+14:06:56 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:06:56 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:06:56 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:06:56 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:06:56 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:06:56 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:06:56 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:06:56 | [IDLE] Waiting for next market pulse...
+14:07:07 | [36m[STATS][0m --- [CYCLE 22] ---
+14:07:07 | [36m[STATS][0m Balance: 97845.77 | Equity: 97843.97 | Active: 4 | Margin: 97676.87 | Util: 0.2%
+14:07:07 | [POSITION STATS] Open: 4 | Unrealized: $-1.80 | Daily Loss: $0.00/100.00
+14:07:07 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:07:07 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:07:07 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:07:07 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:07:07 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:07:07 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:07:07 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:07:07 | [IDLE] Waiting for next market pulse...
+14:07:17 | [36m[STATS][0m --- [CYCLE 23] ---
+14:07:17 | [36m[STATS][0m Balance: 97845.77 | Equity: 97843.94 | Active: 4 | Margin: 97676.84 | Util: 0.2%
+14:07:17 | [POSITION STATS] Open: 4 | Unrealized: $-1.83 | Daily Loss: $0.00/100.00
+14:07:17 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:07:17 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:07:17 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:07:17 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:07:17 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:07:17 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:07:17 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:07:17 | [IDLE] Waiting for next market pulse...
+14:07:27 | [36m[STATS][0m --- [CYCLE 24] ---
+14:07:27 | [36m[STATS][0m Balance: 97845.77 | Equity: 97844.35 | Active: 4 | Margin: 97677.25 | Util: 0.2%
+14:07:27 | [POSITION STATS] Open: 4 | Unrealized: $-1.42 | Daily Loss: $0.00/100.00
+14:07:27 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:07:27 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:07:27 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:07:27 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:07:27 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:07:27 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:07:27 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:07:27 | [IDLE] Waiting for next market pulse...
+14:07:38 | [36m[STATS][0m --- [CYCLE 25] ---
+14:07:38 | [36m[STATS][0m Balance: 97845.77 | Equity: 97844.34 | Active: 4 | Margin: 97677.24 | Util: 0.2%
+14:07:38 | [POSITION STATS] Open: 4 | Unrealized: $-1.43 | Daily Loss: $0.00/100.00
+14:07:38 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:07:38 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:07:38 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:07:38 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:07:38 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:07:38 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:07:38 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:07:38 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 1/5 | Exits: 0 (Market: 0, Admin: 0)
+14:07:38 | [IDLE] Waiting for next market pulse...
+14:07:48 | [36m[STATS][0m --- [CYCLE 26] ---
+14:07:48 | [36m[STATS][0m Balance: 97845.77 | Equity: 97843.94 | Active: 4 | Margin: 97676.84 | Util: 0.2%
+14:07:48 | [POSITION STATS] Open: 4 | Unrealized: $-1.83 | Daily Loss: $0.00/100.00
+14:07:48 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:07:48 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:07:48 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:07:48 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:07:48 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:07:48 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:07:48 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:07:48 | [IDLE] Waiting for next market pulse...
+14:07:58 | [36m[STATS][0m --- [CYCLE 27] ---
+14:07:58 | [36m[STATS][0m Balance: 97845.77 | Equity: 97844.12 | Active: 4 | Margin: 97677.02 | Util: 0.2%
+14:07:58 | [POSITION STATS] Open: 4 | Unrealized: $-1.65 | Daily Loss: $0.00/100.00
+14:07:58 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:07:58 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:07:58 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:07:58 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:07:58 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:07:58 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:07:58 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:07:58 | [IDLE] Waiting for next market pulse...
+14:08:09 | [36m[STATS][0m --- [CYCLE 28] ---
+14:08:09 | [36m[STATS][0m Balance: 97845.77 | Equity: 97844.04 | Active: 4 | Margin: 97676.94 | Util: 0.2%
+14:08:09 | [POSITION STATS] Open: 4 | Unrealized: $-1.73 | Daily Loss: $0.00/100.00
+14:08:09 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:08:09 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:08:09 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:08:09 | [EQUITY LOCK] USD/JPY | Profit threshold: 10.0 pips reached | Close: 20% of position
+14:08:09 | Position 54619827648 closed successfully
+14:08:09 | [ADMIN EXIT] USD/JPY | Reason: equity_lock
+14:08:09 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:08:09 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:08:09 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:08:09 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:08:09 | [IDLE] Waiting for next market pulse...
+14:08:19 | [36m[STATS][0m --- [CYCLE 29] ---
+14:08:19 | [36m[STATS][0m Balance: 97845.92 | Equity: 97842.08 | Active: 4 | Margin: 97414.98 | Util: 0.4%
+14:08:19 | [POSITION STATS] Open: 4 | Unrealized: $-3.84 | Daily Loss: $0.00/100.00
+14:08:19 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:08:19 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:08:19 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:08:19 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:08:19 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:08:19 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:08:19 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:08:19 | [IDLE] Waiting for next market pulse...
+14:08:29 | [36m[STATS][0m --- [CYCLE 30] ---
+14:08:29 | [36m[STATS][0m Balance: 97845.92 | Equity: 97843.93 | Active: 4 | Margin: 97416.83 | Util: 0.4%
+14:08:29 | [POSITION STATS] Open: 4 | Unrealized: $-1.99 | Daily Loss: $0.00/100.00
+14:08:29 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:08:29 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:08:29 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:08:29 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:08:29 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:08:29 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:08:29 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:08:29 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 1/5 | Exits: 1 (Market: 0, Admin: 1)
+14:08:29 | [IDLE] Waiting for next market pulse...
+14:08:40 | [36m[STATS][0m --- [CYCLE 31] ---
+14:08:40 | [36m[STATS][0m Balance: 97845.92 | Equity: 97844.93 | Active: 4 | Margin: 97417.83 | Util: 0.4%
+14:08:40 | [POSITION STATS] Open: 4 | Unrealized: $-0.99 | Daily Loss: $0.00/100.00
+14:08:40 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:08:40 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:08:40 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:08:40 | [EQUITY LOCK] USD/JPY | Profit threshold: 10.0 pips reached | Close: 20% of position
+14:08:40 | [1;31mError closing position 54619936032: Position 54619936032 not found[0m
+14:08:40 | [1;31m[ERROR][0m Cycle failed: Failed to close position: Position 54619936032 not found
+14:08:40 | [IDLE] Waiting for next market pulse...
+14:08:50 | [36m[STATS][0m --- [CYCLE 32] ---
+14:08:50 | [36m[STATS][0m Balance: 97848.21 | Equity: 97843.17 | Active: 3 | Margin: 97716.07 | Util: 0.1%
+14:08:50 | [POSITION STATS] Open: 3 | Unrealized: $-5.04 | Daily Loss: $0.00/100.00
+14:08:50 | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | P&L: $0.00
+14:08:50 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:08:50 | [TOTAL] Open: 1 | Unrealized: $0.00
+14:08:50 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:08:50 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:08:50 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:08:50 | [ANALYSIS] USD/JPY | Price: 157.47600 | RSI: 62.0 | ADX: 35.3 | ML: UP(50%)
+14:08:50 | SL/TP Details: Entry=157.47610, ATR=0.15943, sl_dist=1.59429, tp_dist=4.78286, SL=155.88181, TP=162.25896
+14:08:50 | ATR-based SL/TP: Entry=157.47610, Dir=LONG, SL=155.88181, TP=162.25896, Period=14, RR=3.0
+14:08:50 | [SIGNAL ACCEPTED] USD/JPY | Quality: 88% | Entry: 157.47610
+14:08:50 | SL/TP Details: Entry=157.47610, ATR=0.15943, sl_dist=1.59429, tp_dist=2.39143, SL=155.88181, TP=159.86753
+14:08:50 | [1;36m[SIGNAL][0m USD/JPY | LONG | Entry=157.47610 | SL=155.88181 | TP=159.86753 | Confidence=0.98
+14:08:50 | [1;33m[DECISION][0m USD/JPY | LONG @ 157.47610 | SL: 155.88181 | TP: 159.86753
+14:08:50 | [ENHANCED VALIDATOR] USD/JPY LONG | [APPROVED] | Score: 64.1/100
+14:08:50 |   MTF: 19 | Vol: 100 | Mom: 70 | Liq: 100 | Confluence: 42 | Size Mult: 0.80x
+14:08:50 | [ENHANCED FILTER] USD/JPY LONG APPROVED | Score: 64.1/100 | MTF: 19 | Vol: 100 | Mom: 70 | Liq: 100 | Size: 0.80x
+14:08:50 | [1;33m[ACTION][0m Risk OK | Score: 0.02 | RawSize: 0.9800% | EquitySize: 19.5686 | Final: 0.04 lots
+14:08:50 | Executing order order_1767967730 for USD/JPY
+14:08:50 | Using filling mode: 0 for USD/JPY
+14:08:51 | Order placed successfully: 54619950981
+14:08:51 | Order order_1767967730 executed: success=True, price=157.479
+14:08:51 | [POSITION CALL] LONG | USD/JPY | Entry: 157.47610 | Qty: 0.01
+14:08:51 | [92m[OPEN] USD/JPY | LONG | Qty=0.010 lots | Entry=157.47610 | SL=155.88181 | TP=159.86753 | Order: 54619950981[0m
+14:08:51 | [POSITION CALL] USD/JPY | LONG: 2 | SHORT: 0
+14:08:51 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:08:51 | [IDLE] Waiting for next market pulse...
+14:09:01 | [36m[STATS][0m --- [CYCLE 33] ---
+14:09:01 | [36m[STATS][0m Balance: 97850.36 | Equity: 97844.04 | Active: 3 | Margin: 97716.94 | Util: 0.1%
+14:09:01 | [POSITION STATS] Open: 3 | Unrealized: $-6.32 | Daily Loss: $0.00/100.00
+14:09:01 | [LONG POSITIONS] Count: 2 | Win Rate: 0.0% | P&L: $0.00
+14:09:01 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:09:01 | [TOTAL] Open: 2 | Unrealized: $0.00
+14:09:01 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:09:01 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:09:01 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:09:01 | [ANALYSIS] USD/JPY | Price: 157.48900 | RSI: 62.7 | ADX: 35.3 | ML: UP(50%)
+14:09:01 | SL/TP Details: Entry=157.48910, ATR=0.15943, sl_dist=1.59429, tp_dist=4.78286, SL=155.89481, TP=162.27196
+14:09:01 | ATR-based SL/TP: Entry=157.48910, Dir=LONG, SL=155.89481, TP=162.27196, Period=14, RR=3.0
+14:09:01 | [SIGNAL ACCEPTED] USD/JPY | Quality: 88% | Entry: 157.48910
+14:09:01 | SL/TP Details: Entry=157.48910, ATR=0.15943, sl_dist=1.59429, tp_dist=2.39143, SL=155.89481, TP=159.88053
+14:09:01 | [1;36m[SIGNAL][0m USD/JPY | LONG | Entry=157.48910 | SL=155.89481 | TP=159.88053 | Confidence=0.98
+14:09:01 | [1;33m[DECISION][0m USD/JPY | LONG @ 157.48910 | SL: 155.89481 | TP: 159.88053
+14:09:01 | [ENHANCED VALIDATOR] USD/JPY LONG | [APPROVED] | Score: 65.7/100
+14:09:01 |   MTF: 25 | Vol: 100 | Mom: 71 | Liq: 100 | Confluence: 42 | Size Mult: 0.80x
+14:09:01 | [ENHANCED FILTER] USD/JPY LONG APPROVED | Score: 65.7/100 | MTF: 25 | Vol: 100 | Mom: 71 | Liq: 100 | Size: 0.80x
+14:09:01 | [1;33m[ACTION][0m Risk OK | Score: 0.02 | RawSize: 0.9800% | EquitySize: 19.5688 | Final: 0.04 lots
+14:09:01 | Executing order order_1767967741 for USD/JPY
+14:09:01 | Using filling mode: 0 for USD/JPY
+14:09:01 | Order placed successfully: 54619954962
+14:09:01 | Order order_1767967741 executed: success=True, price=157.493
+14:09:01 | [POSITION CALL] LONG | USD/JPY | Entry: 157.48910 | Qty: 0.01
+14:09:01 | [92m[OPEN] USD/JPY | LONG | Qty=0.010 lots | Entry=157.48910 | SL=155.89481 | TP=159.88053 | Order: 54619954962[0m
+14:09:01 | [POSITION CALL] USD/JPY | LONG: 3 | SHORT: 0
+14:09:01 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:09:01 | [IDLE] Waiting for next market pulse...
+14:09:11 | [36m[STATS][0m --- [CYCLE 34] ---
+14:09:11 | [36m[STATS][0m Balance: 97850.36 | Equity: 97843.58 | Active: 4 | Margin: 97676.48 | Util: 0.2%
+14:09:11 | [POSITION STATS] Open: 4 | Unrealized: $-6.78 | Daily Loss: $0.00/100.00
+14:09:11 | [LONG POSITIONS] Count: 3 | Win Rate: 0.0% | P&L: $0.00
+14:09:11 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:09:11 | [TOTAL] Open: 3 | Unrealized: $0.00
+14:09:11 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:09:11 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:09:11 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:09:11 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:09:11 | [IDLE] Waiting for next market pulse...
+14:09:21 | [36m[STATS][0m --- [CYCLE 35] ---
+14:09:21 | [36m[STATS][0m Balance: 97850.36 | Equity: 97842.86 | Active: 4 | Margin: 97675.76 | Util: 0.2%
+14:09:21 | [POSITION STATS] Open: 4 | Unrealized: $-7.50 | Daily Loss: $0.00/100.00
+14:09:21 | [LONG POSITIONS] Count: 3 | Win Rate: 0.0% | P&L: $0.00
+14:09:21 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:09:21 | [TOTAL] Open: 3 | Unrealized: $0.00
+14:09:21 | [EQUITY LOCK] USD/JPY | Profit threshold: 10.0 pips reached | Close: 20% of position
+14:09:21 | [1;31mError closing position 54619954962: Position 54619954962 not found[0m
+14:09:21 | [1;31m[ERROR][0m Cycle failed: Failed to close position: Position 54619954962 not found
+14:09:21 | [IDLE] Waiting for next market pulse...
+14:09:31 | [36m[STATS][0m --- [CYCLE 36] ---
+14:09:31 | [36m[STATS][0m Balance: 97850.46 | Equity: 97843.46 | Active: 3 | Margin: 97716.36 | Util: 0.1%
+14:09:31 | [POSITION STATS] Open: 3 | Unrealized: $-7.00 | Daily Loss: $0.00/100.00
+14:09:31 | [LONG POSITIONS] Count: 3 | Win Rate: 0.0% | P&L: $0.00
+14:09:31 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:09:31 | [TOTAL] Open: 3 | Unrealized: $0.00
+14:09:32 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:09:32 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:09:32 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:09:32 | [ANALYSIS] USD/JPY | Price: 157.49600 | RSI: 63.0 | ADX: 35.3 | ML: UP(50%)
+14:09:32 | SL/TP Details: Entry=157.49610, ATR=0.16057, sl_dist=1.60571, tp_dist=4.81714, SL=155.89039, TP=162.31324
+14:09:32 | ATR-based SL/TP: Entry=157.49610, Dir=LONG, SL=155.89039, TP=162.31324, Period=14, RR=3.0
+14:09:32 | [SIGNAL ACCEPTED] USD/JPY | Quality: 88% | Entry: 157.49610
+14:09:32 | SL/TP Details: Entry=157.49610, ATR=0.16057, sl_dist=1.60571, tp_dist=2.40857, SL=155.89039, TP=159.90467
+14:09:32 | [1;36m[SIGNAL][0m USD/JPY | LONG | Entry=157.49610 | SL=155.89039 | TP=159.90467 | Confidence=0.98
+14:09:32 | [1;33m[DECISION][0m USD/JPY | LONG @ 157.49610 | SL: 155.89039 | TP: 159.90467
+14:09:32 | [ENHANCED VALIDATOR] USD/JPY LONG | [APPROVED] | Score: 57.2/100
+14:09:32 |   MTF: 25 | Vol: 60 | Mom: 71 | Liq: 100 | Confluence: 42 | Size Mult: 0.42x
+14:09:32 | [ENHANCED FILTER] USD/JPY LONG APPROVED | Score: 57.2/100 | MTF: 25 | Vol: 60 | Mom: 71 | Liq: 100 | Size: 0.42x
+14:09:32 | [1;33m[ACTION][0m Risk OK | Score: 0.02 | RawSize: 0.9800% | EquitySize: 19.5687 | Final: 0.02 lots
+14:09:32 | Executing order order_1767967772 for USD/JPY
+14:09:32 | Using filling mode: 0 for USD/JPY
+14:09:32 | Order placed successfully: 54619965134
+14:09:32 | Order order_1767967772 executed: success=True, price=157.5
+14:09:32 | [POSITION CALL] LONG | USD/JPY | Entry: 157.49610 | Qty: 0.01
+14:09:32 | [92m[OPEN] USD/JPY | LONG | Qty=0.010 lots | Entry=157.49610 | SL=155.89039 | TP=159.90467 | Order: 54619965134[0m
+14:09:32 | [POSITION CALL] USD/JPY | LONG: 4 | SHORT: 0
+14:09:32 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:09:32 | [IDLE] Waiting for next market pulse...
+14:09:42 | [36m[STATS][0m --- [CYCLE 37] ---
+14:09:42 | [36m[STATS][0m Balance: 97850.46 | Equity: 97846.23 | Active: 5 | Margin: 97399.13 | Util: 0.5%
+14:09:42 | [POSITION STATS] Open: 5 | Unrealized: $-4.23 | Daily Loss: $0.00/100.00
+14:09:42 | [LONG POSITIONS] Count: 4 | Win Rate: 0.0% | P&L: $0.00
+14:09:42 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:09:42 | [TOTAL] Open: 4 | Unrealized: $0.00
+14:09:42 | [EQUITY LOCK] USD/JPY | Profit threshold: 10.0 pips reached | Close: 20% of position
+14:09:42 | Position 54619965062 closed successfully
+14:09:42 | [ADMIN EXIT] USD/JPY | Reason: equity_lock
+14:09:42 | [EQUITY LOCK] USD/JPY | Profit threshold: 10.0 pips reached | Close: 20% of position
+14:09:43 | [1;31mError closing position 54619965134: Position 54619965134 not found[0m
+14:09:43 | [1;31m[ERROR][0m Cycle failed: Failed to close position: Position 54619965134 not found
+14:09:43 | [IDLE] Waiting for next market pulse...
+14:09:53 | [36m[STATS][0m --- [CYCLE 38] ---
+14:09:53 | [36m[STATS][0m Balance: 97854.11 | Equity: 97846.59 | Active: 3 | Margin: 97719.49 | Util: 0.1%
+14:09:53 | [POSITION STATS] Open: 3 | Unrealized: $-7.52 | Daily Loss: $0.00/100.00
+14:09:53 | [LONG POSITIONS] Count: 4 | Win Rate: 0.0% | P&L: $0.00
+14:09:53 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:09:53 | [TOTAL] Open: 4 | Unrealized: $0.00
+14:09:53 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:09:53 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:09:53 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:09:53 | [ANALYSIS] USD/JPY | Price: 157.49800 | RSI: 63.0 | ADX: 35.3 | ML: UP(50%)
+14:09:53 | SL/TP Details: Entry=157.49810, ATR=0.16164, sl_dist=1.61643, tp_dist=4.84929, SL=155.88167, TP=162.34739
+14:09:53 | ATR-based SL/TP: Entry=157.49810, Dir=LONG, SL=155.88167, TP=162.34739, Period=14, RR=3.0
+14:09:53 | [SIGNAL ACCEPTED] USD/JPY | Quality: 88% | Entry: 157.49810
+14:09:53 | SL/TP Details: Entry=157.49810, ATR=0.16164, sl_dist=1.61643, tp_dist=2.42464, SL=155.88167, TP=159.92274
+14:09:53 | [1;36m[SIGNAL][0m USD/JPY | LONG | Entry=157.49810 | SL=155.88167 | TP=159.92274 | Confidence=0.98
+14:09:53 | [1;33m[DECISION][0m USD/JPY | LONG @ 157.49810 | SL: 155.88167 | TP: 159.92274
+14:09:53 | [ENHANCED VALIDATOR] USD/JPY LONG | [APPROVED] | Score: 57.2/100
+14:09:53 |   MTF: 25 | Vol: 60 | Mom: 71 | Liq: 100 | Confluence: 42 | Size Mult: 0.42x
+14:09:53 | [ENHANCED FILTER] USD/JPY LONG APPROVED | Score: 57.2/100 | MTF: 25 | Vol: 60 | Mom: 71 | Liq: 100 | Size: 0.42x
+14:09:53 | [1;33m[ACTION][0m Risk OK | Score: 0.02 | RawSize: 0.9800% | EquitySize: 19.5693 | Final: 0.02 lots
+14:09:53 | Executing order order_1767967793 for USD/JPY
+14:09:53 | Using filling mode: 0 for USD/JPY
+14:09:53 | Order placed successfully: 54619972934
+14:09:53 | Order order_1767967793 executed: success=True, price=157.501
+14:09:53 | [POSITION CALL] LONG | USD/JPY | Entry: 157.49810 | Qty: 0.01
+14:09:53 | [92m[OPEN] USD/JPY | LONG | Qty=0.010 lots | Entry=157.49810 | SL=155.88167 | TP=159.92274 | Order: 54619972934[0m
+14:09:53 | [POSITION CALL] USD/JPY | LONG: 5 | SHORT: 0
+14:09:53 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:09:53 | [IDLE] Waiting for next market pulse...
+14:10:03 | [36m[STATS][0m --- [CYCLE 39] ---
+14:10:03 | [36m[STATS][0m Balance: 97855.53 | Equity: 97847.89 | Active: 3 | Margin: 97720.79 | Util: 0.1%
+14:10:03 | [POSITION STATS] Open: 3 | Unrealized: $-7.64 | Daily Loss: $0.00/100.00
+14:10:03 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:10:03 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:10:03 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:10:03 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:10:03 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:10:03 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:10:03 | [ANALYSIS] USD/JPY | Price: 157.50800 | RSI: 63.4 | ADX: 35.3 | ML: UP(50%)
+14:10:03 | SL/TP Details: Entry=157.50810, ATR=0.16164, sl_dist=1.61643, tp_dist=4.84929, SL=155.89167, TP=162.35739
+14:10:03 | ATR-based SL/TP: Entry=157.50810, Dir=LONG, SL=155.89167, TP=162.35739, Period=14, RR=3.0
+14:10:03 | [SIGNAL ACCEPTED] USD/JPY | Quality: 88% | Entry: 157.50810
+14:10:03 | SL/TP Details: Entry=157.50810, ATR=0.16164, sl_dist=1.61643, tp_dist=2.42464, SL=155.89167, TP=159.93274
+14:10:03 | [1;36m[SIGNAL][0m USD/JPY | LONG | Entry=157.50810 | SL=155.89167 | TP=159.93274 | Confidence=0.98
+14:10:03 | [1;33m[DECISION][0m USD/JPY | LONG @ 157.50810 | SL: 155.89167 | TP: 159.93274
+14:10:03 | [ENHANCED VALIDATOR] USD/JPY LONG | [APPROVED] | Score: 65.7/100
+14:10:03 |   MTF: 25 | Vol: 100 | Mom: 71 | Liq: 100 | Confluence: 42 | Size Mult: 0.80x
+14:10:03 | [ENHANCED FILTER] USD/JPY LONG APPROVED | Score: 65.7/100 | MTF: 25 | Vol: 100 | Mom: 71 | Liq: 100 | Size: 0.80x
+14:10:03 | [1;33m[RISK GOVERNOR] Daily trade limit reached: 5/5[0m
+14:10:03 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:10:03 | [IDLE] Waiting for next market pulse...
+14:10:14 | [36m[STATS][0m --- [CYCLE 40] ---
+14:10:14 | [36m[STATS][0m Balance: 97855.53 | Equity: 97847.53 | Active: 3 | Margin: 97720.43 | Util: 0.1%
+14:10:14 | [POSITION STATS] Open: 3 | Unrealized: $-8.00 | Daily Loss: $0.00/100.00
+14:10:14 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:10:14 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:10:14 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:10:14 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:10:14 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:10:14 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:10:14 | [ANALYSIS] USD/JPY | Price: 157.50900 | RSI: 63.4 | ADX: 35.3 | ML: UP(50%)
+14:10:14 | SL/TP Details: Entry=157.50910, ATR=0.16164, sl_dist=1.61643, tp_dist=4.84929, SL=155.89267, TP=162.35839
+14:10:14 | ATR-based SL/TP: Entry=157.50910, Dir=LONG, SL=155.89267, TP=162.35839, Period=14, RR=3.0
+14:10:14 | [SIGNAL ACCEPTED] USD/JPY | Quality: 88% | Entry: 157.50910
+14:10:14 | SL/TP Details: Entry=157.50910, ATR=0.16164, sl_dist=1.61643, tp_dist=2.42464, SL=155.89267, TP=159.93374
+14:10:14 | [1;36m[SIGNAL][0m USD/JPY | LONG | Entry=157.50910 | SL=155.89267 | TP=159.93374 | Confidence=0.98
+14:10:14 | [1;33m[DECISION][0m USD/JPY | LONG @ 157.50910 | SL: 155.89267 | TP: 159.93374
+14:10:14 | [ENHANCED VALIDATOR] USD/JPY LONG | [APPROVED] | Score: 65.7/100
+14:10:14 |   MTF: 25 | Vol: 100 | Mom: 71 | Liq: 100 | Confluence: 42 | Size Mult: 0.80x
+14:10:14 | [ENHANCED FILTER] USD/JPY LONG APPROVED | Score: 65.7/100 | MTF: 25 | Vol: 100 | Mom: 71 | Liq: 100 | Size: 0.80x
+14:10:14 | [1;33m[RISK GOVERNOR] Daily trade limit reached: 5/5[0m
+14:10:14 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:10:14 | [SUMMARY] Risk: operational | Positions: 3 | Daily Trades: 5/5 | Exits: 2 (Market: 0, Admin: 2)
+14:10:14 | [IDLE] Waiting for next market pulse...
+14:10:24 | [36m[STATS][0m --- [CYCLE 41] ---
+14:10:24 | [36m[STATS][0m Balance: 97855.53 | Equity: 97846.61 | Active: 4 | Margin: 97419.51 | Util: 0.4%
+14:10:24 | [POSITION STATS] Open: 4 | Unrealized: $-8.92 | Daily Loss: $0.00/100.00
+14:10:24 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:10:24 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:10:24 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:10:24 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:10:24 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:10:24 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:10:24 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:10:24 | [IDLE] Waiting for next market pulse...
+14:10:34 | [36m[STATS][0m --- [CYCLE 42] ---
+14:10:34 | [36m[STATS][0m Balance: 97855.53 | Equity: 97846.37 | Active: 4 | Margin: 97419.27 | Util: 0.4%
+14:10:34 | [POSITION STATS] Open: 4 | Unrealized: $-9.16 | Daily Loss: $0.00/100.00
+14:10:34 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:10:34 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:10:34 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:10:34 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:10:34 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:10:34 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:10:34 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:10:34 | [IDLE] Waiting for next market pulse...
+14:10:45 | [36m[STATS][0m --- [CYCLE 43] ---
+14:10:45 | [36m[STATS][0m Balance: 97855.53 | Equity: 97847.07 | Active: 4 | Margin: 97419.97 | Util: 0.4%
+14:10:45 | [POSITION STATS] Open: 4 | Unrealized: $-8.46 | Daily Loss: $0.00/100.00
+14:10:45 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:10:45 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:10:45 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:10:45 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:10:45 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:10:45 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:10:45 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:10:45 | [IDLE] Waiting for next market pulse...
+14:10:55 | [36m[STATS][0m --- [CYCLE 44] ---
+14:10:55 | [36m[STATS][0m Balance: 97855.53 | Equity: 97846.51 | Active: 4 | Margin: 97419.41 | Util: 0.4%
+14:10:55 | [POSITION STATS] Open: 4 | Unrealized: $-9.02 | Daily Loss: $0.00/100.00
+14:10:55 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:10:55 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:10:55 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:10:55 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:10:55 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:10:55 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:10:55 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:10:55 | [IDLE] Waiting for next market pulse...
+14:11:05 | [36m[STATS][0m --- [CYCLE 45] ---
+14:11:05 | [36m[STATS][0m Balance: 97855.53 | Equity: 97847.23 | Active: 4 | Margin: 97420.13 | Util: 0.4%
+14:11:05 | [POSITION STATS] Open: 4 | Unrealized: $-8.30 | Daily Loss: $0.00/100.00
+14:11:05 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:11:05 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:11:05 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:11:05 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:11:05 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:11:05 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:11:05 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:11:05 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 5/5 | Exits: 2 (Market: 0, Admin: 2)
+14:11:05 | [IDLE] Waiting for next market pulse...
+14:11:16 | [36m[STATS][0m --- [CYCLE 46] ---
+14:11:16 | [36m[STATS][0m Balance: 97855.53 | Equity: 97844.98 | Active: 4 | Margin: 97417.88 | Util: 0.4%
+14:11:16 | [POSITION STATS] Open: 4 | Unrealized: $-10.55 | Daily Loss: $0.00/100.00
+14:11:16 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:11:16 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:11:16 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:11:16 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:11:16 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:11:16 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:11:16 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:11:16 | [IDLE] Waiting for next market pulse...
+14:11:26 | [36m[STATS][0m --- [CYCLE 47] ---
+14:11:26 | [36m[STATS][0m Balance: 97855.53 | Equity: 97844.02 | Active: 4 | Margin: 97416.92 | Util: 0.4%
+14:11:26 | [POSITION STATS] Open: 4 | Unrealized: $-11.51 | Daily Loss: $0.00/100.00
+14:11:26 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:11:26 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:11:26 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:11:26 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:11:26 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:11:26 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:11:26 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:11:26 | [IDLE] Waiting for next market pulse...
+14:11:36 | [36m[STATS][0m --- [CYCLE 48] ---
+14:11:36 | [36m[STATS][0m Balance: 97855.53 | Equity: 97841.68 | Active: 4 | Margin: 97414.58 | Util: 0.4%
+14:11:36 | [POSITION STATS] Open: 4 | Unrealized: $-13.85 | Daily Loss: $0.00/100.00
+14:11:36 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:11:36 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:11:36 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:11:36 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:11:36 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:11:36 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:11:36 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:11:36 | [IDLE] Waiting for next market pulse...
+14:11:47 | [36m[STATS][0m --- [CYCLE 49] ---
+14:11:47 | [36m[STATS][0m Balance: 97855.53 | Equity: 97845.50 | Active: 4 | Margin: 97418.40 | Util: 0.4%
+14:11:47 | [POSITION STATS] Open: 4 | Unrealized: $-10.03 | Daily Loss: $0.00/100.00
+14:11:47 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:11:47 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:11:47 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:11:47 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:11:47 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:11:47 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:11:47 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:11:47 | [IDLE] Waiting for next market pulse...
+14:11:57 | [36m[STATS][0m --- [CYCLE 50] ---
+14:11:57 | [36m[STATS][0m Balance: 97855.53 | Equity: 97862.82 | Active: 4 | Margin: 97435.72 | Util: 0.4%
+14:11:57 | [POSITION STATS] Open: 4 | Unrealized: $7.29 | Daily Loss: $0.00/100.00
+14:11:57 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:11:57 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:11:57 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:11:57 | [EQUITY LOCK] USD/JPY | Profit threshold: 10.0 pips reached | Close: 20% of position
+14:11:57 | Position 54619983487 closed successfully
+14:11:57 | [ADMIN EXIT] USD/JPY | Reason: equity_lock
+14:11:57 | Executing order close_54619983487_1767967917 for USDJPY
+14:11:57 | Using filling mode: 0 for USDJPY
+14:11:57 | Order placed successfully: 54620067353
+14:11:57 | Order close_54619983487_1767967917 executed: success=True, price=157.591
+14:11:57 | [92m[PROFIT] USDJPY | TAKE_PROFIT | PnL: +$14.85 | ID: 54619983487[0m
+14:11:57 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:11:57 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:11:57 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:11:57 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:11:57 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 5/5 | Exits: 3 (Market: 0, Admin: 3)
+14:11:57 | [IDLE] Waiting for next market pulse...
+14:12:07 | [36m[STATS][0m --- [CYCLE 51] ---
+14:12:07 | [36m[STATS][0m Balance: 97870.38 | Equity: 97851.28 | Active: 4 | Margin: 97424.18 | Util: 0.4%
+14:12:07 | [POSITION STATS] Open: 4 | Unrealized: $-19.10 | Daily Loss: $0.00/100.00
+14:12:07 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:12:07 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:12:07 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:12:07 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:12:07 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:12:07 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:12:07 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:12:07 | [IDLE] Waiting for next market pulse...
+14:12:18 | [36m[STATS][0m --- [CYCLE 52] ---
+14:12:18 | [36m[STATS][0m Balance: 97870.38 | Equity: 97845.16 | Active: 4 | Margin: 97418.06 | Util: 0.4%
+14:12:18 | [POSITION STATS] Open: 4 | Unrealized: $-25.22 | Daily Loss: $0.00/100.00
+14:12:18 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:12:18 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:12:18 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:12:18 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:12:18 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:12:18 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:12:18 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:12:18 | [IDLE] Waiting for next market pulse...
+14:12:28 | [36m[STATS][0m --- [CYCLE 53] ---
+14:12:28 | [36m[STATS][0m Balance: 97870.38 | Equity: 97842.24 | Active: 4 | Margin: 97415.14 | Util: 0.4%
+14:12:28 | [POSITION STATS] Open: 4 | Unrealized: $-28.14 | Daily Loss: $0.00/100.00
+14:12:28 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:12:28 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:12:28 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:12:28 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:12:28 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:12:28 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:12:28 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:12:28 | [IDLE] Waiting for next market pulse...
+14:12:38 | [36m[STATS][0m --- [CYCLE 54] ---
+14:12:38 | [36m[STATS][0m Balance: 97870.38 | Equity: 97831.53 | Active: 4 | Margin: 97404.43 | Util: 0.4%
+14:12:38 | [POSITION STATS] Open: 4 | Unrealized: $-38.85 | Daily Loss: $0.00/100.00
+14:12:38 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:12:38 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:12:38 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:12:38 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:12:38 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:12:38 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:12:38 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:12:38 | [IDLE] Waiting for next market pulse...
+14:12:49 | [36m[STATS][0m --- [CYCLE 55] ---
+14:12:49 | [36m[STATS][0m Balance: 97870.38 | Equity: 97810.01 | Active: 4 | Margin: 97382.91 | Util: 0.4%
+14:12:49 | [POSITION STATS] Open: 4 | Unrealized: $-60.37 | Daily Loss: $0.00/100.00
+14:12:49 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:12:49 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:12:49 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:12:49 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:12:49 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:12:49 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:12:49 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:12:49 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 5/5 | Exits: 3 (Market: 0, Admin: 3)
+14:12:49 | [IDLE] Waiting for next market pulse...
+14:12:59 | [36m[STATS][0m --- [CYCLE 56] ---
+14:12:59 | [36m[STATS][0m Balance: 97870.38 | Equity: 97816.99 | Active: 4 | Margin: 97389.89 | Util: 0.4%
+14:12:59 | [POSITION STATS] Open: 4 | Unrealized: $-53.39 | Daily Loss: $0.00/100.00
+14:12:59 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:12:59 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:12:59 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:12:59 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:12:59 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:12:59 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:12:59 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:12:59 | [IDLE] Waiting for next market pulse...
+14:13:09 | [36m[STATS][0m --- [CYCLE 57] ---
+14:13:09 | [36m[STATS][0m Balance: 97870.38 | Equity: 97807.61 | Active: 4 | Margin: 97380.51 | Util: 0.4%
+14:13:09 | [POSITION STATS] Open: 4 | Unrealized: $-62.77 | Daily Loss: $0.00/100.00
+14:13:09 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:13:09 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:13:09 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:13:09 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:13:09 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:13:09 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:13:09 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:13:09 | [IDLE] Waiting for next market pulse...
+14:13:20 | [36m[STATS][0m --- [CYCLE 58] ---
+14:13:20 | [36m[STATS][0m Balance: 97870.38 | Equity: 97814.88 | Active: 4 | Margin: 97387.78 | Util: 0.4%
+14:13:20 | [POSITION STATS] Open: 4 | Unrealized: $-55.50 | Daily Loss: $0.00/100.00
+14:13:20 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:13:20 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:13:20 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:13:20 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:13:20 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:13:20 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:13:20 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:13:20 | [IDLE] Waiting for next market pulse...
+14:13:30 | [36m[STATS][0m --- [CYCLE 59] ---
+14:13:30 | [36m[STATS][0m Balance: 97870.38 | Equity: 97799.43 | Active: 4 | Margin: 97372.33 | Util: 0.4%
+14:13:30 | [POSITION STATS] Open: 4 | Unrealized: $-70.95 | Daily Loss: $0.00/100.00
+14:13:30 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:13:30 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:13:30 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:13:30 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:13:30 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:13:30 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:13:30 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:13:30 | [IDLE] Waiting for next market pulse...
+14:13:40 | [36m[STATS][0m --- [CYCLE 60] ---
+14:13:40 | [36m[STATS][0m Balance: 97870.38 | Equity: 97791.85 | Active: 4 | Margin: 97364.75 | Util: 0.4%
+14:13:40 | [POSITION STATS] Open: 4 | Unrealized: $-78.53 | Daily Loss: $0.00/100.00
+14:13:40 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:13:40 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:13:40 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:13:40 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:13:40 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:13:40 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:13:40 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:13:40 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 5/5 | Exits: 3 (Market: 0, Admin: 3)
+14:13:40 | [IDLE] Waiting for next market pulse...
+14:13:51 | [36m[STATS][0m --- [CYCLE 61] ---
+14:13:51 | [36m[STATS][0m Balance: 97870.38 | Equity: 97789.07 | Active: 4 | Margin: 97361.97 | Util: 0.4%
+14:13:51 | [POSITION STATS] Open: 4 | Unrealized: $-81.31 | Daily Loss: $0.00/100.00
+14:13:51 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:13:51 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:13:51 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:13:51 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:13:51 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:13:51 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:13:51 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:13:51 | [IDLE] Waiting for next market pulse...
+14:14:01 | [36m[STATS][0m --- [CYCLE 62] ---
+14:14:01 | [36m[STATS][0m Balance: 97870.38 | Equity: 97801.74 | Active: 4 | Margin: 97374.64 | Util: 0.4%
+14:14:01 | [POSITION STATS] Open: 4 | Unrealized: $-68.64 | Daily Loss: $0.00/100.00
+14:14:01 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:14:01 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:14:01 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:14:01 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:14:01 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:14:01 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:14:01 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:14:01 | [IDLE] Waiting for next market pulse...
+14:14:11 | [36m[STATS][0m --- [CYCLE 63] ---
+14:14:11 | [36m[STATS][0m Balance: 97870.38 | Equity: 97794.92 | Active: 4 | Margin: 97367.82 | Util: 0.4%
+14:14:11 | [POSITION STATS] Open: 4 | Unrealized: $-75.46 | Daily Loss: $0.00/100.00
+14:14:11 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:14:11 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:14:11 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:14:11 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:14:11 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:14:11 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:14:11 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:14:11 | [IDLE] Waiting for next market pulse...
+14:14:22 | [36m[STATS][0m --- [CYCLE 64] ---
+14:14:22 | [36m[STATS][0m Balance: 97870.38 | Equity: 97787.88 | Active: 4 | Margin: 97360.78 | Util: 0.4%
+14:14:22 | [POSITION STATS] Open: 4 | Unrealized: $-82.50 | Daily Loss: $0.00/100.00
+14:14:22 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:14:22 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:14:22 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:14:22 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:14:22 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:14:22 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:14:22 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:14:22 | [IDLE] Waiting for next market pulse...
+14:14:32 | [36m[STATS][0m --- [CYCLE 65] ---
+14:14:32 | [36m[STATS][0m Balance: 97870.38 | Equity: 97796.30 | Active: 4 | Margin: 97369.20 | Util: 0.4%
+14:14:32 | [POSITION STATS] Open: 4 | Unrealized: $-74.08 | Daily Loss: $0.00/100.00
+14:14:32 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:14:32 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:14:32 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:14:32 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:14:32 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:14:32 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:14:32 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:14:32 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 5/5 | Exits: 3 (Market: 0, Admin: 3)
+14:14:32 | [IDLE] Waiting for next market pulse...
+14:14:42 | [36m[STATS][0m --- [CYCLE 66] ---
+14:14:42 | [36m[STATS][0m Balance: 97870.38 | Equity: 97794.92 | Active: 4 | Margin: 97367.82 | Util: 0.4%
+14:14:42 | [POSITION STATS] Open: 4 | Unrealized: $-75.46 | Daily Loss: $0.00/100.00
+14:14:42 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:14:42 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:14:42 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:14:42 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:14:42 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:14:42 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:14:42 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:14:42 | [IDLE] Waiting for next market pulse...
+14:14:53 | [36m[STATS][0m --- [CYCLE 67] ---
+14:14:53 | [36m[STATS][0m Balance: 97870.38 | Equity: 97793.69 | Active: 4 | Margin: 97366.59 | Util: 0.4%
+14:14:53 | [POSITION STATS] Open: 4 | Unrealized: $-76.69 | Daily Loss: $0.00/100.00
+14:14:53 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:14:53 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:14:53 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:14:53 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:14:53 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:14:53 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:14:53 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:14:53 | [IDLE] Waiting for next market pulse...
+14:15:03 | [36m[STATS][0m --- [CYCLE 68] ---
+14:15:03 | [36m[STATS][0m Balance: 97870.38 | Equity: 97796.70 | Active: 4 | Margin: 97369.60 | Util: 0.4%
+14:15:03 | [POSITION STATS] Open: 4 | Unrealized: $-73.68 | Daily Loss: $0.00/100.00
+14:15:03 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:15:03 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:15:03 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:15:03 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:15:03 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:15:03 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:15:03 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:15:03 | [IDLE] Waiting for next market pulse...
+14:15:13 | [36m[STATS][0m --- [CYCLE 69] ---
+14:15:13 | [36m[STATS][0m Balance: 97870.38 | Equity: 97821.41 | Active: 4 | Margin: 97394.31 | Util: 0.4%
+14:15:13 | [POSITION STATS] Open: 4 | Unrealized: $-48.97 | Daily Loss: $0.00/100.00
+14:15:13 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:15:13 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:15:13 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:15:13 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:15:13 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:15:13 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:15:13 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:15:13 | [IDLE] Waiting for next market pulse...
+14:15:24 | [36m[STATS][0m --- [CYCLE 70] ---
+14:15:24 | [36m[STATS][0m Balance: 97870.38 | Equity: 97823.78 | Active: 4 | Margin: 97396.68 | Util: 0.4%
+14:15:24 | [POSITION STATS] Open: 4 | Unrealized: $-46.60 | Daily Loss: $0.00/100.00
+14:15:24 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:15:24 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:15:24 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:15:24 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:15:24 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:15:24 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:15:24 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:15:24 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 5/5 | Exits: 3 (Market: 0, Admin: 3)
+14:15:24 | [IDLE] Waiting for next market pulse...
+14:15:34 | [36m[STATS][0m --- [CYCLE 71] ---
+14:15:34 | [36m[STATS][0m Balance: 97870.38 | Equity: 97825.28 | Active: 4 | Margin: 97398.18 | Util: 0.4%
+14:15:34 | [POSITION STATS] Open: 4 | Unrealized: $-45.10 | Daily Loss: $0.00/100.00
+14:15:34 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:15:34 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:15:34 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:15:34 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:15:34 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:15:34 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:15:34 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:15:34 | [IDLE] Waiting for next market pulse...
+14:15:44 | [36m[STATS][0m --- [CYCLE 72] ---
+14:15:44 | [36m[STATS][0m Balance: 97870.38 | Equity: 97825.28 | Active: 4 | Margin: 97398.18 | Util: 0.4%
+14:15:44 | [POSITION STATS] Open: 4 | Unrealized: $-45.10 | Daily Loss: $0.00/100.00
+14:15:44 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:15:44 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:15:44 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:15:44 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:15:44 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:15:44 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:15:44 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:15:44 | [IDLE] Waiting for next market pulse...
+14:15:55 | [36m[STATS][0m --- [CYCLE 73] ---
+14:15:55 | [36m[STATS][0m Balance: 97870.38 | Equity: 97830.57 | Active: 4 | Margin: 97403.47 | Util: 0.4%
+14:15:55 | [POSITION STATS] Open: 4 | Unrealized: $-39.81 | Daily Loss: $0.00/100.00
+14:15:55 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:15:55 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:15:55 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:15:55 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:15:55 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:15:55 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:15:55 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:15:55 | [IDLE] Waiting for next market pulse...
+14:16:05 | [36m[STATS][0m --- [CYCLE 74] ---
+14:16:05 | [36m[STATS][0m Balance: 97870.38 | Equity: 97828.35 | Active: 4 | Margin: 97401.25 | Util: 0.4%
+14:16:05 | [POSITION STATS] Open: 4 | Unrealized: $-42.03 | Daily Loss: $0.00/100.00
+14:16:05 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:16:05 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:16:05 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:16:05 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:16:05 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:16:05 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:16:05 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:16:05 | [IDLE] Waiting for next market pulse...
+14:16:15 | [36m[STATS][0m --- [CYCLE 75] ---
+14:16:15 | [36m[STATS][0m Balance: 97870.38 | Equity: 97824.20 | Active: 4 | Margin: 97397.10 | Util: 0.4%
+14:16:15 | [POSITION STATS] Open: 4 | Unrealized: $-46.18 | Daily Loss: $0.00/100.00
+14:16:15 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:16:15 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:16:15 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:16:15 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:16:15 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:16:15 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:16:15 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:16:15 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 5/5 | Exits: 3 (Market: 0, Admin: 3)
+14:16:15 | [IDLE] Waiting for next market pulse...
+14:16:26 | [36m[STATS][0m --- [CYCLE 76] ---
+14:16:26 | [36m[STATS][0m Balance: 97870.38 | Equity: 97818.87 | Active: 4 | Margin: 97391.77 | Util: 0.4%
+14:16:26 | [POSITION STATS] Open: 4 | Unrealized: $-51.51 | Daily Loss: $0.00/100.00
+14:16:26 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:16:26 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:16:26 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:16:26 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:16:26 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:16:26 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:16:26 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:16:26 | [IDLE] Waiting for next market pulse...
+14:16:36 | [36m[STATS][0m --- [CYCLE 77] ---
+14:16:36 | [36m[STATS][0m Balance: 97870.38 | Equity: 97812.88 | Active: 4 | Margin: 97385.78 | Util: 0.4%
+14:16:36 | [POSITION STATS] Open: 4 | Unrealized: $-57.50 | Daily Loss: $0.00/100.00
+14:16:36 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:16:36 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:16:36 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:16:36 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:16:36 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:16:36 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:16:36 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:16:36 | [IDLE] Waiting for next market pulse...
+14:16:46 | [36m[STATS][0m --- [CYCLE 78] ---
+14:16:46 | [36m[STATS][0m Balance: 97870.38 | Equity: 97806.52 | Active: 4 | Margin: 97379.42 | Util: 0.4%
+14:16:46 | [POSITION STATS] Open: 4 | Unrealized: $-63.86 | Daily Loss: $0.00/100.00
+14:16:46 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:16:46 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:16:46 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:16:46 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:16:46 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:16:46 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:16:46 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:16:46 | [IDLE] Waiting for next market pulse...
+14:16:57 | [36m[STATS][0m --- [CYCLE 79] ---
+14:16:57 | [36m[STATS][0m Balance: 97870.38 | Equity: 97801.25 | Active: 4 | Margin: 97374.15 | Util: 0.4%
+14:16:57 | [POSITION STATS] Open: 4 | Unrealized: $-69.13 | Daily Loss: $0.00/100.00
+14:16:57 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:16:57 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:16:57 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:16:57 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:16:57 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:16:57 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:16:57 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:16:57 | [IDLE] Waiting for next market pulse...
+14:17:07 | [36m[STATS][0m --- [CYCLE 80] ---
+14:17:07 | [36m[STATS][0m Balance: 97870.38 | Equity: 97797.70 | Active: 4 | Margin: 97370.60 | Util: 0.4%
+14:17:07 | [POSITION STATS] Open: 4 | Unrealized: $-72.68 | Daily Loss: $0.00/100.00
+14:17:07 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:17:07 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:17:07 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:17:07 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:17:07 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:17:07 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:17:07 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:17:07 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 5/5 | Exits: 3 (Market: 0, Admin: 3)
+14:17:07 | [IDLE] Waiting for next market pulse...
+14:17:17 | [36m[STATS][0m --- [CYCLE 81] ---
+14:17:17 | [36m[STATS][0m Balance: 97870.38 | Equity: 97809.99 | Active: 4 | Margin: 97382.89 | Util: 0.4%
+14:17:17 | [POSITION STATS] Open: 4 | Unrealized: $-60.39 | Daily Loss: $0.00/100.00
+14:17:17 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:17:17 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:17:17 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:17:17 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:17:17 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:17:17 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:17:17 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:17:17 | [IDLE] Waiting for next market pulse...
+14:17:28 | [36m[STATS][0m --- [CYCLE 82] ---
+14:17:28 | [36m[STATS][0m Balance: 97870.38 | Equity: 97809.90 | Active: 4 | Margin: 97382.80 | Util: 0.4%
+14:17:28 | [POSITION STATS] Open: 4 | Unrealized: $-60.48 | Daily Loss: $0.00/100.00
+14:17:28 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:17:28 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:17:28 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:17:28 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:17:28 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:17:28 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:17:28 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:17:28 | [IDLE] Waiting for next market pulse...
+14:17:38 | [36m[STATS][0m --- [CYCLE 83] ---
+14:17:38 | [36m[STATS][0m Balance: 97870.38 | Equity: 97815.94 | Active: 4 | Margin: 97388.84 | Util: 0.4%
+14:17:38 | [POSITION STATS] Open: 4 | Unrealized: $-54.44 | Daily Loss: $0.00/100.00
+14:17:38 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:17:38 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:17:38 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:17:38 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:17:38 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:17:38 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:17:38 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:17:38 | [IDLE] Waiting for next market pulse...
+14:17:48 | [36m[STATS][0m --- [CYCLE 84] ---
+14:17:48 | [36m[STATS][0m Balance: 97870.38 | Equity: 97802.67 | Active: 4 | Margin: 97375.57 | Util: 0.4%
+14:17:48 | [POSITION STATS] Open: 4 | Unrealized: $-67.71 | Daily Loss: $0.00/100.00
+14:17:48 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:17:48 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:17:48 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:17:48 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:17:48 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:17:48 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:17:48 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:17:48 | [IDLE] Waiting for next market pulse...
+14:17:59 | [36m[STATS][0m --- [CYCLE 85] ---
+14:17:59 | [36m[STATS][0m Balance: 97870.38 | Equity: 97804.78 | Active: 4 | Margin: 97377.68 | Util: 0.4%
+14:17:59 | [POSITION STATS] Open: 4 | Unrealized: $-65.60 | Daily Loss: $0.00/100.00
+14:17:59 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:17:59 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:17:59 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:17:59 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:17:59 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:17:59 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:17:59 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:17:59 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 5/5 | Exits: 3 (Market: 0, Admin: 3)
+14:17:59 | [IDLE] Waiting for next market pulse...
+14:18:09 | [36m[STATS][0m --- [CYCLE 86] ---
+14:18:09 | [36m[STATS][0m Balance: 97870.38 | Equity: 97803.36 | Active: 4 | Margin: 97376.26 | Util: 0.4%
+14:18:09 | [POSITION STATS] Open: 4 | Unrealized: $-67.02 | Daily Loss: $0.00/100.00
+14:18:09 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:18:09 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:18:09 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:18:09 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:18:09 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:18:09 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:18:09 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:18:09 | [IDLE] Waiting for next market pulse...

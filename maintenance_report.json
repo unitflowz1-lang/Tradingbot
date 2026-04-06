@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-02T09:46:16.961603",
+  "system_health": {
+    "total_checks": 10,
+    "critical_issues": 0,
+    "warnings": 2
+  },
+  "backup_status": {
+    "total_backups": 0,
+    "total_size_bytes": 0,
+    "by_type": {
+      "configuration": {
+        "count": 0,
+        "total_size_bytes": 0
+      },
+      "trade_history": {
+        "count": 0,
+        "total_size_bytes": 0
+      },
+      "database": {
+        "count": 0,
+        "total_size_bytes": 0
+      },
+      "logs": {
+        "count": 0,
+        "total_size_bytes": 0
+      },
+      "full_system": {
+        "count": 0,
+        "total_size_bytes": 0
+      }
+    },
+    "oldest_backup": null,
+    "newest_backup": null
+  },
+  "strategy_status": {
+    "total_updates": 0,
+    "successful_updates": 0,
+    "failed_updates": 0,
+    "rollbacks": 0,
+    "active_strategies": 2,
+    "by_strategy": {}
+  }
+}

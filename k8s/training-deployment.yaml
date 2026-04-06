@@ -1,0 +1,90 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rl-training
+  namespace: rl-trading
+  labels:
+    app: rl-training
+    component: training
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: rl-training
+      component: training
+  template:
+    metadata:
+      labels:
+        app: rl-training
+        component: training
+    spec:
+      containers:
+      - name: rl-training
+        image: rl-trading/training:latest
+        imagePullPolicy: Always
+        resources:
+          requests:
+            memory: "4Gi"
+            cpu: "2"
+          limits:
+            memory: "8Gi"
+            cpu: "4"
+        env:
+        - name: REDIS_HOST
+          value: "redis-service"
+        - name: REDIS_PORT
+          value: "6379"
+        - name: WORKER_ID
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        - name: DISTRIBUTED_TRAINING
+          value: "true"
+        volumeMounts:
+        - name: config-volume
+          mountPath: /app/config
+        - name: models-volume
+          mountPath: /app/models
+        - name: logs-volume
+          mountPath: /app/logs
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 60
+          periodSeconds: 30
+          timeoutSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 8080
+          initialDelaySeconds: 30
+          periodSeconds: 10
+      volumes:
+      - name: config-volume
+        configMap:
+          name: rl-config
+      - name: models-volume
+        persistentVolumeClaim:
+          claimName: models-pvc
+      - name: logs-volume
+        persistentVolumeClaim:
+          claimName: logs-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rl-training-service
+  namespace: rl-trading
+spec:
+  selector:
+    app: rl-training
+    component: training
+  ports:
+  - name: metrics
+    port: 8080
+    targetPort: 8080
+  - name: tensorboard
+    port: 6006
+    targetPort: 6006
+  type: ClusterIP

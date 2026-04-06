@@ -1,0 +1,40 @@
+{
+  "trading": {
+    "max_positions": 7,
+    "max_positions_per_symbol": 3,
+    "position_size_cap": 0.3,
+    "risk_reward_ratio": 2.0,
+    "atr_period": 14
+  },
+  "risk": {
+    "max_margin_percent": 85.0,
+    "safety_buffer_percent": 15.0,
+    "critical_margin_threshold_percent": 2.0,
+    "max_daily_loss": 500.0,
+    "max_daily_profit": 2000.0,
+    "max_drawdown_percent": 15.0
+  },
+  "signal_filters": {
+    "mode": "BALANCED",
+    "adx_min": 12,
+    "rsi_min": 25,
+    "rsi_max": 75,
+    "ml_confidence_min": 0.5,
+    "signal_quality_min": 0.55,
+    "position_size_cap": 0.3,
+    "max_positions": 7
+  },
+  "cooldowns": {
+    "profit_threshold": 50,
+    "fast_cooldown_seconds": 30,
+    "normal_cooldown_seconds": 60,
+    "loss_cooldown_seconds": 180
+  },
+  "trailing_stops": {
+    "use_atr_based": true,
+    "trigger_atr_multiplier": 1.5,
+    "move_atr_multiplier": 1.0,
+    "fallback_trigger_pips": 20,
+    "fallback_move_pips": 15
+  }
+}

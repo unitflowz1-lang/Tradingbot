@@ -1,0 +1,26 @@
+================================================================================
+IMPROVEMENTS REPORT: FLASH_CRASH
+================================================================================
+
+BEFORE vs AFTER COMPARISON
+--------------------------------------------------------------------------------
+
+Max Drawdown % (✅ IMPROVED)
+  Before: 0.52
+  After:  0.36
+  Change: -30.4%
+
+Total Signals (⚠️ DEGRADED)
+  Before: 4491.00
+  After:  4491.00
+  Change: +0.0%
+
+Risk Breaches (⚠️ DEGRADED)
+  Before: 0.00
+  After:  0.00
+  Change: +0.0%
+
+Final Equity $ (⚠️ DEGRADED)
+  Before: 170342.84
+  After:  155537.84
+  Change: -8.7%

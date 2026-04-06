@@ -1,0 +1,352 @@
+{
+  "environment": "production",
+  "version": "1.0.0",
+  "debug": false,
+  "logging": {
+    "level": "INFO",
+    "format": "json",
+    "file": "logs/forex_bot.log",
+    "max_size": "100MB",
+    "backup_count": 5,
+    "enable_console": true,
+    "enable_file": true
+  },
+  "database": {
+    "host": "postgres",
+    "port": 5432,
+    "database": "forex_bot_prod",
+    "username": "forex_user",
+    "password": "${DB_PASSWORD}",
+    "pool_size": 20,
+    "max_overflow": 30,
+    "pool_timeout": 30,
+    "pool_recycle": 3600,
+    "ssl_mode": "require"
+  },
+  "redis": {
+    "host": "redis",
+    "port": 6379,
+    "database": 0,
+    "password": null,
+    "max_connections": 50,
+    "socket_timeout": 5,
+    "socket_connect_timeout": 5,
+    "retry_on_timeout": true
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-4",
+    "api_key": "${LLM_API_KEY}",
+    "max_tokens": 2000,
+    "temperature": 0.3,
+    "timeout": 60,
+    "max_retries": 3,
+    "retry_delay": 2,
+    "rate_limit": {
+      "requests_per_minute": 60,
+      "tokens_per_minute": 40000
+    }
+  },
+  "broker": {
+    "name": "demo_broker",
+    "api_key": "${BROKER_API_KEY}",
+    "api_secret": "${BROKER_API_SECRET}",
+    "sandbox": false,
+    "timeout": 30,
+    "max_retries": 3,
+    "retry_delay": 1,
+    "rate_limit": {
+      "requests_per_minute": 120,
+      "orders_per_minute": 60
+    }
+  },
+  "trading": {
+    "enabled": true,
+    "paper_trading": false,
+    "max_total_positions": 7,
+    "max_direction_positions": 7,
+    "max_correlated_exposure": 7,
+    "max_risk_per_trade": 0.02,
+    "max_daily_risk": 0.05,
+    "max_drawdown": 0.15,
+    "position_sizing": {
+      "method": "kelly_criterion",
+      "max_position_size": 0.1,
+      "min_position_size": 0.001
+    },
+    "risk_management": {
+      "stop_loss_enabled": true,
+      "take_profit_enabled": true,
+      "trailing_stop_enabled": true,
+      "max_slippage": 0.0005
+    },
+    "symbols": [
+      "EUR/USD",
+      "GBP/USD",
+      "USD/JPY",
+      "AUD/USD",
+      "USD/CHF",
+      "EUR/GBP",
+      "USD/CAD",
+      "NZD/USD"
+    ],
+    "timeframes": [
+      "1H",
+      "4H",
+      "1D"
+    ],
+    "trading_hours": {
+      "start": "00:00",
+      "end": "23:59",
+      "timezone": "UTC"
+    }
+  },
+  "data_collection": {
+    "market_data": {
+      "enabled": true,
+      "providers": [
+        "alpha_vantage",
+        "polygon"
+      ],
+      "update_interval": 60,
+      "cache_ttl": 300,
+      "max_retries": 3,
+      "retry_delay": 5
+    },
+    "news_data": {
+      "enabled": true,
+      "providers": [
+        "newsapi",
+        "alphavantage"
+      ],
+      "update_interval": 300,
+      "max_articles_per_symbol": 50,
+      "relevance_threshold": 0.5
+    },
+    "social_media": {
+      "enabled": true,
+      "platforms": [
+        "twitter",
+        "reddit"
+      ],
+      "update_interval": 600,
+      "max_posts_per_symbol": 100,
+      "engagement_threshold": 10
+    }
+  },
+  "analysis": {
+    "sentiment": {
+      "enabled": true,
+      "aggregation_method": "weighted_average",
+      "confidence_threshold": 0.6,
+      "update_interval": 300
+    },
+    "technical": {
+      "enabled": true,
+      "indicators": [
+        "sma_20",
+        "sma_50",
+        "ema_12",
+        "ema_26",
+        "rsi",
+        "macd",
+        "bollinger_bands",
+        "stochastic",
+        "atr"
+      ],
+      "update_interval": 60
+    },
+    "signal_combination": {
+      "method": "weighted_ensemble",
+      "sentiment_weight": 0.4,
+      "technical_weight": 0.6,
+      "confidence_threshold": 0.7
+    }
+  },
+  "monitoring": {
+    "performance": {
+      "enabled": true,
+      "update_interval": 60,
+      "history_size": 1000,
+      "metrics": [
+        "total_trades",
+        "win_rate",
+        "profit_loss",
+        "sharpe_ratio",
+        "max_drawdown",
+        "average_win",
+        "average_loss"
+      ]
+    },
+    "alerts": {
+      "enabled": true,
+      "channels": [
+        "log",
+        "email"
+      ],
+      "rules": {
+        "high_error_rate": {
+          "threshold": 0.1,
+          "level": "error",
+          "cooldown_minutes": 5
+        },
+        "high_drawdown": {
+          "threshold": 0.15,
+          "level": "warning",
+          "cooldown_minutes": 10
+        },
+        "low_win_rate": {
+          "threshold": 0.4,
+          "level": "warning",
+          "cooldown_minutes": 30
+        }
+      }
+    },
+    "health_check": {
+      "enabled": true,
+      "port": 8080,
+      "interval": 30,
+      "timeout": 10,
+      "retries": 3
+    }
+  },
+  "maintenance": {
+    "backup": {
+      "enabled": true,
+      "schedule": "0 2 * * *",
+      "retention_days": 7,
+      "include_database": true,
+      "include_logs": true,
+      "include_config": true
+    },
+    "cleanup": {
+      "enabled": true,
+      "schedule": "0 3 * * *",
+      "log_retention_days": 30,
+      "data_retention_days": 90,
+      "temp_file_cleanup": true
+    },
+    "diagnostics": {
+      "enabled": true,
+      "schedule": "0 4 * * *",
+      "include_system_metrics": true,
+      "include_performance_metrics": true,
+      "include_error_analysis": true
+    }
+  },
+  "security": {
+    "authentication": {
+      "enabled": true,
+      "method": "api_key",
+      "key_rotation_days": 90
+    },
+    "encryption": {
+      "enabled": true,
+      "algorithm": "AES-256",
+      "key_derivation": "PBKDF2"
+    },
+    "rate_limiting": {
+      "enabled": true,
+      "requests_per_minute": 100,
+      "burst_limit": 200
+    },
+    "input_validation": {
+      "enabled": true,
+      "sanitize_inputs": true,
+      "max_input_length": 10000
+    }
+  },
+  "api": {
+    "enabled": true,
+    "host": "0.0.0.0",
+    "port": 8080,
+    "cors": {
+      "enabled": true,
+      "allowed_origins": [
+        "*"
+      ],
+      "allowed_methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "allowed_headers": [
+        "*"
+      ]
+    },
+    "rate_limiting": {
+      "enabled": true,
+      "requests_per_minute": 60,
+      "burst_limit": 120
+    },
+    "endpoints": {
+      "health": "/health",
+      "metrics": "/metrics",
+      "trades": "/api/trades",
+      "positions": "/api/positions",
+      "signals": "/api/signals",
+      "alerts": "/api/alerts"
+    }
+  },
+  "deployment": {
+    "docker": {
+      "enabled": true,
+      "image_name": "ai-forex-trading-bot",
+      "tag": "latest",
+      "registry": null
+    },
+    "scaling": {
+      "auto_scaling": false,
+      "min_instances": 1,
+      "max_instances": 3,
+      "cpu_threshold": 0.8,
+      "memory_threshold": 0.8
+    },
+    "rollback": {
+      "enabled": true,
+      "max_versions": 5,
+      "health_check_timeout": 300
+    }
+  },
+  "notifications": {
+    "email": {
+      "enabled": true,
+      "smtp_host": "${SMTP_HOST}",
+      "smtp_port": 587,
+      "smtp_username": "${SMTP_USERNAME}",
+      "smtp_password": "${SMTP_PASSWORD}",
+      "from_address": "${FROM_EMAIL}",
+      "to_addresses": [
+        "${ADMIN_EMAIL}"
+      ]
+    },
+    "webhook": {
+      "enabled": false,
+      "url": "${WEBHOOK_URL}",
+      "timeout": 10,
+      "retries": 3
+    },
+    "slack": {
+      "enabled": false,
+      "webhook_url": "${SLACK_WEBHOOK_URL}",
+      "channel": "#trading-alerts"
+    }
+  },
+  "development": {
+    "hot_reload": false,
+    "debug_mode": false,
+    "profiling": false,
+    "test_mode": false
+  },
+  "api_optimization": {
+    "connection_pool_size": 20,
+    "connection_timeout": 30,
+    "read_timeout": 60,
+    "max_retries": 3,
+    "retry_delay": 1.0,
+    "rate_limit_requests_per_minute": 1000,
+    "batch_size": 100,
+    "cache_ttl": 300
+  }
+}

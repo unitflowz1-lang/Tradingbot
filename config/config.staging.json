@@ -1,0 +1,36 @@
+{
+  "broker": {
+    "broker_name": "staging-broker",
+    "api_key": "",
+    "api_secret": "",
+    "base_url": "https://staging-api.broker.com",
+    "timeout": 30
+  },
+  "database": {
+    "host": "staging-db",
+    "port": 5432,
+    "database": "forex_bot_staging",
+    "username": "staging_user",
+    "password": ""
+  },
+  "llm": {
+    "api_key": ""
+  },
+  "logging_level": "INFO",
+  "trading": {
+    "max_total_positions": 7,
+    "max_direction_positions": 7,
+    "max_correlated_exposure": 7,
+    "risk_per_trade": 0.015
+  },
+  "api_optimization": {
+    "connection_pool_size": 20,
+    "connection_timeout": 30,
+    "read_timeout": 60,
+    "max_retries": 3,
+    "retry_delay": 1.0,
+    "rate_limit_requests_per_minute": 1000,
+    "batch_size": 100,
+    "cache_ttl": 300
+  }
+}

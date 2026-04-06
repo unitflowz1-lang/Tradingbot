@@ -1,0 +1,74 @@
+{
+    "test_user_pos_123": {
+        "symbol": "EUR/USD",
+        "direction": "LONG",
+        "entry_price": 1.085,
+        "entry_time": 1768437697.445194,
+        "market_context": {
+            "mtf_score": 85.0,
+            "volatility_score": 75.0,
+            "momentum_score": 90.0,
+            "liquidity_score": 80.0,
+            "indicator_score": 85.0,
+            "total_score": 83.0,
+            "timestamp": 1768437697.445194
+        },
+        "outcome": 100.0,
+        "exit_time": 1768437697.465444,
+        "position_id": "test_user_pos_123"
+    },
+    "test_user_pos_2": {
+        "symbol": "EUR/USD",
+        "direction": "LONG",
+        "entry_price": 1.085,
+        "entry_time": 1768437697.45074,
+        "market_context": {
+            "mtf_score": 85.0,
+            "volatility_score": 75.0,
+            "momentum_score": 90.0,
+            "liquidity_score": 80.0,
+            "indicator_score": 85.0,
+            "total_score": 83.0,
+            "timestamp": 1768437697.445194
+        },
+        "outcome": 50.0,
+        "exit_time": 1768437697.452843,
+        "position_id": "test_user_pos_2"
+    },
+    "test_user_pos_3": {
+        "symbol": "EUR/USD",
+        "direction": "LONG",
+        "entry_price": 1.085,
+        "entry_time": 1768437697.454103,
+        "market_context": {
+            "mtf_score": 85.0,
+            "volatility_score": 75.0,
+            "momentum_score": 90.0,
+            "liquidity_score": 80.0,
+            "indicator_score": 85.0,
+            "total_score": 83.0,
+            "timestamp": 1768437697.445194
+        },
+        "outcome": 50.0,
+        "exit_time": 1768437697.456277,
+        "position_id": "test_user_pos_3"
+    },
+    "test_user_pos_4": {
+        "symbol": "EUR/USD",
+        "direction": "LONG",
+        "entry_price": 1.085,
+        "entry_time": 1768437697.458035,
+        "market_context": {
+            "mtf_score": 85.0,
+            "volatility_score": 75.0,
+            "momentum_score": 90.0,
+            "liquidity_score": 80.0,
+            "indicator_score": 85.0,
+            "total_score": 83.0,
+            "timestamp": 1768437697.445194
+        },
+        "outcome": 50.0,
+        "exit_time": 1768437697.460057,
+        "position_id": "test_user_pos_4"
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "total_evaluated": 1,
+    "total_admitted": 1,
+    "total_rejected": 0,
+    "total_downscaled": 0,
+    "total_exploration": 0,
+    "avg_opportunity_score_admitted": 50.0,
+    "avg_opportunity_score_rejected": 0.0
+  },
+  "opportunity_windows": {
+    "TRENDING": [
+      {
+        "timestamp": "2026-02-26T13:25:30.762126+00:00",
+        "symbol": "EURUSD",
+        "regime": "TRENDING",
+        "expectancy": 2.0,
+        "confidence": 0.7,
+        "exit_policy": "TREND_FOLLOW",
+        "position_size_multiplier": 1.0,
+        "was_admitted": true,
+        "admission_reason": "Admitted by EV gate: EV 0.740R >= 0.150R | Conf: 0.700, AdjProb: 0.580, RR: 2.00R | Size: 1.00x",
+        "opportunity_score": 50.0,
+        "ev": 0.7399999999999999,
+        "rr_for_ev": 2.0,
+        "calibrated_ml_confidence": 0.7,
+        "macro_risk_penalty": 0.12,
+        "adjusted_win_prob": 0.58,
+        "max_portfolio_correlation": 0.0,
+        "most_correlated_symbol": "",
+        "correlation_blocked": false
+      }
+    ]
+  }
+}

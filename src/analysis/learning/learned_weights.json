@@ -1,0 +1,8 @@
+{
+    "mtf": 0.25,
+    "volatility": 0.15,
+    "momentum": 0.2,
+    "liquidity": 0.15,
+    "indicators": 0.15,
+    "risk": 0.1
+}

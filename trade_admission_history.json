@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "total_evaluated": 125700,
+    "total_admitted": 48787,
+    "total_rejected": 72472,
+    "total_downscaled": 90,
+    "total_exploration": 4337,
+    "avg_opportunity_score_admitted": 36.362975736174356,
+    "avg_opportunity_score_rejected": 15.413826228753972
+  },
+  "opportunity_windows": {
+    "RANGING": [
+      {
+        "timestamp": "2026-04-06T02:55:06.739668+00:00",
+        "symbol": "USD/CAD",
+        "regime": "RANGING",
+        "expectancy": 3.021104997362013,
+        "confidence": 0.24647914472337723,
+        "exit_policy": "MEAN_REVERT",
+        "position_size_multiplier": 0.16788224956062792,
+        "was_admitted": false,
+        "admission_reason": "REJECTED: CONFIDENCE_BELOW_THRESHOLD | 0.246 < 0.315",
+        "opportunity_score": 50.0,
+        "ev": 0.809497248812906,
+        "rr_for_ev": 3.021104997362013,
+        "calibrated_ml_confidence": 0.24647914472337723,
+        "macro_risk_penalty": 0.0,
+        "adjusted_win_prob": 0.45,
+        "max_portfolio_correlation": 0.0,
+        "most_correlated_symbol": "",
+        "correlation_blocked": false
+      }
+    ]
+  }
+}

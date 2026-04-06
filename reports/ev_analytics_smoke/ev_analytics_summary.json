@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "sample_size": 141,
+    "brier_score": 0.05340425531914895,
+    "realized_win_rate": 0.0,
+    "avg_predicted_probability": 0.18936170212765954,
+    "avg_predicted_ev_r": 0.0,
+    "avg_realized_pnl_r": -1.0
+  },
+  "plots": {
+    "ev_vs_realized_scatter": "reports/ev_analytics_smoke\\ev_vs_realized_pnl_scatter.png",
+    "calibration_curve": "reports/ev_analytics_smoke\\calibration_curve.png",
+    "macro_penalty_impact": "reports/ev_analytics_smoke\\macro_penalty_impact.png"
+  }
+}

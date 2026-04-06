@@ -1,0 +1,273 @@
+14:00:49 | AI Forex Trading Bot v1.0.0 initialized
+14:01:01 | [1;34m[INIT][0m >> AI Forex Trading Bot Starting...
+14:01:01 | Hot-reload enabled for configuration files in config
+14:01:01 | Health check system started
+14:01:01 | Initializing MT5 Broker...
+14:01:01 | Connection attempt (Process Elevation: Standard User)
+14:01:01 | [1;33mBot is NOT running as Administrator. If MT5 is elevated, IPC connection WILL fail with timeout.[0m
+14:01:03 | Connecting to existing terminal...
+14:01:04 | [1;32m[OK][0m Connected to running MT5 terminal
+14:01:04 | [1;32m[OK][0m Already logged in to account 5044383203
+14:01:04 | --------------------------------------------------
+14:01:04 | [1;32m[OK][0m AI TRADING BOT ACTIVATED | v2.1.0
+14:01:04 | --------------------------------------------------
+14:01:04 | [1;32m[OK][0m Mode: ACTIVE TRADING
+14:01:04 | [1;32m[OK][0m Strategy: TREND FOLLOWING + ML
+14:01:04 | [1;32m[OK][0m Feature: MAXOUT MODE [ON] (Aggressive Scaling)
+14:01:04 | [1;32m[OK][0m Feature: AUTO-TRAIL [ON] (Dynamic Stop Loss)
+14:01:04 | [1;32m[OK][0m Feature: SECURE PROFIT [ON] (Bank Gains > $50)
+14:01:04 | [1;32m[OK][0m Feature: PARTIAL PROFIT [ON] (Multi-stage exits)
+14:01:04 | [1;32m[OK][0m Feature: TIME EXIT [ON] (Close stagnated trades)
+14:01:04 | [1;32m[OK][0m Feature: LIVE IMPROVEMENTS [ON] (Margin, Slippage, Sizing)
+14:01:04 | --------------------------------------------------
+14:01:04 | [1;34m[INIT][0m Initializing live trading improvements...
+14:01:04 | [1;32m[OK][0m Live trading improvements initialized [OK]
+14:01:04 | [1;32m[OK][0m Profit protector initialized (Breakeven: $50, Max Drawdown: $20)
+14:01:04 | [1;32m[OK][0m Position direction tracker initialized
+14:01:04 | Daily loss limit set to $100.00
+14:01:04 | [1;34m[INIT][0m Initializing Three-Layer Architecture...
+14:01:04 | [1;34m[INIT][0m Three-Layer Architecture initialized [OK]
+14:01:04 | [1;34m[INIT][0m Initializing Enhanced Signal Validator...
+14:01:04 | [1;32m[OK][0m Enhanced Signal Validator initialized (Min Score: 45, MTF: 1 TFs)
+14:01:04 | [1;34m[INIT][0m Bot initialization complete | Symbols: ['EUR/USD', 'GBP/USD', 'USD/JPY', 'AUD/USD']
+14:01:04 | [36m[STATS][0m --- [CYCLE 1] ---
+14:01:04 | [36m[STATS][0m Balance: 97845.48 | Equity: 97845.48 | Active: 0 | Margin: 97845.48 | Util: 0.0%
+14:01:04 | [LONG POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:01:04 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:01:04 | [TOTAL] Open: 0 | Unrealized: $0.00
+14:01:04 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:01:04 | First run for EUR/USD: Training ML model on 100 bars...
+14:01:04 | [ANALYSIS] EUR/USD | Price: 1.16473 | RSI: 41.7 | ADX: 38.2 | ML: UP(75%)
+14:01:04 | [STRATEGY] Added synthetic ML BUY signal (conf: 0.75)
+14:01:04 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:01:04 | First run for GBP/USD: Training ML model on 100 bars...
+14:01:04 | [ANALYSIS] GBP/USD | Price: 1.34375 | RSI: 52.8 | ADX: 38.9 | ML: UP(75%)
+14:01:04 | [STRATEGY] Added synthetic ML BUY signal (conf: 0.75)
+14:01:04 | SL/TP Details: Entry=1.34385, ATR=0.00136, sl_dist=0.01361, tp_dist=0.04084, SL=1.33024, TP=1.38469
+14:01:04 | ATR-based SL/TP: Entry=1.34385, Dir=LONG, SL=1.33024, TP=1.38469, Period=14, RR=3.0
+14:01:04 | [SIGNAL ACCEPTED] GBP/USD | Quality: 76% | Entry: 1.34385
+14:01:04 | SL/TP Details: Entry=1.34385, ATR=0.00136, sl_dist=0.01361, tp_dist=0.02042, SL=1.33024, TP=1.36427
+14:01:04 | [1;36m[SIGNAL][0m GBP/USD | LONG | Entry=1.34385 | SL=1.33024 | TP=1.36427 | Confidence=0.37
+14:01:04 | [1;33m[DECISION][0m GBP/USD | LONG @ 1.34385 | SL: 1.33024 | TP: 1.36427
+14:01:04 |   MTF: 8 | Vol: 70 | Mom: 70 | Liq: 70 | Confluence: 42 | Size Mult: 0.72x
+14:01:04 | [ENHANCED FILTER] GBP/USD LONG APPROVED | Score: 53.3/100 | MTF: 8 | Vol: 70 | Mom: 70 | Liq: 70 | Size: 0.72x
+14:01:04 | [1;33m[ACTION][0m Risk OK | Score: 0.02 | RawSize: 0.9800% | EquitySize: 19.5691 | Final: 0.04 lots
+14:01:04 | Executing order order_1767967264 for GBP/USD
+14:01:04 | Using filling mode: 0 for GBP/USD
+14:01:04 | Order placed successfully: 54619767209
+14:01:04 | Order order_1767967264 executed: success=True, price=1.34382
+14:01:04 | [POSITION CALL] LONG | GBP/USD | Entry: 1.34385 | Qty: 0.01
+14:01:04 | [92m[OPEN] GBP/USD | LONG | Qty=0.010 lots | Entry=1.34385 | SL=1.33024 | TP=1.36427 | Order: 54619767209[0m
+14:01:04 | [POSITION CALL] GBP/USD | LONG: 1 | SHORT: 0
+14:01:04 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:01:04 | First run for USD/JPY: Training ML model on 100 bars...
+14:01:04 | [ANALYSIS] USD/JPY | Price: 157.46300 | RSI: 61.3 | ADX: 35.3 | ML: UP(50%)
+14:01:04 | SL/TP Details: Entry=157.46310, ATR=0.15429, sl_dist=1.54286, tp_dist=4.62857, SL=155.92024, TP=162.09167
+14:01:04 | ATR-based SL/TP: Entry=157.46310, Dir=LONG, SL=155.92024, TP=162.09167, Period=14, RR=3.0
+14:01:04 | [SIGNAL ACCEPTED] USD/JPY | Quality: 88% | Entry: 157.46310
+14:01:04 | SL/TP Details: Entry=157.46310, ATR=0.15429, sl_dist=1.54286, tp_dist=2.31429, SL=155.92024, TP=159.77739
+14:01:04 | [1;36m[SIGNAL][0m USD/JPY | LONG | Entry=157.46310 | SL=155.92024 | TP=159.77739 | Confidence=0.98
+14:01:04 | [1;33m[DECISION][0m USD/JPY | LONG @ 157.46310 | SL: 155.92024 | TP: 159.77739
+14:01:04 |   MTF: 19 | Vol: 70 | Mom: 70 | Liq: 70 | Confluence: 58 | Size Mult: 0.72x
+14:01:04 | [ENHANCED FILTER] USD/JPY LONG APPROVED | Score: 58.6/100 | MTF: 19 | Vol: 70 | Mom: 70 | Liq: 70 | Size: 0.72x
+14:01:04 | [1;33m[ACTION][0m Risk OK | Score: 0.02 | RawSize: 0.9800% | EquitySize: 19.5691 | Final: 0.04 lots
+14:01:04 | Executing order order_1767967264 for USD/JPY
+14:01:04 | Using filling mode: 0 for USD/JPY
+14:01:04 | Order placed successfully: 54619767355
+14:01:04 | Order order_1767967264 executed: success=True, price=157.467
+14:01:04 | [POSITION CALL] LONG | USD/JPY | Entry: 157.46310 | Qty: 0.01
+14:01:04 | [92m[OPEN] USD/JPY | LONG | Qty=0.010 lots | Entry=157.46310 | SL=155.92024 | TP=159.77739 | Order: 54619767355[0m
+14:01:04 | [POSITION CALL] USD/JPY | LONG: 1 | SHORT: 0
+14:01:04 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:01:04 | First run for AUD/USD: Training ML model on 100 bars...
+14:01:05 | [ANALYSIS] AUD/USD | Price: 0.66913 | RSI: 48.3 | ADX: 32.3 | ML: UP(75%)
+14:01:05 | [STRATEGY] Added synthetic ML BUY signal (conf: 0.75)
+14:01:05 | SL/TP Details: Entry=0.66923, ATR=0.00084, sl_dist=0.00844, tp_dist=0.02531, SL=0.66079, TP=0.69454
+14:01:05 | ATR-based SL/TP: Entry=0.66923, Dir=LONG, SL=0.66079, TP=0.69454, Period=14, RR=3.0
+14:01:05 | [SIGNAL ACCEPTED] AUD/USD | Quality: 70% | Entry: 0.66923
+14:01:05 | SL/TP Details: Entry=0.66923, ATR=0.00084, sl_dist=0.00844, tp_dist=0.01265, SL=0.66079, TP=0.68188
+14:01:05 | [1;36m[SIGNAL][0m AUD/USD | LONG | Entry=0.66923 | SL=0.66079 | TP=0.68188 | Confidence=0.23
+14:01:05 | [1;33m[DECISION][0m AUD/USD | LONG @ 0.66923 | SL: 0.66079 | TP: 0.68188
+14:01:05 |   MTF: 6 | Vol: 70 | Mom: 70 | Liq: 70 | Confluence: 42 | Size Mult: 0.72x
+14:01:05 | [ENHANCED FILTER] AUD/USD LONG APPROVED | Score: 52.7/100 | MTF: 6 | Vol: 70 | Mom: 70 | Liq: 70 | Size: 0.72x
+14:01:05 | [1;33m[ACTION][0m Risk OK | Score: 0.02 | RawSize: 0.9800% | EquitySize: 19.5691 | Final: 0.04 lots
+14:01:05 | Executing order order_1767967265 for AUD/USD
+14:01:05 | Using filling mode: 0 for AUD/USD
+14:01:05 | Order placed successfully: 54619767638
+14:01:05 | Order order_1767967265 executed: success=True, price=0.66917
+14:01:05 | [POSITION CALL] LONG | AUD/USD | Entry: 0.66923 | Qty: 0.01
+14:01:05 | [92m[OPEN] AUD/USD | LONG | Qty=0.010 lots | Entry=0.66923 | SL=0.66079 | TP=0.68188 | Order: 54619767638[0m
+14:01:05 | [POSITION CALL] AUD/USD | LONG: 1 | SHORT: 0
+14:01:05 | [IDLE] Waiting for next market pulse...
+14:01:15 | [36m[STATS][0m --- [CYCLE 2] ---
+14:01:15 | [36m[STATS][0m Balance: 97845.48 | Equity: 97845.32 | Active: 3 | Margin: 97724.80 | Util: 0.1%
+14:01:15 | [POSITION STATS] Open: 3 | Unrealized: $-0.16 | Daily Loss: $0.00/100.00
+14:01:15 | [LONG POSITIONS] Count: 3 | Win Rate: 0.0% | P&L: $0.00
+14:01:15 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:01:15 | [TOTAL] Open: 3 | Unrealized: $0.00
+14:01:15 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:01:15 | [ANALYSIS] EUR/USD | Price: 1.16476 | RSI: 42.0 | ADX: 38.2 | ML: UP(75%)
+14:01:15 | [STRATEGY] Added synthetic ML BUY signal (conf: 0.75)
+14:01:15 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:01:15 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:01:15 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:01:15 | [IDLE] Waiting for next market pulse...
+14:01:25 | [36m[STATS][0m --- [CYCLE 3] ---
+14:01:25 | [36m[STATS][0m Balance: 97845.48 | Equity: 97844.56 | Active: 3 | Margin: 97724.04 | Util: 0.1%
+14:01:25 | [POSITION STATS] Open: 3 | Unrealized: $-0.92 | Daily Loss: $0.00/100.00
+14:01:25 | [LONG POSITIONS] Count: 3 | Win Rate: 0.0% | P&L: $0.00
+14:01:25 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:01:25 | [TOTAL] Open: 3 | Unrealized: $0.00
+14:01:25 | [EQUITY LOCK] USD/JPY | Profit threshold: 10.0 pips reached | Close: 20% of position
+14:01:25 | Position 54619767355 closed successfully
+14:01:25 | [ADMIN EXIT] USD/JPY | Reason: equity_lock
+14:01:25 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:01:25 | [ANALYSIS] EUR/USD | Price: 1.16466 | RSI: 40.8 | ADX: 38.2 | ML: UP(75%)
+14:01:25 | [STRATEGY] Added synthetic ML BUY signal (conf: 0.75)
+14:01:25 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:01:25 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:01:25 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:01:25 | [IDLE] Waiting for next market pulse...
+14:01:35 | [36m[STATS][0m --- [CYCLE 4] ---
+14:01:35 | [36m[STATS][0m Balance: 97845.68 | Equity: 97844.96 | Active: 2 | Margin: 97764.44 | Util: 0.1%
+14:01:35 | [POSITION STATS] Open: 2 | Unrealized: $-0.72 | Daily Loss: $0.00/100.00
+14:01:35 | [LONG POSITIONS] Count: 3 | Win Rate: 0.0% | P&L: $0.00
+14:01:35 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:01:35 | [TOTAL] Open: 3 | Unrealized: $0.00
+14:01:35 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:01:35 | [ANALYSIS] EUR/USD | Price: 1.16469 | RSI: 41.2 | ADX: 38.2 | ML: UP(75%)
+14:01:35 | [STRATEGY] Added synthetic ML BUY signal (conf: 0.75)
+14:01:35 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:01:35 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:01:35 | [ANALYSIS] USD/JPY | Price: 157.47200 | RSI: 61.8 | ADX: 35.3 | ML: UP(50%)
+14:01:35 | SL/TP Details: Entry=157.47210, ATR=0.15429, sl_dist=1.54286, tp_dist=4.62857, SL=155.92924, TP=162.10067
+14:01:35 | ATR-based SL/TP: Entry=157.47210, Dir=LONG, SL=155.92924, TP=162.10067, Period=14, RR=3.0
+14:01:35 | [SIGNAL ACCEPTED] USD/JPY | Quality: 88% | Entry: 157.47210
+14:01:35 | SL/TP Details: Entry=157.47210, ATR=0.15429, sl_dist=1.54286, tp_dist=2.31429, SL=155.92924, TP=159.78639
+14:01:35 | [1;36m[SIGNAL][0m USD/JPY | LONG | Entry=157.47210 | SL=155.92924 | TP=159.78639 | Confidence=0.98
+14:01:35 | [1;33m[DECISION][0m USD/JPY | LONG @ 157.47210 | SL: 155.92924 | TP: 159.78639
+14:01:35 |   MTF: 19 | Vol: 70 | Mom: 70 | Liq: 100 | Confluence: 42 | Size Mult: 0.96x
+14:01:35 | [ENHANCED FILTER] USD/JPY LONG APPROVED | Score: 60.6/100 | MTF: 19 | Vol: 70 | Mom: 70 | Liq: 100 | Size: 0.96x
+14:01:35 | [1;33m[ACTION][0m Risk OK | Score: 0.02 | RawSize: 0.9800% | EquitySize: 19.5690 | Final: 0.05 lots
+14:01:35 | Executing order order_1767967295 for USD/JPY
+14:01:35 | Using filling mode: 0 for USD/JPY
+14:01:35 | Order placed successfully: 54619783503
+14:01:35 | Order order_1767967295 executed: success=True, price=157.476
+14:01:35 | [POSITION CALL] LONG | USD/JPY | Entry: 157.47210 | Qty: 0.01
+14:01:35 | [92m[OPEN] USD/JPY | LONG | Qty=0.010 lots | Entry=157.47210 | SL=155.92924 | TP=159.78639 | Order: 54619783503[0m
+14:01:35 | [POSITION CALL] USD/JPY | LONG: 2 | SHORT: 0
+14:01:35 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:01:35 | [IDLE] Waiting for next market pulse...
+14:01:45 | [36m[STATS][0m --- [CYCLE 5] ---
+14:01:45 | [36m[STATS][0m Balance: 97845.68 | Equity: 97845.18 | Active: 3 | Margin: 97714.66 | Util: 0.1%
+14:01:45 | [POSITION STATS] Open: 3 | Unrealized: $-0.50 | Daily Loss: $0.00/100.00
+14:01:45 | [LONG POSITIONS] Count: 4 | Win Rate: 0.0% | P&L: $0.00
+14:01:45 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:01:45 | [TOTAL] Open: 4 | Unrealized: $0.00
+14:01:45 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:01:45 | [ANALYSIS] EUR/USD | Price: 1.16481 | RSI: 42.6 | ADX: 38.2 | ML: UP(75%)
+14:01:45 | [STRATEGY] Added synthetic ML BUY signal (conf: 0.75)
+14:01:45 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:01:45 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:01:45 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:01:45 | [SUMMARY] Risk: operational | Positions: 3 | Daily Trades: 4/5 | Exits: 1 (Market: 0, Admin: 1)
+14:01:45 | [IDLE] Waiting for next market pulse...
+14:01:55 | [36m[STATS][0m --- [CYCLE 6] ---
+14:01:55 | [36m[STATS][0m Balance: 97845.68 | Equity: 97844.66 | Active: 3 | Margin: 97714.14 | Util: 0.1%
+14:01:55 | [POSITION STATS] Open: 3 | Unrealized: $-1.02 | Daily Loss: $0.00/100.00
+14:01:55 | [LONG POSITIONS] Count: 4 | Win Rate: 0.0% | P&L: $0.00
+14:01:55 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:01:55 | [TOTAL] Open: 4 | Unrealized: $0.00
+14:01:55 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:01:55 | [ANALYSIS] EUR/USD | Price: 1.16466 | RSI: 40.8 | ADX: 38.2 | ML: UP(75%)
+14:01:55 | [STRATEGY] Added synthetic ML BUY signal (conf: 0.75)
+14:01:55 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:01:55 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:01:55 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:01:55 | [IDLE] Waiting for next market pulse...
+14:02:06 | [36m[STATS][0m --- [CYCLE 7] ---
+14:02:06 | [36m[STATS][0m Balance: 97845.68 | Equity: 97844.54 | Active: 3 | Margin: 97714.02 | Util: 0.1%
+14:02:06 | [POSITION STATS] Open: 3 | Unrealized: $-1.14 | Daily Loss: $0.00/100.00
+14:02:06 | [LONG POSITIONS] Count: 4 | Win Rate: 0.0% | P&L: $0.00
+14:02:06 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:02:06 | [TOTAL] Open: 4 | Unrealized: $0.00
+14:02:06 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:02:06 | [ANALYSIS] EUR/USD | Price: 1.16466 | RSI: 40.8 | ADX: 38.2 | ML: UP(75%)
+14:02:06 | [STRATEGY] Added synthetic ML BUY signal (conf: 0.75)
+14:02:06 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:02:06 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:02:06 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:02:06 | [IDLE] Waiting for next market pulse...
+14:02:16 | [36m[STATS][0m --- [CYCLE 8] ---
+14:02:16 | [36m[STATS][0m Balance: 97845.68 | Equity: 97844.11 | Active: 3 | Margin: 97713.59 | Util: 0.1%
+14:02:16 | [POSITION STATS] Open: 3 | Unrealized: $-1.57 | Daily Loss: $0.00/100.00
+14:02:16 | [LONG POSITIONS] Count: 4 | Win Rate: 0.0% | P&L: $0.00
+14:02:16 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:02:16 | [TOTAL] Open: 4 | Unrealized: $0.00
+14:02:16 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:02:16 | [ANALYSIS] EUR/USD | Price: 1.16459 | RSI: 39.9 | ADX: 38.2 | ML: UP(100%)
+14:02:16 | [STRATEGY] Added synthetic ML BUY signal (conf: 1.00)
+14:02:16 | SL/TP Details: Entry=1.16469, ATR=0.00094, sl_dist=0.00936, tp_dist=0.02807, SL=1.15533, TP=1.19276
+14:02:16 | ATR-based SL/TP: Entry=1.16469, Dir=LONG, SL=1.15533, TP=1.19276, Period=14, RR=3.0
+14:02:16 | [SIGNAL ACCEPTED] EUR/USD | Quality: 73% | Entry: 1.16469
+14:02:16 | SL/TP Details: Entry=1.16469, ATR=0.00094, sl_dist=0.00936, tp_dist=0.01404, SL=1.15533, TP=1.17873
+14:02:16 | [1;36m[SIGNAL][0m EUR/USD | LONG | Entry=1.16469 | SL=1.15533 | TP=1.17873 | Confidence=0.25
+14:02:16 | [1;33m[DECISION][0m EUR/USD | LONG @ 1.16469 | SL: 1.15533 | TP: 1.17873
+14:02:16 |   MTF: 0 | Vol: 70 | Mom: 70 | Liq: 70 | Confluence: 42 | Size Mult: 0.72x
+14:02:16 | [ENHANCED FILTER] EUR/USD LONG APPROVED | Score: 49.2/100 | MTF: 0 | Vol: 70 | Mom: 70 | Liq: 70 | Size: 0.72x
+14:02:16 | [1;33m[ACTION][0m Risk OK | Score: 0.02 | RawSize: 0.9800% | EquitySize: 19.5688 | Final: 0.04 lots
+14:02:16 | Executing order order_1767967336 for EUR/USD
+14:02:16 | Using filling mode: 0 for EUR/USD
+14:02:16 | Order placed successfully: 54619802321
+14:02:16 | Order order_1767967336 executed: success=True, price=1.16461
+14:02:16 | [POSITION CALL] LONG | EUR/USD | Entry: 1.16469 | Qty: 0.01
+14:02:16 | [92m[OPEN] EUR/USD | LONG | Qty=0.010 lots | Entry=1.16469 | SL=1.15533 | TP=1.17873 | Order: 54619802321[0m
+14:02:16 | [POSITION CALL] EUR/USD | LONG: 1 | SHORT: 0
+14:02:16 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:02:16 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:02:16 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:02:16 | [IDLE] Waiting for next market pulse...
+14:02:26 | [36m[STATS][0m --- [CYCLE 9] ---
+14:02:26 | [36m[STATS][0m Balance: 97845.68 | Equity: 97844.30 | Active: 4 | Margin: 97667.20 | Util: 0.2%
+14:02:26 | [POSITION STATS] Open: 4 | Unrealized: $-1.38 | Daily Loss: $0.00/100.00
+14:02:26 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:02:26 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:02:26 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:02:26 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:02:26 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:02:26 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:02:26 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:02:26 | [IDLE] Waiting for next market pulse...
+14:02:37 | [36m[STATS][0m --- [CYCLE 10] ---
+14:02:37 | [36m[STATS][0m Balance: 97845.68 | Equity: 97844.21 | Active: 4 | Margin: 97667.11 | Util: 0.2%
+14:02:37 | [POSITION STATS] Open: 4 | Unrealized: $-1.47 | Daily Loss: $0.00/100.00
+14:02:37 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:02:37 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:02:37 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:02:37 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:02:37 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:02:37 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:02:37 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:02:37 | [SUMMARY] Risk: operational | Positions: 4 | Daily Trades: 5/5 | Exits: 1 (Market: 0, Admin: 1)
+14:02:37 | [IDLE] Waiting for next market pulse...
+14:02:47 | [36m[STATS][0m --- [CYCLE 11] ---
+14:02:47 | [36m[STATS][0m Balance: 97845.74 | Equity: 97844.14 | Active: 3 | Margin: 97717.04 | Util: 0.1%
+14:02:47 | [POSITION STATS] Open: 3 | Unrealized: $-1.60 | Daily Loss: $0.00/100.00
+14:02:47 | [LONG POSITIONS] Count: 5 | Win Rate: 0.0% | P&L: $0.00
+14:02:47 | [SHORT POSITIONS] Count: 0 | Win Rate: 0.0% | P&L: $0.00
+14:02:47 | [TOTAL] Open: 5 | Unrealized: $0.00
+14:02:47 | [ANALYSIS] Examining EUR/USD | Time: 16:00 | Bars: 100
+14:02:47 | [ANALYSIS] Examining GBP/USD | Time: 16:00 | Bars: 100
+14:02:47 | [ANALYSIS] Examining USD/JPY | Time: 16:00 | Bars: 100
+14:02:47 | [ANALYSIS] USD/JPY | Price: 157.47900 | RSI: 62.2 | ADX: 35.3 | ML: UP(50%)
+14:02:47 | SL/TP Details: Entry=157.47910, ATR=0.15429, sl_dist=1.54286, tp_dist=4.62857, SL=155.93624, TP=162.10767
+14:02:47 | ATR-based SL/TP: Entry=157.47910, Dir=LONG, SL=155.93624, TP=162.10767, Period=14, RR=3.0
+14:02:47 | [SIGNAL ACCEPTED] USD/JPY | Quality: 88% | Entry: 157.47910
+14:02:47 | SL/TP Details: Entry=157.47910, ATR=0.15429, sl_dist=1.54286, tp_dist=2.31429, SL=155.93624, TP=159.79339
+14:02:47 | [1;36m[SIGNAL][0m USD/JPY | LONG | Entry=157.47910 | SL=155.93624 | TP=159.79339 | Confidence=0.98
+14:02:47 | [1;33m[DECISION][0m USD/JPY | LONG @ 157.47910 | SL: 155.93624 | TP: 159.79339
+14:02:47 |   MTF: 19 | Vol: 70 | Mom: 70 | Liq: 100 | Confluence: 42 | Size Mult: 0.72x
+14:02:47 | [ENHANCED FILTER] USD/JPY LONG APPROVED | Score: 58.6/100 | MTF: 19 | Vol: 70 | Mom: 70 | Liq: 100 | Size: 0.72x
+14:02:47 | [1;33m[RISK GOVERNOR] Daily trade limit reached: 5/5[0m
+14:02:47 | [ANALYSIS] Examining AUD/USD | Time: 16:00 | Bars: 100
+14:02:47 | [IDLE] Waiting for next market pulse...

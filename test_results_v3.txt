@@ -1,0 +1,22 @@
+﻿01:59:03 | AI Forex Trading Bot v1.0.0 initialized
+cmd : ...
+At line:1 char:1
++ cmd /c "set PYTHONPATH=. 
+&& python 
+tests/test_risk_layer.py" > 
+test_r ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (...:Str  
+  ing) [], RemoteException
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+-----------------------------
+-----------------------------
+------------
+Ran 3 tests in 0.001s
+
+OK

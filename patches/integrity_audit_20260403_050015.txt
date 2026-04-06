@@ -1,0 +1,4 @@
+Integrity audit patch log | 2026-04-03T05:00:15.002864+00:00
+Repository: C:\Users\macki\Desktop\v8.5 core RL TradingBot
+Applied fixes:
+- Pre-audit structural fix: initialized AdaptiveSignalFilterer.ml_accuracy_required default path to prevent unbound local errors.

@@ -1,0 +1,166 @@
+{
+  "summary": {
+    "total_return": "35.00%",
+    "annualized_return": "323.03%",
+    "sharpe_ratio": "0.38",
+    "max_drawdown": "22.86%",
+    "win_rate": "60.00%",
+    "profit_factor": "1.88"
+  },
+  "risk_metrics": {
+    "volatility": "66.65%",
+    "sortino_ratio": "6.35",
+    "calmar_ratio": "14.13",
+    "var_95": "-3.45%",
+    "var_99": "-3.57%",
+    "max_drawdown_duration": "7 days"
+  },
+  "trade_analysis": {
+    "total_trades": 20,
+    "winning_trades": 12,
+    "losing_trades": 8,
+    "avg_win": "$625.00",
+    "avg_loss": "$-500.00",
+    "largest_win": "$800.00",
+    "largest_loss": "$-500.00",
+    "expectancy": "$175.00",
+    "avg_trade_duration": "5.6 hours"
+  },
+  "advanced_metrics": {
+    "beta": "0.36",
+    "alpha": "368.40%",
+    "information_ratio": "0.29",
+    "return_over_max_dd": "1.53",
+    "sterling_ratio": "14.13",
+    "avg_time_in_market": "6.14%"
+  },
+  "monthly_returns": {
+    "2023-02": "7.38%",
+    "2023-03": "-15.62%"
+  },
+  "top_trades": {
+    "best_trades": [
+      {
+        "symbol": "EURUSD",
+        "direction": "LONG",
+        "pnl": "$800.00",
+        "pnl_percentage": "72727.27%",
+        "duration": "6.0h"
+      },
+      {
+        "symbol": "GBPUSD",
+        "direction": "SHORT",
+        "pnl": "$800.00",
+        "pnl_percentage": "64000.00%",
+        "duration": "4.0h"
+      },
+      {
+        "symbol": "GBPUSD",
+        "direction": "LONG",
+        "pnl": "$800.00",
+        "pnl_percentage": "65040.65%",
+        "duration": "12.0h"
+      },
+      {
+        "symbol": "EURUSD",
+        "direction": "LONG",
+        "pnl": "$800.00",
+        "pnl_percentage": "71428.57%",
+        "duration": "8.0h"
+      },
+      {
+        "symbol": "GBPUSD",
+        "direction": "LONG",
+        "pnl": "$800.00",
+        "pnl_percentage": "64516.13%",
+        "duration": "5.0h"
+      }
+    ],
+    "worst_trades": [
+      {
+        "symbol": "EURUSD",
+        "direction": "LONG",
+        "pnl": "$-500.00",
+        "pnl_percentage": "-45248.87%",
+        "duration": "2.0h"
+      },
+      {
+        "symbol": "GBPUSD",
+        "direction": "SHORT",
+        "pnl": "$-500.00",
+        "pnl_percentage": "-40160.64%",
+        "duration": "3.0h"
+      },
+      {
+        "symbol": "USDJPY",
+        "direction": "LONG",
+        "pnl": "$-500.00",
+        "pnl_percentage": "-453.72%",
+        "duration": "4.0h"
+      },
+      {
+        "symbol": "AUDUSD",
+        "direction": "SHORT",
+        "pnl": "$-500.00",
+        "pnl_percentage": "-69930.07%",
+        "duration": "6.0h"
+      },
+      {
+        "symbol": "USDCAD",
+        "direction": "LONG",
+        "pnl": "$-500.00",
+        "pnl_percentage": "-37313.43%",
+        "duration": "3.0h"
+      }
+    ]
+  },
+  "detailed_metrics": {
+    "total_return_pct": 35.0,
+    "annualized_return_pct": 323.0325662428554,
+    "max_drawdown_pct": 22.857142857142858,
+    "volatility_pct": 66.64621545291592,
+    "sharpe_ratio": 0.3774527095597506,
+    "sortino_ratio": 6.346383109424458,
+    "calmar_ratio": 14.132674773124926,
+    "beta": 0.3610166503819164,
+    "alpha_pct": 368.39673239831757,
+    "information_ratio": 0.2946966998384855
+  },
+  "symbol_performance": {
+    "EURUSD": {
+      "trades": 6,
+      "pnl": 1600.0,
+      "wins": 4
+    },
+    "GBPUSD": {
+      "trades": 6,
+      "pnl": 1900.0,
+      "wins": 4
+    },
+    "USDJPY": {
+      "trades": 4,
+      "pnl": 0.0,
+      "wins": 2
+    },
+    "AUDUSD": {
+      "trades": 2,
+      "pnl": 0.0,
+      "wins": 1
+    },
+    "USDCAD": {
+      "trades": 2,
+      "pnl": 0.0,
+      "wins": 1
+    }
+  },
+  "direction_performance": {
+    "LONG": {
+      "trades": 12,
+      "pnl": 3200.0
+    },
+    "SHORT": {
+      "trades": 8,
+      "pnl": 300.0
+    }
+  }
+}
