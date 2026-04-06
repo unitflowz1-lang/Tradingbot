@@ -32,12 +32,12 @@ logger = logging.getLogger(__name__)
 @dataclass
 class TradeManagementSettings:
     """Configuration for profit protection behavior"""
-    # Break-even settings
+    # Break-even settings - ALIGNED WITH ADVANCED_EXIT_HANDLER
     use_breakeven: bool = True
-    breakeven_trigger_r: float = 0.15  # Move to BE + spread at 0.15R profit (was 0.20R) - TIGHTENED
-    breakeven_offset_pips: float = 0.5 # Small buffer to cover costs (half pip)
-    quick_profit_target_r: float = 0.5
-    ranging_quick_profit_target_r: float = 0.3
+    breakeven_trigger_r: float = 1.0   # Move to BE+ at 1.0R (Securing the bag)
+    breakeven_offset_pips: float = 1.5 # Covered by BE+ protocol (Spread + 1.5 pips)
+    quick_profit_target_r: float = 1.5 # TP1 at 1.5R
+    ranging_quick_profit_target_r: float = 1.5
 
     # Dynamic Profit Locking settings (percent-based first-gate before trailing)
     use_dynamic_profit_locking: bool = True
@@ -48,10 +48,10 @@ class TradeManagementSettings:
         {"trigger_profit_pct": 1.0, "lock_profit_pct": 0.6, "use_entry_plus_spread": 0.0},
     ])
     
-    # Trailing Stop settings
+    # Trailing Stop settings - ALIGNED WITH ADVANCED_EXIT_HANDLER
     use_trailing_stop: bool = True
-    trailing_stop_activation_r: float = 0.1 # Activate trailing once trade has >= 0.1R breathing room
-    trailing_stop_atr_multiplier: float = 2.2 # Trail by 2.2x ATR (volatility adjusted)
+    trailing_stop_activation_r: float = 1.5 # Activate trailing after TP1 (1.5R)
+    trailing_stop_atr_multiplier: float = 2.0 # Standard 2.0x ATR
     level_4_trailing_atr_multiplier: float = 1.40  # NEW: Tighter trailing for final 10% position (reduced from 1.80)
     trailing_atr_by_regime: Dict[str, float] = field(default_factory=lambda: {
         "TRENDING": 2.8,         # Let winners run

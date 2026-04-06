@@ -107,23 +107,15 @@ class StopLossTakeProfitCalculator:
         if risk_points:
             sl_distance = risk_points * pip_value
         else:
-            # **IMPROVED:** Calculate volatility-adjusted ATR multiplier
-            atr_multiplier = 2.5  # Default for H1
+            # ===== FIX: DYNAMIC STRUCTURAL SL (1.5x ATR Baseline) =====
+            atr_multiplier = 1.5  # Aggressive baseline
             
             if current_volatility is not None:
-                vol_ratio = current_volatility / 0.8  # Normalize to 0.8% typical volatility
-                
-                if vol_ratio > 2.5:    # Extreme volatility spike
-                    atr_multiplier = 4.0  # Extra wide for stability
-                elif vol_ratio > 1.8:  # High volatility
-                    atr_multiplier = 3.5
-                elif vol_ratio > 1.2:  # Elevated volatility
-                    atr_multiplier = 3.0
-                elif vol_ratio < 0.6:  # Quiet periods
-                    atr_multiplier = 2.0  # Tighter stops in low volatility
-                # else: use default 2.5x ATR
+                vol_ratio = current_volatility / 0.8
+                if vol_ratio > 2.0: atr_multiplier = 2.5 # Widen for extreme noise
+                elif vol_ratio < 0.5: atr_multiplier = 1.2 # Tighten for calm
             
-            # 1. Base ATR Stop (Volatility-adjusted Multiplier)
+            # 1. Base ATR Stop
             base_sl_dist = atr * atr_multiplier
             
             # 2. Look for recent swing points (last 15 bars)
@@ -148,9 +140,22 @@ class StopLossTakeProfitCalculator:
                 else:
                     sl_distance = base_sl_dist
 
-        # 3. Calculate Take Profit based on Risk:Reward and regime.
-        tp_distance = sl_distance * self.risk_reward_ratio
-        raw_tp = entry_price + tp_distance if direction == Direction.LONG else entry_price - tp_distance
+        # 3. Calculate Take Profit based on Market Structure (Liquidity Pools)
+        # Instead of fixed 3.0R, we look for structural targets
+        lookback_tp = 50
+        structure_data = historical_data[-lookback_tp:] if len(historical_data) >= lookback_tp else historical_data
+
+        if direction == Direction.LONG:
+            # Target nearest significant resistance (recent high)
+            structural_tp = max(d.high for d in structure_data)
+            # Ensure it's at least 1.5R to maintain expectancy
+            min_tp = entry_price + (sl_distance * 1.5)
+            raw_tp = max(structural_tp, min_tp)
+        else:
+            # Target nearest significant support (recent low)
+            structural_tp = min(d.low for d in structure_data)
+            min_tp = entry_price - (sl_distance * 1.5)
+            raw_tp = min(structural_tp, min_tp)
         regime_label = str(market_regime or "").upper()
         if regime_label == "RANGING":
             ranging_tp = self._calculate_ranging_take_profit(

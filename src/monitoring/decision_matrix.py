@@ -329,9 +329,10 @@ class DecisionMatrix:
         if metrics.max_consecutive_losses >= 10:
             triggers.append(f"Consecutive losses: {metrics.max_consecutive_losses} (threshold: 10)")
         
-        # Condition 2: Account losing rapidly
-        if metrics.daily_pnl < -500:  # More than $500 loss in a day
-            triggers.append(f"Daily loss exceeds $500: ${metrics.daily_pnl:.2f}")
+        # Condition 2: Account losing rapidly (Dynamic % based)
+        daily_loss_threshold = metrics.equity * 0.02  # 2% of equity
+        if metrics.daily_pnl < -daily_loss_threshold:
+            triggers.append(f"Daily loss exceeds 2% equity: ${metrics.daily_pnl:.2f} (Limit: ${-daily_loss_threshold:.2f})")
         
         # Condition 3: Catastrophic tail loss
         if metrics.tail_loss_99 < -10:  # Loss worse than -10%

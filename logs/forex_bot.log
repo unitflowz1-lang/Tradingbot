@@ -110106,3 +110106,18 @@
 03:08:04 | INFO | [ADAPTIVE STRICTNESS] • ML-OVERRIDE in sideways/weak markets (ML ≥75%)
 03:08:04 | INFO | [ADAPTIVE STRICTNESS] • EXTRA STRICT in choppy/erratic markets
 03:08:04 | INFO | Performance metrics updated
+18:46:51 | INFO | AI Forex Trading Bot v1.0.0 initialized
+18:48:24 | INFO | AI Forex Trading Bot v1.0.0 initialized
+18:49:30 | INFO | AI Forex Trading Bot v1.0.0 initialized
+18:50:48 | INFO | AI Forex Trading Bot v1.0.0 initialized
+18:57:59 | INFO | AI Forex Trading Bot v1.0.0 initialized
+19:01:27 | INFO | AI Forex Trading Bot v1.0.0 initialized
+19:01:32 | INFO | [FIX_1_ADX_BYPASS] ML Confidence 0.85 > 80%. ADX gate disabled. High-confidence signals bypass ADX floor requirement.
+19:01:32 | INFO | [FIX_1_ADX_BYPASS] ML Confidence 0.82 > 80%. ADX gate disabled. High-confidence signals bypass ADX floor requirement.
+19:03:34 | INFO | AI Forex Trading Bot v1.0.0 initialized
+19:29:42 | INFO | AI Forex Trading Bot v1.0.0 initialized
+19:29:45 | INFO | [FIX_1_ADX_BYPASS] ML Confidence 0.85 > 80%. ADX gate disabled. High-confidence signals bypass ADX floor requirement.
+19:29:45 | INFO | [FIX_1_ADX_BYPASS] ML Confidence 0.82 > 80%. ADX gate disabled. High-confidence signals bypass ADX floor requirement.
+19:38:22 | INFO | AI Forex Trading Bot v1.0.0 initialized
+19:38:25 | INFO | [FIX_1_ADX_BYPASS] ML Confidence 0.85 > 80%. ADX gate disabled. High-confidence signals bypass ADX floor requirement.
+19:38:25 | INFO | [FIX_1_ADX_BYPASS] ML Confidence 0.82 > 80%. ADX gate disabled. High-confidence signals bypass ADX floor requirement.

@@ -126,6 +126,21 @@ class BrokerInterface(ABC):
         """Get current status of an order"""
         pass
 
+    @abstractmethod
+    async def close_position(self, position_id: str, volume: Optional[float] = None) -> bool:
+        """Close open position (full or partial)"""
+        pass
+
+    @abstractmethod
+    async def modify_order(self, order_id: str, sl: Optional[float] = None, tp: Optional[float] = None) -> bool:
+        """Modify position SL/TP"""
+        pass
+
+    @abstractmethod
+    async def get_position_exit_reason(self, position_id: str) -> Optional[Dict[str, Any]]:
+        """Determine if position hit SL or TP"""
+        pass
+
 
 class PerformanceMonitor(ABC):
     """Abstract base class for performance monitoring"""

@@ -16,10 +16,10 @@ logger = logging.getLogger(__name__)
 @dataclass
 class PositionSizingConfig:
     """Configuration for position sizing algorithms"""
-    max_risk_per_trade: float = 0.0025  # 0.25% max risk per trade
+    max_risk_per_trade: float = 0.0100  # 1.0% max risk per trade
     max_position_size: float = 0.1    # 10% max position size
     kelly_lookback_periods: int = 100  # Periods for Kelly calculation
-    fixed_fraction: float = 0.0025       # Fixed fraction for fixed fractional method
+    fixed_fraction: float = 0.0100       # Fixed fraction for fixed fractional method
     min_position_size: float = 0.05   # Aggressive profile minimum lot floor
     tier_a_floor_multiplier: float = 0.75  # Tier A cumulative reduction floor
     tier_b_floor_multiplier: float = 0.60  # Tier B cumulative reduction floor
@@ -513,21 +513,28 @@ class FixedFractionalSizer(PositionSizer):
             else:
                 accuracy_risk_multiplier = multiplier_floor
 
-            # Apply ONLY the lowest multiplier to prevent cascading decay
-            lowest_multiplier = min(confidence_mult, tier_multiplier, volatility_multiplier, accuracy_risk_multiplier)
-            if lowest_multiplier < multiplier_floor:
-                lowest_multiplier = multiplier_floor
-            position_size *= lowest_multiplier
+            # ===== FIX: AGGRESSIVE SIZING MODEL (0.5% - 1.0%) =====
+            # Use 1.0x multiplier for Elite/A-Tier signals, allow 0.5x for others
+            # This prevents the "Death by 1000 Multipliers" issue
+            if sig_tier == "TIER_A" or ml_accuracy >= 0.75:
+                risk_multiplier = 1.0
+            else:
+                risk_multiplier = 0.5 # 0.5% risk fallback
+
+            position_size *= risk_multiplier
+
+            # Ensure MT5 Lot Step (0.01)
+            position_size = math.floor(position_size * 100) / 100.0
             
             logger.info(
                 f"[POSITION_SIZING_CALC] {signal.symbol} | "
-                f"Base Size: {position_units / CONTRACT_SIZE:.4f} lots | "
-                f"Confidence: {confidence_mult:.2f}x | Tier: {tier_multiplier:.2f}x | Volatility: {volatility_multiplier:.2f}x | "
-                f"AccuracyRisk: {accuracy_risk_multiplier:.2f}x | "
-                f"Applied Multiplier (lowest): {lowest_multiplier:.2f}x | Final Size: {position_size:.4f} lots"
+                f"Base Equity Risk: {position_units / CONTRACT_SIZE:.4f} lots | "
+                f"Risk Multiplier: {risk_multiplier:.2f}x | "
+                f"Tier: {sig_tier} | ML Acc: {ml_accuracy:.1%} | "
+                f"Final Size: {position_size:.4f} lots"
             )
 
-            # Apply limits (enforce floor of 0.05 lots for accounts > $50k)
+            # Apply final limits and broker floors
             position_size = self._apply_limits(position_size, account_balance, signal)
             
         except AttributeError as ae:

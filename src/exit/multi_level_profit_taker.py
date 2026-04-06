@@ -270,12 +270,11 @@ CONSERVATIVE_PROFIT_CONFIG = MultiLevelConfig(
 
 MODERATE_PROFIT_CONFIG = MultiLevelConfig(
     levels=[
-        ProfitLevel(0.3, 30, "Quick Profit"),        # Exit 30% at +0.3R (was 20% at 0.5R) - INCREASED FREQUENCY
-        ProfitLevel(0.6, 40, "Half Position"),       # Exit 40% at +0.6R (was 35% at 1.0R) - MORE AGGRESSIVE
-        ProfitLevel(1.0, 20, "Lock Gains"),          # Exit 20% at +1.0R (was 30% at 1.5R) - SCALED BACK
-        ProfitLevel(2.0, 0, "Trail Remaining"),      # Trail remaining 10% (was 15%) - MORE DEFENSIVE FINAL TRANCHE
+        ProfitLevel(1.5, 50, "TP1 Securing 50%"),    # securing 50% at 1.5R
+        ProfitLevel(2.5, 25, "TP2 Securing 25%"),    # securing 25% at 2.5R
+        ProfitLevel(3.0, 0, "Runner Trail"),         # Final 25% Runner
     ],
-    trailing_distance_pips=30,
+    trailing_distance_pips=40,
 )
 
 AGGRESSIVE_PROFIT_CONFIG = MultiLevelConfig(

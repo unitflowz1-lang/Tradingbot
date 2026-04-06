@@ -118,13 +118,16 @@ class NewsDataCollector(DataCollector):
         env_api_key = str(os.environ.get("NEWS_API_KEY", "") or "").strip()
         configured_api_key = str(getattr(news_cfg, "api_key", "") or "").strip()
         self.api_key = configured_api_key or env_api_key
-        self.provider = configured_provider or "mock"
+        self.provider = configured_provider or "newsapi"
         self.mock_mode = bool(getattr(news_cfg, "mock_mode", False))
+
+        # Determine effective provider: default to forexfactory if newsapi key is missing
+        if self.provider == "newsapi" and not self.api_key:
+            logger.info("[NEWS_CONFIG] NewsAPI key missing. Defaulting to ForexFactory fallback.")
+            self.provider = "forexfactory"
+
         if self.provider in {"unset", "none", "disabled", ""}:
-            self.provider = "mock"
-        if self.provider == "mock" or not self.api_key:
-            self.provider = "mock"
-            self.mock_mode = True
+            self.provider = "forexfactory"
         # Financial news keywords for filtering
         self.forex_keywords = [
             'forex', 'currency', 'exchange rate', 'central bank', 'fed',
@@ -426,33 +429,29 @@ class NewsDataCollector(DataCollector):
         Returns:
             List of NewsArticle objects
         """
-        if self.requires_live_data() and not self.is_live_feed_ready():
-            raise APIError(
-                "LIVE_NEWS_REQUIRED: provider/api key missing or mock mode still enabled",
-                error_code="LIVE_NEWS_REQUIRED",
-                context={"symbol": symbol},
-            )
-        if self._news_disabled_or_mocked():
+        if self._news_disabled_or_mocked() and self.provider == "mock":
             return []
 
         articles = []
-        
-        # Calculate time range based on timeframe
         time_range = self._get_time_range(timeframe)
         
         try:
             provider = self._resolve_provider()
-            if provider == "newsapi":
-                articles.extend(await self._fetch_newsapi_news(symbol, time_range))
+
+            # Implementation of Fallback Chain
+            if provider == "newsapi" and self.api_key:
+                try:
+                    articles.extend(await self._fetch_newsapi_news(symbol, time_range))
+                except Exception as e:
+                    logger.warning(f"[NEWS_CHAIN_FALLBACK] NewsAPI failed: {e}. Trying ForexFactory...")
+                    articles.extend(await self._fetch_forexfactory_calendar(symbol, time_range))
+            elif provider == "forexfactory":
+                articles.extend(await self._fetch_forexfactory_calendar(symbol, time_range))
             elif provider == "mock":
-                logger.debug("[NEWS_MOCK_MODE] %s | Mock provider active. Returning empty live-news set.", symbol)
                 return []
             else:
-                raise APIError(
-                    f"Unsupported live news provider: {provider or 'unset'}",
-                    error_code="NEWS_PROVIDER_UNSUPPORTED",
-                    context={"symbol": symbol, "provider": provider},
-                )
+                # Default to ForexFactory if provider is unknown but not explicitly disabled
+                articles.extend(await self._fetch_forexfactory_calendar(symbol, time_range))
             
         except Exception as e:
             logger.error(f"Error fetching news data for {symbol}: {e}")
@@ -462,6 +461,68 @@ class NewsDataCollector(DataCollector):
                 context={"symbol": symbol, "error": str(e)}
             )
         
+        return articles
+
+    async def _fetch_forexfactory_calendar(self, symbol: str, time_range: timedelta) -> List[NewsArticle]:
+        """Fetch high-impact events from ForexFactory JSON feed (free, no API key)"""
+        url = "https://nfs.forexfactory.com/ff_calendar_thisweek.json"
+
+        session_created = False
+        if self.session is None or self.session.closed:
+            self.session = aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=self.config.api_timeout))
+            session_created = True
+
+        try:
+            async with self.session.get(url) as response:
+                if response.status != 200:
+                    return []
+                data = await response.json()
+        except Exception as e:
+            logger.error(f"[FOREXFACTORY_ERR] Failed to fetch calendar: {e}")
+            return []
+        finally:
+            if session_created and self.session is not None:
+                await self.session.close()
+                self.session = None
+
+        articles: List[NewsArticle] = []
+        now = datetime.now(timezone.utc)
+
+        # Map symbol currencies (e.g., EUR/USD -> ['EUR', 'USD'])
+        target_currencies = set(symbol.split('/'))
+
+        for event in data:
+            try:
+                # Date format: "2025-05-22T08:30:00-04:00"
+                published_at = datetime.fromisoformat(event.get("date", ""))
+                if published_at.tzinfo is None:
+                    published_at = published_at.replace(tzinfo=timezone.utc)
+
+                # Filter by timeframe and currency relevance
+                if abs((now - published_at).total_seconds()) > time_range.total_seconds():
+                    continue
+
+                if event.get("country") not in target_currencies:
+                    continue
+
+                # Only include High/Medium impact for the news articles buffer
+                impact = str(event.get("impact", "")).upper()
+                if impact not in ["HIGH", "MEDIUM"]:
+                    continue
+
+                articles.append(
+                    NewsArticle(
+                        title=f"[{impact}] {event.get('title')}",
+                        content=f"ForexFactory Event: {event.get('title')} | Impact: {impact} | Forecast: {event.get('forecast')} | Prev: {event.get('previous')}",
+                        source="ForexFactory",
+                        published_at=published_at,
+                        url="https://www.forexfactory.com/calendar",
+                        symbols=[symbol],
+                    )
+                )
+            except Exception:
+                continue
+
         return articles
 
     async def _fetch_newsapi_news(self, symbol: str, time_range: timedelta) -> List[NewsArticle]:

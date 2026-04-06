@@ -35,13 +35,14 @@ class RiskGovernorState(Enum):
 class RiskGovernorConfig:
     """Configuration for risk governor behavior"""
     
-    # Daily P&L Limits
-    max_daily_loss: float = 500.0           # Stop trading if daily loss exceeds $500
-    max_daily_profit: float = 2000.0        # Close all positions if daily profit reaches $2000
-    max_daily_trades: int = 5               # Max trades per day
+    # Daily P&L Limits (Percentage of Account Equity)
+    max_daily_loss_percent: float = 2.0     # Stop trading if daily loss exceeds 2% of equity
+    max_daily_profit_percent: float = 5.0   # Close all positions if daily profit reaches 5% of equity
+    max_daily_trades: int = 15              # Max trades per day
     
     # Drawdown Limits
     max_drawdown_percent: float = 15.0      # Stop if drawdown exceeds 15% of equity
+    release_drawdown_percent: float = 0.5   # Resume trading when drawdown drops below 0.5%
     
     # Equity Limits
     min_equity_buffer: float = 100.0        # Keep $100 equity buffer before halting
@@ -120,26 +121,29 @@ class RiskGovernor:
         """
         self._check_new_day()
         
-        # Check state-based restrictions
-        if self.state == RiskGovernorState.HALTED:
-            return False, "Trading HALTED by Risk Governor"
+        # Check if we can recover from HALTED/WARNING state
+        if self.state != RiskGovernorState.OPERATIONAL:
+            if not self.check_recovery_conditions(portfolio):
+                return False, f"Trading {self.state.value.upper()} by Risk Governor (Recovery Pending)"
         
-        if self.state == RiskGovernorState.WARNING:
-            return False, "Risk Governor in WARNING - closing positions only"
-        
-        # Check daily loss limit
+        # Check daily loss limit (Dynamic % based)
         unrealized_pnl = sum(p.unrealized_pnl for p in portfolio.positions)
         daily_pnl = unrealized_pnl + self.daily_closed_pnl
-        if daily_pnl < -self.config.max_daily_loss:
+
+        # Calculate dynamic dollar thresholds based on equity
+        max_loss_dollar = portfolio.equity * (self.config.max_daily_loss_percent / 100.0)
+        max_profit_dollar = portfolio.equity * (self.config.max_daily_profit_percent / 100.0)
+
+        if daily_pnl < -max_loss_dollar:
             reason = (f"Daily loss limit exceeded: ${daily_pnl:.2f} "
-                     f"(limit: ${-self.config.max_daily_loss:.2f})")
+                     f"({self.config.max_daily_loss_percent}% limit: ${-max_loss_dollar:.2f})")
             self._halt_trading(reason, RiskGovernorState.WARNING)
             return False, reason
         
-        # Check daily profit target
-        if daily_pnl > self.config.max_daily_profit:
+        # Check daily profit target (Dynamic % based)
+        if daily_pnl > max_profit_dollar:
             reason = (f"Daily profit target reached: ${daily_pnl:.2f} "
-                     f"(target: ${self.config.max_daily_profit:.2f})")
+                     f"({self.config.max_daily_profit_percent}% target: ${max_profit_dollar:.2f})")
             self._halt_trading(reason, RiskGovernorState.WARNING)
             return False, reason
         
@@ -282,7 +286,7 @@ class RiskGovernor:
                 emoji, new_state.value.upper(), reason
             )
     
-    def check_recovery_conditions(self) -> bool:
+    def check_recovery_conditions(self, portfolio: Portfolio) -> bool:
         """Check if trading can resume after a halt"""
         if self.state == RiskGovernorState.OPERATIONAL:
             return True
@@ -292,9 +296,19 @@ class RiskGovernor:
         if time_since_halt < timedelta(minutes=self.config.cooldown_minutes_after_halt):
             return False
         
+        # Check drawdown recovery (Percentage-based release threshold)
+        if self.daily_start_equity:
+            current_drawdown = (self.daily_start_equity - portfolio.equity) / self.daily_start_equity * 100
+            if current_drawdown > self.config.release_drawdown_percent:
+                self.logger.debug(
+                    "[RISK GOVERNOR] Recovery pending. Current drawdown %.2f%% > Release threshold %.2f%%",
+                    current_drawdown, self.config.release_drawdown_percent
+                )
+                return False
+
         # Could add additional recovery conditions here
         self.state = RiskGovernorState.OPERATIONAL
-        self.logger.info("[RISK GOVERNOR] Trading resumed after cooldown")
+        self.logger.info("[RISK GOVERNOR] Trading resumed after cooldown and drawdown recovery")
         return True
     
     def get_status(self) -> dict:

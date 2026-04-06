@@ -3066,8 +3066,8 @@ class MT5BrokerInterface(BrokerInterface):
             self.logger.error(f"Error getting historical data for {symbol}: {e}")
             raise BrokerAPIError(f"Failed to get historical data: {e}")
 
-    async def close_position(self, position_id: str) -> bool:
-        """Close a specific position"""
+    async def close_position(self, position_id: str, volume: Optional[float] = None) -> bool:
+        """Close a specific position (full or partial)"""
         if not self.connected:
             raise BrokerAPIError("Not connected to MT5")
         
@@ -3078,13 +3078,19 @@ class MT5BrokerInterface(BrokerInterface):
                 raise BrokerAPIError(f"Position {position_id} not found")
             
             pos = position[0]
+
+            # Use provided volume or full position volume
+            close_volume = float(volume) if volume is not None else float(pos.volume)
+            # Ensure volume is within valid bounds (not exceeding position size)
+            close_volume = min(close_volume, float(pos.volume))
+
             close_price = mt5.symbol_info_tick(pos.symbol).bid if pos.type == mt5.POSITION_TYPE_BUY else mt5.symbol_info_tick(pos.symbol).ask
             close_price = self._normalize_price(pos.symbol, close_price)
             close_symbol_info = mt5.symbol_info(pos.symbol)
             request = {
                 "action": mt5.TRADE_ACTION_DEAL,
                 "symbol": pos.symbol,
-                "volume": pos.volume,
+                "volume": close_volume,
                 "type": mt5.ORDER_TYPE_SELL if pos.type == mt5.POSITION_TYPE_BUY else mt5.ORDER_TYPE_BUY,
                 "position": int(position_id),
                 "price": close_price,

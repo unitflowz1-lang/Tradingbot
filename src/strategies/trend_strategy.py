@@ -1700,9 +1700,23 @@ class SimpleTrendStrategy:
         )
         # Option D / aggressive profile aware: read ML_ACCURACY_MIN_GATE from environment
         min_accuracy_gate = float(os.environ.get("ML_ACCURACY_MIN_GATE", "0.30") or "0.30")
-        if ml_accuracy < min_accuracy_gate:
+
+        # ===== FIX #2: ELITE SIGNAL BYPASS & BAYESIAN FALLBACK =====
+        signal_score = float(getattr(indicators, 'adaptive_score', float(ml_confidence or 0.0) * 100.0))
+
+        is_elite = signal_score > 85.0
+        # Bayesian Fallback: if accuracy is low but technical confluence is very high (>80)
+        bayesian_fallback = ml_accuracy < 0.50 and signal_score > 80.0
+
+        if is_elite:
+            self.logger.critical("[ELITE_BYPASS] %s | Score %.1f > 85. Bypassing accuracy gate.", self.symbol, signal_score)
+        elif bayesian_fallback:
+            min_accuracy_gate = 0.25 # Relaxed floor for high-confluence technical setups
+            self.logger.info("[BAYESIAN_FALLBACK] %s | High Tech Score %.1f. Gate relaxed to 25%%.", self.symbol, signal_score)
+
+        if not is_elite and ml_accuracy < min_accuracy_gate:
             self.logger.critical(
-                "[STRATEGY_REJECT] %s | Effective Accuracy %.1f%% (Source: %s) is below Gate (%.0f%%.",
+                "[STRATEGY_REJECT] %s | Effective Accuracy %.1f%% (Source: %s) is below Gate (%.0f%%).",
                 self.symbol,
                 ml_accuracy * 100.0,
                 str(getattr(indicators, 'ml_accuracy_source', getattr(self, '_last_accuracy_source', 'unknown'))),
@@ -1940,32 +1954,47 @@ def _trend_check_entry_filters_override(self, indicators, timestamp: Optional[da
 
     # Option D / aggressive profile aware: read ML_ACCURACY_MIN_GATE from environment
     min_accuracy_gate = float(os.environ.get("ML_ACCURACY_MIN_GATE", "0.30") or "0.30")
-    if ml_accuracy < min_accuracy_gate:
+
+    # ===== FIX #2: ELITE SIGNAL BYPASS & BAYESIAN FALLBACK =====
+    signal_score = float(getattr(indicators, 'adaptive_score', float(ml_confidence or 0.0) * 100.0))
+    is_elite = signal_score > 85.0
+    bayesian_fallback = ml_accuracy < 0.50 and signal_score > 80.0
+
+    if is_elite:
+        pass # Bypass accuracy check
+    elif bayesian_fallback:
+        min_accuracy_gate = 0.25 # Relaxed gate
+
+    if not is_elite and ml_accuracy < min_accuracy_gate:
         source = str(getattr(indicators, 'ml_accuracy_source', getattr(self, '_last_accuracy_source', 'unknown')))
         return False, f"Dynamic filters failed (Effective Accuracy: {ml_accuracy:.1%} < {min_accuracy_gate:.0%} gate | Source: {source})"
 
     if permission_decision is not None and not permission_decision.allowed:
-        reason = "Dynamic permission evaluator rejected setup."
-        if permission_decision.failed_filter == "ACCURACY":
-            source = str(getattr(indicators, 'ml_accuracy_source', getattr(self, '_last_accuracy_source', 'unknown')))
-            reason = (
-                f"Dynamic filters failed (Effective Accuracy: {ml_accuracy:.1%} < "
-                f"{float(permission_decision.required_value or 0.0):.1%} gate | Source: {source})"
-            )
-        elif permission_decision.failed_filter == "ADX":
-            reason = f"Dynamic filters failed (ADX: {adx:.1f} < {float(permission_decision.required_value or 0.0):.1f})"
-        elif permission_decision.failed_filter == "RSI":
-            thresholds_used = permission_decision.thresholds
-            if thresholds_used is not None:
+        # ===== FIX #2: PERMISSION OVERRIDE FOR ELITE SIGNALS =====
+        if is_elite:
+            self.logger.critical("[PERMISSION_BYPASS] %s | Elite Score %.1f. Bypassing permission evaluator rejection.", self.symbol, signal_score)
+        else:
+            reason = "Dynamic permission evaluator rejected setup."
+            if permission_decision.failed_filter == "ACCURACY":
+                source = str(getattr(indicators, 'ml_accuracy_source', getattr(self, '_last_accuracy_source', 'unknown')))
                 reason = (
-                    f"Dynamic filters failed (RSI: {rsi:.1f} outside "
-                    f"{float(thresholds_used.rsi_lower or 0.0):.1f}-{float(thresholds_used.rsi_upper or 100.0):.1f})"
+                    f"Dynamic filters failed (Effective Accuracy: {ml_accuracy:.1%} < "
+                    f"{float(permission_decision.required_value or 0.0):.1%} gate | Source: {source})"
                 )
-        elif permission_decision.failed_filter == "CONFIDENCE":
-            reason = (
-                f"Dynamic filters failed (ML confidence: {float(ml_confidence or 0.0):.1%} < "
-                f"{float(permission_decision.required_value or 0.0):.1%})"
-            )
+            elif permission_decision.failed_filter == "ADX":
+                reason = f"Dynamic filters failed (ADX: {adx:.1f} < {float(permission_decision.required_value or 0.0):.1f})"
+            elif permission_decision.failed_filter == "RSI":
+                thresholds_used = permission_decision.thresholds
+                if thresholds_used is not None:
+                    reason = (
+                        f"Dynamic filters failed (RSI: {rsi:.1f} outside "
+                        f"{float(thresholds_used.rsi_lower or 0.0):.1f}-{float(thresholds_used.rsi_upper or 100.0):.1f})"
+                    )
+            elif permission_decision.failed_filter == "CONFIDENCE":
+                reason = (
+                    f"Dynamic filters failed (ML confidence: {float(ml_confidence or 0.0):.1%} < "
+                    f"{float(permission_decision.required_value or 0.0):.1%})"
+                )
         return False, reason
 
     chop = getattr(indicators, 'choppiness_index', None)

@@ -1335,12 +1335,14 @@ async def run_bot():
     logger.info("[INIT] Initializing Three-Layer Architecture...")
     
     # Layer 3: Risk Governor (System-level safety)
+    # Refactored to percentage-based thresholds for $95k+ account stability
     risk_governor = RiskGovernor(
         config=RiskGovernorConfig(
-            max_daily_loss=500.0,               # $500 daily loss limit
-            max_daily_profit=2000.0,            # $2000 profit target
-            max_daily_trades=0,                 # 0 means unlimited trades
-            max_drawdown_percent=15.0,          # 15% drawdown max
+            max_daily_loss_percent=2.0,         # 2% max daily loss
+            max_daily_profit_percent=5.0,       # 5% daily profit target
+            max_daily_trades=15,                # Increased trade limit
+            max_drawdown_percent=15.0,          # 15% system-wide drawdown max
+            release_drawdown_percent=0.5,       # Release halt at 0.5% drawdown recovery
             max_concurrent_positions=config.trading.max_total_positions,
             max_positions_per_symbol=1,
             min_margin_percent=20.0,

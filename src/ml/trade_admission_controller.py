@@ -189,8 +189,13 @@ class TradePermissionEvaluator:
         rsi_upper = min(100.0, midpoint + half_range)
 
         maturity_proxy = max(int(context.closed_trade_count or 0), int(context.bot_cycle_count or 0))
+        # Refined maturity: full strictness only after 100 trades/cycles
         maturity_factor = max(0.0, min(1.0, maturity_proxy / 100.0))
-        accuracy_gate = max(0.20, float(context.min_target_accuracy or 0.45) * maturity_factor)
+
+        # Bayesian Warmup Floor: start at 35% during warmup, scaling to target
+        warmup_floor = 0.35
+        target_gate = float(context.min_target_accuracy or 0.45)
+        accuracy_gate = warmup_floor + (target_gate - warmup_floor) * maturity_factor
         # HC-ADAPTIVE: Bootstrap / low-accuracy-mode no longer secretly drops accuracy gate.
         # Fail-forward learning with live money is DISABLED. Bot must earn accuracy legitimately.
         # if context.technical_only_mode or int(context.low_accuracy_cycle_count or 0) > 10 or (0 < int(context.bot_cycle_count or 0) < 100):
@@ -224,12 +229,25 @@ class TradePermissionEvaluator:
         accuracy_score = 1.0 if accuracy_gate <= 0.0 else min(1.0, float(context.ml_accuracy or 0.0) / max(accuracy_gate, 1e-6))
         confidence_score = 1.0 if confidence_gate <= 0.0 else min(1.0, float(context.ml_confidence or 0.0) / max(confidence_gate, 1e-6))
 
-        permission_score = (
-            (adx_score * 0.35)
-            + (rsi_score * 0.20)
-            + (accuracy_score * 0.20)
-            + (confidence_score * 0.25)
-        )
+        # Bayesian Dynamic Weighting: If accuracy is low (< 50%), shift weight from ML to Technicals
+        ml_accuracy_val = float(context.ml_accuracy or 0.0)
+        if ml_accuracy_val < 0.50:
+            # Shift weight: decrease accuracy/confidence weights, increase technical (ADX/RSI) weights
+            # Original: Technical (0.35+0.20=0.55), ML (0.20+0.25=0.45)
+            # New: Technical (0.45+0.30=0.75), ML (0.10+0.15=0.25)
+            permission_score = (
+                (adx_score * 0.45)
+                + (rsi_score * 0.30)
+                + (accuracy_score * 0.10)
+                + (confidence_score * 0.15)
+            )
+        else:
+            permission_score = (
+                (adx_score * 0.35)
+                + (rsi_score * 0.20)
+                + (accuracy_score * 0.20)
+                + (confidence_score * 0.25)
+            )
 
         dominant_candidates = [
             ("RSI", rsi_score, float(context.rsi or 0.0), rsi_lower if float(context.rsi or 0.0) < rsi_lower else rsi_upper),
@@ -509,46 +527,46 @@ class TradeAdmissionController:
         self.profit_protection_module = module
         logger.debug("[WEEKEND_LOCKOUT_API] ProfitProtectionModule reference set for admission controller")
 
-    # ===== FIX #1: ELIMINATE BOOTSTRAP GRACE PERIOD - STRICT ACCURACY FROM START =====
+    # ===== FIX #1: DYNAMIC BOOTSTRAP ACCURACY FLOOR =====
     def get_bootstrap_accuracy_floor(self, model_age_minutes: float, total_trades_evaluated: int) -> float:
         """
-        Calculate accuracy floor - NO GRACE PERIOD.
+        Calculate accuracy floor with dynamic warmup period.
         
-        ===== REQUIREMENT #1: ELIMINATE BOOTSTRAP FORCING =====
-        CHANGED: Removed all grace periods and exploration overrides.
-        The bot must enforce MINIMUM 55% ACCURACY from moment of initialization.
-        If models not ready, bot stays in OBSERVATION MODE (no trading).
-        
-        OLD BEHAVIOR (REMOVED):
-        - Grace period: 42% accuracy floor for first 15 minutes
-        - After 15 min: revert to 50% floor
-        - This allowed poor models to force trades during bootstrap
-        
-        NEW BEHAVIOR (STRICT):
-        - HARD REQUIREMENT: 55% accuracy minimum AT ALL TIMES
-        - NO exceptions for model age
-        - NO exceptions for number of trades evaluated
-        - If accuracy < 55%: signal marked INVALID/REJECTED
-        - Bot remains in OBSERVATION MODE until benchmarks met
+        ===== REQUIREMENT #1: DYNAMIC WARMUP ACCURACY =====
+        Implements a Bayesian Fallback for the early learning phase.
+        The floor starts lower (35%) during warmup (first 100 trades or 60 min)
+        to allow the model to gather data without paralyzing the bot.
+        Once mature, the floor scales to the target requirement (typically 45-55%).
         
         Args:
-            model_age_minutes: Age of model in minutes (ignored - no grace period)
-            total_trades_evaluated: Number of live trades (ignored - no grace period)
+            model_age_minutes: Age of model in minutes
+            total_trades_evaluated: Number of live trades
         
         Returns:
-            HARD ACCURACY FLOOR: 0.55 (55%)
+            DYNAMIC ACCURACY FLOOR: 0.35 - 0.55
         """
-        # ===== NO GRACE PERIOD - STRICT ENFORCEMENT =====
-        HARD_ACCURACY_FLOOR = 0.55  # 55% minimum - NO EXCEPTIONS
+        # Warmup Check: First 100 trades or first 60 minutes
+        is_warmup = total_trades_evaluated < 100 or model_age_minutes < 60
+
+        if is_warmup:
+            # Relaxed floor for early learning phase
+            ACCURACY_FLOOR = 0.35
+            status = "WARMUP_MODE (Relaxed)"
+        else:
+            # Mature model floor
+            ACCURACY_FLOOR = 0.55
+            status = "MATURE_MODE (Strict)"
         
         logger.info(
             "[ACCURACY_GATE] Model age=%.1fm, Trades evaluated=%d | "
-            "HARD MINIMUM ACCURACY FLOOR: 55%% (NO GRACE PERIOD, NO EXCEPTIONS)",
+            "Mode: %s | Floor: %.0f%%",
             model_age_minutes,
             total_trades_evaluated,
+            status,
+            ACCURACY_FLOOR * 100.0,
         )
         
-        return HARD_ACCURACY_FLOOR
+        return ACCURACY_FLOOR
 
     # ===== FIX #5: ADD METHOD TO FETCH PER-SYMBOL ML ACCURACY =====
     def get_ml_symbol_accuracy(self, symbol: str) -> Optional[float]:
@@ -1227,7 +1245,11 @@ class TradeAdmissionController:
                 symbol,
             )
 
-        # 2. Elite Tier Hard Bypass
+        # 2. Elite Tier Hard Bypass (Score > 85 OR TIER_A with Score > 75)
+        if score_value > 85.0:
+            logger.critical(f"[ELITE_SIGNAL_BYPASS] {symbol} Elite Score {score_value:.1f} detected. Bypassing accuracy gate.")
+            return True
+
         if tier_name == "TIER_A" and score_value >= 75.0:
             return True
             
@@ -1236,6 +1258,11 @@ class TradeAdmissionController:
         if rr_value >= 2.5 and score_value >= 70.0:
             dynamic_gate = 0.30
             logger.critical(f"[EXPECTANCY_FLOOR] {symbol} High RR ({rr_value:.2f}) & Score ({score_value:.1f}) detected. Lowering accuracy gate to 30%.")
+
+        # Bayesian Fallback: If ML accuracy is low (< 50%), relax the gate if technical score is high
+        if acc_value < 0.50 and score_value > 80.0:
+            dynamic_gate = min(dynamic_gate, 0.25)
+            logger.info(f"[BAYESIAN_FALLBACK] {symbol} Low accuracy {acc_value*100:.1f}% but High Score {score_value:.1f}. Relaxing gate to 25%.")
 
         if acc_value >= dynamic_gate:
             return True

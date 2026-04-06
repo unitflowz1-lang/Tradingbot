@@ -2018,6 +2018,9 @@ class PositionManager:
         state_changed = False
         current_position_ids = set()
         
+        # Per-cycle symbol cache for ATR/ADX to avoid redundant MT5 API calls
+        symbol_indicator_cache: Dict[str, Dict[str, float]] = {}
+
         for position in portfolio_data.get('positions', []):
             position_id = str(position.get('position_id'))
             current_position_ids.add(position_id)
@@ -2211,6 +2214,75 @@ class PositionManager:
                 self.partial_hits[position_id] = set()
                 state_changed = True
             
+            # Retrieve ATR and ADX for dynamic trailing (with per-cycle caching)
+            if symbol_key in symbol_indicator_cache:
+                indicators = symbol_indicator_cache[symbol_key]
+                atr_val = indicators['atr']
+                adx_val = indicators['adx']
+                spread_pips = indicators['spread_pips']
+            else:
+                atr_val = 0.0
+                adx_val = 0.0
+                spread_pips = 2.0
+                try:
+                    _mt5_sym = symbol.replace('/', '')
+                    _tick = mt5.symbol_info_tick(_mt5_sym) if mt5 else None
+                    _info = mt5.symbol_info(_mt5_sym) if mt5 else None
+                    if _info:
+                        point = _info.point
+                        spread_pips = _info.spread if point == 0.01 else _info.spread / 10.0
+
+                    # Fetch recent candles for ATR/ADX (request 40 for better smoothing)
+                    candles = mt5.copy_rates_from_pos(_mt5_sym, mt5.TIMEFRAME_H1, 0, 40) if mt5 else None
+                    if candles is not None and len(candles) >= 15:
+                        # Calculate ATR (14-period)
+                        tr_list = []
+                        for i in range(1, len(candles)):
+                            h, l, pc = candles[i]['high'], candles[i]['low'], candles[i-1]['close']
+                            tr_list.append(max(h-l, abs(h-pc), abs(l-pc)))
+
+                        atr_val = sum(tr_list[-14:]) / 14
+
+                        # Calculate ADX (14-period)
+                        plus_dm = []
+                        minus_dm = []
+                        for i in range(1, len(candles)):
+                            h, l, ph, pl = candles[i]['high'], candles[i]['low'], candles[i-1]['high'], candles[i-1]['low']
+                            up_move = h - ph
+                            down_move = pl - l
+
+                            if up_move > down_move and up_move > 0:
+                                plus_dm.append(up_move)
+                            else:
+                                plus_dm.append(0)
+
+                            if down_move > up_move and down_move > 0:
+                                minus_dm.append(down_move)
+                            else:
+                                minus_dm.append(0)
+
+                        # Simple moving averages for smoothing (not Wilder's for brevity but sufficient)
+                        smooth_tr = sum(tr_list[-14:])
+                        smooth_pdm = sum(plus_dm[-14:])
+                        smooth_mdm = sum(minus_dm[-14:])
+
+                        if smooth_tr > 0:
+                            plus_di = 100 * smooth_pdm / smooth_tr
+                            minus_di = 100 * smooth_mdm / smooth_tr
+                            dx_sum = plus_di + minus_di
+                            if dx_sum > 0:
+                                dx = 100 * abs(plus_di - minus_di) / dx_sum
+                                adx_val = dx # Simplified: using last DX as ADX proxy since smoothing is short
+
+                    # Cache the results for this cycle
+                    symbol_indicator_cache[symbol_key] = {
+                        'atr': atr_val,
+                        'adx': adx_val,
+                        'spread_pips': spread_pips
+                    }
+                except Exception as exc:
+                    self.logger.debug(f"[INDICATOR_CACHE_FAIL] Failed to calculate indicators for {symbol}: {exc}")
+
             # Check advanced exit conditions
             exit_result = self.advanced_exit_handler.evaluate_exit_conditions(
                 symbol=symbol,
@@ -2222,7 +2294,10 @@ class PositionManager:
                 direction=direction,
                 position_open_time=position_open_time,
                 position_high=position_high,
-                exit_policy=active_policy
+                exit_policy=active_policy,
+                atr=atr_val,
+                adx=adx_val,
+                current_spread_pips=spread_pips
             )
             
             # Unpack tuple (exit_level, pnl_pips)
@@ -2231,6 +2306,38 @@ class PositionManager:
             if not exit_level:
                 continue
                 
+            # ACTION TYPE: PARTIAL SCALE-OUT OR FULL EXIT
+            if exit_level.exit_type in (ExitType.PARTIAL_PROFIT, ExitType.TIME_EXIT, ExitType.FRIDAY_CLOSE):
+                # Check if this specific partial level was already hit
+                level_key = f"{exit_level.exit_type.value}_{exit_level.exit_quantity_percent}"
+                if level_key in self.partial_hits[position_id]:
+                    continue
+
+                self.logger.critical(
+                    f"[EXIT_TRIGGERED] {symbol} #{position_id} | Type: {exit_level.exit_type.value} | "
+                    f"Qty: {exit_level.exit_quantity_percent*100}% | Reason: {exit_level.description}"
+                )
+
+                # Execute partial or full close
+                # If quantity is 1.0, it's a full close
+                is_full_close = exit_level.exit_quantity_percent >= 1.0
+
+                try:
+                    # Execute partial or full close
+                    close_volume = None if exit_level.exit_quantity_percent >= 1.0 else (position_size * exit_level.exit_quantity_percent)
+
+                    # In this architecture, we call self.broker.close_position
+                    success = await self.broker.close_position(position_id, volume=close_volume)
+                    if success:
+                        if not is_full_close:
+                            self.partial_hits[position_id].add(level_key)
+                        else:
+                            # Full close cleanup handled by EXIT_DETECTION later
+                            pass
+                except Exception as e:
+                    self.logger.error(f"[EXIT_ERROR] Failed to execute {exit_level.exit_type.value} for {position_id}: {e}")
+                continue
+
             # ACTION TYPE: MODIFY (Trailing / Breakeven)
             if exit_level.exit_type in (ExitType.TRAILING_STOP, ExitType.BREAKEVEN):
                 if sl_modification_frozen:
