@@ -1,0 +1,25 @@
+{
+  "optimization_timestamp": "2026-04-25T03:34:57.335984+00:00",
+  "total_parameter_sets_tested": 172800,
+  "valid_results": 0,
+  "best_result": {
+    "params": {
+      "ml_weight": 0.45,
+      "technical_weight": 0.5,
+      "adx_min": 18,
+      "rsi_lower": 30,
+      "rsi_upper": 65,
+      "quality_floor": 72,
+      "lot_mismatch_threshold": 0.5,
+      "auto_rotation_score": 80,
+      "atr_sl_multiplier": 2.0,
+      "atr_tp_multiplier": 3.0
+    },
+    "composite_score": 17.916665492916394,
+    "avg_test_win_rate": 0.6413100342149618,
+    "avg_test_profit_factor": 1.8058102578184823,
+    "avg_test_sharpe": 2.499999718299935,
+    "avg_test_drawdown": 0.11854702516199632,
+    "is_overfitted": false
+  }
+}

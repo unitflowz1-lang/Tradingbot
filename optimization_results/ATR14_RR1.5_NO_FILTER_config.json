@@ -1,0 +1,11 @@
+{
+  "atr_period": 14,
+  "risk_reward_ratio": 1.5,
+  "entry_filter": {
+    "adx_min": 0,
+    "rsi_min": 0,
+    "rsi_max": 100,
+    "name": "NO_FILTER"
+  },
+  "name": "ATR14_RR1.5_NO_FILTER"
+}

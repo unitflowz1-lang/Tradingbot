@@ -1,0 +1,106 @@
+﻿01:56:53 | AI Forex Trading Bot v1.0.0 initialized
+cmd : EEE
+At line:1 char:1
++ cmd /c "set PYTHONPATH=. 
+&& python 
+tests/test_risk_layer.py" > 
+test_r ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (EEE:Str  
+  ing) [], RemoteException
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+=============================
+=============================
+============
+ERROR: test_exposure_calculat
+ion_fallbacks (__main__.TestR
+iskLayer.test_exposure_calcul
+ation_fallbacks)
+Test that exposure 
+calculation handles missing 
+conversion prices gracefully
+-----------------------------
+-----------------------------
+------------
+Traceback (most recent call 
+last):
+  File "C:\Users\macki\Deskto
+p\v3.0-core TradingBot\tests\
+test_risk_layer.py", line 
+95, in test_exposure_calculat
+ion_fallbacks
+    position = Position(
+               ^^^^^^^^^
+TypeError: 
+Position.__init__() missing 
+2 required positional 
+arguments: 'stop_loss' and 
+'take_profit'
+
+=============================
+=============================
+============
+ERROR: test_risk_assessment_n
+o_market_data (__main__.TestR
+iskLayer.test_risk_assessment
+_no_market_data)
+Test risk assessment works 
+even when market_data is 
+None (should not raise 
+NameError)
+-----------------------------
+-----------------------------
+------------
+Traceback (most recent call 
+last):
+  File "C:\Users\macki\Deskto
+p\v3.0-core TradingBot\tests\
+test_risk_layer.py", line 
+31, in test_risk_assessment_n
+o_market_data
+    signal = TradingSignal(
+             ^^^^^^^^^^^^^^
+TypeError: 
+TradingSignal.__init__() 
+missing 1 required 
+positional argument: 
+'rr_ratio'
+
+=============================
+=============================
+============
+ERROR: test_risk_assessment_w
+ith_market_data (__main__.Tes
+tRiskLayer.test_risk_assessme
+nt_with_market_data)
+Test risk assessment with 
+explicit market data
+-----------------------------
+-----------------------------
+------------
+Traceback (most recent call 
+last):
+  File "C:\Users\macki\Deskto
+p\v3.0-core TradingBot\tests\
+test_risk_layer.py", line 
+55, in test_risk_assessment_w
+ith_market_data
+    signal = TradingSignal(
+             ^^^^^^^^^^^^^^
+TypeError: 
+TradingSignal.__init__() 
+missing 1 required 
+positional argument: 
+'rr_ratio'
+
+-----------------------------
+-----------------------------
+------------
+Ran 3 tests in 0.001s
+
+FAILED (errors=3)

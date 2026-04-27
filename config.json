@@ -1,0 +1,98 @@
+{
+  "trading": {
+    "supported_pairs": [
+      "EUR/USD",
+      "GBP/USD",
+      "USD/JPY",
+      "USD/CHF",
+      "AUD/USD"
+    ],
+    "max_positions": 5,
+    "max_daily_trades": 0,
+    "risk_per_trade": 0.02,
+    "max_drawdown": 0.1,
+    "trading_hours": {
+      "monday": [
+        "00:00",
+        "23:59"
+      ],
+      "tuesday": [
+        "00:00",
+        "23:59"
+      ],
+      "wednesday": [
+        "00:00",
+        "23:59"
+      ],
+      "thursday": [
+        "00:00",
+        "23:59"
+      ],
+      "friday": [
+        "00:00",
+        "21:00"
+      ]
+    }
+  },
+  "trading_pairs": {
+    "EURUSD": {
+      "strategy": "SimpleTrend"
+    },
+    "GBPUSD": {
+      "strategy": "SimpleTrend"
+    },
+    "USDJPY": {
+      "strategy": "ReversalPeaks"
+    },
+    "USDCHF": {
+      "strategy": "SimpleTrend"
+    },
+    "AUDUSD": {
+      "strategy": "SimpleTrend"
+    },
+    "NZDUSD": {
+      "strategy": "ReversalPeaks"
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-4",
+    "api_key": "your-openai-api-key",
+    "max_tokens": 1000,
+    "temperature": 0.1,
+    "timeout": 30
+  },
+  "risk": {
+    "max_position_size": 0.05,
+    "stop_loss_pct": 0.02,
+    "take_profit_pct": 0.04,
+    "max_correlation": 0.7,
+    "drawdown_limit": 0.1
+  },
+  "broker": {
+    "broker_name": "your-broker",
+    "api_key": "your-broker-api-key",
+    "api_secret": "your-broker-api-secret",
+    "base_url": "https://api.broker.com",
+    "timeout": 30
+  },
+  "tp_pips": 50,
+  "sl_pips": 25,
+  "spread_config": {
+    "SPREAD_MAX": 0.0003,
+    "SPREAD_MAX_TOKYO_SESSION": 0.0005,
+    "SPREAD_MAX_SYDNEY_SESSION": 0.0005,
+    "SPREAD_SOFT_LOCK_ENABLED": true,
+    "SPREAD_SOFT_LOCK_DURATION_SECONDS": 180,
+    "SPREAD_SOFT_LOCK_SESSION_TIMES": {
+      "tokyo": {
+        "start_utc": 23,
+        "end_utc": 8
+      },
+      "sydney": {
+        "start_utc": 21,
+        "end_utc": 8
+      }
+    }
+  }
+}

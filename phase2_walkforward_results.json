@@ -1,0 +1,3208 @@
+{
+  "optimization_method": "3-Way Walk-Forward Grid Search (Anti-Overfit)",
+  "account_balance": 100.0,
+  "total_combinations_tested": 100,
+  "evaluation_date": "2026-04-16T22:55:50.290710",
+  "results": [
+    {
+      "rank": 1,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 2.75
+      },
+      "survived_oos": true,
+      "robustness_score": 1.1259391799685243,
+      "calmar_ratio": 1.1276595744680853,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.88108394488651,
+        "profit_factor": 1.218,
+        "total_pnl": 5.221074490789852,
+        "max_drawdown": 4.7,
+        "calmar_ratio": 1.1276595744680853,
+        "avg_expectancy": 0.2610537245394926
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.03364723069664,
+        "profit_factor": 1.218,
+        "total_pnl": 5.301933032269216,
+        "max_drawdown": 4.7,
+        "calmar_ratio": 1.1276595744680853,
+        "avg_expectancy": 0.2650966516134608
+      }
+    },
+    {
+      "rank": 2,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 2.75
+      },
+      "survived_oos": true,
+      "robustness_score": 1.0937194642889645,
+      "calmar_ratio": 1.095744680851064,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.280898064922205,
+        "profit_factor": 1.2,
+        "total_pnl": 5.294662503434936,
+        "max_drawdown": 4.7,
+        "calmar_ratio": 1.095744680851064,
+        "avg_expectancy": 0.2647331251717468
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.09607247575972,
+        "profit_factor": 1.2,
+        "total_pnl": 5.199477325016256,
+        "max_drawdown": 4.7,
+        "calmar_ratio": 1.095744680851064,
+        "avg_expectancy": 0.25997386625081276
+      }
+    },
+    {
+      "rank": 3,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 1.0904596613241597,
+      "calmar_ratio": 1.09375,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.92683214769494,
+        "profit_factor": 1.218,
+        "total_pnl": 5.1958368775398425,
+        "max_drawdown": 4.8,
+        "calmar_ratio": 1.09375,
+        "avg_expectancy": 0.2597918438769921
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.22766311234319,
+        "profit_factor": 1.218,
+        "total_pnl": 5.353773133980171,
+        "max_drawdown": 4.8,
+        "calmar_ratio": 1.09375,
+        "avg_expectancy": 0.26768865669900854
+      }
+    },
+    {
+      "rank": 4,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 1.0807882900806716,
+      "calmar_ratio": 1.0833333333333335,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.25529551813729,
+        "profit_factor": 1.212,
+        "total_pnl": 5.322353669431388,
+        "max_drawdown": 4.8,
+        "calmar_ratio": 1.0833333333333335,
+        "avg_expectancy": 0.2661176834715694
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.0203684486608,
+        "profit_factor": 1.212,
+        "total_pnl": 5.2001915933036145,
+        "max_drawdown": 4.8,
+        "calmar_ratio": 1.0833333333333335,
+        "avg_expectancy": 0.26000957966518073
+      }
+    },
+    {
+      "rank": 5,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 2.0
+      },
+      "survived_oos": true,
+      "robustness_score": 1.0766551601131353,
+      "calmar_ratio": 1.0773195876288661,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.05834255597498,
+        "profit_factor": 1.218,
+        "total_pnl": 5.239808985496926,
+        "max_drawdown": 4.85,
+        "calmar_ratio": 1.0773195876288661,
+        "avg_expectancy": 0.26199044927484627
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.12001668901412,
+        "profit_factor": 1.218,
+        "total_pnl": 5.27203372000988,
+        "max_drawdown": 4.85,
+        "calmar_ratio": 1.0773195876288661,
+        "avg_expectancy": 0.263601686000494
+      }
+    },
+    {
+      "rank": 6,
+      "parameters": {
+        "ml_weight": 0.6,
+        "technical_weight": 0.4,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 1.0727496653633586,
+      "calmar_ratio": 1.0729166666666667,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.05252841674104,
+        "profit_factor": 1.206,
+        "total_pnl": 5.171902134621638,
+        "max_drawdown": 4.8,
+        "calmar_ratio": 1.0729166666666667,
+        "avg_expectancy": 0.2585951067310819
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.03696324672398,
+        "profit_factor": 1.206,
+        "total_pnl": 5.16388607206285,
+        "max_drawdown": 4.8,
+        "calmar_ratio": 1.0729166666666667,
+        "avg_expectancy": 0.2581943036031425
+      }
+    },
+    {
+      "rank": 7,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 2.5
+      },
+      "survived_oos": true,
+      "robustness_score": 1.0717535337923458,
+      "calmar_ratio": 1.0789473684210527,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.74142485770777,
+        "profit_factor": 1.2,
+        "total_pnl": 4.992480239575233,
+        "max_drawdown": 4.75,
+        "calmar_ratio": 1.0789473684210527,
+        "avg_expectancy": 0.24962401197876166
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.40817050622206,
+        "profit_factor": 1.2,
+        "total_pnl": 5.334187384438807,
+        "max_drawdown": 4.75,
+        "calmar_ratio": 1.0789473684210527,
+        "avg_expectancy": 0.26670936922194033
+      }
+    },
+    {
+      "rank": 8,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 1.061005883394606,
+      "calmar_ratio": 1.0625,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.878407326272416,
+        "profit_factor": 1.2,
+        "total_pnl": 5.037987736398931,
+        "max_drawdown": 4.8,
+        "calmar_ratio": 1.0625,
+        "avg_expectancy": 0.25189938681994656
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.01903006560361,
+        "profit_factor": 1.2,
+        "total_pnl": 5.109705333457838,
+        "max_drawdown": 4.8,
+        "calmar_ratio": 1.0625,
+        "avg_expectancy": 0.2554852666728919
+      }
+    },
+    {
+      "rank": 9,
+      "parameters": {
+        "ml_weight": 0.3,
+        "technical_weight": 0.7,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 2.5
+      },
+      "survived_oos": true,
+      "robustness_score": 1.055413571411199,
+      "calmar_ratio": 1.0578947368421052,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.7973141492195,
+        "profit_factor": 1.188,
+        "total_pnl": 4.933200359982802,
+        "max_drawdown": 4.75,
+        "calmar_ratio": 1.0578947368421052,
+        "avg_expectancy": 0.2466600179991401
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.03185217502655,
+        "profit_factor": 1.188,
+        "total_pnl": 5.051055717950843,
+        "max_drawdown": 4.75,
+        "calmar_ratio": 1.0578947368421052,
+        "avg_expectancy": 0.25255278589754215
+      }
+    },
+    {
+      "rank": 10,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 1.75
+      },
+      "survived_oos": true,
+      "robustness_score": 1.0498663220054993,
+      "calmar_ratio": 1.0510204081632653,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.18145103585544,
+        "profit_factor": 1.212,
+        "total_pnl": 5.233147283465552,
+        "max_drawdown": 4.9,
+        "calmar_ratio": 1.0510204081632653,
+        "avg_expectancy": 0.2616573641732776
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.29125729164288,
+        "profit_factor": 1.212,
+        "total_pnl": 5.289697505196081,
+        "max_drawdown": 4.9,
+        "calmar_ratio": 1.0510204081632653,
+        "avg_expectancy": 0.264484875259804
+      }
+    },
+    {
+      "rank": 11,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 2.0
+      },
+      "survived_oos": true,
+      "robustness_score": 1.04515752556498,
+      "calmar_ratio": 1.0463917525773194,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.28507709919718,
+        "profit_factor": 1.2,
+        "total_pnl": 5.219676627842571,
+        "max_drawdown": 4.85,
+        "calmar_ratio": 1.0463917525773194,
+        "avg_expectancy": 0.26098383139212855
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.16712634038248,
+        "profit_factor": 1.2,
+        "total_pnl": 5.15981661774411,
+        "max_drawdown": 4.85,
+        "calmar_ratio": 1.0463917525773194,
+        "avg_expectancy": 0.25799083088720554
+      }
+    },
+    {
+      "rank": 12,
+      "parameters": {
+        "ml_weight": 0.3,
+        "technical_weight": 0.7,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 1.0399335205339684,
+      "calmar_ratio": 1.0416666666666667,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.838902117514465,
+        "profit_factor": 1.188,
+        "total_pnl": 4.929451058757232,
+        "max_drawdown": 4.8,
+        "calmar_ratio": 1.0416666666666667,
+        "avg_expectancy": 0.2464725529378616
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.005284146253516,
+        "profit_factor": 1.188,
+        "total_pnl": 5.012642073126761,
+        "max_drawdown": 4.8,
+        "calmar_ratio": 1.0416666666666667,
+        "avg_expectancy": 0.25063210365633803
+      }
+    },
+    {
+      "rank": 13,
+      "parameters": {
+        "ml_weight": 0.6,
+        "technical_weight": 0.4,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 1.75
+      },
+      "survived_oos": true,
+      "robustness_score": 1.0366456522633403,
+      "calmar_ratio": 1.040816326530612,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.82578698880965,
+        "profit_factor": 1.206,
+        "total_pnl": 5.0060513642929205,
+        "max_drawdown": 4.9,
+        "calmar_ratio": 1.040816326530612,
+        "avg_expectancy": 0.250302568214646
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.226498830174975,
+        "profit_factor": 1.206,
+        "total_pnl": 5.2104144033892394,
+        "max_drawdown": 4.9,
+        "calmar_ratio": 1.040816326530612,
+        "avg_expectancy": 0.260520720169462
+      }
+    },
+    {
+      "rank": 14,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 1.0270407277689293,
+      "calmar_ratio": 1.03125,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.782729428267295,
+        "profit_factor": 1.182,
+        "total_pnl": 4.857301066992311,
+        "max_drawdown": 4.8,
+        "calmar_ratio": 1.03125,
+        "avg_expectancy": 0.24286505334961556
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.19090128097718,
+        "profit_factor": 1.182,
+        "total_pnl": 5.059346134083705,
+        "max_drawdown": 4.8,
+        "calmar_ratio": 1.03125,
+        "avg_expectancy": 0.2529673067041852
+      }
+    },
+    {
+      "rank": 15,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 1.75
+      },
+      "survived_oos": true,
+      "robustness_score": 1.025756703498448,
+      "calmar_ratio": 1.030612244897959,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.84252354227362,
+        "profit_factor": 1.2,
+        "total_pnl": 4.970474388848178,
+        "max_drawdown": 4.9,
+        "calmar_ratio": 1.030612244897959,
+        "avg_expectancy": 0.2485237194424089
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.31365528202816,
+        "profit_factor": 1.2,
+        "total_pnl": 5.208395917424219,
+        "max_drawdown": 4.9,
+        "calmar_ratio": 1.030612244897959,
+        "avg_expectancy": 0.26041979587121095
+      }
+    },
+    {
+      "rank": 16,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 1.25
+      },
+      "survived_oos": true,
+      "robustness_score": 1.0246209102126336,
+      "calmar_ratio": 1.03,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.86686335352044,
+        "profit_factor": 1.218,
+        "total_pnl": 5.0659846270630275,
+        "max_drawdown": 5.0,
+        "calmar_ratio": 1.03,
+        "avg_expectancy": 0.25329923135315136
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.38910508044921,
+        "profit_factor": 1.218,
+        "total_pnl": 5.334939116431344,
+        "max_drawdown": 5.0,
+        "calmar_ratio": 1.03,
+        "avg_expectancy": 0.2667469558215672
+      }
+    },
+    {
+      "rank": 17,
+      "parameters": {
+        "ml_weight": 0.3,
+        "technical_weight": 0.7,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 2.0
+      },
+      "survived_oos": true,
+      "robustness_score": 1.0226094711649194,
+      "calmar_ratio": 1.0257731958762888,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.806327564262666,
+        "profit_factor": 1.188,
+        "total_pnl": 4.888597963220679,
+        "max_drawdown": 4.85,
+        "calmar_ratio": 1.0257731958762888,
+        "avg_expectancy": 0.24442989816103394
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.11475097833586,
+        "profit_factor": 1.188,
+        "total_pnl": 5.042038611722094,
+        "max_drawdown": 4.85,
+        "calmar_ratio": 1.0257731958762888,
+        "avg_expectancy": 0.2521019305861047
+      }
+    },
+    {
+      "rank": 18,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 1.25
+      },
+      "survived_oos": true,
+      "robustness_score": 1.015556800193797,
+      "calmar_ratio": 1.0199999999999998,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.89527356501273,
+        "profit_factor": 1.212,
+        "total_pnl": 5.036389518156488,
+        "max_drawdown": 5.0,
+        "calmar_ratio": 1.0199999999999998,
+        "avg_expectancy": 0.2518194759078244
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.33088138915026,
+        "profit_factor": 1.212,
+        "total_pnl": 5.25854950846663,
+        "max_drawdown": 5.0,
+        "calmar_ratio": 1.0199999999999998,
+        "avg_expectancy": 0.2629274754233315
+      }
+    },
+    {
+      "rank": 19,
+      "parameters": {
+        "ml_weight": 0.3,
+        "technical_weight": 0.7,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 1.75
+      },
+      "survived_oos": true,
+      "robustness_score": 1.009755238359967,
+      "calmar_ratio": 1.010204081632653,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.10353616462592,
+        "profit_factor": 1.188,
+        "total_pnl": 5.011150401489832,
+        "max_drawdown": 4.9,
+        "calmar_ratio": 1.010204081632653,
+        "avg_expectancy": 0.2505575200744916
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.147967114851404,
+        "profit_factor": 1.188,
+        "total_pnl": 5.033143721851446,
+        "max_drawdown": 4.9,
+        "calmar_ratio": 1.010204081632653,
+        "avg_expectancy": 0.2516571860925723
+      }
+    },
+    {
+      "rank": 20,
+      "parameters": {
+        "ml_weight": 0.6,
+        "technical_weight": 0.4,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 1.25
+      },
+      "survived_oos": true,
+      "robustness_score": 1.0090447186946154,
+      "calmar_ratio": 1.0099999999999998,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.12192068721881,
+        "profit_factor": 1.206,
+        "total_pnl": 5.1065199470454985,
+        "max_drawdown": 5.0,
+        "calmar_ratio": 1.0099999999999998,
+        "avg_expectancy": 0.2553259973522749
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.027338379755015,
+        "profit_factor": 1.206,
+        "total_pnl": 5.0587558817762845,
+        "max_drawdown": 5.0,
+        "calmar_ratio": 1.0099999999999998,
+        "avg_expectancy": 0.2529377940888142
+      }
+    },
+    {
+      "rank": 21,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 0.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.9963220760543413,
+      "calmar_ratio": 1.0,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.72004847792866,
+        "profit_factor": 1.218,
+        "total_pnl": 4.9419247237436155,
+        "max_drawdown": 5.1,
+        "calmar_ratio": 1.0,
+        "avg_expectancy": 0.24709623618718077
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.087840872494525,
+        "profit_factor": 1.218,
+        "total_pnl": 5.129498844972207,
+        "max_drawdown": 5.1,
+        "calmar_ratio": 1.0,
+        "avg_expectancy": 0.25647494224861034
+      }
+    },
+    {
+      "rank": 22,
+      "parameters": {
+        "ml_weight": 0.6,
+        "technical_weight": 0.4,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 1.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.9947500853552503,
+      "calmar_ratio": 0.9950495049504952,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.13569260600747,
+        "profit_factor": 1.206,
+        "total_pnl": 5.088160534518752,
+        "max_drawdown": 5.05,
+        "calmar_ratio": 0.9950495049504952,
+        "avg_expectancy": 0.2544080267259376
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.10560168151022,
+        "profit_factor": 1.206,
+        "total_pnl": 5.073039844958889,
+        "max_drawdown": 5.05,
+        "calmar_ratio": 0.9950495049504952,
+        "avg_expectancy": 0.25365199224794444
+      }
+    },
+    {
+      "rank": 23,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 0.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.9899864298031119,
+      "calmar_ratio": 0.9901960784313726,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.36410771052482,
+        "profit_factor": 1.212,
+        "total_pnl": 5.223774393815031,
+        "max_drawdown": 5.1,
+        "calmar_ratio": 0.9901960784313726,
+        "avg_expectancy": 0.2611887196907515
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.38528014625015,
+        "profit_factor": 1.212,
+        "total_pnl": 5.234466473856326,
+        "max_drawdown": 5.1,
+        "calmar_ratio": 0.9901960784313726,
+        "avg_expectancy": 0.2617233236928163
+      }
+    },
+    {
+      "rank": 24,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 1.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.9834786437600858,
+      "calmar_ratio": 0.9851485148514851,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.86323745976661,
+        "profit_factor": 1.2,
+        "total_pnl": 4.9069606362338885,
+        "max_drawdown": 5.05,
+        "calmar_ratio": 0.9851485148514851,
+        "avg_expectancy": 0.24534803181169443
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.03274196251167,
+        "profit_factor": 1.2,
+        "total_pnl": 4.991289126349557,
+        "max_drawdown": 5.05,
+        "calmar_ratio": 0.9851485148514851,
+        "avg_expectancy": 0.24956445631747784
+      }
+    },
+    {
+      "rank": 25,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 1.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.982832881383416,
+      "calmar_ratio": 0.9848484848484849,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.962500049433025,
+        "profit_factor": 1.182,
+        "total_pnl": 4.871343774098601,
+        "max_drawdown": 4.95,
+        "calmar_ratio": 0.9848484848484849,
+        "avg_expectancy": 0.24356718870493005
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.16716132434771,
+        "profit_factor": 1.182,
+        "total_pnl": 4.97111614561951,
+        "max_drawdown": 4.95,
+        "calmar_ratio": 0.9848484848484849,
+        "avg_expectancy": 0.24855580728097548
+      }
+    },
+    {
+      "rank": 26,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 1.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.9741243218056883,
+      "calmar_ratio": 0.9752475247524752,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.201217309974254,
+        "profit_factor": 1.194,
+        "total_pnl": 5.0290245251623205,
+        "max_drawdown": 5.05,
+        "calmar_ratio": 0.9752475247524752,
+        "avg_expectancy": 0.251451226258116
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.08604624639509,
+        "profit_factor": 1.194,
+        "total_pnl": 4.972302776349583,
+        "max_drawdown": 5.05,
+        "calmar_ratio": 0.9752475247524752,
+        "avg_expectancy": 0.24861513881747915
+      }
+    },
+    {
+      "rank": 27,
+      "parameters": {
+        "ml_weight": 0.3,
+        "technical_weight": 0.7,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 1.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.9650177002461443,
+      "calmar_ratio": 0.9653465346534654,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.0079105282747,
+        "profit_factor": 1.188,
+        "total_pnl": 4.888606382533916,
+        "max_drawdown": 5.05,
+        "calmar_ratio": 0.9653465346534654,
+        "avg_expectancy": 0.2444303191266958
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.04197440021258,
+        "profit_factor": 1.188,
+        "total_pnl": 4.9052125201036345,
+        "max_drawdown": 5.05,
+        "calmar_ratio": 0.9653465346534654,
+        "avg_expectancy": 0.24526062600518173
+      }
+    },
+    {
+      "rank": 28,
+      "parameters": {
+        "ml_weight": 0.3,
+        "technical_weight": 0.7,
+        "trailing_stop_pips": 30,
+        "dynamic_lock_increment": 0.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.950085221434889,
+      "calmar_ratio": 0.9509803921568627,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.177047760177906,
+        "profit_factor": 1.188,
+        "total_pnl": 4.945568163686286,
+        "max_drawdown": 5.1,
+        "calmar_ratio": 0.9509803921568627,
+        "avg_expectancy": 0.2472784081843143
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.08291640590852,
+        "profit_factor": 1.188,
+        "total_pnl": 4.899914456865635,
+        "max_drawdown": 5.1,
+        "calmar_ratio": 0.9509803921568627,
+        "avg_expectancy": 0.24499572284328175
+      }
+    },
+    {
+      "rank": 29,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.927990915306205,
+      "calmar_ratio": 0.9298245614035089,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.172845073419886,
+        "profit_factor": 1.218,
+        "total_pnl": 5.375707888912538,
+        "max_drawdown": 5.7,
+        "calmar_ratio": 0.9298245614035089,
+        "avg_expectancy": 0.2687853944456269
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.37004852162049,
+        "profit_factor": 1.218,
+        "total_pnl": 5.480225716458859,
+        "max_drawdown": 5.7,
+        "calmar_ratio": 0.9298245614035089,
+        "avg_expectancy": 0.274011285822943
+      }
+    },
+    {
+      "rank": 30,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.9194927617689443,
+      "calmar_ratio": 0.9210526315789473,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.23397002207709,
+        "profit_factor": 1.212,
+        "total_pnl": 5.36233426159047,
+        "max_drawdown": 5.7,
+        "calmar_ratio": 0.9210526315789473,
+        "avg_expectancy": 0.2681167130795235
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.06461272841962,
+        "profit_factor": 1.212,
+        "total_pnl": 5.273421682420298,
+        "max_drawdown": 5.7,
+        "calmar_ratio": 0.9210526315789473,
+        "avg_expectancy": 0.2636710841210149
+      }
+    },
+    {
+      "rank": 31,
+      "parameters": {
+        "ml_weight": 0.6,
+        "technical_weight": 0.4,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.9114065312282209,
+      "calmar_ratio": 0.912280701754386,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.93690594162206,
+        "profit_factor": 1.206,
+        "total_pnl": 5.161991089643471,
+        "max_drawdown": 5.7,
+        "calmar_ratio": 0.912280701754386,
+        "avg_expectancy": 0.25809955448217353
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.03272848006708,
+        "profit_factor": 1.206,
+        "total_pnl": 5.211818809634881,
+        "max_drawdown": 5.7,
+        "calmar_ratio": 0.912280701754386,
+        "avg_expectancy": 0.260590940481744
+      }
+    },
+    {
+      "rank": 32,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.9045321751536269,
+      "calmar_ratio": 0.9051724137931034,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.16489072623469,
+        "profit_factor": 1.218,
+        "total_pnl": 5.320817631273213,
+        "max_drawdown": 5.8,
+        "calmar_ratio": 0.9051724137931034,
+        "avg_expectancy": 0.2660408815636607
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.09415960034966,
+        "profit_factor": 1.218,
+        "total_pnl": 5.283683790183572,
+        "max_drawdown": 5.8,
+        "calmar_ratio": 0.9051724137931034,
+        "avg_expectancy": 0.2641841895091786
+      }
+    },
+    {
+      "rank": 33,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8914339240326479,
+      "calmar_ratio": 0.8931623931623932,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.233947290000586,
+        "profit_factor": 1.218,
+        "total_pnl": 5.331562459025307,
+        "max_drawdown": 5.85,
+        "calmar_ratio": 0.8931623931623932,
+        "avg_expectancy": 0.2665781229512653
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.040424908966905,
+        "profit_factor": 1.218,
+        "total_pnl": 5.230447014935206,
+        "max_drawdown": 5.85,
+        "calmar_ratio": 0.8931623931623932,
+        "avg_expectancy": 0.2615223507467603
+      }
+    },
+    {
+      "rank": 34,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8818848379603983,
+      "calmar_ratio": 0.8826086956521737,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.299502747797625,
+        "profit_factor": 1.194,
+        "total_pnl": 5.232072644507294,
+        "max_drawdown": 5.75,
+        "calmar_ratio": 0.8826086956521737,
+        "avg_expectancy": 0.2616036322253647
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.217489314739325,
+        "profit_factor": 1.194,
+        "total_pnl": 5.1904508272302055,
+        "max_drawdown": 5.75,
+        "calmar_ratio": 0.8826086956521737,
+        "avg_expectancy": 0.25952254136151026
+      }
+    },
+    {
+      "rank": 35,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8796892178819937,
+      "calmar_ratio": 0.8813559322033898,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.955686316420206,
+        "profit_factor": 1.218,
+        "total_pnl": 5.161356884538507,
+        "max_drawdown": 5.9,
+        "calmar_ratio": 0.8813559322033898,
+        "avg_expectancy": 0.25806784422692536
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.14479428750169,
+        "profit_factor": 1.218,
+        "total_pnl": 5.259693029500877,
+        "max_drawdown": 5.9,
+        "calmar_ratio": 0.8813559322033898,
+        "avg_expectancy": 0.26298465147504385
+      }
+    },
+    {
+      "rank": 36,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8778796177765397,
+      "calmar_ratio": 0.8793103448275862,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.15661627476696,
+        "profit_factor": 1.2,
+        "total_pnl": 5.179874300131148,
+        "max_drawdown": 5.8,
+        "calmar_ratio": 0.8793103448275862,
+        "avg_expectancy": 0.25899371500655743
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.319326409984015,
+        "profit_factor": 1.2,
+        "total_pnl": 5.2628564690918465,
+        "max_drawdown": 5.8,
+        "calmar_ratio": 0.8793103448275862,
+        "avg_expectancy": 0.26314282345459233
+      }
+    },
+    {
+      "rank": 37,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8725853911192603,
+      "calmar_ratio": 0.8728813559322034,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.30493024845091,
+        "profit_factor": 1.212,
+        "total_pnl": 5.296739077952216,
+        "max_drawdown": 5.9,
+        "calmar_ratio": 0.8728813559322034,
+        "avg_expectancy": 0.2648369538976108
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.2710235999778,
+        "profit_factor": 1.212,
+        "total_pnl": 5.279277153988566,
+        "max_drawdown": 5.9,
+        "calmar_ratio": 0.8728813559322034,
+        "avg_expectancy": 0.2639638576994283
+      }
+    },
+    {
+      "rank": 38,
+      "parameters": {
+        "ml_weight": 0.3,
+        "technical_weight": 0.7,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8717890277425058,
+      "calmar_ratio": 0.8739130434782607,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.99098780173482,
+        "profit_factor": 1.188,
+        "total_pnl": 5.030521370371746,
+        "max_drawdown": 5.75,
+        "calmar_ratio": 0.8739130434782607,
+        "avg_expectancy": 0.2515260685185873
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.234034378463,
+        "profit_factor": 1.188,
+        "total_pnl": 5.152652275177658,
+        "max_drawdown": 5.75,
+        "calmar_ratio": 0.8739130434782607,
+        "avg_expectancy": 0.2576326137588829
+      }
+    },
+    {
+      "rank": 39,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8657934606559289,
+      "calmar_ratio": 0.8675213675213674,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.16719999193739,
+        "profit_factor": 1.2,
+        "total_pnl": 5.1598539959082235,
+        "max_drawdown": 5.85,
+        "calmar_ratio": 0.8675213675213674,
+        "avg_expectancy": 0.2579926997954112
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.36637743356923,
+        "profit_factor": 1.2,
+        "total_pnl": 5.260936547536382,
+        "max_drawdown": 5.85,
+        "calmar_ratio": 0.8675213675213674,
+        "avg_expectancy": 0.26304682737681906
+      }
+    },
+    {
+      "rank": 40,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8652506508318095,
+      "calmar_ratio": 0.8697478991596638,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.82473833556345,
+        "profit_factor": 1.218,
+        "total_pnl": 5.068777088654087,
+        "max_drawdown": 5.95,
+        "calmar_ratio": 0.8697478991596638,
+        "avg_expectancy": 0.2534388544327043
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.341813264080024,
+        "profit_factor": 1.218,
+        "total_pnl": 5.3363633641614125,
+        "max_drawdown": 5.95,
+        "calmar_ratio": 0.8697478991596638,
+        "avg_expectancy": 0.26681816820807064
+      }
+    },
+    {
+      "rank": 41,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8632176514850213,
+      "calmar_ratio": 0.8652173913043477,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.28892948757716,
+        "profit_factor": 1.182,
+        "total_pnl": 5.133667420069634,
+        "max_drawdown": 5.75,
+        "calmar_ratio": 0.8652173913043477,
+        "avg_expectancy": 0.2566833710034817
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.057803779815806,
+        "profit_factor": 1.182,
+        "total_pnl": 5.018682380458363,
+        "max_drawdown": 5.75,
+        "calmar_ratio": 0.8652173913043477,
+        "avg_expectancy": 0.2509341190229181
+      }
+    },
+    {
+      "rank": 42,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8595301709510093,
+      "calmar_ratio": 0.861344537815126,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.93468115005104,
+        "profit_factor": 1.212,
+        "total_pnl": 5.081274089401156,
+        "max_drawdown": 5.95,
+        "calmar_ratio": 0.861344537815126,
+        "avg_expectancy": 0.2540637044700578
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.14532471768995,
+        "profit_factor": 1.212,
+        "total_pnl": 5.189228917816097,
+        "max_drawdown": 5.95,
+        "calmar_ratio": 0.861344537815126,
+        "avg_expectancy": 0.25946144589080483
+      }
+    },
+    {
+      "rank": 43,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8558454128802027,
+      "calmar_ratio": 0.8583333333333334,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.05140068796556,
+        "profit_factor": 1.218,
+        "total_pnl": 5.161021354302265,
+        "max_drawdown": 6.0,
+        "calmar_ratio": 0.8583333333333334,
+        "avg_expectancy": 0.2580510677151132
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.34125549803905,
+        "profit_factor": 1.218,
+        "total_pnl": 5.310296581490109,
+        "max_drawdown": 6.0,
+        "calmar_ratio": 0.8583333333333334,
+        "avg_expectancy": 0.2655148290745054
+      }
+    },
+    {
+      "rank": 44,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8549451321367161,
+      "calmar_ratio": 0.8559322033898303,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.149508388974084,
+        "profit_factor": 1.2,
+        "total_pnl": 5.125501736431913,
+        "max_drawdown": 5.9,
+        "calmar_ratio": 0.8559322033898303,
+        "avg_expectancy": 0.2562750868215956
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.03418719306568,
+        "profit_factor": 1.2,
+        "total_pnl": 5.067264532498166,
+        "max_drawdown": 5.9,
+        "calmar_ratio": 0.8559322033898303,
+        "avg_expectancy": 0.2533632266249083
+      }
+    },
+    {
+      "rank": 45,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8455146719046915,
+      "calmar_ratio": 0.8471074380165291,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.967545234103646,
+        "profit_factor": 1.218,
+        "total_pnl": 5.092991932478119,
+        "max_drawdown": 6.05,
+        "calmar_ratio": 0.8471074380165291,
+        "avg_expectancy": 0.25464959662390596
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.15556933120838,
+        "profit_factor": 1.218,
+        "total_pnl": 5.189354282244296,
+        "max_drawdown": 6.05,
+        "calmar_ratio": 0.8471074380165291,
+        "avg_expectancy": 0.2594677141122148
+      }
+    },
+    {
+      "rank": 46,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8432081609359698,
+      "calmar_ratio": 0.8445378151260503,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.91865505038618,
+        "profit_factor": 1.2,
+        "total_pnl": 4.984124162819056,
+        "max_drawdown": 5.95,
+        "calmar_ratio": 0.8445378151260503,
+        "avg_expectancy": 0.2492062081409528
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.076096690803666,
+        "profit_factor": 1.2,
+        "total_pnl": 5.063238587128841,
+        "max_drawdown": 5.95,
+        "calmar_ratio": 0.8445378151260503,
+        "avg_expectancy": 0.25316192935644205
+      }
+    },
+    {
+      "rank": 47,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8413398993480767,
+      "calmar_ratio": 0.8418803418803419,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.9386626662661,
+        "profit_factor": 1.182,
+        "total_pnl": 4.9095663631360535,
+        "max_drawdown": 5.85,
+        "calmar_ratio": 0.8418803418803419,
+        "avg_expectancy": 0.24547831815680268
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.002857362992,
+        "profit_factor": 1.182,
+        "total_pnl": 4.941182251273562,
+        "max_drawdown": 5.85,
+        "calmar_ratio": 0.8418803418803419,
+        "avg_expectancy": 0.24705911256367813
+      }
+    },
+    {
+      "rank": 48,
+      "parameters": {
+        "ml_weight": 0.6,
+        "technical_weight": 0.4,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8401274884408775,
+      "calmar_ratio": 0.8416666666666667,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.016206994805806,
+        "profit_factor": 1.206,
+        "total_pnl": 5.053134532376932,
+        "max_drawdown": 6.0,
+        "calmar_ratio": 0.8416666666666667,
+        "avg_expectancy": 0.2526567266188466
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.19907965529561,
+        "profit_factor": 1.206,
+        "total_pnl": 5.145485225924285,
+        "max_drawdown": 6.0,
+        "calmar_ratio": 0.8416666666666667,
+        "avg_expectancy": 0.2572742612962143
+      }
+    },
+    {
+      "rank": 49,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 0.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8349473353521055,
+      "calmar_ratio": 0.8360655737704917,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.96666559832448,
+        "profit_factor": 1.218,
+        "total_pnl": 5.067699455145484,
+        "max_drawdown": 6.1,
+        "calmar_ratio": 0.8360655737704917,
+        "avg_expectancy": 0.25338497275727423
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.10041568366088,
+        "profit_factor": 1.218,
+        "total_pnl": 5.135911998667048,
+        "max_drawdown": 6.1,
+        "calmar_ratio": 0.8360655737704917,
+        "avg_expectancy": 0.2567955999333524
+      }
+    },
+    {
+      "rank": 50,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8268408900388873,
+      "calmar_ratio": 0.8305084745762712,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.91002278729727,
+        "profit_factor": 1.182,
+        "total_pnl": 4.8706111657756646,
+        "max_drawdown": 5.9,
+        "calmar_ratio": 0.8305084745762712,
+        "avg_expectancy": 0.24353055828878323
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.3516299050639,
+        "profit_factor": 1.182,
+        "total_pnl": 5.086998653481313,
+        "max_drawdown": 5.9,
+        "calmar_ratio": 0.8305084745762712,
+        "avg_expectancy": 0.25434993267406564
+      }
+    },
+    {
+      "rank": 51,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 0.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8255407985369985,
+      "calmar_ratio": 0.8278688524590163,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.94212244820427,
+        "profit_factor": 1.212,
+        "total_pnl": 5.010671836343157,
+        "max_drawdown": 6.1,
+        "calmar_ratio": 0.8278688524590163,
+        "avg_expectancy": 0.25053359181715784
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.22333292195297,
+        "profit_factor": 1.212,
+        "total_pnl": 5.152683125586246,
+        "max_drawdown": 6.1,
+        "calmar_ratio": 0.8278688524590163,
+        "avg_expectancy": 0.2576341562793123
+      }
+    },
+    {
+      "rank": 52,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8229297111840882,
+      "calmar_ratio": 0.8250000000000001,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.772036613357216,
+        "profit_factor": 1.194,
+        "total_pnl": 4.842108123611822,
+        "max_drawdown": 6.0,
+        "calmar_ratio": 0.8250000000000001,
+        "avg_expectancy": 0.2421054061805911
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.022980712255624,
+        "profit_factor": 1.194,
+        "total_pnl": 4.966325452566534,
+        "max_drawdown": 6.0,
+        "calmar_ratio": 0.8250000000000001,
+        "avg_expectancy": 0.2483162726283267
+      }
+    },
+    {
+      "rank": 53,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 0.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8161128120578924,
+      "calmar_ratio": 0.8170731707317073,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.169068343358774,
+        "profit_factor": 1.212,
+        "total_pnl": 5.099906842537783,
+        "max_drawdown": 6.15,
+        "calmar_ratio": 0.8170731707317073,
+        "avg_expectancy": 0.2549953421268892
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.28660477806447,
+        "profit_factor": 1.212,
+        "total_pnl": 5.1589689009773965,
+        "max_drawdown": 6.15,
+        "calmar_ratio": 0.8170731707317073,
+        "avg_expectancy": 0.2579484450488698
+      }
+    },
+    {
+      "rank": 54,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8128567043372866,
+      "calmar_ratio": 0.819327731092437,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.69459817385441,
+        "profit_factor": 1.182,
+        "total_pnl": 4.740741609754027,
+        "max_drawdown": 5.95,
+        "calmar_ratio": 0.819327731092437,
+        "avg_expectancy": 0.23703708048770133
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.484395285508654,
+        "profit_factor": 1.182,
+        "total_pnl": 5.12576770168547,
+        "max_drawdown": 5.95,
+        "calmar_ratio": 0.819327731092437,
+        "avg_expectancy": 0.25628838508427354
+      }
+    },
+    {
+      "rank": 55,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.812652063533316,
+      "calmar_ratio": 0.8140495867768595,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.27571202834917,
+        "profit_factor": 1.194,
+        "total_pnl": 5.065713173961964,
+        "max_drawdown": 6.05,
+        "calmar_ratio": 0.8140495867768595,
+        "avg_expectancy": 0.25328565869809816
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.10403658421845,
+        "profit_factor": 1.194,
+        "total_pnl": 4.981163017727586,
+        "max_drawdown": 6.05,
+        "calmar_ratio": 0.8140495867768595,
+        "avg_expectancy": 0.2490581508863793
+      }
+    },
+    {
+      "rank": 56,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 0.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.8017494875229769,
+      "calmar_ratio": 0.8032786885245902,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.969204998046706,
+        "profit_factor": 1.194,
+        "total_pnl": 4.889810449042887,
+        "max_drawdown": 6.1,
+        "calmar_ratio": 0.8032786885245902,
+        "avg_expectancy": 0.24449052245214437
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.15957491865571,
+        "profit_factor": 1.194,
+        "total_pnl": 4.983091710141294,
+        "max_drawdown": 6.1,
+        "calmar_ratio": 0.8032786885245902,
+        "avg_expectancy": 0.2491545855070647
+      }
+    },
+    {
+      "rank": 57,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.796183130995589,
+      "calmar_ratio": 0.7975206611570248,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.25585278439108,
+        "profit_factor": 1.182,
+        "total_pnl": 4.962923968468696,
+        "max_drawdown": 6.05,
+        "calmar_ratio": 0.7975206611570248,
+        "avg_expectancy": 0.24814619842343483
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.088141748604826,
+        "profit_factor": 1.182,
+        "total_pnl": 4.882003393701829,
+        "max_drawdown": 6.05,
+        "calmar_ratio": 0.7975206611570248,
+        "avg_expectancy": 0.24410016968509143
+      }
+    },
+    {
+      "rank": 58,
+      "parameters": {
+        "ml_weight": 0.3,
+        "technical_weight": 0.7,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 0.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7943905181174508,
+      "calmar_ratio": 0.7950819672131146,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.031437335728484,
+        "profit_factor": 1.188,
+        "total_pnl": 4.874947107828317,
+        "max_drawdown": 6.1,
+        "calmar_ratio": 0.7950819672131146,
+        "avg_expectancy": 0.24374735539141584
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.11840309827589,
+        "profit_factor": 1.188,
+        "total_pnl": 4.91712550266381,
+        "max_drawdown": 6.1,
+        "calmar_ratio": 0.7950819672131146,
+        "avg_expectancy": 0.24585627513319047
+      }
+    },
+    {
+      "rank": 59,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 0.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7921562572591643,
+      "calmar_ratio": 0.7926829268292682,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.25453195496517,
+        "profit_factor": 1.194,
+        "total_pnl": 5.003959328045519,
+        "max_drawdown": 6.15,
+        "calmar_ratio": 0.7926829268292682,
+        "avg_expectancy": 0.25019796640227593
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.18809056304437,
+        "profit_factor": 1.194,
+        "total_pnl": 4.9715691494841305,
+        "max_drawdown": 6.15,
+        "calmar_ratio": 0.7926829268292682,
+        "avg_expectancy": 0.24857845747420654
+      }
+    },
+    {
+      "rank": 60,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7905275894221307,
+      "calmar_ratio": 0.791044776119403,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.2289465496321,
+        "profit_factor": 1.218,
+        "total_pnl": 5.405441671305011,
+        "max_drawdown": 6.7,
+        "calmar_ratio": 0.791044776119403,
+        "avg_expectancy": 0.27027208356525056
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.29432675475897,
+        "profit_factor": 1.218,
+        "total_pnl": 5.440093180022255,
+        "max_drawdown": 6.7,
+        "calmar_ratio": 0.791044776119403,
+        "avg_expectancy": 0.27200465900111276
+      }
+    },
+    {
+      "rank": 61,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 0.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7729645757239331,
+      "calmar_ratio": 0.7764227642276421,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.8012672241791,
+        "profit_factor": 1.182,
+        "total_pnl": 4.694430099545522,
+        "max_drawdown": 6.15,
+        "calmar_ratio": 0.7764227642276421,
+        "avg_expectancy": 0.2347215049772761
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.246667418897644,
+        "profit_factor": 1.182,
+        "total_pnl": 4.907108692523623,
+        "max_drawdown": 6.15,
+        "calmar_ratio": 0.7764227642276421,
+        "avg_expectancy": 0.24535543462618117
+      }
+    },
+    {
+      "rank": 62,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7717906918321965,
+      "calmar_ratio": 0.7720588235294117,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.992628499450596,
+        "profit_factor": 1.218,
+        "total_pnl": 5.230379962211563,
+        "max_drawdown": 6.8,
+        "calmar_ratio": 0.7720588235294117,
+        "avg_expectancy": 0.26151899811057816
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.027357938328,
+        "profit_factor": 1.218,
+        "total_pnl": 5.2486129176222,
+        "max_drawdown": 6.8,
+        "calmar_ratio": 0.7720588235294117,
+        "avg_expectancy": 0.26243064588111
+      }
+    },
+    {
+      "rank": 63,
+      "parameters": {
+        "ml_weight": 0.6,
+        "technical_weight": 0.4,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7656886668150177,
+      "calmar_ratio": 0.7666666666666666,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.89745604863474,
+        "profit_factor": 1.206,
+        "total_pnl": 5.116758505168477,
+        "max_drawdown": 6.75,
+        "calmar_ratio": 0.7666666666666666,
+        "avg_expectancy": 0.25583792525842386
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.02502124667589,
+        "profit_factor": 1.206,
+        "total_pnl": 5.182773495154774,
+        "max_drawdown": 6.75,
+        "calmar_ratio": 0.7666666666666666,
+        "avg_expectancy": 0.2591386747577387
+      }
+    },
+    {
+      "rank": 64,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7646832640298215,
+      "calmar_ratio": 0.7686567164179104,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.902520781903945,
+        "profit_factor": 1.2,
+        "total_pnl": 5.099798202680532,
+        "max_drawdown": 6.7,
+        "calmar_ratio": 0.7686567164179104,
+        "avg_expectancy": 0.2549899101340266
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.419455364432025,
+        "profit_factor": 1.2,
+        "total_pnl": 5.366019512682495,
+        "max_drawdown": 6.7,
+        "calmar_ratio": 0.7686567164179104,
+        "avg_expectancy": 0.26830097563412475
+      }
+    },
+    {
+      "rank": 65,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7602498035185826,
+      "calmar_ratio": 0.7627737226277372,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.18701990715907,
+        "profit_factor": 1.218,
+        "total_pnl": 5.307042901490613,
+        "max_drawdown": 6.85,
+        "calmar_ratio": 0.7627737226277372,
+        "avg_expectancy": 0.26535214507453064
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.51790690998603,
+        "profit_factor": 1.218,
+        "total_pnl": 5.4799313604677,
+        "max_drawdown": 6.85,
+        "calmar_ratio": 0.7627737226277372,
+        "avg_expectancy": 0.273996568023385
+      }
+    },
+    {
+      "rank": 66,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7591267355433956,
+      "calmar_ratio": 0.7611940298507461,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.94880820728273,
+        "profit_factor": 1.194,
+        "total_pnl": 5.078992185714192,
+        "max_drawdown": 6.7,
+        "calmar_ratio": 0.7611940298507461,
+        "avg_expectancy": 0.2539496092857096
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.220393930013095,
+        "profit_factor": 1.194,
+        "total_pnl": 5.217500904306676,
+        "max_drawdown": 6.7,
+        "calmar_ratio": 0.7611940298507461,
+        "avg_expectancy": 0.2608750452153338
+      }
+    },
+    {
+      "rank": 67,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7585209126743011,
+      "calmar_ratio": 0.7647058823529412,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.40605688871407,
+        "profit_factor": 1.212,
+        "total_pnl": 4.8807495821313145,
+        "max_drawdown": 6.8,
+        "calmar_ratio": 0.7647058823529412,
+        "avg_expectancy": 0.24403747910656573
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.214860615920855,
+        "profit_factor": 1.212,
+        "total_pnl": 5.301327520278843,
+        "max_drawdown": 6.8,
+        "calmar_ratio": 0.7647058823529412,
+        "avg_expectancy": 0.2650663760139421
+      }
+    },
+    {
+      "rank": 68,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7515980287028291,
+      "calmar_ratio": 0.7554744525547445,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.84919873447106,
+        "profit_factor": 1.212,
+        "total_pnl": 5.086610345088772,
+        "max_drawdown": 6.85,
+        "calmar_ratio": 0.7554744525547445,
+        "avg_expectancy": 0.2543305172544386
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.36230991100479,
+        "profit_factor": 1.212,
+        "total_pnl": 5.352145378944978,
+        "max_drawdown": 6.85,
+        "calmar_ratio": 0.7554744525547445,
+        "avg_expectancy": 0.2676072689472489
+      }
+    },
+    {
+      "rank": 69,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7487737551285824,
+      "calmar_ratio": 0.7499999999999999,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.20154824764766,
+        "profit_factor": 1.2,
+        "total_pnl": 5.202789606300306,
+        "max_drawdown": 6.8,
+        "calmar_ratio": 0.7499999999999999,
+        "avg_expectancy": 0.2601394803150153
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.03804893145865,
+        "profit_factor": 1.2,
+        "total_pnl": 5.119404955043908,
+        "max_drawdown": 6.8,
+        "calmar_ratio": 0.7499999999999999,
+        "avg_expectancy": 0.2559702477521954
+      }
+    },
+    {
+      "rank": 70,
+      "parameters": {
+        "ml_weight": 0.6,
+        "technical_weight": 0.4,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7475544567735496,
+      "calmar_ratio": 0.7481751824817519,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.45684889996814,
+        "profit_factor": 1.206,
+        "total_pnl": 5.354010061233673,
+        "max_drawdown": 6.85,
+        "calmar_ratio": 0.7481751824817519,
+        "avg_expectancy": 0.26770050306168364
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.37388361018891,
+        "profit_factor": 1.206,
+        "total_pnl": 5.311490350221818,
+        "max_drawdown": 6.85,
+        "calmar_ratio": 0.7481751824817519,
+        "avg_expectancy": 0.2655745175110909
+      }
+    },
+    {
+      "rank": 71,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7459213238175642,
+      "calmar_ratio": 0.746268656716418,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.00717854735607,
+        "profit_factor": 1.182,
+        "total_pnl": 5.0185892736780335,
+        "max_drawdown": 6.7,
+        "calmar_ratio": 0.746268656716418,
+        "avg_expectancy": 0.2509294636839017
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.05372115580248,
+        "profit_factor": 1.182,
+        "total_pnl": 5.041860577901238,
+        "max_drawdown": 6.7,
+        "calmar_ratio": 0.746268656716418,
+        "avg_expectancy": 0.2520930288950619
+      }
+    },
+    {
+      "rank": 72,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7458114921951517,
+      "calmar_ratio": 0.7463768115942029,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.017423377193246,
+        "profit_factor": 1.212,
+        "total_pnl": 5.14867303925452,
+        "max_drawdown": 6.9,
+        "calmar_ratio": 0.7463768115942029,
+        "avg_expectancy": 0.257433651962726
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.09316519959039,
+        "profit_factor": 1.212,
+        "total_pnl": 5.18768007778905,
+        "max_drawdown": 6.9,
+        "calmar_ratio": 0.7463768115942029,
+        "avg_expectancy": 0.2593840038894525
+      }
+    },
+    {
+      "rank": 73,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7408090738029033,
+      "calmar_ratio": 0.7426470588235293,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.8399411711955,
+        "profit_factor": 1.194,
+        "total_pnl": 4.974220291453726,
+        "max_drawdown": 6.8,
+        "calmar_ratio": 0.7426470588235293,
+        "avg_expectancy": 0.2487110145726863
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.08743222347781,
+        "profit_factor": 1.194,
+        "total_pnl": 5.099203272856293,
+        "max_drawdown": 6.8,
+        "calmar_ratio": 0.7426470588235293,
+        "avg_expectancy": 0.25496016364281465
+      }
+    },
+    {
+      "rank": 74,
+      "parameters": {
+        "ml_weight": 0.6,
+        "technical_weight": 0.4,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7390153511026005,
+      "calmar_ratio": 0.7391304347826085,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.20095119392419,
+        "profit_factor": 1.206,
+        "total_pnl": 5.197385108901337,
+        "max_drawdown": 6.9,
+        "calmar_ratio": 0.7391304347826085,
+        "avg_expectancy": 0.2598692554450669
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.21652133886646,
+        "profit_factor": 1.206,
+        "total_pnl": 5.205325882821895,
+        "max_drawdown": 6.9,
+        "calmar_ratio": 0.7391304347826085,
+        "avg_expectancy": 0.26026629414109476
+      }
+    },
+    {
+      "rank": 75,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7361802659904445,
+      "calmar_ratio": 0.7370370370370369,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.058559703118,
+        "profit_factor": 1.182,
+        "total_pnl": 5.019058452301207,
+        "max_drawdown": 6.75,
+        "calmar_ratio": 0.7370370370370369,
+        "avg_expectancy": 0.25095292261506036
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.17480502099738,
+        "profit_factor": 1.182,
+        "total_pnl": 5.0768904979461995,
+        "max_drawdown": 6.75,
+        "calmar_ratio": 0.7370370370370369,
+        "avg_expectancy": 0.25384452489730996
+      }
+    },
+    {
+      "rank": 76,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7347577630521361,
+      "calmar_ratio": 0.7357142857142857,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.95357051376399,
+        "profit_factor": 1.218,
+        "total_pnl": 5.110638814588454,
+        "max_drawdown": 7.0,
+        "calmar_ratio": 0.7357142857142857,
+        "avg_expectancy": 0.2555319407294227
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.083583302794025,
+        "profit_factor": 1.218,
+        "total_pnl": 5.177595400938923,
+        "max_drawdown": 7.0,
+        "calmar_ratio": 0.7357142857142857,
+        "avg_expectancy": 0.2588797700469462
+      }
+    },
+    {
+      "rank": 77,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7347577364635051,
+      "calmar_ratio": 0.7374100719424459,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.75151777820347,
+        "profit_factor": 1.212,
+        "total_pnl": 4.987402861329279,
+        "max_drawdown": 6.95,
+        "calmar_ratio": 0.7374100719424459,
+        "avg_expectancy": 0.24937014306646396
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.11120034559154,
+        "profit_factor": 1.212,
+        "total_pnl": 5.171740177115664,
+        "max_drawdown": 6.95,
+        "calmar_ratio": 0.7374100719424459,
+        "avg_expectancy": 0.25858700885578323
+      }
+    },
+    {
+      "rank": 78,
+      "parameters": {
+        "ml_weight": 0.3,
+        "technical_weight": 0.7,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7329477709939706,
+      "calmar_ratio": 0.7352941176470588,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.914014995215965,
+        "profit_factor": 1.188,
+        "total_pnl": 4.967007497607985,
+        "max_drawdown": 6.8,
+        "calmar_ratio": 0.7352941176470588,
+        "avg_expectancy": 0.24835037488039924
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.23311814003596,
+        "profit_factor": 1.188,
+        "total_pnl": 5.126559070017982,
+        "max_drawdown": 6.8,
+        "calmar_ratio": 0.7352941176470588,
+        "avg_expectancy": 0.2563279535008991
+      }
+    },
+    {
+      "rank": 79,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7319494577009888,
+      "calmar_ratio": 0.7335766423357665,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.96586459246861,
+        "profit_factor": 1.194,
+        "total_pnl": 5.012871957715477,
+        "max_drawdown": 6.85,
+        "calmar_ratio": 0.7335766423357665,
+        "avg_expectancy": 0.25064359788577384
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.18767981133879,
+        "profit_factor": 1.194,
+        "total_pnl": 5.124334105197739,
+        "max_drawdown": 6.85,
+        "calmar_ratio": 0.7335766423357665,
+        "avg_expectancy": 0.25621670525988693
+      }
+    },
+    {
+      "rank": 80,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7305197313238664,
+      "calmar_ratio": 0.7318840579710144,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.11904902717535,
+        "profit_factor": 1.2,
+        "total_pnl": 5.110119758723553,
+        "max_drawdown": 6.9,
+        "calmar_ratio": 0.7318840579710144,
+        "avg_expectancy": 0.2555059879361777
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.30546197500349,
+        "profit_factor": 1.2,
+        "total_pnl": 5.204258297376763,
+        "max_drawdown": 6.9,
+        "calmar_ratio": 0.7318840579710144,
+        "avg_expectancy": 0.26021291486883813
+      }
+    },
+    {
+      "rank": 81,
+      "parameters": {
+        "ml_weight": 0.6,
+        "technical_weight": 0.4,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7283019580882474,
+      "calmar_ratio": 0.7302158273381293,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.79022841247662,
+        "profit_factor": 1.206,
+        "total_pnl": 4.963465919331885,
+        "max_drawdown": 6.95,
+        "calmar_ratio": 0.7302158273381293,
+        "avg_expectancy": 0.24817329596659424
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.052324792509715,
+        "profit_factor": 1.206,
+        "total_pnl": 5.09647983219868,
+        "max_drawdown": 6.95,
+        "calmar_ratio": 0.7302158273381293,
+        "avg_expectancy": 0.254823991609934
+      }
+    },
+    {
+      "rank": 82,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7282539715284291,
+      "calmar_ratio": 0.7285714285714284,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.00066658398318,
+        "profit_factor": 1.212,
+        "total_pnl": 5.09013995783142,
+        "max_drawdown": 7.0,
+        "calmar_ratio": 0.7285714285714284,
+        "avg_expectancy": 0.254506997891571
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.04423911929681,
+        "profit_factor": 1.212,
+        "total_pnl": 5.11236195084137,
+        "max_drawdown": 7.0,
+        "calmar_ratio": 0.7285714285714284,
+        "avg_expectancy": 0.2556180975420685
+      }
+    },
+    {
+      "rank": 83,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7245271181304567,
+      "calmar_ratio": 0.7279411764705882,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.949005314782504,
+        "profit_factor": 1.182,
+        "total_pnl": 4.9396076308173384,
+        "max_drawdown": 6.8,
+        "calmar_ratio": 0.7279411764705882,
+        "avg_expectancy": 0.24698038154086693
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.41800726857835,
+        "profit_factor": 1.182,
+        "total_pnl": 5.171763597946283,
+        "max_drawdown": 6.8,
+        "calmar_ratio": 0.7279411764705882,
+        "avg_expectancy": 0.25858817989731414
+      }
+    },
+    {
+      "rank": 84,
+      "parameters": {
+        "ml_weight": 0.6,
+        "technical_weight": 0.4,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.25
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7201429045218674,
+      "calmar_ratio": 0.7214285714285713,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.98954929004126,
+        "profit_factor": 1.206,
+        "total_pnl": 5.039672391470837,
+        "max_drawdown": 7.0,
+        "calmar_ratio": 0.7214285714285713,
+        "avg_expectancy": 0.2519836195735418
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.16776054443586,
+        "profit_factor": 1.206,
+        "total_pnl": 5.129669074940108,
+        "max_drawdown": 7.0,
+        "calmar_ratio": 0.7214285714285713,
+        "avg_expectancy": 0.25648345374700543
+      }
+    },
+    {
+      "rank": 85,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7184932793866855,
+      "calmar_ratio": 0.7189781021897811,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.93950073906172,
+        "profit_factor": 1.182,
+        "total_pnl": 4.9099791139879,
+        "max_drawdown": 6.85,
+        "calmar_ratio": 0.7189781021897811,
+        "avg_expectancy": 0.245498955699395
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.006932946192784,
+        "profit_factor": 1.182,
+        "total_pnl": 4.943189475999946,
+        "max_drawdown": 6.85,
+        "calmar_ratio": 0.7189781021897811,
+        "avg_expectancy": 0.2471594737999973
+      }
+    },
+    {
+      "rank": 86,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7182019823479981,
+      "calmar_ratio": 0.719858156028369,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.07367579275734,
+        "profit_factor": 1.212,
+        "total_pnl": 5.102240464824351,
+        "max_drawdown": 7.05,
+        "calmar_ratio": 0.719858156028369,
+        "avg_expectancy": 0.2551120232412175
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.303745239981275,
+        "profit_factor": 1.212,
+        "total_pnl": 5.219000709290497,
+        "max_drawdown": 7.05,
+        "calmar_ratio": 0.719858156028369,
+        "avg_expectancy": 0.26095003546452483
+      }
+    },
+    {
+      "rank": 87,
+      "parameters": {
+        "ml_weight": 0.3,
+        "technical_weight": 0.7,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7150809039788871,
+      "calmar_ratio": 0.717391304347826,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.78412699275895,
+        "profit_factor": 1.188,
+        "total_pnl": 4.853042861415681,
+        "max_drawdown": 6.9,
+        "calmar_ratio": 0.717391304347826,
+        "avg_expectancy": 0.24265214307078406
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.10618280176256,
+        "profit_factor": 1.188,
+        "total_pnl": 5.012460486872468,
+        "max_drawdown": 6.9,
+        "calmar_ratio": 0.717391304347826,
+        "avg_expectancy": 0.2506230243436234
+      }
+    },
+    {
+      "rank": 88,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 0.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7144965127471061,
+      "calmar_ratio": 0.7183098591549296,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.02552764468614,
+        "profit_factor": 1.218,
+        "total_pnl": 5.097719098789934,
+        "max_drawdown": 7.1,
+        "calmar_ratio": 0.7183098591549296,
+        "avg_expectancy": 0.25488595493949673
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.55640528185373,
+        "profit_factor": 1.218,
+        "total_pnl": 5.3684666937453995,
+        "max_drawdown": 7.1,
+        "calmar_ratio": 0.7183098591549296,
+        "avg_expectancy": 0.26842333468727
+      }
+    },
+    {
+      "rank": 89,
+      "parameters": {
+        "ml_weight": 0.6,
+        "technical_weight": 0.4,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7098400794659471,
+      "calmar_ratio": 0.7127659574468086,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.87720460057158,
+        "profit_factor": 1.206,
+        "total_pnl": 4.958270311787222,
+        "max_drawdown": 7.05,
+        "calmar_ratio": 0.7127659574468086,
+        "avg_expectancy": 0.24791351558936112
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.287700914304395,
+        "profit_factor": 1.206,
+        "total_pnl": 5.1645447094379575,
+        "max_drawdown": 7.05,
+        "calmar_ratio": 0.7127659574468086,
+        "avg_expectancy": 0.25822723547189785
+      }
+    },
+    {
+      "rank": 90,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 0.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7097302311494545,
+      "calmar_ratio": 0.7097902097902099,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.124755963269635,
+        "profit_factor": 1.218,
+        "total_pnl": 5.123088651359341,
+        "max_drawdown": 7.15,
+        "calmar_ratio": 0.7097902097902099,
+        "avg_expectancy": 0.25615443256796705
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.1332061560066,
+        "profit_factor": 1.218,
+        "total_pnl": 5.12737712417335,
+        "max_drawdown": 7.15,
+        "calmar_ratio": 0.7097902097902099,
+        "avg_expectancy": 0.2563688562086675
+      }
+    },
+    {
+      "rank": 91,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7081169301401218,
+      "calmar_ratio": 0.7101449275362318,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.22361581645589,
+        "profit_factor": 1.182,
+        "total_pnl": 5.024271750063387,
+        "max_drawdown": 6.9,
+        "calmar_ratio": 0.7101449275362318,
+        "avg_expectancy": 0.25121358750316936
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.50919095998976,
+        "profit_factor": 1.182,
+        "total_pnl": 5.164203570394984,
+        "max_drawdown": 6.9,
+        "calmar_ratio": 0.7101449275362318,
+        "avg_expectancy": 0.2582101785197492
+      }
+    },
+    {
+      "rank": 92,
+      "parameters": {
+        "ml_weight": 0.7,
+        "technical_weight": 0.3,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 0.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.7012455834512746,
+      "calmar_ratio": 0.7027972027972028,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.11823897377081,
+        "profit_factor": 1.212,
+        "total_pnl": 5.074365084319829,
+        "max_drawdown": 7.15,
+        "calmar_ratio": 0.7027972027972028,
+        "avg_expectancy": 0.2537182542159914
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.339016651848155,
+        "profit_factor": 1.212,
+        "total_pnl": 5.185305867553699,
+        "max_drawdown": 7.15,
+        "calmar_ratio": 0.7027972027972028,
+        "avg_expectancy": 0.25926529337768495
+      }
+    },
+    {
+      "rank": 93,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.6984331875515138,
+      "calmar_ratio": 0.7014388489208633,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.88057645462236,
+        "profit_factor": 1.182,
+        "total_pnl": 4.8314060216284,
+        "max_drawdown": 6.95,
+        "calmar_ratio": 0.7014388489208633,
+        "avg_expectancy": 0.24157030108142
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.30907587035525,
+        "profit_factor": 1.182,
+        "total_pnl": 5.040299486798184,
+        "max_drawdown": 6.95,
+        "calmar_ratio": 0.7014388489208633,
+        "avg_expectancy": 0.2520149743399092
+      }
+    },
+    {
+      "rank": 94,
+      "parameters": {
+        "ml_weight": 0.6,
+        "technical_weight": 0.4,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 0.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.6953732476395571,
+      "calmar_ratio": 0.6958041958041956,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.96554017040356,
+        "profit_factor": 1.206,
+        "total_pnl": 4.952881234775772,
+        "max_drawdown": 7.15,
+        "calmar_ratio": 0.6958041958041956,
+        "avg_expectancy": 0.24764406173878858
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.02747543426618,
+        "profit_factor": 1.206,
+        "total_pnl": 4.983694028547425,
+        "max_drawdown": 7.15,
+        "calmar_ratio": 0.6958041958041956,
+        "avg_expectancy": 0.24918470142737123
+      }
+    },
+    {
+      "rank": 95,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 0.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.6900970943547448,
+      "calmar_ratio": 0.6901408450704226,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.00337637867914,
+        "profit_factor": 1.194,
+        "total_pnl": 4.906554425552781,
+        "max_drawdown": 7.1,
+        "calmar_ratio": 0.6901408450704226,
+        "avg_expectancy": 0.24532772127763908
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.009715768093685,
+        "profit_factor": 1.194,
+        "total_pnl": 4.909660726365903,
+        "max_drawdown": 7.1,
+        "calmar_ratio": 0.6901408450704226,
+        "avg_expectancy": 0.24548303631829516
+      }
+    },
+    {
+      "rank": 96,
+      "parameters": {
+        "ml_weight": 0.3,
+        "technical_weight": 0.7,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.6899697433422186,
+      "calmar_ratio": 0.6914893617021277,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.89575895954621,
+        "profit_factor": 1.188,
+        "total_pnl": 4.833932492778779,
+        "max_drawdown": 7.05,
+        "calmar_ratio": 0.6914893617021277,
+        "avg_expectancy": 0.24169662463893893
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.11551915313307,
+        "profit_factor": 1.188,
+        "total_pnl": 4.941065587152374,
+        "max_drawdown": 7.05,
+        "calmar_ratio": 0.6914893617021277,
+        "avg_expectancy": 0.2470532793576187
+      }
+    },
+    {
+      "rank": 97,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 0.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.6878754499146944,
+      "calmar_ratio": 0.6888111888111886,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.015150941021304,
+        "profit_factor": 1.2,
+        "total_pnl": 4.932461838452992,
+        "max_drawdown": 7.15,
+        "calmar_ratio": 0.6888111888111886,
+        "avg_expectancy": 0.2466230919226496
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.150999329040275,
+        "profit_factor": 1.2,
+        "total_pnl": 4.999367169552333,
+        "max_drawdown": 7.15,
+        "calmar_ratio": 0.6888111888111886,
+        "avg_expectancy": 0.24996835847761667
+      }
+    },
+    {
+      "rank": 98,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 2.75
+      },
+      "survived_oos": true,
+      "robustness_score": 0.6871884778729405,
+      "calmar_ratio": 0.6883116883116884,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 50.03177704482719,
+        "profit_factor": 1.218,
+        "total_pnl": 5.30094183375841,
+        "max_drawdown": 7.7,
+        "calmar_ratio": 0.6883116883116884,
+        "avg_expectancy": 0.2650470916879205
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.194960448192454,
+        "profit_factor": 1.218,
+        "total_pnl": 5.3874290375420015,
+        "max_drawdown": 7.7,
+        "calmar_ratio": 0.6883116883116884,
+        "avg_expectancy": 0.2693714518771001
+      }
+    },
+    {
+      "rank": 99,
+      "parameters": {
+        "ml_weight": 0.2,
+        "technical_weight": 0.8,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.0
+      },
+      "survived_oos": true,
+      "robustness_score": 0.6816380298540232,
+      "calmar_ratio": 0.6843971631205674,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.771596915453564,
+        "profit_factor": 1.182,
+        "total_pnl": 4.729270511706346,
+        "max_drawdown": 7.05,
+        "calmar_ratio": 0.6843971631205674,
+        "avg_expectancy": 0.2364635255853173
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.17474488496935,
+        "profit_factor": 1.182,
+        "total_pnl": 4.92378940699771,
+        "max_drawdown": 7.05,
+        "calmar_ratio": 0.6843971631205674,
+        "avg_expectancy": 0.24618947034988553
+      }
+    },
+    {
+      "rank": 100,
+      "parameters": {
+        "ml_weight": 0.8,
+        "technical_weight": 0.2,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 2.5
+      },
+      "survived_oos": true,
+      "robustness_score": 0.6787217410616835,
+      "calmar_ratio": 0.6806451612903225,
+      "train_performance": {
+        "period_name": "Period 1",
+        "profitable": "True",
+        "win_rate": 49.95645744488803,
+        "profit_factor": 1.218,
+        "total_pnl": 5.236206302178435,
+        "max_drawdown": 7.75,
+        "calmar_ratio": 0.6806451612903225,
+        "avg_expectancy": 0.2618103151089218
+      },
+      "test_performance": {
+        "period_name": "Period 2",
+        "profitable": "True",
+        "win_rate": 50.23904525099139,
+        "profit_factor": 1.218,
+        "total_pnl": 5.385271369897957,
+        "max_drawdown": 7.75,
+        "calmar_ratio": 0.6806451612903225,
+        "avg_expectancy": 0.26926356849489785
+      }
+    }
+  ]
+}

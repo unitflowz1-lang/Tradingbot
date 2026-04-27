@@ -1,0 +1,9 @@
+﻿C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:339:            # Third, fix the Zero-Price Adoption Bug: Explicitly fetch position.price_open (via p.entry_price)
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1323:                    # **NEW:** Update price tracking for rejected trades (for rejection accuracy analysis)
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1380:                        # Define price for rejection logging
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1483:                            # Match Order model: order_id, symbol, order_type, direction, quantity, price, stop_loss, take_profit, status, created_at
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1490:                                price=signal.entry_price,
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1853:                                price=signal.entry_price,
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1874:                                     logger.critical(f"[ELITE_EXECUTION_SUCCESS] 🔫 Order Confirmed | {symbol} | Price: {result.executed_price}")
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1919:                # Also include symbols in portfolio for conversion price accuracy
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1994:                                f"{symbol} | {format_float(final_lots, '.2f')} lots | PRICE: {format_float(result.executed_price, '.5f')}"

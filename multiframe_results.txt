@@ -1,0 +1,387 @@
+﻿21:14:37 | AI Forex Trading Bot v1.0.0 initialized
+21:14:37 | ======================================================================
+21:14:37 | MULTI-TIMEFRAME BACKTEST - AGGRESSIVE STRATEGY
+21:14:37 | ======================================================================
+21:14:37 | 
+Loading 1-minute market data...
+21:14:37 | Using historical data for EUR/USD (MT5 unavailable)
+21:14:38 | Loaded 27059 market data points from DAT_MT_EURUSD_M1_202512.csv
+21:14:38 | Loaded 2000 1-minute bars
+21:14:38 | 
+======================================================================
+21:14:38 | Testing 1-minute timeframe
+21:14:38 | ======================================================================
+21:14:38 |   Bars available: 2000
+21:14:38 | Generating trading signals...
+21:14:38 |   Total signals: 72
+21:14:38 | Setting up exit conditions (AGGRESSIVE)...
+21:14:38 | Added exit condition: take_profit - Take Profit at 30 pips
+21:14:38 | Added exit condition: stop_loss - Stop Loss at 15 pips
+21:14:38 | Added exit condition: trailing_stop - Trailing Stop: 10 pips (activate at 15 pips profit)
+21:14:38 | Running backtest...
+21:14:38 | Starting fixed backtest with proper price tracking
+21:14:38 | Exit strategy: {'total_conditions': 3, 'conditions': [{'type': 'take_profit', 'description': 'Take Profit at 30 pips', 'enabled': True}, {'type': 'stop_loss', 'description': 'Stop Loss at 15 pips', 'enabled': True}, {'type': 'trailing_stop', 'description': 'Trailing Stop: 10 pips (activate at 15 pips profit)', 'enabled': True}]}
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17755 | Size: 2400000.0000 | TP: 1.17781 | SL: 1.17743 | Risk: 200.00
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17781
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17781 | PnL: +624.00 | Reason: Take Profit at 1.17781
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17790 | Size: 4903384.6154 | TP: 1.17797 | SL: 1.17783 | Risk: 212.48
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17787 | Size: 6070857.1429 | TP: 1.17781 | SL: 1.17792 | Risk: 212.48
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17788 | Size: 7499294.1177 | TP: 1.17782 | SL: 1.17792 | Risk: 212.48
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17792
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17792
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17797 | PnL: -607.09 | Reason: Stop Loss hit: 1.17792
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17797 | PnL: -674.94 | Reason: Stop Loss hit: 1.17792
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17797
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17797 | PnL: +343.24 | Reason: Take Profit at 1.17797
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17806 | Size: 6116977.7294 | TP: 1.17814 | SL: 1.17801 | Risk: 193.70
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17805 | Size: 7748171.7905 | TP: 1.17813 | SL: 1.17801 | Risk: 193.70
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17806 | Size: 6456809.8254 | TP: 1.17813 | SL: 1.17801 | Risk: 193.70
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17813 | Size: 2526577.7578 | TP: 1.17820 | SL: 1.17801 | Risk: 193.70
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17814
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17813
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17813
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17819 | PnL: +795.21 | Reason: Take Profit at 1.17814
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17819 | PnL: +1084.74 | Reason: Take Profit at 1.17813
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17819 | PnL: +839.39 | Reason: Take Profit at 1.17813
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17820
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17823 | PnL: +252.66 | Reason: Take Profit at 1.17820
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17799 | Size: 3099724.6400 | TP: 1.17829 | SL: 1.17787 | Risk: 253.14
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17798 | Size: 3375255.7191 | TP: 1.17828 | SL: 1.17787 | Risk: 253.14
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17798 | Size: 10849036.2402 | TP: 1.17791 | SL: 1.17801 | Risk: 253.14
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17801
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17799 | PnL: -108.49 | Reason: Stop Loss hit: 1.17801
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17803 | Size: 4857568.4843 | TP: 1.17811 | SL: 1.17795 | Risk: 250.97
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17804 | Size: 5019487.4337 | TP: 1.17811 | SL: 1.17796 | Risk: 250.97
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17802 | Size: 6844755.5915 | TP: 1.17809 | SL: 1.17796 | Risk: 250.97
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17800 | Size: 6844755.5915 | TP: 1.17793 | SL: 1.17806 | Risk: 250.97
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17800 | Size: 6844755.5915 | TP: 1.17793 | SL: 1.17806 | Risk: 250.97
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17800 | Size: 5577208.2597 | TP: 1.17792 | SL: 1.17807 | Risk: 250.97
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17795
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17796
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17796
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17793 | PnL: -485.76 | Reason: Stop Loss hit: 1.17795
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17793 | PnL: -552.14 | Reason: Stop Loss hit: 1.17796
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17793 | PnL: -616.03 | Reason: Stop Loss hit: 1.17796
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17793
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17793
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17792
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17793 | PnL: +479.13 | Reason: Take Profit at 1.17793
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17793 | PnL: +479.13 | Reason: Take Profit at 1.17793
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17793 | PnL: +390.40 | Reason: Take Profit at 1.17792
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17787
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17787
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17780 | PnL: -588.95 | Reason: Stop Loss hit: 1.17787
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17780 | PnL: -607.55 | Reason: Stop Loss hit: 1.17787
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17777 | Size: 3399066.6969 | TP: 1.17795 | SL: 1.17767 | Risk: 220.94
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17776 | Size: 2039440.0181 | TP: 1.17756 | SL: 1.17792 | Risk: 220.94
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17777 | Size: 3233258.5654 | TP: 1.17797 | SL: 1.17767 | Risk: 220.94
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17778 | Size: 4418786.7060 | TP: 1.17766 | SL: 1.17785 | Risk: 220.94
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17779 | Size: 4276245.1993 | TP: 1.17792 | SL: 1.17771 | Risk: 220.94
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17785
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17782 | PnL: -176.75 | Reason: Stop Loss hit: 1.17785
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17782 | Size: 3033548.4549 | TP: 1.17795 | SL: 1.17771 | Risk: 217.40
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17775 | Size: 1976402.7812 | TP: 1.17758 | SL: 1.17792 | Risk: 217.40
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17771
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17771
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17774 | PnL: -213.81 | Reason: Stop Loss hit: 1.17771
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17774 | PnL: -242.68 | Reason: Stop Loss hit: 1.17771
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17767
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17767
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17780 | PnL: +101.97 | Reason: Stop Loss hit: 1.17767
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17780 | PnL: +97.00 | Reason: Stop Loss hit: 1.17767
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17756
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17758
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17701 | PnL: +1529.58 | Reason: Take Profit at 1.17756
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17701 | PnL: +1462.54 | Reason: Take Profit at 1.17758
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17717 | Size: 2332252.6268 | TP: 1.17753 | SL: 1.17700 | Risk: 272.10
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17753
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17798 | PnL: +1889.12 | Reason: Take Profit at 1.17753
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17749 | Size: 794560.5958 | TP: 1.17852 | SL: 1.17690 | Risk: 309.88
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17747 | Size: 1357132.6964 | TP: 1.17679 | SL: 1.17781 | Risk: 309.88
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17758 | Size: 1408539.2380 | TP: 1.17787 | SL: 1.17725 | Risk: 309.88
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17772 | Size: 1630940.1703 | TP: 1.17798 | SL: 1.17744 | Risk: 309.88
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17781
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17787
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17798
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17801 | PnL: -732.85 | Reason: Stop Loss hit: 1.17781
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17801 | PnL: +605.67 | Reason: Take Profit at 1.17787
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17801 | PnL: +472.97 | Reason: Take Profit at 1.17798
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17690
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17663 | PnL: -683.32 | Reason: Stop Loss hit: 1.17690
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17812 | Size: 2114846.8425 | TP: 1.17766 | SL: 1.17833 | Risk: 303.13
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17791 | Size: 1143879.4242 | TP: 1.17730 | SL: 1.17831 | Risk: 303.13
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17833
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17831
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17818 | PnL: -126.89 | Reason: Stop Loss hit: 1.17833
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17818 | PnL: -308.85 | Reason: Stop Loss hit: 1.17831
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17818 | Size: 692737.1349 | TP: 1.17879 | SL: 1.17754 | Risk: 294.41
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17797 | Size: 910556.5432 | TP: 1.17886 | SL: 1.17748 | Risk: 294.41
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17879
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17886
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17898 | PnL: +554.19 | Reason: Take Profit at 1.17879
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17898 | PnL: +919.66 | Reason: Take Profit at 1.17886
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17892 | Size: 1261910.3324 | TP: 1.17808 | SL: 1.17931 | Risk: 323.89
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: low=1.17728, current=1.17890
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17890 | PnL: +25.24 | Reason: Trailing Stop hit: low=1.17728, current=1.17890
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17898 | Size: 1420708.3917 | TP: 1.17952 | SL: 1.17864 | Risk: 324.40
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17864
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17858 | PnL: -568.28 | Reason: Stop Loss hit: 1.17864
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17867 | Size: 963167.4328 | TP: 1.17952 | SL: 1.17818 | Risk: 313.03
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17863 | Size: 877652.5672 | TP: 1.17947 | SL: 1.17809 | Risk: 313.03
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17882 | Size: 1037666.5712 | TP: 1.17823 | SL: 1.17927 | Risk: 313.03
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: low=1.17728, current=1.17884
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17884 | PnL: -20.75 | Reason: Trailing Stop hit: low=1.17728, current=1.17884
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17873 | Size: 1631031.3862 | TP: 1.17934 | SL: 1.17844 | Risk: 312.61
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17844
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17852 | PnL: -342.52 | Reason: Stop Loss hit: 1.17844
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17918 | Size: 2352030.9015 | TP: 1.17868 | SL: 1.17938 | Risk: 305.76
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: low=1.17728, current=1.17920
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17920 | PnL: -47.04 | Reason: Trailing Stop hit: low=1.17728, current=1.17920
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17921 | Size: 5225540.6543 | TP: 1.17934 | SL: 1.17912 | Risk: 304.82
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17924 | Size: 3325344.0528 | TP: 1.17947 | SL: 1.17910 | Risk: 304.82
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17912
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17910
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17909 | PnL: -627.06 | Reason: Stop Loss hit: 1.17912
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17909 | PnL: -498.80 | Reason: Stop Loss hit: 1.17910
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17818
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17809
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17807 | PnL: -577.90 | Reason: Stop Loss hit: 1.17818
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17807 | PnL: -491.49 | Reason: Stop Loss hit: 1.17809
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17822 | Size: 1956886.1787 | TP: 1.17793 | SL: 1.17842 | Risk: 260.92
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17842
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17845 | PnL: -450.08 | Reason: Stop Loss hit: 1.17842
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17848 | Size: 1399536.0041 | TP: 1.17800 | SL: 1.17875 | Risk: 251.92
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17875
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17863 | PnL: -209.93 | Reason: Stop Loss hit: 1.17875
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17855 | Size: 1084895.7930 | TP: 1.17909 | SL: 1.17821 | Risk: 247.72
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17821
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17809 | PnL: -499.05 | Reason: Stop Loss hit: 1.17821
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17752 | Size: 880506.7831 | TP: 1.17687 | SL: 1.17792 | Risk: 237.74
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17747 | Size: 1273590.1684 | TP: 1.17699 | SL: 1.17775 | Risk: 237.74
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17737 | Size: 682498.0807 | TP: 1.17810 | SL: 1.17685 | Risk: 237.74
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: high=1.17930, current=1.17740
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17740 | PnL: +20.47 | Reason: Trailing Stop hit: high=1.17930, current=1.17740
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17719 | Size: 1066326.8520 | TP: 1.17669 | SL: 1.17752 | Risk: 238.15
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17713 | Size: 904353.1530 | TP: 1.17663 | SL: 1.17752 | Risk: 238.15
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17699
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17696 | PnL: +649.53 | Reason: Take Profit at 1.17699
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17687
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17677 | PnL: +660.38 | Reason: Take Profit at 1.17687
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17669
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17663
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17667 | PnL: +554.49 | Reason: Take Profit at 1.17669
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17667 | PnL: +416.00 | Reason: Take Profit at 1.17663
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17699 | Size: 1685669.7030 | TP: 1.17664 | SL: 1.17724 | Risk: 283.75
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17724
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17723 | PnL: -404.56 | Reason: Stop Loss hit: 1.17724
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17771 | Size: 1378315.9272 | TP: 1.17824 | SL: 1.17741 | Risk: 275.66
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: high=1.17930, current=1.17766
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17766 | PnL: -68.92 | Reason: Trailing Stop hit: high=1.17930, current=1.17766
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17773 | Size: 1285710.3258 | TP: 1.17826 | SL: 1.17741 | Risk: 274.28
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: high=1.17930, current=1.17771
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17771 | PnL: -25.71 | Reason: Trailing Stop hit: high=1.17930, current=1.17771
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17768 | Size: 1594780.1090 | TP: 1.17824 | SL: 1.17742 | Risk: 273.77
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: high=1.17930, current=1.17766
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17766 | PnL: -31.90 | Reason: Trailing Stop hit: high=1.17930, current=1.17766
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17766 | Size: 2074425.3671 | TP: 1.17803 | SL: 1.17746 | Risk: 273.13
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: high=1.17930, current=1.17759
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17759 | PnL: -145.21 | Reason: Trailing Stop hit: high=1.17930, current=1.17759
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17757 | Size: 1706706.1757 | TP: 1.17729 | SL: 1.17781 | Risk: 270.23
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17729
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17727 | PnL: +512.01 | Reason: Take Profit at 1.17729
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17901 | Size: 596741.9465 | TP: 1.17759 | SL: 1.17971 | Risk: 280.47
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: low=1.17677, current=1.17892
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17892 | PnL: +53.71 | Reason: Trailing Stop hit: low=1.17677, current=1.17892
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17930 | Size: 908202.7432 | TP: 1.18009 | SL: 1.17884 | Risk: 281.54
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17914 | Size: 1096920.1963 | TP: 1.17974 | SL: 1.17875 | Risk: 281.54
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17884
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17882 | PnL: -435.94 | Reason: Stop Loss hit: 1.17884
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17875
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17884 | PnL: -329.08 | Reason: Stop Loss hit: 1.17875
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17905 | Size: 1219431.6773 | TP: 1.17844 | SL: 1.17938 | Risk: 266.24
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: low=1.17677, current=1.17893
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17893 | PnL: +146.33 | Reason: Trailing Stop hit: low=1.17677, current=1.17893
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17632 | Size: 1631328.5994 | TP: 1.17600 | SL: 1.17657 | Risk: 269.17
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17657
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17650 | PnL: -293.64 | Reason: Stop Loss hit: 1.17657
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17646 | Size: 1067417.9835 | TP: 1.17699 | SL: 1.17609 | Risk: 263.30
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: high=1.17938, current=1.17647
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17647 | PnL: +10.67 | Reason: Trailing Stop hit: high=1.17938, current=1.17647
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17675 | Size: 696501.9900 | TP: 1.17746 | SL: 1.17618 | Risk: 263.51
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: high=1.17938, current=1.17657
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17657 | PnL: -125.37 | Reason: Trailing Stop hit: high=1.17938, current=1.17657
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17675 | Size: 905211.0256 | TP: 1.17597 | SL: 1.17718 | Risk: 261.00
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17694 | Size: 1118582.1959 | TP: 1.17632 | SL: 1.17729 | Risk: 261.00
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17718
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17717 | PnL: -380.19 | Reason: Stop Loss hit: 1.17718
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17729
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17716 | PnL: -246.09 | Reason: Stop Loss hit: 1.17729
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17723 | Size: 2570451.4975 | TP: 1.17749 | SL: 1.17709 | Risk: 248.48
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: high=1.17938, current=1.17717
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17717 | PnL: -154.23 | Reason: Trailing Stop hit: high=1.17938, current=1.17717
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17725 | Size: 2265160.9504 | TP: 1.17750 | SL: 1.17709 | Risk: 245.39
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: high=1.17938, current=1.17731
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17731 | PnL: +135.91 | Reason: Trailing Stop hit: high=1.17938, current=1.17731
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17726 | Size: 2157483.7342 | TP: 1.17751 | SL: 1.17709 | Risk: 248.11
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: high=1.17938, current=1.17717
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17717 | PnL: -194.17 | Reason: Trailing Stop hit: high=1.17938, current=1.17717
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17710 | Size: 1201117.1740 | TP: 1.17765 | SL: 1.17679 | Risk: 244.23
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: high=1.17938, current=1.17725
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17725 | PnL: +180.17 | Reason: Trailing Stop hit: high=1.17938, current=1.17725
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17731 | Size: 1858728.8268 | TP: 1.17702 | SL: 1.17751 | Risk: 247.83
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17751
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17751 | PnL: -371.75 | Reason: Stop Loss hit: 1.17751
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17792 | Size: 1232797.9227 | TP: 1.17841 | SL: 1.17763 | Risk: 240.40
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17763
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17762 | PnL: -369.84 | Reason: Stop Loss hit: 1.17763
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17735 | Size: 1684328.7281 | TP: 1.17763 | SL: 1.17714 | Risk: 233.00
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: high=1.17938, current=1.17731
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17731 | PnL: -67.37 | Reason: Trailing Stop hit: high=1.17938, current=1.17731
+21:14:38 | 
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+21:14:38 | [1-MINUTE]
+21:14:38 | ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+21:14:38 |   Trades Executed:    72
+21:14:38 |   Winning Trades:     30
+21:14:38 |   Losing Trades:      42
+21:14:38 |   Win Rate:           41.7%
+21:14:38 |   Total P&L:          +1582.57
+21:14:38 |   Max Drawdown:       0.3%
+21:14:38 |   Profit Factor:      1.11
+21:14:38 |   Final Balance:      $11582.57
+21:14:38 |   Status:             Γ£à PROFITABLE
+21:14:38 | 
+======================================================================
+21:14:38 | Testing 5-minute timeframe
+21:14:38 | ======================================================================
+21:14:38 | Aggregating 1-minute data to 5-minute...
+21:14:38 |   Bars available: 432
+21:14:38 | Generating trading signals...
+21:14:38 |   Total signals: 8
+21:14:38 | Setting up exit conditions (AGGRESSIVE)...
+21:14:38 | Added exit condition: take_profit - Take Profit at 30 pips
+21:14:38 | Added exit condition: stop_loss - Stop Loss at 15 pips
+21:14:38 | Added exit condition: trailing_stop - Trailing Stop: 10 pips (activate at 15 pips profit)
+21:14:38 | Running backtest...
+21:14:38 | Starting fixed backtest with proper price tracking
+21:14:38 | Exit strategy: {'total_conditions': 3, 'conditions': [{'type': 'take_profit', 'description': 'Take Profit at 30 pips', 'enabled': True}, {'type': 'stop_loss', 'description': 'Stop Loss at 15 pips', 'enabled': True}, {'type': 'trailing_stop', 'description': 'Trailing Stop: 10 pips (activate at 15 pips profit)', 'enabled': True}]}
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17795 | Size: 789473.6842 | TP: 1.17747 | SL: 1.17833 | Risk: 200.00
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17747
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17718 | PnL: +607.89 | Reason: Take Profit at 1.17747
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17762 | Size: 780949.3058 | TP: 1.17809 | SL: 1.17721 | Risk: 212.16
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17721
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17700 | PnL: -484.19 | Reason: Stop Loss hit: 1.17721
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17758 | Size: 361560.9345 | TP: 1.17883 | SL: 1.17674 | Risk: 202.47
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17883
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17900 | PnL: +513.42 | Reason: Take Profit at 1.17883
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17828 | Size: 651252.4099 | TP: 1.17914 | SL: 1.17779 | Risk: 212.74
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17779
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17779 | PnL: -319.11 | Reason: Stop Loss hit: 1.17779
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17877 | Size: 402000.3512 | TP: 1.17738 | SL: 1.17954 | Risk: 206.36
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17738
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17777 | PnL: +402.00 | Reason: Take Profit at 1.17738
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17708 | Size: 699131.0455 | TP: 1.17622 | SL: 1.17754 | Risk: 214.40
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17735 | Size: 554483.2430 | TP: 1.17793 | SL: 1.17677 | Risk: 214.40
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17754
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17744 | PnL: -251.69 | Reason: Stop Loss hit: 1.17754
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17793
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17805 | PnL: +388.14 | Reason: Take Profit at 1.17793
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17762 | Size: 435710.7876 | TP: 1.17653 | SL: 1.17837 | Risk: 217.13
+21:14:38 | [CLOSE_REMAINING] EUR/USD: @ 1.17762 | PnL: +0.00
+21:14:38 | 
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+21:14:38 | [5-MINUTE]
+21:14:38 | ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+21:14:38 |   Trades Executed:    8
+21:14:38 |   Winning Trades:     4
+21:14:38 |   Losing Trades:      4
+21:14:38 |   Win Rate:           50.0%
+21:14:38 |   Total P&L:          +856.46
+21:14:38 |   Max Drawdown:       0.1%
+21:14:38 |   Profit Factor:      1.81
+21:14:38 |   Final Balance:      $10856.46
+21:14:38 |   Status:             Γ£à PROFITABLE
+21:14:38 | 
+======================================================================
+21:14:38 | Testing 15-minute timeframe
+21:14:38 | ======================================================================
+21:14:38 | Aggregating 1-minute data to 15-minute...
+21:14:38 |   Bars available: 152
+21:14:38 | Generating trading signals...
+21:14:38 |   Total signals: 4
+21:14:38 | Setting up exit conditions (AGGRESSIVE)...
+21:14:38 | Added exit condition: take_profit - Take Profit at 30 pips
+21:14:38 | Added exit condition: stop_loss - Stop Loss at 15 pips
+21:14:38 | Added exit condition: trailing_stop - Trailing Stop: 10 pips (activate at 15 pips profit)
+21:14:38 | Running backtest...
+21:14:38 | Starting fixed backtest with proper price tracking
+21:14:38 | Exit strategy: {'total_conditions': 3, 'conditions': [{'type': 'take_profit', 'description': 'Take Profit at 30 pips', 'enabled': True}, {'type': 'stop_loss', 'description': 'Stop Loss at 15 pips', 'enabled': True}, {'type': 'trailing_stop', 'description': 'Trailing Stop: 10 pips (activate at 15 pips profit)', 'enabled': True}]}
+21:14:38 | [ENTRY] EUR/USD: LONG @ 1.17757 | Size: 309278.3505 | TP: 1.17925 | SL: 1.17660 | Risk: 200.00
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17700 | Size: 252100.8403 | TP: 1.17614 | SL: 1.17819 | Risk: 200.00
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17819
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17752 | PnL: -131.09 | Reason: Stop Loss hit: 1.17819
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17752 | Size: 379573.3678 | TP: 1.17627 | SL: 1.17830 | Risk: 197.38
+21:14:38 | Exit triggered by stop_loss: Stop Loss hit: 1.17830
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17826 | PnL: -280.88 | Reason: Stop Loss hit: 1.17830
+21:14:38 | Exit triggered by take_profit: Take Profit at 1.17925
+21:14:38 | [CLOSE] EUR/USD: LONG @ 1.17920 | PnL: +504.12 | Reason: Take Profit at 1.17925
+21:14:38 | [ENTRY] EUR/USD: SHORT @ 1.17853 | Size: 246651.2501 | TP: 1.17653 | SL: 1.17976 | Risk: 201.84
+21:14:38 | Exit triggered by trailing_stop: Trailing Stop hit: low=1.17685, current=1.17800
+21:14:38 | [CLOSE] EUR/USD: SHORT @ 1.17800 | PnL: +130.73 | Reason: Trailing Stop hit: low=1.17685, current=1.17800
+21:14:38 | 
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+21:14:38 | [15-MINUTE]
+21:14:38 | ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+21:14:38 |   Trades Executed:    4
+21:14:38 |   Winning Trades:     2
+21:14:38 |   Losing Trades:      2
+21:14:38 |   Win Rate:           50.0%
+21:14:38 |   Total P&L:          +222.87
+21:14:38 |   Max Drawdown:       0.0%
+21:14:38 |   Profit Factor:      1.54
+21:14:38 |   Final Balance:      $10222.87
+21:14:38 |   Status:             Γ£à PROFITABLE
+21:14:38 | 
+======================================================================
+21:14:38 | Testing Hourly timeframe
+21:14:38 | ======================================================================
+21:14:38 | Aggregating 1-minute data to Hourly...
+21:14:38 |   Bars available: 40
+21:14:38 | Generating trading signals...
+21:14:38 |   Total signals: 0
+21:14:38 | Setting up exit conditions (AGGRESSIVE)...
+21:14:38 | Added exit condition: take_profit - Take Profit at 30 pips
+21:14:38 | Added exit condition: stop_loss - Stop Loss at 15 pips
+21:14:38 | Added exit condition: trailing_stop - Trailing Stop: 10 pips (activate at 15 pips profit)
+21:14:38 | Running backtest...
+21:14:38 | Starting fixed backtest with proper price tracking
+21:14:38 | Exit strategy: {'total_conditions': 3, 'conditions': [{'type': 'take_profit', 'description': 'Take Profit at 30 pips', 'enabled': True}, {'type': 'stop_loss', 'description': 'Stop Loss at 15 pips', 'enabled': True}, {'type': 'trailing_stop', 'description': 'Trailing Stop: 10 pips (activate at 15 pips profit)', 'enabled': True}]}
+21:14:38 | 
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+21:14:38 | [HOURLY]
+21:14:38 | ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+21:14:38 |   Trades Executed:    0
+21:14:38 |   Winning Trades:     0
+21:14:38 |   Losing Trades:      0
+21:14:38 |   Win Rate:           N/A
+21:14:38 |   Total P&L:          +0.00
+21:14:38 |   Max Drawdown:       0.0%
+21:14:38 |   Profit Factor:      0.00
+21:14:38 |   Final Balance:      $10000.00
+21:14:38 |   Status:             Γ¥î LOSS
+21:14:38 | 
+
+======================================================================
+21:14:38 | MULTI-TIMEFRAME COMPARISON
+21:14:38 | ======================================================================
+
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé Timeframe  Γöé Signals Γöé Trades Γöé Win Rate Γöé P&L        Γöé Drawdown   Γöé
+Γö£ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöñ
+Γöé 1-minute   Γöé      72 Γöé     72 Γöé    41.7% Γöé +$1583     Γöé     0.3%   Γöé
+Γöé 5-minute   Γöé       8 Γöé      8 Γöé    50.0% Γöé +$856      Γöé     0.1%   Γöé
+Γöé 15-minute  Γöé       4 Γöé      4 Γöé    50.0% Γöé +$223      Γöé     0.0%   Γöé
+Γöé Hourly     Γöé       0 Γöé      0 Γöé     0.0% Γöé +$0        Γöé     0.0%   Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+21:14:38 | 
+≡ƒÅå BEST TIMEFRAME: 1-minute (1582.57 P&L)

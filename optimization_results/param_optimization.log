@@ -1,0 +1,448 @@
+2026-04-23 19:11:36,995 | WARNING | Data file EURUSD Data/EURUSD_H1.csv not found. Generating synthetic data for testing...
+2026-04-23 19:12:35,006 | WARNING | Data file EURUSD Data/EURUSD_H1.csv not found. Generating synthetic data for testing...
+2026-04-23 19:12:35,023 | INFO | ================================================================================
+2026-04-23 19:12:35,024 | INFO | STARTING PARAMETER OPTIMIZATION
+2026-04-23 19:12:35,024 | INFO | ================================================================================
+2026-04-23 19:12:35,024 | INFO | Generated 60 parameter combinations to test
+2026-04-23 19:13:25,987 | WARNING | Data file EURUSD Data/EURUSD_H1.csv not found. Generating synthetic data for testing...
+2026-04-23 19:13:26,008 | INFO | ================================================================================
+2026-04-23 19:13:26,008 | INFO | STARTING PARAMETER OPTIMIZATION
+2026-04-23 19:13:26,008 | INFO | ================================================================================
+2026-04-23 19:13:26,009 | INFO | Generated 60 parameter combinations to test
+2026-04-23 19:13:26,202 | INFO | 
+[1/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_only'}
+2026-04-23 19:13:26,762 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193685452.54% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:13:26,762 | INFO | 
+[2/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:13:27,511 | INFO |   Trades: 5 | Freq: 1.1/mo | Return: -415670269605395072.00% | PF: 0.00 | Sharpe: -7.94 | DD: 298614696170019.38% | Fitness: 0.1
+2026-04-23 19:13:27,512 | INFO | 
+[3/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:13:28,132 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193687383.79% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:13:28,133 | INFO | 
+[4/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_only'}
+2026-04-23 19:13:28,783 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193688014.12% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:13:28,784 | INFO | 
+[5/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:13:29,439 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193686275.21% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:13:29,439 | INFO | 
+[6/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:13:30,304 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193688014.12% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:13:30,304 | INFO | 
+[7/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_only'}
+2026-04-23 19:13:31,196 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193686900.99% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:13:31,197 | INFO | 
+[8/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:13:31,841 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193686275.21% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:13:31,841 | INFO | 
+[9/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:13:32,504 | INFO |   Trades: 3 | Freq: 8.2/mo | Return: 269778654845.32% | PF: inf | Sharpe: 11.24 | DD: 0.00% | Fitness: 86.4
+2026-04-23 19:13:32,504 | INFO | 
+[10/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_only'}
+2026-04-23 19:13:33,091 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139100.88% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:13:33,091 | INFO | 
+[11/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:13:33,644 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193678891.39% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:13:33,645 | INFO | 
+[12/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:13:34,166 | INFO |   Trades: 0 | Freq: 0.0/mo | Return: 0.00% | PF: 0.00 | Sharpe: 0.00 | DD: 0.00% | Fitness: 3.0
+2026-04-23 19:13:34,166 | INFO | 
+[13/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_only'}
+2026-04-23 19:13:34,736 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139100.88% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:13:34,736 | INFO | 
+[14/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:13:35,343 | INFO |   Trades: 3 | Freq: 0.7/mo | Return: -214724278315.02% | PF: 0.00 | Sharpe: -11.24 | DD: 154256719.16% | Fitness: 0.1
+2026-04-23 19:13:35,343 | INFO | 
+[15/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:13:36,023 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139100.42% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:13:36,023 | INFO | 
+[16/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_only'}
+2026-04-23 19:13:36,603 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193685634.54% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:13:36,603 | INFO | 
+[17/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:13:37,303 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193686532.10% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:13:37,303 | INFO | 
+[18/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:13:37,962 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139100.88% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:13:37,963 | INFO | 
+[19/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_only'}
+2026-04-23 19:13:38,603 | INFO |   Trades: 18 | Freq: 3.9/mo | Return: -12270850910026882915207624371246995324376891637177469894656.00% | PF: 0.00 | Sharpe: -3.85 | DD: 4193410799035826864893395986101068365824.00% | Fitness: 0.5
+2026-04-23 19:13:38,604 | INFO | 
+[20/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:13:39,174 | INFO |   Trades: 11 | Freq: 2.3/mo | Return: 2403053415492565487704636034522284032.00% | PF: 1108.66 | Sharpe: 5.01 | DD: 110961.48% | Fitness: 8.2
+2026-04-23 19:13:39,176 | INFO | 
+[21/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:13:39,896 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193685634.54% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:13:39,896 | INFO | 
+[22/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_only'}
+2026-04-23 19:13:40,516 | INFO |   Trades: 0 | Freq: 0.0/mo | Return: 0.00% | PF: 0.00 | Sharpe: 0.00 | DD: 0.00% | Fitness: 3.0
+2026-04-23 19:13:40,516 | INFO | 
+[23/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:13:41,088 | INFO |   Trades: 3 | Freq: 0.6/mo | Return: -214731782144.14% | PF: 0.00 | Sharpe: -11.24 | DD: 154261717.19% | Fitness: 0.1
+2026-04-23 19:13:41,088 | INFO | 
+[24/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:13:41,631 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139100.42% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:13:41,631 | INFO | 
+[25/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_only'}
+2026-04-23 19:13:42,324 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193689186.68% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:13:42,324 | INFO | 
+[26/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:13:43,046 | INFO |   Trades: 4 | Freq: 0.9/mo | Return: -298751938042834.50% | PF: 0.00 | Sharpe: -9.17 | DD: 214621361626.52% | Fitness: 0.1
+2026-04-23 19:13:43,046 | INFO | 
+[27/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:13:43,771 | INFO |   Trades: 3 | Freq: 0.6/mo | Return: -214750988536.17% | PF: 0.00 | Sharpe: -11.21 | DD: 110973.80% | Fitness: 0.1
+2026-04-23 19:13:43,772 | INFO | 
+[28/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_only'}
+2026-04-23 19:13:44,405 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139101.08% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:13:44,405 | INFO | 
+[29/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:13:45,039 | INFO |   Trades: 4 | Freq: 0.9/mo | Return: -298757852582470.81% | PF: 0.00 | Sharpe: -9.17 | DD: 214625283093.81% | Fitness: 0.1
+2026-04-23 19:13:45,039 | INFO | 
+[30/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:13:45,547 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193689233.34% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:13:45,547 | INFO | 
+[31/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_only'}
+2026-04-23 19:13:46,118 | INFO |   Trades: 0 | Freq: 0.0/mo | Return: 0.00% | PF: 0.00 | Sharpe: 0.00 | DD: 0.00% | Fitness: 3.0
+2026-04-23 19:13:46,118 | INFO | 
+[32/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:14:17,752 | WARNING | Data file EURUSD Data/EURUSD_H1.csv not found. Generating synthetic data for testing...
+2026-04-23 19:14:17,767 | INFO | ================================================================================
+2026-04-23 19:14:17,767 | INFO | STARTING PARAMETER OPTIMIZATION
+2026-04-23 19:14:17,768 | INFO | ================================================================================
+2026-04-23 19:14:17,768 | INFO | Generated 60 parameter combinations to test
+2026-04-23 19:14:18,094 | INFO | 
+[1/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_only'}
+2026-04-23 19:14:19,137 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193685452.54% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:19,137 | INFO | 
+[2/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:14:20,187 | INFO |   Trades: 5 | Freq: 1.1/mo | Return: -415670269605395072.00% | PF: 0.00 | Sharpe: -7.94 | DD: 298614696170019.38% | Fitness: 0.1
+2026-04-23 19:14:20,189 | INFO | 
+[3/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:14:21,160 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193687383.79% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:21,162 | INFO | 
+[4/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_only'}
+2026-04-23 19:14:21,987 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193688014.12% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:21,987 | INFO | 
+[5/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:14:22,910 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193686275.21% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:22,910 | INFO | 
+[6/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:14:24,176 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193688014.12% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:24,176 | INFO | 
+[7/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_only'}
+2026-04-23 19:14:25,527 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193686900.99% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:25,527 | INFO | 
+[8/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:14:27,025 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193686275.21% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:27,025 | INFO | 
+[9/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:14:28,293 | INFO |   Trades: 3 | Freq: 8.2/mo | Return: 269778654845.32% | PF: inf | Sharpe: 11.24 | DD: 0.00% | Fitness: 86.4
+2026-04-23 19:14:28,293 | INFO | 
+[10/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_only'}
+2026-04-23 19:14:29,270 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139100.88% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:14:29,270 | INFO | 
+[11/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:14:30,242 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193678891.39% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:30,243 | INFO | 
+[12/60] Testing: {'quality_floor': 0.3, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:14:31,066 | INFO |   Trades: 0 | Freq: 0.0/mo | Return: 0.00% | PF: 0.00 | Sharpe: 0.00 | DD: 0.00% | Fitness: 3.0
+2026-04-23 19:14:31,068 | INFO | 
+[13/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_only'}
+2026-04-23 19:14:31,920 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139100.88% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:14:31,920 | INFO | 
+[14/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:14:32,780 | INFO |   Trades: 3 | Freq: 0.7/mo | Return: -214724278315.02% | PF: 0.00 | Sharpe: -11.24 | DD: 154256719.16% | Fitness: 0.1
+2026-04-23 19:14:32,780 | INFO | 
+[15/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:14:33,610 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139100.42% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:14:33,610 | INFO | 
+[16/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_only'}
+2026-04-23 19:14:34,520 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193685634.54% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:34,520 | INFO | 
+[17/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:14:35,400 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193686532.10% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:35,400 | INFO | 
+[18/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:14:36,211 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139100.88% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:14:36,211 | INFO | 
+[19/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_only'}
+2026-04-23 19:14:37,084 | INFO |   Trades: 18 | Freq: 3.9/mo | Return: -12270850910026882915207624371246995324376891637177469894656.00% | PF: 0.00 | Sharpe: -3.85 | DD: 4193410799035826864893395986101068365824.00% | Fitness: 0.5
+2026-04-23 19:14:37,084 | INFO | 
+[20/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:14:38,002 | INFO |   Trades: 11 | Freq: 2.3/mo | Return: 2403053415492565487704636034522284032.00% | PF: 1108.66 | Sharpe: 5.01 | DD: 110961.48% | Fitness: 8.2
+2026-04-23 19:14:38,002 | INFO | 
+[21/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:14:39,359 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193685634.54% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:39,360 | INFO | 
+[22/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_only'}
+2026-04-23 19:14:41,029 | INFO |   Trades: 0 | Freq: 0.0/mo | Return: 0.00% | PF: 0.00 | Sharpe: 0.00 | DD: 0.00% | Fitness: 3.0
+2026-04-23 19:14:41,030 | INFO | 
+[23/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:14:42,804 | INFO |   Trades: 3 | Freq: 0.6/mo | Return: -214731782144.14% | PF: 0.00 | Sharpe: -11.24 | DD: 154261717.19% | Fitness: 0.1
+2026-04-23 19:14:42,809 | INFO | 
+[24/60] Testing: {'quality_floor': 0.35, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:14:44,379 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139100.42% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:14:44,379 | INFO | 
+[25/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_only'}
+2026-04-23 19:14:45,334 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193689186.68% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:45,334 | INFO | 
+[26/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:14:46,230 | INFO |   Trades: 4 | Freq: 0.9/mo | Return: -298751938042834.50% | PF: 0.00 | Sharpe: -9.17 | DD: 214621361626.52% | Fitness: 0.1
+2026-04-23 19:14:46,230 | INFO | 
+[27/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:14:47,279 | INFO |   Trades: 3 | Freq: 0.6/mo | Return: -214750988536.17% | PF: 0.00 | Sharpe: -11.21 | DD: 110973.80% | Fitness: 0.1
+2026-04-23 19:14:47,282 | INFO | 
+[28/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_only'}
+2026-04-23 19:14:48,445 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139101.08% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:14:48,445 | INFO | 
+[29/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:14:49,417 | INFO |   Trades: 4 | Freq: 0.9/mo | Return: -298757852582470.81% | PF: 0.00 | Sharpe: -9.17 | DD: 214625283093.81% | Fitness: 0.1
+2026-04-23 19:14:49,417 | INFO | 
+[30/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:14:50,476 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193689233.34% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:50,476 | INFO | 
+[31/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_only'}
+2026-04-23 19:14:51,510 | INFO |   Trades: 0 | Freq: 0.0/mo | Return: 0.00% | PF: 0.00 | Sharpe: 0.00 | DD: 0.00% | Fitness: 3.0
+2026-04-23 19:14:51,510 | INFO | 
+[32/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:14:52,464 | INFO |   Trades: 4 | Freq: 0.9/mo | Return: 374943840422890.31% | PF: inf | Sharpe: 9.17 | DD: 0.00% | Fitness: 21.5
+2026-04-23 19:14:52,464 | INFO | 
+[33/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:14:53,536 | INFO |   Trades: 4 | Freq: 0.9/mo | Return: 238054811060663.56% | PF: 1109.67 | Sharpe: 9.15 | DD: 154253579.53% | Fitness: 7.8
+2026-04-23 19:14:53,537 | INFO | 
+[34/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_only'}
+2026-04-23 19:14:54,971 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139100.88% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:14:54,971 | INFO | 
+[35/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:14:56,449 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: -154320892.35% | PF: 0.00 | Sharpe: -15.85 | DD: 110960.32% | Fitness: 0.1
+2026-04-23 19:14:56,451 | INFO | 
+[36/60] Testing: {'quality_floor': 0.4, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:14:57,869 | INFO |   Trades: 28 | Freq: 5.1/mo | Return: 27450375907332431943833723014726118824556686299342721102348073154015055288073158809092096.00% | PF: 2144286435.12 | Sharpe: 3.06 | DD: 110974.13% | Fitness: 30.1
+2026-04-23 19:14:57,870 | INFO | 
+[37/60] Testing: {'quality_floor': 0.45, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_only'}
+2026-04-23 19:14:59,160 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193683757.76% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:14:59,160 | INFO | 
+[38/60] Testing: {'quality_floor': 0.45, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:15:00,271 | INFO |   Trades: 8 | Freq: 1.7/mo | Return: 892175822564176752201957376.00% | PF: 1108.61 | Sharpe: 5.99 | DD: 110962.52% | Fitness: 8.0
+2026-04-23 19:15:00,271 | INFO | 
+[39/60] Testing: {'quality_floor': 0.45, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:15:01,247 | INFO |   Trades: 9 | Freq: 1.9/mo | Return: -628191019997590417889868906496.00% | PF: 0.00 | Sharpe: -5.62 | DD: 214607843701.71% | Fitness: 0.2
+2026-04-23 19:15:01,248 | INFO | 
+[40/60] Testing: {'quality_floor': 0.45, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_only'}
+2026-04-23 19:15:02,179 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193689232.74% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:15:02,180 | INFO | 
+[41/60] Testing: {'quality_floor': 0.45, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:15:03,023 | INFO |   Trades: 13 | Freq: 35.5/mo | Return: 1186653699636360760849830477243154125815808.00% | PF: 5787581735132920832.00 | Sharpe: 4.59 | DD: 110893.13% | Fitness: 40.0
+2026-04-23 19:15:03,023 | INFO | 
+[42/60] Testing: {'quality_floor': 0.45, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:15:03,920 | INFO |   Trades: 0 | Freq: 0.0/mo | Return: 0.00% | PF: 0.00 | Sharpe: 0.00 | DD: 0.00% | Fitness: 3.0
+2026-04-23 19:15:03,922 | INFO | 
+[43/60] Testing: {'quality_floor': 0.45, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_only'}
+2026-04-23 19:15:05,075 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193686315.64% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:15:05,075 | INFO | 
+[44/60] Testing: {'quality_floor': 0.45, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:15:05,927 | INFO |   Trades: 2 | Freq: 0.4/mo | Return: 193686275.21% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 21.3
+2026-04-23 19:15:05,927 | INFO | 
+[45/60] Testing: {'quality_floor': 0.45, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:15:06,805 | INFO |   Trades: 3 | Freq: 0.7/mo | Return: -214718845521.75% | PF: 0.00 | Sharpe: -11.24 | DD: 154251983.63% | Fitness: 0.1
+2026-04-23 19:15:06,805 | INFO | 
+[46/60] Testing: {'quality_floor': 0.45, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_only'}
+2026-04-23 19:15:07,632 | INFO |   Trades: 0 | Freq: 0.0/mo | Return: 0.00% | PF: 0.00 | Sharpe: 0.00 | DD: 0.00% | Fitness: 3.0
+2026-04-23 19:15:07,634 | INFO | 
+[47/60] Testing: {'quality_floor': 0.45, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:15:08,457 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139102.51% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:15:08,457 | INFO | 
+[48/60] Testing: {'quality_floor': 0.45, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:15:09,413 | INFO |   Trades: 6 | Freq: 1.3/mo | Return: 460834242510765424640.00% | PF: 1109.64 | Sharpe: 7.09 | DD: 298619165934632.75% | Fitness: 7.9
+2026-04-23 19:15:09,415 | INFO | 
+[49/60] Testing: {'quality_floor': 0.5, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_only'}
+2026-04-23 19:15:10,755 | INFO |   Trades: 5 | Freq: 1.1/mo | Return: 521651951587154624.00% | PF: inf | Sharpe: 7.94 | DD: 0.00% | Fitness: 21.7
+2026-04-23 19:15:10,755 | INFO | 
+[50/60] Testing: {'quality_floor': 0.5, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:15:11,990 | INFO |   Trades: 12 | Freq: 22.5/mo | Return: -429587952397194663132421236675710025728.00% | PF: 0.00 | Sharpe: -4.78 | DD: 154233416.25% | Fitness: 5.3
+2026-04-23 19:15:11,992 | INFO | 
+[51/60] Testing: {'quality_floor': 0.5, 'ml_confidence_threshold': 0.5, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:15:13,150 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139101.75% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:15:13,150 | INFO | 
+[52/60] Testing: {'quality_floor': 0.5, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_only'}
+2026-04-23 19:15:14,175 | INFO |   Trades: 2 | Freq: 5.5/mo | Return: 193789143.63% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 80.9
+2026-04-23 19:15:14,175 | INFO | 
+[53/60] Testing: {'quality_floor': 0.5, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:15:15,080 | INFO |   Trades: 12 | Freq: 22.5/mo | Return: 1345783634544160811046728377136559685632.00% | PF: 1107.85 | Sharpe: 4.78 | DD: 110888.84% | Fitness: 38.1
+2026-04-23 19:15:15,082 | INFO | 
+[54/60] Testing: {'quality_floor': 0.5, 'ml_confidence_threshold': 0.52, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:15:16,095 | INFO |   Trades: 3 | Freq: 0.7/mo | Return: 171099636325.90% | PF: 1108.69 | Sharpe: 11.21 | DD: 110966.98% | Fitness: 7.7
+2026-04-23 19:15:16,099 | INFO | 
+[55/60] Testing: {'quality_floor': 0.5, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_only'}
+2026-04-23 19:15:17,190 | INFO |   Trades: 0 | Freq: 0.0/mo | Return: 0.00% | PF: 0.00 | Sharpe: 0.00 | DD: 0.00% | Fitness: 3.0
+2026-04-23 19:15:17,190 | INFO | 
+[56/60] Testing: {'quality_floor': 0.5, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:15:18,040 | INFO |   Trades: 0 | Freq: 0.0/mo | Return: 0.00% | PF: 0.00 | Sharpe: 0.00 | DD: 0.00% | Fitness: 3.0
+2026-04-23 19:15:18,040 | INFO | 
+[57/60] Testing: {'quality_floor': 0.5, 'ml_confidence_threshold': 0.54, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:15:18,957 | INFO |   Trades: 2 | Freq: 5.5/mo | Return: 193791597.30% | PF: inf | Sharpe: 15.90 | DD: 0.00% | Fitness: 80.9
+2026-04-23 19:15:18,969 | INFO | 
+[58/60] Testing: {'quality_floor': 0.5, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_only'}
+2026-04-23 19:15:19,786 | INFO |   Trades: 0 | Freq: 0.0/mo | Return: 0.00% | PF: 0.00 | Sharpe: 0.00 | DD: 0.00% | Fitness: 3.0
+2026-04-23 19:15:19,786 | INFO | 
+[59/60] Testing: {'quality_floor': 0.5, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_quant'}
+2026-04-23 19:15:20,876 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139102.51% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:15:20,876 | INFO | 
+[60/60] Testing: {'quality_floor': 0.5, 'ml_confidence_threshold': 0.56, 'filter_mode': 'baseline_plus_adx'}
+2026-04-23 19:15:21,780 | INFO |   Trades: 1 | Freq: 0.0/mo | Return: 139100.14% | PF: inf | Sharpe: 0.00 | DD: 0.00% | Fitness: 16.5
+2026-04-23 19:15:21,780 | INFO | 
+================================================================================
+2026-04-23 19:15:21,780 | INFO | TOP 10 PARAMETER COMBINATIONS
+2026-04-23 19:15:21,782 | INFO | ================================================================================
+2026-04-23 19:15:21,782 | INFO | 
+#1 | Fitness Score: 86.4
+2026-04-23 19:15:21,782 | INFO |   Quality Floor: 30%
+2026-04-23 19:15:21,782 | INFO |   ML Confidence: 0.54
+2026-04-23 19:15:21,782 | INFO |   Filter Mode: baseline_plus_adx
+2026-04-23 19:15:21,782 | INFO |   Total Trades: 3
+2026-04-23 19:15:21,782 | INFO |   Trades/Month: 8.2
+2026-04-23 19:15:21,784 | INFO |   Total Return: 269778654845.32%
+2026-04-23 19:15:21,784 | INFO |   Profit Factor: inf
+2026-04-23 19:15:21,784 | INFO |   Expectancy: $8992621828177.44
+2026-04-23 19:15:21,784 | INFO |   Sharpe Ratio: 11.24
+2026-04-23 19:15:21,784 | INFO |   Max Drawdown: 0.00%
+2026-04-23 19:15:21,784 | INFO |   Win Rate: 100.0%
+2026-04-23 19:15:21,786 | INFO | 
+#2 | Fitness Score: 80.9
+2026-04-23 19:15:21,786 | INFO |   Quality Floor: 50%
+2026-04-23 19:15:21,786 | INFO |   ML Confidence: 0.52
+2026-04-23 19:15:21,787 | INFO |   Filter Mode: baseline_only
+2026-04-23 19:15:21,788 | INFO |   Total Trades: 2
+2026-04-23 19:15:21,788 | INFO |   Trades/Month: 5.5
+2026-04-23 19:15:21,788 | INFO |   Total Return: 193789143.63%
+2026-04-23 19:15:21,790 | INFO |   Profit Factor: inf
+2026-04-23 19:15:21,790 | INFO |   Expectancy: $9689457181.47
+2026-04-23 19:15:21,790 | INFO |   Sharpe Ratio: 15.90
+2026-04-23 19:15:21,790 | INFO |   Max Drawdown: 0.00%
+2026-04-23 19:15:21,790 | INFO |   Win Rate: 100.0%
+2026-04-23 19:15:21,790 | INFO | 
+#3 | Fitness Score: 80.9
+2026-04-23 19:15:21,790 | INFO |   Quality Floor: 50%
+2026-04-23 19:15:21,790 | INFO |   ML Confidence: 0.54
+2026-04-23 19:15:21,790 | INFO |   Filter Mode: baseline_plus_adx
+2026-04-23 19:15:21,790 | INFO |   Total Trades: 2
+2026-04-23 19:15:21,790 | INFO |   Trades/Month: 5.5
+2026-04-23 19:15:21,790 | INFO |   Total Return: 193791597.30%
+2026-04-23 19:15:21,790 | INFO |   Profit Factor: inf
+2026-04-23 19:15:21,790 | INFO |   Expectancy: $9689579864.97
+2026-04-23 19:15:21,790 | INFO |   Sharpe Ratio: 15.90
+2026-04-23 19:15:21,790 | INFO |   Max Drawdown: 0.00%
+2026-04-23 19:15:21,790 | INFO |   Win Rate: 100.0%
+2026-04-23 19:15:21,790 | INFO | 
+#4 | Fitness Score: 40.0
+2026-04-23 19:15:21,796 | INFO |   Quality Floor: 45%
+2026-04-23 19:15:21,796 | INFO |   ML Confidence: 0.52
+2026-04-23 19:15:21,797 | INFO |   Filter Mode: baseline_plus_quant
+2026-04-23 19:15:21,797 | INFO |   Total Trades: 13
+2026-04-23 19:15:21,797 | INFO |   Trades/Month: 35.5
+2026-04-23 19:15:21,797 | INFO |   Total Return: 1186653699636360760849830477243154125815808.00%
+2026-04-23 19:15:21,797 | INFO |   Profit Factor: 5787581735132920832.00
+2026-04-23 19:15:21,799 | INFO |   Expectancy: $9128105381818158746583281143885589506949120.00
+2026-04-23 19:15:21,799 | INFO |   Sharpe Ratio: 4.59
+2026-04-23 19:15:21,799 | INFO |   Max Drawdown: 110893.13%
+2026-04-23 19:15:21,800 | INFO |   Win Rate: 69.2%
+2026-04-23 19:15:21,800 | INFO | 
+#5 | Fitness Score: 38.1
+2026-04-23 19:15:21,800 | INFO |   Quality Floor: 50%
+2026-04-23 19:15:21,800 | INFO |   ML Confidence: 0.52
+2026-04-23 19:15:21,800 | INFO |   Filter Mode: baseline_plus_quant
+2026-04-23 19:15:21,800 | INFO |   Total Trades: 12
+2026-04-23 19:15:21,800 | INFO |   Trades/Month: 22.5
+2026-04-23 19:15:21,800 | INFO |   Total Return: 1345783634544160811046728377136559685632.00%
+2026-04-23 19:15:21,800 | INFO |   Profit Factor: 1107.85
+2026-04-23 19:15:21,800 | INFO |   Expectancy: $11214863621201339336477432550328096522240.00
+2026-04-23 19:15:21,800 | INFO |   Sharpe Ratio: 4.78
+2026-04-23 19:15:21,800 | INFO |   Max Drawdown: 110888.84%
+2026-04-23 19:15:21,804 | INFO |   Win Rate: 75.0%
+2026-04-23 19:15:21,804 | INFO | 
+#6 | Fitness Score: 30.1
+2026-04-23 19:15:21,804 | INFO |   Quality Floor: 40%
+2026-04-23 19:15:21,804 | INFO |   ML Confidence: 0.56
+2026-04-23 19:15:21,804 | INFO |   Filter Mode: baseline_plus_adx
+2026-04-23 19:15:21,804 | INFO |   Total Trades: 28
+2026-04-23 19:15:21,804 | INFO |   Trades/Month: 5.1
+2026-04-23 19:15:21,804 | INFO |   Total Return: 27450375907332431943833723014726118824556686299342721102348073154015055288073158809092096.00%
+2026-04-23 19:15:21,804 | INFO |   Profit Factor: 2144286435.12
+2026-04-23 19:15:21,804 | INFO |   Expectancy: $98037056811901520949570786346728660921476013370367952342155242506735140534813665580285952.00
+2026-04-23 19:15:21,804 | INFO |   Sharpe Ratio: 3.06
+2026-04-23 19:15:21,804 | INFO |   Max Drawdown: 110974.13%
+2026-04-23 19:15:21,804 | INFO |   Win Rate: 71.4%
+2026-04-23 19:15:21,804 | INFO | 
+#7 | Fitness Score: 21.7
+2026-04-23 19:15:21,804 | INFO |   Quality Floor: 50%
+2026-04-23 19:15:21,804 | INFO |   ML Confidence: 0.50
+2026-04-23 19:15:21,804 | INFO |   Filter Mode: baseline_only
+2026-04-23 19:15:21,804 | INFO |   Total Trades: 5
+2026-04-23 19:15:21,804 | INFO |   Trades/Month: 1.1
+2026-04-23 19:15:21,804 | INFO |   Total Return: 521651951587154624.00%
+2026-04-23 19:15:21,810 | INFO |   Profit Factor: inf
+2026-04-23 19:15:21,810 | INFO |   Expectancy: $10433039031743090688.00
+2026-04-23 19:15:21,810 | INFO |   Sharpe Ratio: 7.94
+2026-04-23 19:15:21,810 | INFO |   Max Drawdown: 0.00%
+2026-04-23 19:15:21,810 | INFO |   Win Rate: 100.0%
+2026-04-23 19:15:21,810 | INFO | 
+#8 | Fitness Score: 21.5
+2026-04-23 19:15:21,812 | INFO |   Quality Floor: 40%
+2026-04-23 19:15:21,812 | INFO |   ML Confidence: 0.54
+2026-04-23 19:15:21,812 | INFO |   Filter Mode: baseline_plus_quant
+2026-04-23 19:15:21,812 | INFO |   Total Trades: 4
+2026-04-23 19:15:21,812 | INFO |   Trades/Month: 0.9
+2026-04-23 19:15:21,812 | INFO |   Total Return: 374943840422890.31%
+2026-04-23 19:15:21,812 | INFO |   Profit Factor: inf
+2026-04-23 19:15:21,814 | INFO |   Expectancy: $9373596010572258.00
+2026-04-23 19:15:21,814 | INFO |   Sharpe Ratio: 9.17
+2026-04-23 19:15:21,814 | INFO |   Max Drawdown: 0.00%
+2026-04-23 19:15:21,814 | INFO |   Win Rate: 100.0%
+2026-04-23 19:15:21,814 | INFO | 
+#9 | Fitness Score: 21.3
+2026-04-23 19:15:21,814 | INFO |   Quality Floor: 30%
+2026-04-23 19:15:21,814 | INFO |   ML Confidence: 0.50
+2026-04-23 19:15:21,814 | INFO |   Filter Mode: baseline_only
+2026-04-23 19:15:21,814 | INFO |   Total Trades: 2
+2026-04-23 19:15:21,814 | INFO |   Trades/Month: 0.4
+2026-04-23 19:15:21,814 | INFO |   Total Return: 193685452.54%
+2026-04-23 19:15:21,814 | INFO |   Profit Factor: inf
+2026-04-23 19:15:21,814 | INFO |   Expectancy: $9684272627.19
+2026-04-23 19:15:21,814 | INFO |   Sharpe Ratio: 15.90
+2026-04-23 19:15:21,814 | INFO |   Max Drawdown: 0.00%
+2026-04-23 19:15:21,814 | INFO |   Win Rate: 100.0%
+2026-04-23 19:15:21,814 | INFO | 
+#10 | Fitness Score: 21.3
+2026-04-23 19:15:21,814 | INFO |   Quality Floor: 30%
+2026-04-23 19:15:21,820 | INFO |   ML Confidence: 0.52
+2026-04-23 19:15:21,820 | INFO |   Filter Mode: baseline_plus_quant
+2026-04-23 19:15:21,820 | INFO |   Total Trades: 2
+2026-04-23 19:15:21,820 | INFO |   Trades/Month: 0.4
+2026-04-23 19:15:21,820 | INFO |   Total Return: 193686275.21%
+2026-04-23 19:15:21,820 | INFO |   Profit Factor: inf
+2026-04-23 19:15:21,820 | INFO |   Expectancy: $9684313760.73
+2026-04-23 19:15:21,820 | INFO |   Sharpe Ratio: 15.90
+2026-04-23 19:15:21,820 | INFO |   Max Drawdown: 0.00%
+2026-04-23 19:15:21,820 | INFO |   Win Rate: 100.0%
+2026-04-23 19:15:21,820 | INFO | 
+Results saved to optimization_results/param_optimization.json
+2026-04-23 19:15:21,820 | INFO | 
+Production config saved to config/optimized_params.json
+2026-04-23 19:15:21,820 | INFO | 
+================================================================================
+2026-04-23 19:15:21,820 | INFO | RECOMMENDED PRODUCTION PARAMETERS
+2026-04-23 19:15:21,820 | INFO | ================================================================================
+2026-04-23 19:15:21,820 | INFO | Quality Floor: 30%
+2026-04-23 19:15:21,820 | INFO | ML Confidence Threshold: 0.54
+2026-04-23 19:15:21,820 | INFO | Filter Mode: baseline_plus_adx
+2026-04-23 19:15:21,820 | INFO | Expected Trades/Month: 8.2
+2026-04-23 19:15:21,820 | INFO | Expected Return: 269778654845.32%
+2026-04-23 19:15:21,820 | INFO | Profit Factor: inf
+2026-04-23 19:15:21,820 | INFO | Max Drawdown: 0.00%
+2026-04-23 19:15:21,820 | INFO | 
+================================================================================
+2026-04-23 19:15:21,820 | INFO | NEXT STEPS
+2026-04-23 19:15:21,820 | INFO | ================================================================================
+2026-04-23 19:15:21,820 | INFO | 1. Review the top 10 results in optimization_results/param_optimization.json
+2026-04-23 19:15:21,834 | INFO | 2. Update your bot's config with the recommended parameters
+2026-04-23 19:15:21,834 | INFO | 3. Run a walk-forward validation to ensure no overfitting
+2026-04-23 19:15:21,834 | INFO | 4. Deploy to paper trading for 1-2 weeks before live trading

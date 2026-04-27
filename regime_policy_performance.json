@@ -1,0 +1,14 @@
+{
+  "NEUTRAL": {
+    "STANDARD": {
+      "policy": "STANDARD",
+      "regime": "NEUTRAL",
+      "expected_r_multiple": 0.0,
+      "expected_quality": 0.0,
+      "win_rate": 0.0,
+      "sample_count": 3072,
+      "confidence": 1.0,
+      "avg_capital_efficiency": -1032.0818644058802
+    }
+  }
+}

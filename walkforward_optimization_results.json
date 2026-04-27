@@ -1,0 +1,3712 @@
+{
+  "optimization_method": "WALK_FORWARD_GRID_SEARCH",
+  "total_combinations_tested": 275,
+  "top_results_returned": 100,
+  "evaluation_date": "2026-04-16T22:41:33.890828",
+  "baseline_config": {
+    "ml_weight": 0.7,
+    "technical_weight": 0.3
+  },
+  "results": [
+    {
+      "rank": 1,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 1.734723475976807e-18,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 1.734723475976807e-18,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 1.734723475976807e-18,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 1.734723475976807e-18,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 1.734723475976807e-18,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 1.734723475976807e-18,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.002500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.002500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.002500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.002500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.002500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.002500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0075000000000000015,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.010000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.010000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.010000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.010000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.4,
+        "technical_weight": 0.6,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.010000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.5200000000000002
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0025000000000000005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0025000000000000005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0025000000000000005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0025000000000000005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0025000000000000005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0025000000000000005,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005000000000000001,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005000000000000001,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005000000000000001,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005000000000000001,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005000000000000001,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005000000000000001,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000001,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000001,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000001,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000001,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000001,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000001,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.01,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.01,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.01,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.01,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.01,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.45,
+        "technical_weight": 0.55,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.53
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 51,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 52,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 53,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 54,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 55,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.005,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 56,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0075,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 57,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0075,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 58,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0075,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 59,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0075,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 60,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0075,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0075,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 61,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.01,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 62,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.01,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 63,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.01,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 64,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.01,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 65,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.01,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.01,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 66,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 67,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 68,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 69,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 70,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0125,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 71,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.015,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 72,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.015,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 73,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.015,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 74,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.015,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 75,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.5,
+        "technical_weight": 0.5,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.015,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.54
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.015,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 76,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 77,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 78,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 79,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 80,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 5,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.007500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.007500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 81,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.010000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 82,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.010000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 83,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.010000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 84,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.010000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 85,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 10,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.010000000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.010000000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 86,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 87,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 88,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 89,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 90,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 15,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.012500000000000002,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.012500000000000002,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 91,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.015000000000000005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 92,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.015000000000000005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 93,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.015000000000000005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 94,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.015000000000000005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 95,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 20,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.015000000000000005,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.015000000000000003,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 96,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 1.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0175,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 97,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 2.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0175,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 98,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 3.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0175,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 99,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 4.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0175,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        }
+      ]
+    },
+    {
+      "rank": 100,
+      "stability_score": 0.0,
+      "parameters": {
+        "ml_weight": 0.55,
+        "technical_weight": 0.45,
+        "trailing_stop_pips": 25,
+        "dynamic_lock_increment": 5.0
+      },
+      "performance": {
+        "avg_win_rate": 10.0,
+        "win_rate_variance": 0.0,
+        "avg_sharpe": 0.0175,
+        "total_pnl": 0.0,
+        "avg_profit_factor": 1.55
+      },
+      "period_details": [
+        {
+          "period": 0,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        },
+        {
+          "period": 1,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        },
+        {
+          "period": 2,
+          "win_rate": 10.0,
+          "sharpe": 0.0175,
+          "pnl": 0.0
+        }
+      ]
+    }
+  ]
+}

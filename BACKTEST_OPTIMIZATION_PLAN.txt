@@ -1,0 +1,51 @@
+BACKTEST SPEED OPTIMIZATION RECOMMENDATIONS
+======================================================================
+
+[OPTIMIZATION] Parallel Processing
+   Description: Run symbol analysis across multiple CPU cores
+   Expected Speedup: 3x-4x for 4+ cores
+   Implementation: Use asyncio.gather() + ThreadPoolExecutor
+   Effort: Medium
+
+[OPTIMIZATION] Indicator Caching
+   Description: Cache calculated indicators to avoid recalculation
+   Expected Speedup: 1.5x-2x (if same symbols tested multiple times)
+   Implementation: Use LRU cache for indicator calculations
+   Effort: Low
+
+[OPTIMIZATION] Vectorized Operations
+   Description: Use numpy/pandas for bulk calculations
+   Expected Speedup: 2x-3x
+   Implementation: Replace loops with numpy array operations
+   Effort: Medium
+
+[OPTIMIZATION] Data Loading Optimization
+   Description: Batch load data, reduce I/O operations
+   Expected Speedup: 1.5x-2x
+   Implementation: Load all symbol data at start, keep in memory
+   Effort: Low
+
+[OPTIMIZATION] Batch Trade Recording
+   Description: Write trade results in batches instead of per-trade
+   Expected Speedup: 1.2x-1.5x
+   Implementation: Accumulate trades in list, write at end
+   Effort: Low
+
+======================================================================
+CUMULATIVE SPEEDUP: 9x-15x faster (with all optimizations)
+
+QUICK WINS (start here):
+  1. Enable Parallel Symbol Analysis (3x speedup, medium effort)
+  2. Add Indicator Caching (1.5x speedup, low effort)
+  3. Batch Data Loading (1.5x speedup, low effort)
+
+IMPLEMENTATION PRIORITY:
+  Priority 1: Parallel processing (biggest impact)
+  Priority 2: Vectorized operations (good performance/effort ratio)
+  Priority 3: Indicator caching (easy to implement)
+
+ESTIMATED TIMES:
+  * Current backtest: ~300 seconds (5 minutes)
+  * After parallel (3x): ~100 seconds
+  * After vectorization (2x): ~50 seconds
+  * After all optimizations: ~30-40 seconds

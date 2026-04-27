@@ -1,0 +1,14 @@
+00:54:28 | AI Forex Trading Bot v1.0.0 initialized
+Starting RR Gatekeeping Simulation...
+
+[SIMULATION 1] Fail Scenario: EURUSD (RR < 1.5)
+Risk: 0.00200 | Reward: 0.00100 | RR: 0.50
+00:54:28 | [1;33m[RR_REJECTION] EURUSD trade killed. Ratio 0.50 < 1.5 Minimum. Entry: 1.17, SL: 1.172, TP: 1.169 | Risk: 0.00200, Reward: 0.00100[0m
+00:54:28 | [1;33m[RR_REJECTION] EURUSD trade killed. Ratio 0.50 < 1.5 Minimum. Entry: 1.17, SL: 1.172, TP: 1.169 | Risk: 0.00200, Reward: 0.00100[0m
+00:54:28 | [1;31m[READY_TO_STRIKE] Risking $25.00 on NEW_ORDER | EURUSD | Size: 0.0010 | (Adaptive blended)[0m
+Resulting Lot Size: 0.001
+??? FAILURE: Trade Accepted (Lot Size 0.001)
+
+[SIMULATION 2] Pass Scenario: USDJPY (RR = 2.0)
+Risk: 1.00000 | Reward: 2.00000 | RR: 2.00
+ERROR: cannot access local variable 'logger' where it is not associated with a value

@@ -1,0 +1,327 @@
+{
+  "config_version": "8.5_OPTIMIZED_WALK_FORWARD_v1.0",
+  "generated_date": "2026-04-15",
+  "purpose": "Anti-overfitting regime-adaptive configuration",
+  "targets": {
+    "sharpe_ratio": 1.2,
+    "profit_factor": 1.5,
+    "max_drawdown": 0.12,
+    "daily_loss_limit": 0.01
+  },
+  "regime_detection": {
+    "enabled": true,
+    "check_interval_seconds": 300,
+    "thresholds": {
+      "trending_adx_min": 25,
+      "ranging_adx_max": 15,
+      "rsi_ranging_min": 30,
+      "rsi_ranging_max": 70
+    },
+    "current_regime": "BALANCED",
+    "regime_confidence": 0.0
+  },
+  "signal_weights": {
+    "adaptive": true,
+    "update_interval_seconds": 1800,
+    "ml_accuracy_breakeven": 0.50,
+    "adjustment_scale": 0.40,
+    "safety_anchors": {
+      "technical_floor": 0.30,
+      "ml_confidence_floor": 0.20,
+      "mtf_confluence_floor": 0.15
+    },
+    "default_weights": {
+      "technical": 0.40,
+      "ml_confidence": 0.40,
+      "mtf_confluence": 0.20
+    },
+    "regime_specific": {
+      "TRENDING": {
+        "technical": 0.35,
+        "ml_confidence": 0.45,
+        "mtf_confluence": 0.20,
+        "description": "High ADX + SMA alignment"
+      },
+      "MEAN_REVERSION": {
+        "technical": 0.50,
+        "ml_confidence": 0.30,
+        "mtf_confluence": 0.20,
+        "description": "Low ADX + RSI ranging 30-70"
+      },
+      "TRANSITION": {
+        "technical": 0.40,
+        "ml_confidence": 0.40,
+        "mtf_confluence": 0.20,
+        "description": "Between regimes, balanced"
+      }
+    },
+    "accuracy_based_adjustments": [
+      {
+        "ml_accuracy_range": [0.65, 1.0],
+        "weights": {"technical": 0.30, "ml_confidence": 0.50, "mtf_confluence": 0.20},
+        "reason": "High ML accuracy - trust model"
+      },
+      {
+        "ml_accuracy_range": [0.55, 0.65],
+        "weights": {"technical": 0.35, "ml_confidence": 0.45, "mtf_confluence": 0.20},
+        "reason": "Good accuracy - standard weights"
+      },
+      {
+        "ml_accuracy_range": [0.50, 0.55],
+        "weights": {"technical": 0.40, "ml_confidence": 0.40, "mtf_confluence": 0.20},
+        "reason": "Near breakeven - balanced"
+      },
+      {
+        "ml_accuracy_range": [0.45, 0.50],
+        "weights": {"technical": 0.45, "ml_confidence": 0.35, "mtf_confluence": 0.20},
+        "reason": "Below threshold - reduce ML"
+      },
+      {
+        "ml_accuracy_range": [0.40, 0.45],
+        "weights": {"technical": 0.48, "ml_confidence": 0.27, "mtf_confluence": 0.25},
+        "reason": "Low accuracy - maximize technical"
+      },
+      {
+        "ml_accuracy_range": [0.0, 0.40],
+        "weights": {"technical": 0.50, "ml_confidence": 0.20, "mtf_confluence": 0.30},
+        "reason": "Critical failure - minimal ML"
+      }
+    ]
+  },
+  "quality_gates": {
+    "regime_specific": {
+      "TRENDING": {
+        "global_quality_floor": 0.68,
+        "min_rr_ratio": 1.8,
+        "validator_min_score": 50,
+        "ml_accuracy_threshold": 0.55
+      },
+      "MEAN_REVERSION": {
+        "global_quality_floor": 0.72,
+        "min_rr_ratio": 2.0,
+        "validator_min_score": 55,
+        "ml_accuracy_threshold": 0.48
+      },
+      "TRANSITION": {
+        "global_quality_floor": 0.70,
+        "min_rr_ratio": 1.9,
+        "validator_min_score": 52,
+        "ml_accuracy_threshold": 0.50
+      }
+    },
+    "dynamic_adjustment": {
+      "enabled": true,
+      "adjustment_per_confluence_point": 0.002,
+      "min_floor": 0.55,
+      "max_floor": 0.75
+    }
+  },
+  "position_sizing": {
+    "regime_specific": {
+      "TRENDING": {
+        "risk_per_trade_pct": 0.35,
+        "conviction_floor_lots": 0.12,
+        "max_concurrent_positions": 5,
+        "max_per_symbol": 2
+      },
+      "MEAN_REVERSION": {
+        "risk_per_trade_pct": 0.15,
+        "conviction_floor_lots": 0.05,
+        "max_concurrent_positions": 3,
+        "max_per_symbol": 1
+      },
+      "TRANSITION": {
+        "risk_per_trade_pct": 0.25,
+        "conviction_floor_lots": 0.08,
+        "max_concurrent_positions": 4,
+        "max_per_symbol": 1
+      }
+    },
+    "daily_limits": {
+      "account_size_usd": 95000,
+      "max_daily_loss_usd": 950.00,
+      "max_daily_loss_pct": 1.0,
+      "max_daily_trades": 0,
+      "daily_loss_trigger": "HALT_NEW_ENTRIES",
+      "note": "Daily loss limit set to $950 (1.0% of $95k account)"
+    },
+    "account_limits": {
+      "max_drawdown_usd": 11400,
+      "max_drawdown_pct": 12.0,
+      "max_drawdown_trigger": "HALT_ALL_TRADING",
+      "note": "Max drawdown limit set to $11,400 (12% of $95k account)"
+    }
+  },
+  "exit_logic": {
+    "regime_specific": {
+      "TRENDING": {
+        "trailing_stop_activation_r": 0.35,
+        "tp_multiplier": 3.0,
+        "breakeven_trigger_r": 0.2,
+        "time_exit_threshold_min": 240,
+        "partial_profit_stages": [
+          {"trigger_r": 1.5, "close_pct": 0.25, "reason": "lock_early_profit"},
+          {"trigger_r": 2.0, "close_pct": 0.25, "reason": "scale_on_strength"}
+        ]
+      },
+      "MEAN_REVERSION": {
+        "trailing_stop_activation_r": 0.15,
+        "tp_multiplier": 1.8,
+        "breakeven_trigger_r": 0.15,
+        "time_exit_threshold_min": 60,
+        "partial_profit_stages": [
+          {"trigger_r": 0.8, "close_pct": 0.50, "reason": "capture_reversion"},
+          {"trigger_r": 1.5, "close_pct": 0.30, "reason": "let_runner_go"}
+        ]
+      }
+    },
+    "trailing_stop": {
+      "enabled": true,
+      "use_atr_scaling": true,
+      "atr_multiplier_base": 1.8,
+      "atr_lookback": 20
+    }
+  },
+  "volatility_scaling": {
+    "enabled": true,
+    "regime_specific": {
+      "TRENDING": {
+        "atr_multiplier_sl": 2.0,
+        "atr_range": [1.8, 2.2],
+        "atr_period": 20,
+        "atr_ma_period": 50
+      },
+      "MEAN_REVERSION": {
+        "atr_multiplier_sl": 1.6,
+        "atr_range": [1.5, 1.8],
+        "atr_period": 20,
+        "atr_ma_period": 50
+      }
+    }
+  },
+  "bootstrap_mode": {
+    "enabled": true,
+    "max_trades_per_week": 3,
+    "quality_floor_reduction_pct": 10,
+    "consecutive_loss_limit": 3,
+    "cooldown_hours_after_limit": 168,
+    "ml_accuracy_gate": 0.35
+  },
+  "machine_learning": {
+    "model": "qwen3.5:0.8b",
+    "timeout_seconds": 5,
+    "accuracy_tracking": {
+      "enabled": true,
+      "calculation_window_trades": 50,
+      "update_interval_seconds": 1800
+    },
+    "accuracy_monitoring": {
+      "warning_threshold": 0.45,
+      "critical_threshold": 0.30,
+      "historical_tracking_hours": 24
+    },
+    "model_retraining": {
+      "enabled": true,
+      "interval_hours": 24,
+      "min_data_points": 100
+    }
+  },
+  "anti_overfitting": {
+    "enabled": true,
+    "circuit_breaker_check_interval_seconds": 3600,
+    "hidden_variable_monitoring": {
+      "spread_volatility": {
+        "enabled": true,
+        "cv_warning": 0.40,
+        "cv_critical": 0.55,
+        "recent_trades_window": 20,
+        "action_on_critical": "HALT_TRADING"
+      },
+      "api_latency": {
+        "enabled": true,
+        "p99_warning_ms": 600,
+        "p99_critical_ms": 1200,
+        "lookback_orders": 100,
+        "action_on_critical": "HALT_TRADING"
+      },
+      "signal_confluence": {
+        "enabled": true,
+        "confluence_warning_pct": 50,
+        "confluence_critical_pct": 40,
+        "decay_warning_slope": -5.0,
+        "lookback_trades": 50,
+        "action_on_critical": "HALT_TRADING"
+      }
+    },
+    "master_circuit_breaker": {
+      "condition": "confluence_low AND (accuracy_low OR latency_high OR spread_high)",
+      "halt_action": "STOP_ALL_TRADING",
+      "alert_escalation": "OPERATOR"
+    },
+    "dead_mans_switch": {
+      "enabled": true,
+      "halt_duration_minutes": 60,
+      "action": "CLOSE_ALL_POSITIONS",
+      "recovery_cooldown_hours": 24
+    }
+  },
+  "monitoring": {
+    "log_regime_switches": true,
+    "log_weight_adjustments": true,
+    "log_circuit_breaker_events": true,
+    "log_hidden_variable_alerts": true,
+    "log_ml_accuracy_changes": true,
+    "dashboard_refresh_seconds": 60,
+    "alerts": {
+      "telegram_enabled": false,
+      "email_enabled": false,
+      "discord_enabled": false,
+      "slack_enabled": false
+    }
+  },
+  "expected_performance": {
+    "trending_regime": {
+      "win_rate_range": "58-62%",
+      "avg_win_r": 2.8,
+      "avg_loss_r": -1.5,
+      "profit_factor": 1.92,
+      "sharpe_estimate": 1.35,
+      "frequency_pct": 45
+    },
+    "mean_reversion_regime": {
+      "win_rate_range": "52-55%",
+      "avg_win_r": 1.6,
+      "avg_loss_r": -1.2,
+      "profit_factor": 1.67,
+      "sharpe_estimate": 0.98,
+      "frequency_pct": 55
+    },
+    "blended": {
+      "win_rate": "55.5%",
+      "avg_win_r": 2.2,
+      "avg_loss_r": -1.35,
+      "profit_factor": 1.63,
+      "sharpe_estimate": 1.18,
+      "overfitting_risk_score": 7.6,
+      "failure_probability_60days": 0.18
+    }
+  },
+  "production_deployment": {
+    "stage": "READY",
+    "deployment_date": "2026-04-15",
+    "backtest_period": "2025-01-01 to 2026-03-31",
+    "staging_period_weeks": 2,
+    "go_live_criteria": [
+      "Sharpe > 1.1 in staging",
+      "Profit Factor > 1.5 in staging",
+      "Zero circuit breaker halts in staging",
+      "Regime switches working correctly",
+      "All hidden variables reporting"
+    ],
+    "monitoring_first_week": {
+      "check_frequency": "hourly",
+      "alert_threshold": "warning",
+      "manual_approval_required": true
+    }
+  }
+}

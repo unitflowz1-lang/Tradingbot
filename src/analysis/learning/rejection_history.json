@@ -1,0 +1,56 @@
+{
+    "EURUSD": [
+        {
+            "timestamp": 1773900760.372414,
+            "symbol": "EURUSD",
+            "reason": "ADX too low (10.5 < 12)",
+            "required_score": 58.0,
+            "market_context": {
+                "adx": 10.5,
+                "rsi": 42,
+                "atr": 0.0085,
+                "mtf_aligned": false,
+                "price_pattern": "consolidation"
+            }
+        },
+        {
+            "timestamp": 1773900773.766721,
+            "symbol": "EURUSD",
+            "reason": "ADX too low (10.5 < 12)",
+            "required_score": 58.0,
+            "market_context": {
+                "adx": 10.5,
+                "rsi": 42,
+                "atr": 0.0085,
+                "mtf_aligned": false,
+                "price_pattern": "consolidation"
+            }
+        },
+        {
+            "timestamp": 1773900826.237933,
+            "symbol": "EURUSD",
+            "reason": "ADX too low (10.5 < 12)",
+            "required_score": 58.0,
+            "market_context": {
+                "adx": 10.5,
+                "rsi": 42,
+                "atr": 0.0085,
+                "mtf_aligned": false,
+                "price_pattern": "consolidation"
+            }
+        },
+        {
+            "timestamp": 1773900853.84591,
+            "symbol": "EURUSD",
+            "reason": "ADX too low (10.5 < 12)",
+            "required_score": 58.0,
+            "market_context": {
+                "adx": 10.5,
+                "rsi": 42,
+                "atr": 0.0085,
+                "mtf_aligned": false,
+                "price_pattern": "consolidation"
+            }
+        }
+    ]
+}

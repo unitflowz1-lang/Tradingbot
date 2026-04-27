@@ -1,0 +1,26 @@
+{
+  "broker": {
+    "broker_name": "mock-broker",
+    "api_key": "",
+    "api_secret": "",
+    "base_url": "https://demo-api.broker.com",
+    "timeout": 30
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "forex_bot_dev",
+    "username": "dev_user",
+    "password": ""
+  },
+  "llm": {
+    "api_key": "AIzaSyBeHeogBbZXnDm_4Tydy2Wea0MQ5fxnxWM"
+  },
+  "logging_level": "DEBUG",
+  "trading": {
+    "max_total_positions": 7,
+    "max_direction_positions": 7,
+    "max_correlated_exposure": 7,
+    "risk_per_trade": 0.01
+  }
+}

@@ -1,0 +1,18 @@
+﻿C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:339:            # Third, fix the Zero-Price Adoption Bug: Explicitly fetch position.price_open (via p.entry_price)
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:345:                    'entry_price': p.entry_price,  # Explicitly fetching position.price_open (via model mapping)
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:385:                    entry_price=pos['entry_price']
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:598:            entry_price=1.0,
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:623:            entry_price=0.8900,
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1213:                                    'entry_price': p.entry_price,
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1381:                        bid_ask_price = signal.entry_price
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1402:                                'volatility': (atr_mean / entry_price * 100) if entry_price > 0 else 0
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1436:                                entry_price=signal.entry_price,
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1453:                            format_float(signal.entry_price, '.5f'),
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1490:                                price=signal.entry_price,
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1507:                            format_float(signal.entry_price, '.5f'),
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1853:                                price=signal.entry_price,
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1979:                            f"Entry: {format_float(signal.entry_price, '.5f')} | SL: {format_float(stop_loss, '.5f')} | TP: {format_float(take_profit, '.5f')}"
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1998:                            actual_entry = result.executed_price if result.executed_price is not None else signal.entry_price
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:2001:                            slippage_profiles[symbol].update_slippage(signal.entry_price, actual_entry)
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:2013:                                    'entry_price': actual_entry,
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:2030:                                entry_price=actual_entry,

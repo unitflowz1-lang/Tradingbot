@@ -1,0 +1,26 @@
+================================================================================
+IMPROVEMENTS REPORT: HIGH_VOLATILITY
+================================================================================
+
+BEFORE vs AFTER COMPARISON
+--------------------------------------------------------------------------------
+
+Max Drawdown % (✅ IMPROVED)
+  Before: 0.74
+  After:  0.37
+  Change: -49.9%
+
+Total Signals (⚠️ DEGRADED)
+  Before: 4491.00
+  After:  4491.00
+  Change: +0.0%
+
+Risk Breaches (⚠️ DEGRADED)
+  Before: 0.00
+  After:  0.00
+  Change: +0.0%
+
+Final Equity $ (⚠️ DEGRADED)
+  Before: 197677.45
+  After:  173365.48
+  Change: -12.3%

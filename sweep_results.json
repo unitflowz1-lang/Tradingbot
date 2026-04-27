@@ -1,0 +1,542 @@
+[
+  {
+    "params": {
+      "weight_technical": 0.3,
+      "weight_ml": 0.7,
+      "weight_mtf": 0.0,
+      "tp_multiplier": 2.5,
+      "trailing_activation_r": 0.5,
+      "time_exit_bars": 20,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.6918,
+    "total_pnl": 2311.89,
+    "sharpe_ratio": 1.52,
+    "win_rate": 58.1,
+    "profit_factor": 1.88,
+    "max_drawdown": -366.35,
+    "total_trades": 38
+  },
+  {
+    "params": {
+      "weight_technical": 0.538,
+      "weight_ml": 0.385,
+      "weight_mtf": 0.077,
+      "tp_multiplier": 2.5,
+      "trailing_activation_r": 1.5,
+      "time_exit_bars": 10,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.65,
+    "total_pnl": 1840.94,
+    "sharpe_ratio": 1.33,
+    "win_rate": 67.7,
+    "profit_factor": 1.27,
+    "max_drawdown": -562.01,
+    "total_trades": 36
+  },
+  {
+    "params": {
+      "weight_technical": 0.438,
+      "weight_ml": 0.438,
+      "weight_mtf": 0.125,
+      "tp_multiplier": 3.0,
+      "trailing_activation_r": 1.5,
+      "time_exit_bars": 20,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.6065,
+    "total_pnl": 1980.95,
+    "sharpe_ratio": 1.5,
+    "win_rate": 54.1,
+    "profit_factor": 1.04,
+    "max_drawdown": -415.99,
+    "total_trades": 40
+  },
+  {
+    "params": {
+      "weight_technical": 0.583,
+      "weight_ml": 0.25,
+      "weight_mtf": 0.167,
+      "tp_multiplier": 2.0,
+      "trailing_activation_r": 0.5,
+      "time_exit_bars": 30,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.5588,
+    "total_pnl": 1679.86,
+    "sharpe_ratio": 1.02,
+    "win_rate": 64.3,
+    "profit_factor": 1.17,
+    "max_drawdown": -340.37,
+    "total_trades": 20
+  },
+  {
+    "params": {
+      "weight_technical": 0.273,
+      "weight_ml": 0.636,
+      "weight_mtf": 0.091,
+      "tp_multiplier": 3.0,
+      "trailing_activation_r": 1.5,
+      "time_exit_bars": 10,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.5531,
+    "total_pnl": 1745.7,
+    "sharpe_ratio": 1.13,
+    "win_rate": 45.8,
+    "profit_factor": 1.57,
+    "max_drawdown": -382.94,
+    "total_trades": 23
+  },
+  {
+    "params": {
+      "weight_technical": 0.538,
+      "weight_ml": 0.385,
+      "weight_mtf": 0.077,
+      "tp_multiplier": 2.5,
+      "trailing_activation_r": 1.5,
+      "time_exit_bars": 30,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.5526,
+    "total_pnl": 1624.64,
+    "sharpe_ratio": 1.1,
+    "win_rate": 64.2,
+    "profit_factor": 0.95,
+    "max_drawdown": -548.18,
+    "total_trades": 18
+  },
+  {
+    "params": {
+      "weight_technical": 0.385,
+      "weight_ml": 0.538,
+      "weight_mtf": 0.077,
+      "tp_multiplier": 2.0,
+      "trailing_activation_r": 1.0,
+      "time_exit_bars": 30,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.5434,
+    "total_pnl": 1815.15,
+    "sharpe_ratio": 1.0,
+    "win_rate": 61.1,
+    "profit_factor": 1.0,
+    "max_drawdown": -718.14,
+    "total_trades": 23
+  },
+  {
+    "params": {
+      "weight_technical": 0.5,
+      "weight_ml": 0.3,
+      "weight_mtf": 0.2,
+      "tp_multiplier": 2.0,
+      "trailing_activation_r": 1.0,
+      "time_exit_bars": 30,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.5347,
+    "total_pnl": 1754.73,
+    "sharpe_ratio": 0.82,
+    "win_rate": 67.9,
+    "profit_factor": 1.41,
+    "max_drawdown": -500.65,
+    "total_trades": 21
+  },
+  {
+    "params": {
+      "weight_technical": 0.357,
+      "weight_ml": 0.5,
+      "weight_mtf": 0.143,
+      "tp_multiplier": 3.0,
+      "trailing_activation_r": 1.0,
+      "time_exit_bars": 10,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.5336,
+    "total_pnl": 1623.46,
+    "sharpe_ratio": 0.95,
+    "win_rate": 49.3,
+    "profit_factor": 1.58,
+    "max_drawdown": -433.31,
+    "total_trades": 36
+  },
+  {
+    "params": {
+      "weight_technical": 0.417,
+      "weight_ml": 0.583,
+      "weight_mtf": 0.0,
+      "tp_multiplier": 3.0,
+      "trailing_activation_r": 0.5,
+      "time_exit_bars": 20,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.5187,
+    "total_pnl": 1902.51,
+    "sharpe_ratio": 1.09,
+    "win_rate": 52.6,
+    "profit_factor": 1.05,
+    "max_drawdown": -268.66,
+    "total_trades": 18
+  },
+  {
+    "params": {
+      "weight_technical": 0.467,
+      "weight_ml": 0.467,
+      "weight_mtf": 0.067,
+      "tp_multiplier": 3.0,
+      "trailing_activation_r": 1.5,
+      "time_exit_bars": 20,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.5166,
+    "total_pnl": 2209.17,
+    "sharpe_ratio": 1.01,
+    "win_rate": 53.8,
+    "profit_factor": 1.0,
+    "max_drawdown": -532.29,
+    "total_trades": 21
+  },
+  {
+    "params": {
+      "weight_technical": 0.556,
+      "weight_ml": 0.333,
+      "weight_mtf": 0.111,
+      "tp_multiplier": 3.0,
+      "trailing_activation_r": 1.5,
+      "time_exit_bars": 20,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.5071,
+    "total_pnl": 1592.35,
+    "sharpe_ratio": 0.82,
+    "win_rate": 53.6,
+    "profit_factor": 1.44,
+    "max_drawdown": -492.33,
+    "total_trades": 22
+  },
+  {
+    "params": {
+      "weight_technical": 0.467,
+      "weight_ml": 0.467,
+      "weight_mtf": 0.067,
+      "tp_multiplier": 2.5,
+      "trailing_activation_r": 0.5,
+      "time_exit_bars": 30,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.5048,
+    "total_pnl": 1513.84,
+    "sharpe_ratio": 0.82,
+    "win_rate": 63.0,
+    "profit_factor": 0.93,
+    "max_drawdown": -253.46,
+    "total_trades": 30
+  },
+  {
+    "params": {
+      "weight_technical": 0.5,
+      "weight_ml": 0.5,
+      "weight_mtf": 0.0,
+      "tp_multiplier": 3.0,
+      "trailing_activation_r": 1.5,
+      "time_exit_bars": 10,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.4947,
+    "total_pnl": 1583.12,
+    "sharpe_ratio": 0.91,
+    "win_rate": 54.3,
+    "profit_factor": 1.11,
+    "max_drawdown": -514.32,
+    "total_trades": 38
+  },
+  {
+    "params": {
+      "weight_technical": 0.625,
+      "weight_ml": 0.375,
+      "weight_mtf": 0.0,
+      "tp_multiplier": 3.0,
+      "trailing_activation_r": 0.5,
+      "time_exit_bars": 10,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.473,
+    "total_pnl": 1435.99,
+    "sharpe_ratio": 0.58,
+    "win_rate": 57.9,
+    "profit_factor": 1.29,
+    "max_drawdown": -363.92,
+    "total_trades": 30
+  },
+  {
+    "params": {
+      "weight_technical": 0.357,
+      "weight_ml": 0.5,
+      "weight_mtf": 0.143,
+      "tp_multiplier": 3.0,
+      "trailing_activation_r": 0.5,
+      "time_exit_bars": 30,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.4689,
+    "total_pnl": 1832.95,
+    "sharpe_ratio": 0.68,
+    "win_rate": 50.1,
+    "profit_factor": 1.41,
+    "max_drawdown": -345.84,
+    "total_trades": 27
+  },
+  {
+    "params": {
+      "weight_technical": 0.636,
+      "weight_ml": 0.273,
+      "weight_mtf": 0.091,
+      "tp_multiplier": 1.5,
+      "trailing_activation_r": 1.0,
+      "time_exit_bars": 30,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.4402,
+    "total_pnl": 1714.05,
+    "sharpe_ratio": 0.45,
+    "win_rate": 53.1,
+    "profit_factor": 1.71,
+    "max_drawdown": -337.19,
+    "total_trades": 19
+  },
+  {
+    "params": {
+      "weight_technical": 0.5,
+      "weight_ml": 0.5,
+      "weight_mtf": 0.0,
+      "tp_multiplier": 1.5,
+      "trailing_activation_r": 1.0,
+      "time_exit_bars": 30,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.4187,
+    "total_pnl": 1696.19,
+    "sharpe_ratio": 0.51,
+    "win_rate": 42.4,
+    "profit_factor": 1.36,
+    "max_drawdown": -509.04,
+    "total_trades": 18
+  },
+  {
+    "params": {
+      "weight_technical": 0.583,
+      "weight_ml": 0.417,
+      "weight_mtf": 0.0,
+      "tp_multiplier": 1.5,
+      "trailing_activation_r": 1.5,
+      "time_exit_bars": 30,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.4124,
+    "total_pnl": 1643.84,
+    "sharpe_ratio": 0.6,
+    "win_rate": 43.9,
+    "profit_factor": 1.18,
+    "max_drawdown": -698.29,
+    "total_trades": 37
+  },
+  {
+    "params": {
+      "weight_technical": 0.375,
+      "weight_ml": 0.375,
+      "weight_mtf": 0.25,
+      "tp_multiplier": 1.5,
+      "trailing_activation_r": 0.5,
+      "time_exit_bars": 10,
+      "partial_profit_levels": [
+        [
+          1.0,
+          0.3
+        ],
+        [
+          1.5,
+          0.2
+        ]
+      ]
+    },
+    "combined_score": 0.3721,
+    "total_pnl": 1858.46,
+    "sharpe_ratio": 0.39,
+    "win_rate": 41.5,
+    "profit_factor": 1.49,
+    "max_drawdown": -290.14,
+    "total_trades": 17
+  }
+]

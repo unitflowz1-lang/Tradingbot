@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "strategy_id": "rl_strategy_d528b9ab",
+    "name": "DQN Mean Reversion Strategy",
+    "description": "DQN agent with mean reversion signals",
+    "agent_type": "DQN",
+    "version": "1.0.0",
+    "status": "APPROVED",
+    "created_at": "2025-08-13T03:50:28.359116",
+    "updated_at": "2025-08-13T03:50:28.359116",
+    "created_by": "strategy_team",
+    "tags": [
+      "mean_reversion",
+      "dqn",
+      "v1.0"
+    ],
+    "currency_pairs": [
+      "EURUSD",
+      "GBPUSD"
+    ],
+    "timeframe": "1H",
+    "model_path": null,
+    "config_path": null,
+    "training_data_period": null,
+    "validation_data_period": null
+  },
+  "performance_metrics": {
+    "total_return": 0.14,
+    "sharpe_ratio": 1.15,
+    "max_drawdown": 0.12,
+    "win_rate": 0.58,
+    "profit_factor": 1.4,
+    "calmar_ratio": 1.17,
+    "sortino_ratio": 1.3,
+    "num_trades": 180,
+    "avg_trade_duration": 2.8,
+    "volatility": 0.16,
+    "beta": 1.1,
+    "alpha": 0.02,
+    "information_ratio": 0.6
+  },
+  "config": {},
+  "training_history": [],
+  "validation_results": [],
+  "deployment_history": []
+}

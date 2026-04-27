@@ -1,0 +1,4 @@
+  ❌ FAIL: Shadow remains empty after bot exits
+  ❌ FAIL: Over-wide SL (RR 1.52) below floor → SUPPRESSED
+  ❌ FAIL: USDJPY LONG tight SL (RR 0.70) → PERMITTED
+  ❌ FAIL: Smarter Exit NOT active for EURUSD LONG (opposite dir unaffected)

@@ -1,0 +1,180 @@
+{"timestamp": "2026-02-15T04:37:22.168943", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.170999", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.170999", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MockBroker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.170999", "level": "INFO", "logger": "core.execution", "message": "Connected to mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.172011", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Initializing trading engine...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.172515", "level": "INFO", "logger": "core.execution", "message": "Connected to mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.172515", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Connected to broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.175091", "level": "ERROR", "logger": "core.data_handler", "message": "Error fetching MT5 data: 'MockBroker' object has no attribute 'get_candles'", "module": "", "function": null, "line": 0, "symbol": "EURUSD"}
+{"timestamp": "2026-02-15T04:37:22.176177", "level": "ERROR", "logger": "core.data_handler", "message": "Error fetching MT5 data: 'MockBroker' object has no attribute 'get_candles'", "module": "", "function": null, "line": 0, "symbol": "GBPUSD"}
+{"timestamp": "2026-02-15T04:37:22.176773", "level": "ERROR", "logger": "core.data_handler", "message": "Error fetching MT5 data: 'MockBroker' object has no attribute 'get_candles'", "module": "", "function": null, "line": 0, "symbol": "USDJPY"}
+{"timestamp": "2026-02-15T04:37:22.176773", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Engine initialized successfully", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.177489", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing ML pipeline...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.177489", "level": "ERROR", "logger": "ml.model_trainer", "message": "Model file not found: models\\xgboost_latest.pkl", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.178040", "level": "INFO", "logger": "strategies.ml_strategy", "message": "ML model set: xgboost", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.178040", "level": "INFO", "logger": "core.strategy_manager", "message": "Strategy registered", "module": "", "function": null, "line": 0, "strategy_name": "ml_strategy", "weight": 0.2}
+{"timestamp": "2026-02-15T04:37:22.178040", "level": "INFO", "logger": "__main__", "message": "[BOT] ML pipeline initialized", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.178580", "level": "INFO", "logger": "__main__", "message": "[BOT] Initialization complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.178580", "level": "INFO", "logger": "__main__", "message": "Running backtests...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.178580", "level": "INFO", "logger": "__main__", "message": "\nRunning walk-forward analysis...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.178580", "level": "INFO", "logger": "__main__", "message": "[BOT] Running walk-forward analysis...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.179092", "level": "ERROR", "logger": "__main__", "message": "Strategy not found: sma_crossover", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.179092", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.179092", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.179092", "level": "INFO", "logger": "core.execution", "message": "Disconnected from mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.179606", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.179606", "level": "INFO", "logger": "core.execution", "message": "Disconnected from mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-02-15T04:37:22.179606", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.376987", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.381893", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.381893", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MockBroker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.381893", "level": "INFO", "logger": "core.execution", "message": "Connected to mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.384411", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Initializing trading engine...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.384411", "level": "INFO", "logger": "core.execution", "message": "Connected to mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.384411", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Connected to broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.387028", "level": "ERROR", "logger": "core.data_handler", "message": "Error fetching MT5 data: 'MockBroker' object has no attribute 'get_candles'", "module": "", "function": null, "line": 0, "symbol": "EURUSD"}
+{"timestamp": "2026-04-16T05:47:31.387028", "level": "ERROR", "logger": "core.data_handler", "message": "Error fetching MT5 data: 'MockBroker' object has no attribute 'get_candles'", "module": "", "function": null, "line": 0, "symbol": "GBPUSD"}
+{"timestamp": "2026-04-16T05:47:31.389077", "level": "ERROR", "logger": "core.data_handler", "message": "Error fetching MT5 data: 'MockBroker' object has no attribute 'get_candles'", "module": "", "function": null, "line": 0, "symbol": "USDJPY"}
+{"timestamp": "2026-04-16T05:47:31.389077", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Engine initialized successfully", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.389077", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing ML pipeline...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.391795", "level": "ERROR", "logger": "ml.model_trainer", "message": "Model file not found: models\\xgboost_latest.pkl", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.393015", "level": "INFO", "logger": "strategies.ml_strategy", "message": "ML model set: xgboost", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.393015", "level": "INFO", "logger": "core.strategy_manager", "message": "Strategy registered", "module": "", "function": null, "line": 0, "strategy_name": "ml_strategy", "weight": 0.2}
+{"timestamp": "2026-04-16T05:47:31.393015", "level": "INFO", "logger": "__main__", "message": "[BOT] ML pipeline initialized", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.393015", "level": "INFO", "logger": "__main__", "message": "[BOT] Initialization complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.394855", "level": "INFO", "logger": "__main__", "message": "Running backtests...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.399701", "level": "INFO", "logger": "__main__", "message": "\nRunning walk-forward analysis...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.399701", "level": "INFO", "logger": "__main__", "message": "[BOT] Running walk-forward analysis...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.400853", "level": "ERROR", "logger": "__main__", "message": "Strategy not found: sma_crossover", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.400853", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.400853", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.400853", "level": "INFO", "logger": "core.execution", "message": "Disconnected from mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.400853", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.402916", "level": "INFO", "logger": "core.execution", "message": "Disconnected from mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:47:31.402916", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.830671", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.854537", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.854537", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MockBroker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.855697", "level": "INFO", "logger": "core.execution", "message": "Connected to mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.855697", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Initializing trading engine...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.855697", "level": "INFO", "logger": "core.execution", "message": "Connected to mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.855697", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Connected to broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.863669", "level": "ERROR", "logger": "core.data_handler", "message": "Error fetching MT5 data: 'MockBroker' object has no attribute 'get_candles'", "module": "", "function": null, "line": 0, "symbol": "EURUSD"}
+{"timestamp": "2026-04-16T05:51:29.870653", "level": "ERROR", "logger": "core.data_handler", "message": "Error fetching MT5 data: 'MockBroker' object has no attribute 'get_candles'", "module": "", "function": null, "line": 0, "symbol": "GBPUSD"}
+{"timestamp": "2026-04-16T05:51:29.870653", "level": "ERROR", "logger": "core.data_handler", "message": "Error fetching MT5 data: 'MockBroker' object has no attribute 'get_candles'", "module": "", "function": null, "line": 0, "symbol": "USDJPY"}
+{"timestamp": "2026-04-16T05:51:29.870653", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Engine initialized successfully", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.870653", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing ML pipeline...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.870653", "level": "ERROR", "logger": "ml.model_trainer", "message": "Model file not found: models\\xgboost_latest.pkl", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.874993", "level": "INFO", "logger": "strategies.ml_strategy", "message": "ML model set: xgboost", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.874993", "level": "INFO", "logger": "core.strategy_manager", "message": "Strategy registered", "module": "", "function": null, "line": 0, "strategy_name": "ml_strategy", "weight": 0.2}
+{"timestamp": "2026-04-16T05:51:29.874993", "level": "INFO", "logger": "__main__", "message": "[BOT] ML pipeline initialized", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.874993", "level": "INFO", "logger": "__main__", "message": "[BOT] Initialization complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.874993", "level": "INFO", "logger": "__main__", "message": "Running backtests...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.874993", "level": "INFO", "logger": "__main__", "message": "\nRunning walk-forward analysis...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.874993", "level": "INFO", "logger": "__main__", "message": "[BOT] Running walk-forward analysis...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.874993", "level": "ERROR", "logger": "__main__", "message": "Strategy not found: sma_crossover", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.874993", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.874993", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.884437", "level": "INFO", "logger": "core.execution", "message": "Disconnected from mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.884437", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.884437", "level": "INFO", "logger": "core.execution", "message": "Disconnected from mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:51:29.884437", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.331090", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.350344", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.362957", "level": "WARNING", "logger": "__main__", "message": "[BOT] MT5 Broker failed (cannot import name 'MT5Broker' from 'src.data.mt5_broker' (C:\\Users\\macki\\Desktop\\v8.5 core RL TradingBot\\src\\data\\mt5_broker.py)), falling back to MockBroker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.370854", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MockBroker (fallback)", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.370854", "level": "INFO", "logger": "core.execution", "message": "Connected to mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.372028", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Initializing trading engine...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.372028", "level": "INFO", "logger": "core.execution", "message": "Connected to mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.373561", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Connected to broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.375097", "level": "ERROR", "logger": "core.data_handler", "message": "Error fetching MT5 data: 'MockBroker' object has no attribute 'get_candles'", "module": "", "function": null, "line": 0, "symbol": "EURUSD"}
+{"timestamp": "2026-04-16T05:54:17.375097", "level": "ERROR", "logger": "core.data_handler", "message": "Error fetching MT5 data: 'MockBroker' object has no attribute 'get_candles'", "module": "", "function": null, "line": 0, "symbol": "GBPUSD"}
+{"timestamp": "2026-04-16T05:54:17.375097", "level": "ERROR", "logger": "core.data_handler", "message": "Error fetching MT5 data: 'MockBroker' object has no attribute 'get_candles'", "module": "", "function": null, "line": 0, "symbol": "USDJPY"}
+{"timestamp": "2026-04-16T05:54:17.375097", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Engine initialized successfully", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.384060", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing ML pipeline...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.388616", "level": "ERROR", "logger": "ml.model_trainer", "message": "Model file not found: models\\xgboost_latest.pkl", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.388616", "level": "INFO", "logger": "strategies.ml_strategy", "message": "ML model set: xgboost", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.388616", "level": "INFO", "logger": "core.strategy_manager", "message": "Strategy registered", "module": "", "function": null, "line": 0, "strategy_name": "ml_strategy", "weight": 0.2}
+{"timestamp": "2026-04-16T05:54:17.388616", "level": "INFO", "logger": "__main__", "message": "[BOT] ML pipeline initialized", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.388616", "level": "INFO", "logger": "__main__", "message": "[BOT] Initialization complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.388616", "level": "INFO", "logger": "__main__", "message": "Running backtests...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.388616", "level": "INFO", "logger": "__main__", "message": "\nRunning walk-forward analysis...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.391993", "level": "INFO", "logger": "__main__", "message": "[BOT] Running walk-forward analysis...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.391993", "level": "ERROR", "logger": "__main__", "message": "Strategy not found: sma_crossover", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.392708", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.392708", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.392708", "level": "INFO", "logger": "core.execution", "message": "Disconnected from mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.394239", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.394239", "level": "INFO", "logger": "core.execution", "message": "Disconnected from mock broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:54:17.394775", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:57:49.053093", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:57:49.069058", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:57:49.078738", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:59:19.561432", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T05:59:19.566707", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:04:46.194397", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:04:46.211692", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:04:46.224826", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:11:01.837054", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:11:01.848516", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:11:01.864839", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:12:20.018860", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:12:20.028989", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:12:20.037054", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:12:57.126395", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Initializing trading engine...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:14:16.934251", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Initializing trading engine...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:14:52.277031", "level": "ERROR", "logger": "core.engine", "message": "[ENGINE] Failed to connect to broker", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:14:52.278032", "level": "ERROR", "logger": "__main__", "message": "[BOT] Initialization error: Failed to initialize trading engine", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:14:52.278032", "level": "ERROR", "logger": "__main__", "message": "Failed to initialize bot", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:14:52.278032", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:14:52.278032", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:14:52.278032", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:14:52.278032", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:19:20.011339", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:19:20.020413", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:19:20.031939", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:24:22.272706", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Initializing trading engine...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:25:16.585729", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:25:16.588238", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:25:16.590251", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:25:16.592251", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:25:24.421871", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:25:24.447357", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:25:24.456795", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:30:24.473130", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Initializing trading engine...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:32:07.713877", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:32:07.717385", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:32:07.718904", "level": "INFO", "logger": "core.engine", "message": "[ENGINE] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:32:07.720418", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:32:17.547980", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:32:17.560290", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:32:17.575568", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:32:59.568999", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:32:59.572533", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:33:47.142710", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:33:47.154604", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:33:47.160360", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:37:14.307369", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:37:14.322396", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:37:14.328938", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:39:31.165157", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:39:31.173447", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:39:31.181030", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:40:58.408640", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:40:58.419377", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:40:58.423431", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:43:14.319043", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:43:14.322269", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:49:29.877101", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:49:29.889173", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:49:29.970052", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:52:01.327846", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:52:01.336942", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:52:01.342669", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:56:45.937414", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:56:45.939416", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutdown complete", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:59:46.936949", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing Algorithmic Trading Bot v2.0", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:59:46.946965", "level": "INFO", "logger": "__main__", "message": "[BOT] Initializing components...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T06:59:47.017068", "level": "INFO", "logger": "__main__", "message": "[BOT] Using MT5BrokerInterface", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T07:00:23.906094", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutting down...", "module": "", "function": null, "line": 0}
+{"timestamp": "2026-04-16T07:00:23.906605", "level": "INFO", "logger": "__main__", "message": "[BOT] Shutdown complete", "module": "", "function": null, "line": 0}

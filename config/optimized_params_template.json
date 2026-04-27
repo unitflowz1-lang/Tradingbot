@@ -1,0 +1,35 @@
+{
+  "parameters": {
+    "entry": {
+      "rr_ratio": 2.5,
+      "max_entry_distance": 50,
+      "martingale_enabled": false
+    },
+    "exit": {
+      "tp_multiplier": 2.0,
+      "trailing_stop_activation_pips": 20.0,
+      "dynamic_lock_increment_usd": 2.0
+    },
+    "risk": {
+      "max_position_size_usd": 500.0,
+      "max_drawdown_pct": 5.0,
+      "max_daily_loss_usd": 1000.0
+    }
+  },
+  "signal_weights": {
+    "weight_technical": 0.4,
+    "weight_ml": 0.5,
+    "weight_mtf": 0.1
+  },
+  "stability_metrics": {
+    "avg_test_win_rate": 0.55,
+    "win_rate_variance": 0.015,
+    "sharpe_ratio": 1.2,
+    "max_drawdown": 0.08,
+    "profit_factor": 1.8
+  },
+  "dynamic_parameters": {
+    "trailing_stop_activation_pips": 20.0,
+    "dynamic_lock_increment_usd": 2.0
+  }
+}

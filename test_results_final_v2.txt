@@ -1,0 +1,87 @@
+﻿01:57:28 | AI Forex Trading Bot v1.0.0 initialized
+01:57:28 | [1;33m[RISK REJECTED] EUR/USD | Score: 0.12 | Warnings: WARNING: No market data for correlation analysis, CRITICAL: EUR exposure would exceed limit (10.8% > 5.0%)[0m
+01:57:28 | [1;33m[RISK REJECTED] GBP/USD | Score: 0.10 | Warnings: CRITICAL: GBP exposure would exceed limit (12.6% > 5.0%)[0m
+cmd : E.F
+At line:1 char:1
++ cmd /c "set PYTHONPATH=. 
+&& python 
+tests/test_risk_layer.py" > 
+test_r ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (E.F:Str  
+  ing) [], RemoteException
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+=============================
+=============================
+============
+ERROR: test_exposure_calculat
+ion_fallbacks (__main__.TestR
+iskLayer.test_exposure_calcul
+ation_fallbacks)
+Test that exposure 
+calculation handles missing 
+conversion prices gracefully
+-----------------------------
+-----------------------------
+------------
+Traceback (most recent call 
+last):
+  File "C:\Users\macki\Deskto
+p\v3.0-core TradingBot\tests\
+test_risk_layer.py", line 
+97, in test_exposure_calculat
+ion_fallbacks
+    position = Position(
+               ^^^^^^^^^
+  File "<string>", line 20, 
+in __init__
+  File "C:\Users\macki\Deskto
+p\v3.0-core 
+TradingBot\src\models.py", 
+line 649, in __post_init__
+    self.validate()
+  File "C:\Users\macki\Deskto
+p\v3.0-core 
+TradingBot\src\models.py", 
+line 720, in validate
+    raise 
+DataValidationError(
+src.exceptions.DataValidation
+Error: Unrealized PnL does 
+not match calculated value
+
+=============================
+=============================
+============
+FAIL: test_risk_assessment_wi
+th_market_data (__main__.Test
+RiskLayer.test_risk_assessmen
+t_with_market_data)
+Test risk assessment with 
+explicit market data
+-----------------------------
+-----------------------------
+------------
+Traceback (most recent call 
+last):
+  File "C:\Users\macki\Deskto
+p\v3.0-core TradingBot\tests\
+test_risk_layer.py", line 
+92, in test_risk_assessment_w
+ith_market_data
+    self.assertTrue(assessmen
+t.is_valid)
+AssertionError: False is not 
+true
+
+-----------------------------
+-----------------------------
+------------
+Ran 3 tests in 0.002s
+
+FAILED (failures=1, errors=1)

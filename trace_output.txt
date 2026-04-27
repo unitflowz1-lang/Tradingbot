@@ -1,0 +1,207 @@
+﻿
+03:36:53 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_FALLBACK] NZD/USD | 
+strategy._last_symbol_report was EMPTY, using fallback | This data won't reach 
+quant table!
+03:36:53 Γöé  INF  Γöé [SYMBOL_REPORT] NZD/USD | Price=0.59057 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:36:53 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_FALLBACK] USD/JPY | 
+strategy._last_symbol_report was EMPTY, using fallback | This data won't reach 
+quant table!
+03:36:53 Γöé  INF  Γöé [SYMBOL_REPORT] USD/JPY | Price=159.38500 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.5p (OK <= 5.0p)
+03:36:54 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_FALLBACK] USD/CHF | 
+strategy._last_symbol_report was EMPTY, using fallback | This data won't reach 
+quant table!
+03:36:54 Γöé  INF  Γöé [SYMBOL_REPORT] USD/CHF | Price=0.78063 | RSI=50.0 | 
+ML=DOWN | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:36:54 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_FALLBACK] EUR/USD | 
+strategy._last_symbol_report was EMPTY, using fallback | This data won't reach 
+quant table!
+03:36:54 Γöé  INF  Γöé [SYMBOL_REPORT] EUR/USD | Price=1.17402 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.7p (OK <= 5.0p)
+03:36:54 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] NZD/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:36:54 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] EUR/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:36:54 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/JPY | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:36:54 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/CHF | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:04 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] NZD/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:04 Γöé  INF  Γöé [SYMBOL_REPORT] NZD/USD | Price=0.59057 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:37:04 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/JPY | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:04 Γöé  INF  Γöé [SYMBOL_REPORT] USD/JPY | Price=159.38500 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.5p (OK <= 5.0p)
+03:37:05 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/CHF | Using ACTUAL data 
+from strategy._last_symbol_report | direction=DOWN, rsi=50.0, conf=45%
+03:37:05 Γöé  INF  Γöé [SYMBOL_REPORT] USD/CHF | Price=0.78063 | RSI=50.0 | 
+ML=DOWN | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:37:05 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] EUR/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:05 Γöé  INF  Γöé [SYMBOL_REPORT] EUR/USD | Price=1.17402 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.2p (OK <= 5.0p)
+03:37:05 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] NZD/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:05 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] EUR/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:05 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/JPY | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:05 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/CHF | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:15 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] NZD/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:15 Γöé  INF  Γöé [SYMBOL_REPORT] NZD/USD | Price=0.59057 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:37:15 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/JPY | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:15 Γöé  INF  Γöé [SYMBOL_REPORT] USD/JPY | Price=159.38500 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.5p (OK <= 5.0p)
+03:37:16 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/CHF | Using ACTUAL data 
+from strategy._last_symbol_report | direction=DOWN, rsi=50.0, conf=45%
+03:37:16 Γöé  INF  Γöé [SYMBOL_REPORT] USD/CHF | Price=0.78063 | RSI=50.0 | 
+ML=DOWN | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:37:16 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] EUR/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:16 Γöé  INF  Γöé [SYMBOL_REPORT] EUR/USD | Price=1.17402 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.2p (OK <= 5.0p)
+03:37:16 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] NZD/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:16 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] EUR/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:16 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/JPY | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:16 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/CHF | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:26 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] NZD/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:26 Γöé  INF  Γöé [SYMBOL_REPORT] NZD/USD | Price=0.59057 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:37:26 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/JPY | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:26 Γöé  INF  Γöé [SYMBOL_REPORT] USD/JPY | Price=159.38500 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.5p (OK <= 5.0p)
+03:37:26 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/CHF | Using ACTUAL data 
+from strategy._last_symbol_report | direction=DOWN, rsi=50.0, conf=45%
+03:37:26 Γöé  INF  Γöé [SYMBOL_REPORT] USD/CHF | Price=0.78063 | RSI=50.0 | 
+ML=DOWN | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:37:26 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] EUR/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:26 Γöé  INF  Γöé [SYMBOL_REPORT] EUR/USD | Price=1.17402 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.2p (OK <= 5.0p)
+03:37:26 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] NZD/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:26 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] EUR/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:26 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/JPY | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:26 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/CHF | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:37 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] NZD/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:37 Γöé  INF  Γöé [SYMBOL_REPORT] NZD/USD | Price=0.59057 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:37:37 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/JPY | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:37 Γöé  INF  Γöé [SYMBOL_REPORT] USD/JPY | Price=159.38500 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.5p (OK <= 5.0p)
+03:37:37 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/CHF | Using ACTUAL data 
+from strategy._last_symbol_report | direction=DOWN, rsi=50.0, conf=45%
+03:37:37 Γöé  INF  Γöé [SYMBOL_REPORT] USD/CHF | Price=0.78063 | RSI=50.0 | 
+ML=DOWN | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:37:37 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] EUR/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:37 Γöé  INF  Γöé [SYMBOL_REPORT] EUR/USD | Price=1.17402 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.2p (OK <= 5.0p)
+03:37:37 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] NZD/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:37 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] EUR/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:37 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/JPY | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:37 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/CHF | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:48 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] NZD/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:48 Γöé  INF  Γöé [SYMBOL_REPORT] NZD/USD | Price=0.59057 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:37:48 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/JPY | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:48 Γöé  INF  Γöé [SYMBOL_REPORT] USD/JPY | Price=159.38500 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.5p (OK <= 5.0p)
+03:37:50 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/CHF | Using ACTUAL data 
+from strategy._last_symbol_report | direction=DOWN, rsi=50.0, conf=45%
+03:37:50 Γöé  INF  Γöé [SYMBOL_REPORT] USD/CHF | Price=0.78063 | RSI=50.0 | 
+ML=DOWN | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:37:50 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] EUR/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:37:50 Γöé  INF  Γöé [SYMBOL_REPORT] EUR/USD | Price=1.17402 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.2p (OK <= 5.0p)
+03:37:50 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] NZD/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:50 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] EUR/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:50 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/JPY | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:37:50 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/CHF | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:38:00 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] NZD/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:38:00 Γöé  INF  Γöé [SYMBOL_REPORT] NZD/USD | Price=0.59057 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:38:00 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/JPY | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:38:00 Γöé  INF  Γöé [SYMBOL_REPORT] USD/JPY | Price=159.38500 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.5p (OK <= 5.0p)
+03:38:01 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/CHF | Using ACTUAL data 
+from strategy._last_symbol_report | direction=DOWN, rsi=50.0, conf=45%
+03:38:01 Γöé  INF  Γöé [SYMBOL_REPORT] USD/CHF | Price=0.78063 | RSI=50.0 | 
+ML=DOWN | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:38:01 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] EUR/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:38:01 Γöé  INF  Γöé [SYMBOL_REPORT] EUR/USD | Price=1.17402 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.5p (OK <= 5.0p)
+03:38:01 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] NZD/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:38:01 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] EUR/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:38:01 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/JPY | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:38:01 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/CHF | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:38:11 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] NZD/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:38:11 Γöé  INF  Γöé [SYMBOL_REPORT] NZD/USD | Price=0.59057 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:38:11 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/JPY | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:38:11 Γöé  INF  Γöé [SYMBOL_REPORT] USD/JPY | Price=159.38500 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.5p (OK <= 5.0p)
+03:38:12 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/CHF | Using ACTUAL data 
+from strategy._last_symbol_report | direction=DOWN, rsi=50.0, conf=45%
+03:38:12 Γöé  INF  Γöé [SYMBOL_REPORT] USD/CHF | Price=0.78063 | RSI=50.0 | 
+ML=DOWN | Conf=45% | Spread=0.9p (OK <= 5.0p)
+03:38:12 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] EUR/USD | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:38:12 Γöé  INF  Γöé [SYMBOL_REPORT] EUR/USD | Price=1.17402 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.6p (OK <= 5.0p)
+03:38:12 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] NZD/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:38:12 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] EUR/USD | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:38:12 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/JPY | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:38:12 Γöé  CRT  Γöé [FORMAT_QUANT_ENTRY] USD/CHF | strategy_meta keys: [] | 
+symbol_report keys: [] | symbol_report contents: {}
+03:38:22 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/JPY | Using ACTUAL data 
+from strategy._last_symbol_report | direction=UP, rsi=50.0, conf=45%
+03:38:22 Γöé  INF  Γöé [SYMBOL_REPORT] USD/JPY | Price=159.38500 | RSI=50.0 | 
+ML=UP | Conf=45% | Spread=0.5p (OK <= 5.0p)
+03:38:23 Γöé  CRT  Γöé [MAIN_SYMBOL_REPORT_SOURCE] USD/CHF | Using ACTUAL data 
+from strategy._last_symbol_report | direction=DOWN, rsi=50.0, conf=45%
+03:38:23 Γöé  INF  Γöé [SYMBOL_REPORT] USD/CHF | Price=0.78063 | RSI=50.0 | 
+ML=DOWN | Conf=45% | Spread=0.9p (OK <= 5.0p)
+
+

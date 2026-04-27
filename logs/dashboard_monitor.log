@@ -1,0 +1,37 @@
+2026-04-24 15:50:25,220 | CRITICAL | [DASHBOARD] Paper Trading Dashboard initialized
+2026-04-24 15:50:25,220 | CRITICAL | [DASHBOARD] Monitoring log file: logs/forex_bot.log
+2026-04-24 15:50:25,220 | CRITICAL | [DASHBOARD] Trade history: trade_history.json
+2026-04-24 15:50:25,221 | CRITICAL | [DASHBOARD] Summary interval: 1 hour
+2026-04-24 15:50:25,221 | CRITICAL | [DASHBOARD] Consecutive loss alert threshold: 3
+2026-04-24 15:50:25,244 | CRITICAL | 
+================================================================================
+📊 PAPER TRADING DASHBOARD - HOURLY SUMMARY
+================================================================================
+🕐 Time: 2026-04-24 20:50:25 UTC
+⏱️  Runtime: 0.00 hours
+
+💰 PERFORMANCE:
+   ├─ Realized P&L: $0.00
+   ├─ Unrealized P&L: $0.00
+   ├─ Total P&L: $0.00
+   └─ Win Rate: 0/0 (0.0%)
+
+🎯 MODEL ACCURACY:
+   ├─ EUR/USD: 0.0%
+   └─ GBP/USD: 0.0%
+
+🛡️  RISK METRICS:
+   ├─ LOT_SIZE_MISMATCH_ABORT Events: 0
+   ├─ ML_ACCURACY_GUARD Rejections: 0
+   ├─ Consecutive Losses: 0
+   └─ Max Consecutive Losses: 0
+
+📈 TRADE STATISTICS:
+   ├─ Total Trades: 0
+   ├─ Winning: 0
+   ├─ Losing: 0
+   └─ Avg Trade: $0.00
+================================================================================
+
+2026-04-24 15:50:25,246 | CRITICAL | [DASHBOARD] Starting monitoring loop...
+2026-04-24 15:50:25,246 | CRITICAL | [DASHBOARD] Press Ctrl+C to stop

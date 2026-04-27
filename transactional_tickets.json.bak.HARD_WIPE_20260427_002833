@@ -1,0 +1,5552 @@
+{
+  "55896763260": {
+    "ticket_id": "55896763260",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.69562,
+    "stop_loss": 0.7023,
+    "take_profit": 0.68558,
+    "persisted_at": "2026-03-24T13:00:05.230846+00:00",
+    "status": "CONFIRMED"
+  },
+  "55896910271": {
+    "ticket_id": "55896910271",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.69622,
+    "stop_loss": 0.69198,
+    "take_profit": 0.70147,
+    "persisted_at": "2026-03-24T13:05:07.947507+00:00",
+    "status": "CONFIRMED"
+  },
+  "55896968782": {
+    "ticket_id": "55896968782",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.69556,
+    "stop_loss": 0.70231,
+    "take_profit": 0.68519,
+    "persisted_at": "2026-03-24T13:07:27.644997+00:00",
+    "status": "CONFIRMED"
+  },
+  "55897030540": {
+    "ticket_id": "55897030540",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.69456,
+    "stop_loss": 0.70232,
+    "take_profit": 0.68305,
+    "persisted_at": "2026-03-24T13:09:18.071103+00:00",
+    "status": "CONFIRMED"
+  },
+  "55900441265": {
+    "ticket_id": "55900441265",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.691,
+    "stop_loss": 158.344,
+    "take_profit": 158.925,
+    "persisted_at": "2026-03-24T15:02:17.549456+00:00",
+    "status": "CONFIRMED"
+  },
+  "55901271277": {
+    "ticket_id": "55901271277",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.721,
+    "stop_loss": 158.344,
+    "take_profit": 158.925,
+    "persisted_at": "2026-03-24T15:36:02.935718+00:00",
+    "status": "CONFIRMED"
+  },
+  "55901492570": {
+    "ticket_id": "55901492570",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.761,
+    "stop_loss": 158.343,
+    "take_profit": 159.363,
+    "persisted_at": "2026-03-24T15:45:20.895977+00:00",
+    "status": "CONFIRMED"
+  },
+  "55901598420": {
+    "ticket_id": "55901598420",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.812,
+    "stop_loss": 158.343,
+    "take_profit": 159.486,
+    "persisted_at": "2026-03-24T15:50:31.438454+00:00",
+    "status": "CONFIRMED"
+  },
+  "55901714557": {
+    "ticket_id": "55901714557",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.838,
+    "stop_loss": 158.342,
+    "take_profit": 159.48,
+    "persisted_at": "2026-03-24T15:55:42.157741+00:00",
+    "status": "CONFIRMED"
+  },
+  "55901852973": {
+    "ticket_id": "55901852973",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.923,
+    "stop_loss": 158.344,
+    "take_profit": 159.745,
+    "persisted_at": "2026-03-24T16:00:50.612262+00:00",
+    "status": "CONFIRMED"
+  },
+  "55901960946": {
+    "ticket_id": "55901960946",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.943,
+    "stop_loss": 158.343,
+    "take_profit": 159.795,
+    "persisted_at": "2026-03-24T16:05:51.203430+00:00",
+    "status": "CONFIRMED"
+  },
+  "55903142227": {
+    "ticket_id": "55903142227",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37768,
+    "stop_loss": 1.3809,
+    "take_profit": 1.37285,
+    "persisted_at": "2026-03-24T17:03:26.066747+00:00",
+    "status": "CONFIRMED"
+  },
+  "55903168569": {
+    "ticket_id": "55903168569",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.993,
+    "stop_loss": 158.343,
+    "take_profit": 159.921,
+    "persisted_at": "2026-03-24T17:04:20.247067+00:00",
+    "status": "CONFIRMED"
+  },
+  "55903621826": {
+    "ticket_id": "55903621826",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.132,
+    "stop_loss": 158.34,
+    "take_profit": 160.275,
+    "persisted_at": "2026-03-24T17:19:43.603599+00:00",
+    "status": "CONFIRMED"
+  },
+  "55903724174": {
+    "ticket_id": "55903724174",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.085,
+    "stop_loss": 158.34,
+    "take_profit": 160.16,
+    "persisted_at": "2026-03-24T17:24:44.923963+00:00",
+    "status": "CONFIRMED"
+  },
+  "55903825680": {
+    "ticket_id": "55903825680",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.068,
+    "stop_loss": 158.34,
+    "take_profit": 160.1,
+    "persisted_at": "2026-03-24T17:29:45.688196+00:00",
+    "status": "CONFIRMED"
+  },
+  "55903966933": {
+    "ticket_id": "55903966933",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.146,
+    "stop_loss": 158.34,
+    "take_profit": 160.315,
+    "persisted_at": "2026-03-24T17:34:57.900050+00:00",
+    "status": "CONFIRMED"
+  },
+  "55904177752": {
+    "ticket_id": "55904177752",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.171,
+    "stop_loss": 158.34,
+    "take_profit": 160.365,
+    "persisted_at": "2026-03-24T17:44:25.630726+00:00",
+    "status": "CONFIRMED"
+  },
+  "55904383204": {
+    "ticket_id": "55904383204",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.162,
+    "stop_loss": 158.34,
+    "take_profit": 160.348,
+    "persisted_at": "2026-03-24T17:53:52.395451+00:00",
+    "status": "CONFIRMED"
+  },
+  "55904462623": {
+    "ticket_id": "55904462623",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.3778,
+    "stop_loss": 1.38116,
+    "take_profit": 1.37285,
+    "persisted_at": "2026-03-24T17:56:57.104974+00:00",
+    "status": "CONFIRMED"
+  },
+  "55904476650": {
+    "ticket_id": "55904476650",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.33753,
+    "stop_loss": 1.34518,
+    "take_profit": 1.32583,
+    "persisted_at": "2026-03-24T17:57:32.732334+00:00",
+    "status": "CONFIRMED"
+  },
+  "55904507319": {
+    "ticket_id": "55904507319",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.087,
+    "stop_loss": 158.34,
+    "take_profit": 160.158,
+    "persisted_at": "2026-03-24T17:59:00.537825+00:00",
+    "status": "CONFIRMED"
+  },
+  "55904589156": {
+    "ticket_id": "55904589156",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.33728,
+    "stop_loss": 1.34518,
+    "take_profit": 1.32535,
+    "persisted_at": "2026-03-24T18:02:35.701891+00:00",
+    "status": "CONFIRMED"
+  },
+  "55904676679": {
+    "ticket_id": "55904676679",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.33705,
+    "stop_loss": 1.34519,
+    "take_profit": 1.3252,
+    "persisted_at": "2026-03-24T18:07:38.692773+00:00",
+    "status": "CONFIRMED"
+  },
+  "55904775152": {
+    "ticket_id": "55904775152",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.33686,
+    "stop_loss": 1.34519,
+    "take_profit": 1.3252,
+    "persisted_at": "2026-03-24T18:12:43.369582+00:00",
+    "status": "CONFIRMED"
+  },
+  "55904860693": {
+    "ticket_id": "55904860693",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.33652,
+    "stop_loss": 1.34519,
+    "take_profit": 1.32347,
+    "persisted_at": "2026-03-24T18:17:45.806733+00:00",
+    "status": "CONFIRMED"
+  },
+  "55905705313": {
+    "ticket_id": "55905705313",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.976,
+    "stop_loss": 158.339,
+    "take_profit": 159.886,
+    "persisted_at": "2026-03-24T19:00:03.765254+00:00",
+    "status": "CONFIRMED"
+  },
+  "55906129840": {
+    "ticket_id": "55906129840",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.977,
+    "stop_loss": 158.338,
+    "take_profit": 159.886,
+    "persisted_at": "2026-03-24T19:30:22.643628+00:00",
+    "status": "CONFIRMED"
+  },
+  "55906199374": {
+    "ticket_id": "55906199374",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.978,
+    "stop_loss": 158.338,
+    "take_profit": 159.891,
+    "persisted_at": "2026-03-24T19:35:24.198847+00:00",
+    "status": "CONFIRMED"
+  },
+  "55906269269": {
+    "ticket_id": "55906269269",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.979,
+    "stop_loss": 158.338,
+    "take_profit": 159.896,
+    "persisted_at": "2026-03-24T19:40:24.952914+00:00",
+    "status": "CONFIRMED"
+  },
+  "55906422060": {
+    "ticket_id": "55906422060",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.978,
+    "stop_loss": 158.338,
+    "take_profit": 159.894,
+    "persisted_at": "2026-03-24T19:52:12.665936+00:00",
+    "status": "CONFIRMED"
+  },
+  "55906490410": {
+    "ticket_id": "55906490410",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 158.982,
+    "stop_loss": 158.338,
+    "take_profit": 159.904,
+    "persisted_at": "2026-03-24T19:57:24.436550+00:00",
+    "status": "CONFIRMED"
+  },
+  "55906550976": {
+    "ticket_id": "55906550976",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.016,
+    "stop_loss": 158.339,
+    "take_profit": 159.974,
+    "persisted_at": "2026-03-24T20:02:30.247676+00:00",
+    "status": "CONFIRMED"
+  },
+  "55906602285": {
+    "ticket_id": "55906602285",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.027,
+    "stop_loss": 158.339,
+    "take_profit": 159.98,
+    "persisted_at": "2026-03-24T20:07:32.546725+00:00",
+    "status": "CONFIRMED"
+  },
+  "55906642274": {
+    "ticket_id": "55906642274",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.035,
+    "stop_loss": 158.339,
+    "take_profit": 159.98,
+    "persisted_at": "2026-03-24T20:12:53.903939+00:00",
+    "status": "CONFIRMED"
+  },
+  "55907063342": {
+    "ticket_id": "55907063342",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.16209,
+    "stop_loss": 1.1551,
+    "take_profit": 1.17254,
+    "persisted_at": "2026-03-24T20:27:37.967010+00:00",
+    "status": "CONFIRMED"
+  },
+  "55907699662": {
+    "ticket_id": "55907699662",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37622,
+    "stop_loss": 1.37238,
+    "take_profit": 1.38182,
+    "persisted_at": "2026-03-24T22:00:43.560075+00:00",
+    "status": "CONFIRMED"
+  },
+  "55907750791": {
+    "ticket_id": "55907750791",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37616,
+    "stop_loss": 1.37238,
+    "take_profit": 1.38165,
+    "persisted_at": "2026-03-24T22:05:47.253723+00:00",
+    "status": "CONFIRMED"
+  },
+  "55907801312": {
+    "ticket_id": "55907801312",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37623,
+    "stop_loss": 1.37238,
+    "take_profit": 1.38185,
+    "persisted_at": "2026-03-24T22:10:52.706222+00:00",
+    "status": "CONFIRMED"
+  },
+  "55907847156": {
+    "ticket_id": "55907847156",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37643,
+    "stop_loss": 1.37238,
+    "take_profit": 1.38235,
+    "persisted_at": "2026-03-24T22:16:17.635934+00:00",
+    "status": "CONFIRMED"
+  },
+  "55907892428": {
+    "ticket_id": "55907892428",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37627,
+    "stop_loss": 1.37238,
+    "take_profit": 1.38195,
+    "persisted_at": "2026-03-24T22:21:21.338678+00:00",
+    "status": "CONFIRMED"
+  },
+  "55907974641": {
+    "ticket_id": "55907974641",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37643,
+    "stop_loss": 1.37238,
+    "take_profit": 1.38238,
+    "persisted_at": "2026-03-24T22:29:44.070253+00:00",
+    "status": "CONFIRMED"
+  },
+  "55908069674": {
+    "ticket_id": "55908069674",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37644,
+    "stop_loss": 1.37238,
+    "take_profit": 1.38238,
+    "persisted_at": "2026-03-24T22:37:59.246516+00:00",
+    "status": "CONFIRMED"
+  },
+  "55908116261": {
+    "ticket_id": "55908116261",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37646,
+    "stop_loss": 1.37238,
+    "take_profit": 1.38243,
+    "persisted_at": "2026-03-24T22:44:05.047616+00:00",
+    "status": "CONFIRMED"
+  },
+  "55909148827": {
+    "ticket_id": "55909148827",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.16218,
+    "stop_loss": 1.16629,
+    "take_profit": 1.156,
+    "persisted_at": "2026-03-25T00:09:14.455674+00:00",
+    "status": "CONFIRMED"
+  },
+  "55909256541": {
+    "ticket_id": "55909256541",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.16196,
+    "stop_loss": 1.16623,
+    "take_profit": 1.156,
+    "persisted_at": "2026-03-25T00:18:21.349886+00:00",
+    "status": "CONFIRMED"
+  },
+  "55909308984": {
+    "ticket_id": "55909308984",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.162,
+    "stop_loss": 1.16617,
+    "take_profit": 1.156,
+    "persisted_at": "2026-03-25T00:23:26.969012+00:00",
+    "status": "CONFIRMED"
+  },
+  "55909369459": {
+    "ticket_id": "55909369459",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.16204,
+    "stop_loss": 1.1663,
+    "take_profit": 1.156,
+    "persisted_at": "2026-03-25T00:28:35.624635+00:00",
+    "status": "CONFIRMED"
+  },
+  "55909431128": {
+    "ticket_id": "55909431128",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.16242,
+    "stop_loss": 1.16668,
+    "take_profit": 1.156,
+    "persisted_at": "2026-03-25T00:33:43.666686+00:00",
+    "status": "CONFIRMED"
+  },
+  "55909701662": {
+    "ticket_id": "55909701662",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.16241,
+    "stop_loss": 1.16671,
+    "take_profit": 1.156,
+    "persisted_at": "2026-03-25T00:59:04.095485+00:00",
+    "status": "CONFIRMED"
+  },
+  "55910040440": {
+    "ticket_id": "55910040440",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.16226,
+    "stop_loss": 1.16635,
+    "take_profit": 1.156,
+    "persisted_at": "2026-03-25T01:24:42.008271+00:00",
+    "status": "CONFIRMED"
+  },
+  "55912517819": {
+    "ticket_id": "55912517819",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.69726,
+    "stop_loss": 0.70176,
+    "take_profit": 0.69046,
+    "persisted_at": "2026-03-25T05:17:50.194093+00:00",
+    "status": "CONFIRMED"
+  },
+  "55912598948": {
+    "ticket_id": "55912598948",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.69741,
+    "stop_loss": 0.70176,
+    "take_profit": 0.69081,
+    "persisted_at": "2026-03-25T05:23:18.008888+00:00",
+    "status": "CONFIRMED"
+  },
+  "55912674993": {
+    "ticket_id": "55912674993",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.69719,
+    "stop_loss": 0.70176,
+    "take_profit": 0.69029,
+    "persisted_at": "2026-03-25T05:28:26.232833+00:00",
+    "status": "CONFIRMED"
+  },
+  "55913077029": {
+    "ticket_id": "55913077029",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.69709,
+    "stop_loss": 0.70176,
+    "take_profit": 0.69001,
+    "persisted_at": "2026-03-25T05:55:24.689728+00:00",
+    "status": "CONFIRMED"
+  },
+  "55913147837": {
+    "ticket_id": "55913147837",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.6971,
+    "stop_loss": 0.70175,
+    "take_profit": 0.69006,
+    "persisted_at": "2026-03-25T06:00:30.663508+00:00",
+    "status": "CONFIRMED"
+  },
+  "55913236901": {
+    "ticket_id": "55913236901",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.69715,
+    "stop_loss": 0.70175,
+    "take_profit": 0.69018,
+    "persisted_at": "2026-03-25T06:05:38.882004+00:00",
+    "status": "CONFIRMED"
+  },
+  "55913332745": {
+    "ticket_id": "55913332745",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.69686,
+    "stop_loss": 0.70175,
+    "take_profit": 0.6902,
+    "persisted_at": "2026-03-25T06:10:46.408613+00:00",
+    "status": "CONFIRMED"
+  },
+  "55913435354": {
+    "ticket_id": "55913435354",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.69689,
+    "stop_loss": 0.70175,
+    "take_profit": 0.6902,
+    "persisted_at": "2026-03-25T06:15:53.077848+00:00",
+    "status": "CONFIRMED"
+  },
+  "55914446675": {
+    "ticket_id": "55914446675",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.011,
+    "stop_loss": 158.302,
+    "take_profit": 159.98,
+    "persisted_at": "2026-03-25T07:28:20.639756+00:00",
+    "status": "CONFIRMED"
+  },
+  "55914526559": {
+    "ticket_id": "55914526559",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.059,
+    "stop_loss": 158.302,
+    "take_profit": 160.15,
+    "persisted_at": "2026-03-25T07:33:23.431906+00:00",
+    "status": "CONFIRMED"
+  },
+  "55914634423": {
+    "ticket_id": "55914634423",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.097,
+    "stop_loss": 158.301,
+    "take_profit": 160.247,
+    "persisted_at": "2026-03-25T07:38:27.246373+00:00",
+    "status": "CONFIRMED"
+  },
+  "55914945319": {
+    "ticket_id": "55914945319",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.113,
+    "stop_loss": 158.301,
+    "take_profit": 160.287,
+    "persisted_at": "2026-03-25T07:57:26.215162+00:00",
+    "status": "CONFIRMED"
+  },
+  "55915050775": {
+    "ticket_id": "55915050775",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.174,
+    "stop_loss": 158.304,
+    "take_profit": 160.437,
+    "persisted_at": "2026-03-25T08:02:30.332633+00:00",
+    "status": "CONFIRMED"
+  },
+  "55916996699": {
+    "ticket_id": "55916996699",
+    "symbol": "NZDUSD",
+    "direction": "BUY",
+    "entry_price": 0.58153,
+    "stop_loss": 0.5791,
+    "take_profit": 0.5848,
+    "persisted_at": "2026-03-25T09:54:30.932917+00:00",
+    "status": "CONFIRMED"
+  },
+  "55917100950": {
+    "ticket_id": "55917100950",
+    "symbol": "NZDUSD",
+    "direction": "SELL",
+    "entry_price": 0.5818,
+    "stop_loss": 0.58536,
+    "take_profit": 0.57629,
+    "persisted_at": "2026-03-25T09:59:31.959619+00:00",
+    "status": "CONFIRMED"
+  },
+  "55917291553": {
+    "ticket_id": "55917291553",
+    "symbol": "NZDUSD",
+    "direction": "SELL",
+    "entry_price": 0.58171,
+    "stop_loss": 0.58532,
+    "take_profit": 0.57613,
+    "persisted_at": "2026-03-25T10:09:59.800302+00:00",
+    "status": "CONFIRMED"
+  },
+  "55917362482": {
+    "ticket_id": "55917362482",
+    "symbol": "NZDUSD",
+    "direction": "BUY",
+    "entry_price": 0.58145,
+    "stop_loss": 0.57939,
+    "take_profit": 0.5847,
+    "persisted_at": "2026-03-25T10:15:10.104755+00:00",
+    "status": "CONFIRMED"
+  },
+  "55917444602": {
+    "ticket_id": "55917444602",
+    "symbol": "NZDUSD",
+    "direction": "BUY",
+    "entry_price": 0.58145,
+    "stop_loss": 0.57935,
+    "take_profit": 0.5847,
+    "persisted_at": "2026-03-25T10:20:19.996069+00:00",
+    "status": "CONFIRMED"
+  },
+  "55917517209": {
+    "ticket_id": "55917517209",
+    "symbol": "NZDUSD",
+    "direction": "BUY",
+    "entry_price": 0.5813,
+    "stop_loss": 0.57917,
+    "take_profit": 0.5847,
+    "persisted_at": "2026-03-25T10:25:21.043169+00:00",
+    "status": "CONFIRMED"
+  },
+  "55917609324": {
+    "ticket_id": "55917609324",
+    "symbol": "NZDUSD",
+    "direction": "BUY",
+    "entry_price": 0.58126,
+    "stop_loss": 0.57913,
+    "take_profit": 0.5847,
+    "persisted_at": "2026-03-25T10:30:24.085004+00:00",
+    "status": "CONFIRMED"
+  },
+  "55917685421": {
+    "ticket_id": "55917685421",
+    "symbol": "NZDUSD",
+    "direction": "BUY",
+    "entry_price": 0.58133,
+    "stop_loss": 0.57918,
+    "take_profit": 0.5847,
+    "persisted_at": "2026-03-25T10:35:26.639410+00:00",
+    "status": "CONFIRMED"
+  },
+  "55917775072": {
+    "ticket_id": "55917775072",
+    "symbol": "NZDUSD",
+    "direction": "BUY",
+    "entry_price": 0.58142,
+    "stop_loss": 0.57927,
+    "take_profit": 0.5847,
+    "persisted_at": "2026-03-25T10:40:29.124231+00:00",
+    "status": "CONFIRMED"
+  },
+  "55917867657": {
+    "ticket_id": "55917867657",
+    "symbol": "NZDUSD",
+    "direction": "BUY",
+    "entry_price": 0.5813,
+    "stop_loss": 0.57917,
+    "take_profit": 0.5847,
+    "persisted_at": "2026-03-25T10:45:32.100523+00:00",
+    "status": "CONFIRMED"
+  },
+  "55917963004": {
+    "ticket_id": "55917963004",
+    "symbol": "NZDUSD",
+    "direction": "SELL",
+    "entry_price": 0.58168,
+    "stop_loss": 0.58533,
+    "take_profit": 0.57614,
+    "persisted_at": "2026-03-25T10:50:32.328701+00:00",
+    "status": "CONFIRMED"
+  },
+  "55921471613": {
+    "ticket_id": "55921471613",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.33958,
+    "stop_loss": 1.34412,
+    "take_profit": 1.3327,
+    "persisted_at": "2026-03-25T13:08:09.218926+00:00",
+    "status": "CONFIRMED"
+  },
+  "55933190017": {
+    "ticket_id": "55933190017",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.3364,
+    "stop_loss": 1.3326,
+    "take_profit": 1.34239,
+    "persisted_at": "2026-03-26T00:14:09.265120+00:00",
+    "status": "CONFIRMED"
+  },
+  "55933258934": {
+    "ticket_id": "55933258934",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.33641,
+    "stop_loss": 1.33263,
+    "take_profit": 1.34239,
+    "persisted_at": "2026-03-26T00:19:09.046995+00:00",
+    "status": "CONFIRMED"
+  },
+  "55933258994": {
+    "ticket_id": "55933258994",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.69458,
+    "stop_loss": 0.69162,
+    "take_profit": 0.6989,
+    "persisted_at": "2026-03-26T00:19:09.627651+00:00",
+    "status": "CONFIRMED"
+  },
+  "55933313411": {
+    "ticket_id": "55933313411",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.69476,
+    "stop_loss": 0.69777,
+    "take_profit": 0.69018,
+    "persisted_at": "2026-03-26T00:24:18.717743+00:00",
+    "status": "CONFIRMED"
+  },
+  "55933319974": {
+    "ticket_id": "55933319974",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.33655,
+    "stop_loss": 1.33279,
+    "take_profit": 1.34239,
+    "persisted_at": "2026-03-26T00:24:57.079798+00:00",
+    "status": "CONFIRMED"
+  },
+  "55933329197": {
+    "ticket_id": "55933329197",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.69459,
+    "stop_loss": 0.69163,
+    "take_profit": 0.69899,
+    "persisted_at": "2026-03-26T00:25:43.792382+00:00",
+    "status": "CONFIRMED"
+  },
+  "55933770365": {
+    "ticket_id": "55933770365",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.79172,
+    "stop_loss": 0.79412,
+    "take_profit": 0.7885,
+    "persisted_at": "2026-03-26T01:10:52.268487+00:00",
+    "status": "CONFIRMED"
+  },
+  "55934943794": {
+    "ticket_id": "55934943794",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.33515,
+    "stop_loss": 1.33214,
+    "take_profit": 1.33977,
+    "persisted_at": "2026-03-26T03:00:19.755900+00:00",
+    "status": "CONFIRMED"
+  },
+  "55935007400": {
+    "ticket_id": "55935007400",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.33524,
+    "stop_loss": 1.33222,
+    "take_profit": 1.33977,
+    "persisted_at": "2026-03-26T03:05:21.936770+00:00",
+    "status": "CONFIRMED"
+  },
+  "55935083753": {
+    "ticket_id": "55935083753",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.33551,
+    "stop_loss": 1.33245,
+    "take_profit": 1.3398,
+    "persisted_at": "2026-03-26T03:14:00.006398+00:00",
+    "status": "CONFIRMED"
+  },
+  "55935138632": {
+    "ticket_id": "55935138632",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.33568,
+    "stop_loss": 1.33259,
+    "take_profit": 1.3398,
+    "persisted_at": "2026-03-26T03:19:01.826541+00:00",
+    "status": "CONFIRMED"
+  },
+  "55935174354": {
+    "ticket_id": "55935174354",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.33576,
+    "stop_loss": 1.34049,
+    "take_profit": 1.32859,
+    "persisted_at": "2026-03-26T03:22:26.857717+00:00",
+    "status": "CONFIRMED"
+  },
+  "55946458017": {
+    "ticket_id": "55946458017",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.33482,
+    "stop_loss": 1.33805,
+    "take_profit": 1.33245,
+    "persisted_at": "2026-03-26T13:36:21.481856+00:00",
+    "status": "CONFIRMED"
+  },
+  "55946458200": {
+    "ticket_id": "55946458200",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.69161,
+    "stop_loss": 0.69605,
+    "take_profit": 0.68501,
+    "persisted_at": "2026-03-26T13:36:22.000845+00:00",
+    "status": "CONFIRMED"
+  },
+  "55946606564": {
+    "ticket_id": "55946606564",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.69167,
+    "stop_loss": 0.69605,
+    "take_profit": 0.6852,
+    "persisted_at": "2026-03-26T13:41:25.745490+00:00",
+    "status": "CONFIRMED"
+  },
+  "55953598686": {
+    "ticket_id": "55953598686",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15306,
+    "stop_loss": 1.15767,
+    "take_profit": 1.146,
+    "persisted_at": "2026-03-26T18:09:27.995652+00:00",
+    "status": "CONFIRMED"
+  },
+  "55953598784": {
+    "ticket_id": "55953598784",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.33256,
+    "stop_loss": 1.32837,
+    "take_profit": 1.33749,
+    "persisted_at": "2026-03-26T18:09:28.564422+00:00",
+    "status": "CONFIRMED"
+  },
+  "55953598865": {
+    "ticket_id": "55953598865",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.68907,
+    "stop_loss": 0.68586,
+    "take_profit": 0.69378,
+    "persisted_at": "2026-03-26T18:09:29.094504+00:00",
+    "status": "CONFIRMED"
+  },
+  "55953598968": {
+    "ticket_id": "55953598968",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.38527,
+    "stop_loss": 1.38785,
+    "take_profit": 1.38203,
+    "persisted_at": "2026-03-26T18:09:29.611790+00:00",
+    "status": "CONFIRMED"
+  },
+  "55953683850": {
+    "ticket_id": "55953683850",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15299,
+    "stop_loss": 1.15767,
+    "take_profit": 1.14605,
+    "persisted_at": "2026-03-26T18:14:31.349913+00:00",
+    "status": "CONFIRMED"
+  },
+  "55953683875": {
+    "ticket_id": "55953683875",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.79504,
+    "stop_loss": 0.79718,
+    "take_profit": 0.79163,
+    "persisted_at": "2026-03-26T18:14:31.533359+00:00",
+    "status": "CONFIRMED"
+  },
+  "55953683954": {
+    "ticket_id": "55953683954",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.68909,
+    "stop_loss": 0.68589,
+    "take_profit": 0.69388,
+    "persisted_at": "2026-03-26T18:14:32.128665+00:00",
+    "status": "CONFIRMED"
+  },
+  "55953726204": {
+    "ticket_id": "55953726204",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.38516,
+    "stop_loss": 1.38773,
+    "take_profit": 1.38203,
+    "persisted_at": "2026-03-26T18:16:47.064560+00:00",
+    "status": "CONFIRMED"
+  },
+  "55953773730": {
+    "ticket_id": "55953773730",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.15298,
+    "stop_loss": 1.14976,
+    "take_profit": 1.15693,
+    "persisted_at": "2026-03-26T18:19:32.092079+00:00",
+    "status": "CONFIRMED"
+  },
+  "55953838940": {
+    "ticket_id": "55953838940",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.38537,
+    "stop_loss": 1.38795,
+    "take_profit": 1.38203,
+    "persisted_at": "2026-03-26T18:21:57.308633+00:00",
+    "status": "CONFIRMED"
+  },
+  "55953920067": {
+    "ticket_id": "55953920067",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.38522,
+    "stop_loss": 1.38783,
+    "take_profit": 1.38203,
+    "persisted_at": "2026-03-26T18:26:59.001596+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954007870": {
+    "ticket_id": "55954007870",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.79501,
+    "stop_loss": 0.7972,
+    "take_profit": 0.79163,
+    "persisted_at": "2026-03-26T18:31:49.414673+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954011226": {
+    "ticket_id": "55954011226",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.38517,
+    "stop_loss": 1.38774,
+    "take_profit": 1.38203,
+    "persisted_at": "2026-03-26T18:32:02.454677+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954031572": {
+    "ticket_id": "55954031572",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.15303,
+    "stop_loss": 1.14978,
+    "take_profit": 1.15693,
+    "persisted_at": "2026-03-26T18:33:26.590673+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954095383": {
+    "ticket_id": "55954095383",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.79481,
+    "stop_loss": 0.79701,
+    "take_profit": 0.79163,
+    "persisted_at": "2026-03-26T18:36:58.723552+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954098860": {
+    "ticket_id": "55954098860",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.38483,
+    "stop_loss": 1.38135,
+    "take_profit": 1.3898,
+    "persisted_at": "2026-03-26T18:37:09.988288+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954117649": {
+    "ticket_id": "55954117649",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15317,
+    "stop_loss": 1.15767,
+    "take_profit": 1.14635,
+    "persisted_at": "2026-03-26T18:38:35.983312+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954129010": {
+    "ticket_id": "55954129010",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.33267,
+    "stop_loss": 1.3285,
+    "take_profit": 1.33749,
+    "persisted_at": "2026-03-26T18:39:19.794814+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954131475": {
+    "ticket_id": "55954131475",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.68914,
+    "stop_loss": 0.69609,
+    "take_profit": 0.67864,
+    "persisted_at": "2026-03-26T18:39:31.480517+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954181892": {
+    "ticket_id": "55954181892",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.38494,
+    "stop_loss": 1.38135,
+    "take_profit": 1.3898,
+    "persisted_at": "2026-03-26T18:42:18.393837+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954218570": {
+    "ticket_id": "55954218570",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.3328,
+    "stop_loss": 1.32861,
+    "take_profit": 1.33749,
+    "persisted_at": "2026-03-26T18:44:33.855970+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954220660": {
+    "ticket_id": "55954220660",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15328,
+    "stop_loss": 1.15767,
+    "take_profit": 1.14665,
+    "persisted_at": "2026-03-26T18:44:45.259178+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954279673": {
+    "ticket_id": "55954279673",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.79475,
+    "stop_loss": 0.79696,
+    "take_profit": 0.79163,
+    "persisted_at": "2026-03-26T18:48:33.042147+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954293746": {
+    "ticket_id": "55954293746",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15336,
+    "stop_loss": 1.15767,
+    "take_profit": 1.14682,
+    "persisted_at": "2026-03-26T18:49:48.117721+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954358016": {
+    "ticket_id": "55954358016",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15324,
+    "stop_loss": 1.15767,
+    "take_profit": 1.1466,
+    "persisted_at": "2026-03-26T18:54:57.818196+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954434864": {
+    "ticket_id": "55954434864",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.3328,
+    "stop_loss": 1.32878,
+    "take_profit": 1.33749,
+    "persisted_at": "2026-03-26T19:00:18.145312+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954480899": {
+    "ticket_id": "55954480899",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15317,
+    "stop_loss": 1.1574,
+    "take_profit": 1.14671,
+    "persisted_at": "2026-03-26T19:02:33.397807+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954481039": {
+    "ticket_id": "55954481039",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.68898,
+    "stop_loss": 0.69603,
+    "take_profit": 0.67841,
+    "persisted_at": "2026-03-26T19:02:33.898176+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954529685": {
+    "ticket_id": "55954529685",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.33265,
+    "stop_loss": 1.32855,
+    "take_profit": 1.33749,
+    "persisted_at": "2026-03-26T19:05:20.472558+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954560110": {
+    "ticket_id": "55954560110",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15309,
+    "stop_loss": 1.1574,
+    "take_profit": 1.1465,
+    "persisted_at": "2026-03-26T19:07:37.008797+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954560301": {
+    "ticket_id": "55954560301",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.68902,
+    "stop_loss": 0.68578,
+    "take_profit": 0.69379,
+    "persisted_at": "2026-03-26T19:07:37.520011+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954612862": {
+    "ticket_id": "55954612862",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.3323,
+    "stop_loss": 1.32816,
+    "take_profit": 1.33749,
+    "persisted_at": "2026-03-26T19:10:24.594935+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954656310": {
+    "ticket_id": "55954656310",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.15252,
+    "stop_loss": 1.1493,
+    "take_profit": 1.15667,
+    "persisted_at": "2026-03-26T19:12:41.884342+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954713502": {
+    "ticket_id": "55954713502",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.38513,
+    "stop_loss": 1.38137,
+    "take_profit": 1.3898,
+    "persisted_at": "2026-03-26T19:16:50.272623+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954728229": {
+    "ticket_id": "55954728229",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.15268,
+    "stop_loss": 1.14944,
+    "take_profit": 1.15667,
+    "persisted_at": "2026-03-26T19:18:02.893171+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954800090": {
+    "ticket_id": "55954800090",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.15266,
+    "stop_loss": 1.14942,
+    "take_profit": 1.15667,
+    "persisted_at": "2026-03-26T19:23:44.220844+00:00",
+    "status": "CONFIRMED"
+  },
+  "55954890305": {
+    "ticket_id": "55954890305",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.38515,
+    "stop_loss": 1.38781,
+    "take_profit": 1.38205,
+    "persisted_at": "2026-03-26T19:29:25.738792+00:00",
+    "status": "CONFIRMED"
+  },
+  "55955027451": {
+    "ticket_id": "55955027451",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.33239,
+    "stop_loss": 1.32819,
+    "take_profit": 1.33749,
+    "persisted_at": "2026-03-26T19:38:09.788225+00:00",
+    "status": "CONFIRMED"
+  },
+  "55955047734": {
+    "ticket_id": "55955047734",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.38476,
+    "stop_loss": 1.38137,
+    "take_profit": 1.38982,
+    "persisted_at": "2026-03-26T19:39:44.055286+00:00",
+    "status": "CONFIRMED"
+  },
+  "55955104269": {
+    "ticket_id": "55955104269",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.38512,
+    "stop_loss": 1.38137,
+    "take_profit": 1.3898,
+    "persisted_at": "2026-03-26T19:44:47.665087+00:00",
+    "status": "CONFIRMED"
+  },
+  "55955109797": {
+    "ticket_id": "55955109797",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.15242,
+    "stop_loss": 1.14916,
+    "take_profit": 1.15667,
+    "persisted_at": "2026-03-26T19:45:10.248429+00:00",
+    "status": "CONFIRMED"
+  },
+  "55955267607": {
+    "ticket_id": "55955267607",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.38541,
+    "stop_loss": 1.3881,
+    "take_profit": 1.38205,
+    "persisted_at": "2026-03-26T19:54:57.576036+00:00",
+    "status": "CONFIRMED"
+  },
+  "55955409331": {
+    "ticket_id": "55955409331",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.1521,
+    "stop_loss": 1.14897,
+    "take_profit": 1.1564,
+    "persisted_at": "2026-03-26T20:01:38.704488+00:00",
+    "status": "CONFIRMED"
+  },
+  "55955513962": {
+    "ticket_id": "55955513962",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.15213,
+    "stop_loss": 1.14905,
+    "take_profit": 1.1564,
+    "persisted_at": "2026-03-26T20:06:48.764769+00:00",
+    "status": "CONFIRMED"
+  },
+  "55956517180": {
+    "ticket_id": "55956517180",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15322,
+    "stop_loss": 1.15712,
+    "take_profit": 1.1473,
+    "persisted_at": "2026-03-26T21:14:56.373791+00:00",
+    "status": "CONFIRMED"
+  },
+  "55956530000": {
+    "ticket_id": "55956530000",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.68887,
+    "stop_loss": 0.69574,
+    "take_profit": 0.6785,
+    "persisted_at": "2026-03-26T21:23:45.099760+00:00",
+    "status": "CONFIRMED"
+  },
+  "55956533133": {
+    "ticket_id": "55956533133",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15308,
+    "stop_loss": 1.15712,
+    "take_profit": 1.14692,
+    "persisted_at": "2026-03-26T21:25:54.088561+00:00",
+    "status": "CONFIRMED"
+  },
+  "55956558241": {
+    "ticket_id": "55956558241",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.68881,
+    "stop_loss": 0.69574,
+    "take_profit": 0.67835,
+    "persisted_at": "2026-03-26T21:48:06.955122+00:00",
+    "status": "CONFIRMED"
+  },
+  "55956571073": {
+    "ticket_id": "55956571073",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.79474,
+    "stop_loss": 0.79097,
+    "take_profit": 0.7998,
+    "persisted_at": "2026-03-26T22:00:38.334216+00:00",
+    "status": "CONFIRMED"
+  },
+  "55956574678": {
+    "ticket_id": "55956574678",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.38555,
+    "stop_loss": 1.38168,
+    "take_profit": 1.39137,
+    "persisted_at": "2026-03-26T22:00:39.229639+00:00",
+    "status": "CONFIRMED"
+  },
+  "55966712256": {
+    "ticket_id": "55966712256",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.15122,
+    "stop_loss": 1.14913,
+    "take_profit": 1.15431,
+    "persisted_at": "2026-03-27T11:19:16.203926+00:00",
+    "status": "CONFIRMED"
+  },
+  "55966712416": {
+    "ticket_id": "55966712416",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.33017,
+    "stop_loss": 1.3278,
+    "take_profit": 1.33442,
+    "persisted_at": "2026-03-27T11:19:16.730627+00:00",
+    "status": "CONFIRMED"
+  },
+  "55974574085": {
+    "ticket_id": "55974574085",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.68877,
+    "stop_loss": 0.6915842857142857,
+    "take_profit": 0.6803271428571429,
+    "persisted_at": "2026-03-27T15:55:16.210610+00:00",
+    "status": "CONFIRMED"
+  },
+  "55974733826": {
+    "ticket_id": "55974733826",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.68876,
+    "stop_loss": 0.6915748571428572,
+    "take_profit": 0.6801954285714287,
+    "persisted_at": "2026-03-27T16:00:58.891954+00:00",
+    "status": "CONFIRMED"
+  },
+  "55974880287": {
+    "ticket_id": "55974880287",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.6888,
+    "stop_loss": 0.6915798571428571,
+    "take_profit": 0.6804204285714287,
+    "persisted_at": "2026-03-27T16:06:08.416705+00:00",
+    "status": "CONFIRMED"
+  },
+  "55975201086": {
+    "ticket_id": "55975201086",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.68906,
+    "stop_loss": 0.6915848571428571,
+    "take_profit": 0.6813654285714287,
+    "persisted_at": "2026-03-27T16:21:26.585033+00:00",
+    "status": "CONFIRMED"
+  },
+  "55975537074": {
+    "ticket_id": "55975537074",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.79651,
+    "stop_loss": 0.7941604285714285,
+    "take_profit": 0.8034787142857142,
+    "persisted_at": "2026-03-27T16:36:47.134209+00:00",
+    "status": "CONFIRMED"
+  },
+  "55975607511": {
+    "ticket_id": "55975607511",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.79652,
+    "stop_loss": 0.7941604285714285,
+    "take_profit": 0.8036787142857141,
+    "persisted_at": "2026-03-27T16:39:59.691728+00:00",
+    "status": "CONFIRMED"
+  },
+  "55975723425": {
+    "ticket_id": "55975723425",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.79645,
+    "stop_loss": 0.7941598571428572,
+    "take_profit": 0.8034404285714284,
+    "persisted_at": "2026-03-27T16:45:02.390345+00:00",
+    "status": "CONFIRMED"
+  },
+  "55975839733": {
+    "ticket_id": "55975839733",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.79647,
+    "stop_loss": 0.7941598571428572,
+    "take_profit": 0.8036004285714285,
+    "persisted_at": "2026-03-27T16:50:10.738714+00:00",
+    "status": "CONFIRMED"
+  },
+  "55975932664": {
+    "ticket_id": "55975932664",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.79677,
+    "stop_loss": 0.7941598571428572,
+    "take_profit": 0.8045204285714284,
+    "persisted_at": "2026-03-27T16:55:14.600640+00:00",
+    "status": "CONFIRMED"
+  },
+  "55975974756": {
+    "ticket_id": "55975974756",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15201,
+    "stop_loss": 1.1551792857142855,
+    "take_profit": 1.1427021428571429,
+    "persisted_at": "2026-03-27T16:57:52.934997+00:00",
+    "status": "CONFIRMED"
+  },
+  "55975978084": {
+    "ticket_id": "55975978084",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.79682,
+    "stop_loss": 0.7941598571428572,
+    "take_profit": 0.8046404285714283,
+    "persisted_at": "2026-03-27T16:58:05.433229+00:00",
+    "status": "CONFIRMED"
+  },
+  "55976002778": {
+    "ticket_id": "55976002778",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15192,
+    "stop_loss": 1.1551792857142855,
+    "take_profit": 1.1419821428571435,
+    "persisted_at": "2026-03-27T16:59:31.897907+00:00",
+    "status": "CONFIRMED"
+  },
+  "55976006718": {
+    "ticket_id": "55976006718",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.79685,
+    "stop_loss": 0.7941598571428572,
+    "take_profit": 0.8048404285714282,
+    "persisted_at": "2026-03-27T16:59:44.465801+00:00",
+    "status": "CONFIRMED"
+  },
+  "55976103581": {
+    "ticket_id": "55976103581",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.1519,
+    "stop_loss": 1.1551742857142855,
+    "take_profit": 1.1415971428571436,
+    "persisted_at": "2026-03-27T17:04:35.231988+00:00",
+    "status": "CONFIRMED"
+  },
+  "55976107063": {
+    "ticket_id": "55976107063",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.79696,
+    "stop_loss": 0.7945258571428571,
+    "take_profit": 0.8042224285714287,
+    "persisted_at": "2026-03-27T17:04:46.576797+00:00",
+    "status": "CONFIRMED"
+  },
+  "55976217547": {
+    "ticket_id": "55976217547",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.1519,
+    "stop_loss": 1.155187714285714,
+    "take_profit": 1.142116857142858,
+    "persisted_at": "2026-03-27T17:09:45.307600+00:00",
+    "status": "CONFIRMED"
+  },
+  "55976221513": {
+    "ticket_id": "55976221513",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.79698,
+    "stop_loss": 0.7945191428571428,
+    "take_profit": 0.8042425714285716,
+    "persisted_at": "2026-03-27T17:09:56.588098+00:00",
+    "status": "CONFIRMED"
+  },
+  "55976303255": {
+    "ticket_id": "55976303255",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15148,
+    "stop_loss": 1.1551901428571427,
+    "take_profit": 1.1403895714285714,
+    "persisted_at": "2026-03-27T17:14:44.565176+00:00",
+    "status": "CONFIRMED"
+  },
+  "55976308320": {
+    "ticket_id": "55976308320",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.7973,
+    "stop_loss": 0.7945162857142857,
+    "take_profit": 0.8048,
+    "persisted_at": "2026-03-27T17:15:07.926517+00:00",
+    "status": "CONFIRMED"
+  },
+  "55976354269": {
+    "ticket_id": "55976354269",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.38841,
+    "stop_loss": 1.3912439285714286,
+    "take_profit": 1.3802,
+    "persisted_at": "2026-03-27T17:16:42.010086+00:00",
+    "status": "CONFIRMED"
+  },
+  "55976481263": {
+    "ticket_id": "55976481263",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.6873,
+    "stop_loss": 0.6835935714285715,
+    "take_profit": 0.6982992857142856,
+    "persisted_at": "2026-03-27T17:21:43.495393+00:00",
+    "status": "CONFIRMED"
+  },
+  "55977174063": {
+    "ticket_id": "55977174063",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.32652,
+    "stop_loss": 1.3213896428571428,
+    "take_profit": 1.3418310714285715,
+    "persisted_at": "2026-03-27T17:57:08.643356+00:00",
+    "status": "CONFIRMED"
+  },
+  "55977360811": {
+    "ticket_id": "55977360811",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15097,
+    "stop_loss": 1.155199714285714,
+    "take_profit": 1.138240857142858,
+    "persisted_at": "2026-03-27T18:08:01.581492+00:00",
+    "status": "CONFIRMED"
+  },
+  "55977360941": {
+    "ticket_id": "55977360941",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.79794,
+    "stop_loss": 0.80072,
+    "take_profit": 0.7902,
+    "persisted_at": "2026-03-27T18:08:02.090387+00:00",
+    "status": "CONFIRMED"
+  },
+  "55977965713": {
+    "ticket_id": "55977965713",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.32694,
+    "stop_loss": 1.3217407142857143,
+    "take_profit": 1.3424178571428573,
+    "persisted_at": "2026-03-27T18:40:25.190965+00:00",
+    "status": "CONFIRMED"
+  },
+  "55977984952": {
+    "ticket_id": "55977984952",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.68735,
+    "stop_loss": 0.6835132142857143,
+    "take_profit": 0.698740357142857,
+    "persisted_at": "2026-03-27T18:41:50.190710+00:00",
+    "status": "CONFIRMED"
+  },
+  "55977999741": {
+    "ticket_id": "55977999741",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.38843,
+    "stop_loss": 1.3841715714285716,
+    "take_profit": 1.4011252857142857,
+    "persisted_at": "2026-03-27T18:42:44.318234+00:00",
+    "status": "CONFIRMED"
+  },
+  "55978052666": {
+    "ticket_id": "55978052666",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.32722,
+    "stop_loss": 1.3352567142857141,
+    "take_profit": 1.3030698571428576,
+    "persisted_at": "2026-03-27T18:45:33.735024+00:00",
+    "status": "CONFIRMED"
+  },
+  "55978076930": {
+    "ticket_id": "55978076930",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.68736,
+    "stop_loss": 0.6834878571428571,
+    "take_profit": 0.6989364285714285,
+    "persisted_at": "2026-03-27T18:46:56.985084+00:00",
+    "status": "CONFIRMED"
+  },
+  "55978105284": {
+    "ticket_id": "55978105284",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.38847,
+    "stop_loss": 1.3841684285714286,
+    "take_profit": 1.4012947142857148,
+    "persisted_at": "2026-03-27T18:48:42.813931+00:00",
+    "status": "CONFIRMED"
+  },
+  "55978127733": {
+    "ticket_id": "55978127733",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.32708,
+    "stop_loss": 1.3352567142857141,
+    "take_profit": 1.3026298571428574,
+    "persisted_at": "2026-03-27T18:50:38.834553+00:00",
+    "status": "CONFIRMED"
+  },
+  "55978162621": {
+    "ticket_id": "55978162621",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.3884,
+    "stop_loss": 1.3841684285714286,
+    "take_profit": 1.4011347142857147,
+    "persisted_at": "2026-03-27T18:53:45.798082+00:00",
+    "status": "CONFIRMED"
+  },
+  "55978198799": {
+    "ticket_id": "55978198799",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.32699,
+    "stop_loss": 1.3352567142857141,
+    "take_profit": 1.3020698571428573,
+    "persisted_at": "2026-03-27T18:56:11.634355+00:00",
+    "status": "CONFIRMED"
+  },
+  "55978198866": {
+    "ticket_id": "55978198866",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.38852,
+    "stop_loss": 1.3915996428571429,
+    "take_profit": 1.3802,
+    "persisted_at": "2026-03-27T18:56:12.153949+00:00",
+    "status": "CONFIRMED"
+  },
+  "55978259993": {
+    "ticket_id": "55978259993",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.32698,
+    "stop_loss": 1.3219378571428568,
+    "take_profit": 1.3421864285714287,
+    "persisted_at": "2026-03-27T19:01:14.998689+00:00",
+    "status": "CONFIRMED"
+  },
+  "55978260197": {
+    "ticket_id": "55978260197",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.38873,
+    "stop_loss": 1.3916232142857143,
+    "take_profit": 1.3802,
+    "persisted_at": "2026-03-27T19:01:16.279317+00:00",
+    "status": "CONFIRMED"
+  },
+  "55980453541": {
+    "ticket_id": "55980453541",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.14907,
+    "stop_loss": 1.1450792857142857,
+    "take_profit": 1.1610421428571427,
+    "persisted_at": "2026-03-29T22:39:39.444343+00:00",
+    "status": "CONFIRMED"
+  },
+  "55980453658": {
+    "ticket_id": "55980453658",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.79981,
+    "stop_loss": 0.8033185714285714,
+    "take_profit": 0.7902,
+    "persisted_at": "2026-03-29T22:39:39.963045+00:00",
+    "status": "CONFIRMED"
+  },
+  "55980453726": {
+    "ticket_id": "55980453726",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.38983,
+    "stop_loss": 1.3934167857142858,
+    "take_profit": 1.3789896428571429,
+    "persisted_at": "2026-03-29T22:39:40.520785+00:00",
+    "status": "CONFIRMED"
+  },
+  "55980807687": {
+    "ticket_id": "55980807687",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.32436,
+    "stop_loss": 1.3191142857142857,
+    "take_profit": 1.339777142857143,
+    "persisted_at": "2026-03-29T23:05:13.602496+00:00",
+    "status": "CONFIRMED"
+  },
+  "55980884973": {
+    "ticket_id": "55980884973",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.68493,
+    "stop_loss": 0.6906045714285715,
+    "take_profit": 0.6677462857142855,
+    "persisted_at": "2026-03-29T23:08:11.857020+00:00",
+    "status": "CONFIRMED"
+  },
+  "55983361299": {
+    "ticket_id": "55983361299",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.38912,
+    "stop_loss": 1.3842834285714285,
+    "take_profit": 1.4031897142857148,
+    "persisted_at": "2026-03-30T01:49:24.392587+00:00",
+    "status": "CONFIRMED"
+  },
+  "55983363384": {
+    "ticket_id": "55983363384",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.32502,
+    "stop_loss": 1.3197417857142857,
+    "take_profit": 1.3398,
+    "persisted_at": "2026-03-30T01:49:37.080686+00:00",
+    "status": "CONFIRMED"
+  },
+  "55983547789": {
+    "ticket_id": "55983547789",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.15016,
+    "stop_loss": 1.1552002857142856,
+    "take_profit": 1.1350391428571427,
+    "persisted_at": "2026-03-30T02:04:49.634282+00:00",
+    "status": "CONFIRMED"
+  },
+  "55983547981": {
+    "ticket_id": "55983547981",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.7991,
+    "stop_loss": 0.7947287142857142,
+    "take_profit": 0.8118938571428572,
+    "persisted_at": "2026-03-30T02:04:50.159212+00:00",
+    "status": "CONFIRMED"
+  },
+  "55984151002": {
+    "ticket_id": "55984151002",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.32583,
+    "stop_loss": 1.3337764285714284,
+    "take_profit": 1.3019907142857141,
+    "persisted_at": "2026-03-30T02:48:35.143184+00:00",
+    "status": "CONFIRMED"
+  },
+  "55984280855": {
+    "ticket_id": "55984280855",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.38927,
+    "stop_loss": 1.3926578571428572,
+    "take_profit": 1.3802,
+    "persisted_at": "2026-03-30T02:58:56.709755+00:00",
+    "status": "CONFIRMED"
+  },
+  "55985178556": {
+    "ticket_id": "55985178556",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.38925,
+    "stop_loss": 1.3846980000000002,
+    "take_profit": 1.4027859999999999,
+    "persisted_at": "2026-03-30T04:06:16.400011+00:00",
+    "status": "CONFIRMED"
+  },
+  "55985678349": {
+    "ticket_id": "55985678349",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.38934,
+    "stop_loss": 1.3846937142857145,
+    "take_profit": 1.4031188571428563,
+    "persisted_at": "2026-03-30T04:52:45.470107+00:00",
+    "status": "CONFIRMED"
+  },
+  "56219405611": {
+    "ticket_id": "56219405611",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78372,
+    "stop_loss": 0.7869371428571429,
+    "take_profit": 0.7739885714285714,
+    "persisted_at": "2026-04-13T20:28:27.187056+00:00",
+    "status": "CONFIRMED"
+  },
+  "56219405624": {
+    "ticket_id": "56219405624",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37894,
+    "stop_loss": 1.3818153571428573,
+    "take_profit": 1.3702,
+    "persisted_at": "2026-04-13T20:28:27.691552+00:00",
+    "status": "CONFIRMED"
+  },
+  "56219460181": {
+    "ticket_id": "56219460181",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17594,
+    "stop_loss": 1.1717764285714285,
+    "take_profit": 1.1881107142857146,
+    "persisted_at": "2026-04-13T20:55:45.464466+00:00",
+    "status": "CONFIRMED"
+  },
+  "56219460186": {
+    "ticket_id": "56219460186",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35076,
+    "stop_loss": 1.3460989285714287,
+    "take_profit": 1.3643832142857142,
+    "persisted_at": "2026-04-13T20:55:46.071256+00:00",
+    "status": "CONFIRMED"
+  },
+  "56219460199": {
+    "ticket_id": "56219460199",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.70977,
+    "stop_loss": 0.7064014285714285,
+    "take_profit": 0.7194357142857143,
+    "persisted_at": "2026-04-13T20:55:46.580215+00:00",
+    "status": "CONFIRMED"
+  },
+  "56220070212": {
+    "ticket_id": "56220070212",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.17635,
+    "stop_loss": 1.1799539285714287,
+    "take_profit": 1.165098214285714,
+    "persisted_at": "2026-04-13T23:04:51.747516+00:00",
+    "status": "CONFIRMED"
+  },
+  "56220070462": {
+    "ticket_id": "56220070462",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35126,
+    "stop_loss": 1.3555517857142856,
+    "take_profit": 1.338224642857143,
+    "persisted_at": "2026-04-13T23:04:53.083460+00:00",
+    "status": "CONFIRMED"
+  },
+  "56220070535": {
+    "ticket_id": "56220070535",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.78346,
+    "stop_loss": 0.7802535714285714,
+    "take_profit": 0.79088,
+    "persisted_at": "2026-04-13T23:04:53.652189+00:00",
+    "status": "CONFIRMED"
+  },
+  "56220070632": {
+    "ticket_id": "56220070632",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.7101,
+    "stop_loss": 0.7130653571428571,
+    "take_profit": 0.7009239285714286,
+    "persisted_at": "2026-04-13T23:04:54.186458+00:00",
+    "status": "CONFIRMED"
+  },
+  "56220070727": {
+    "ticket_id": "56220070727",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37879,
+    "stop_loss": 1.3759621428571427,
+    "take_profit": 1.38492,
+    "persisted_at": "2026-04-13T23:04:54.720597+00:00",
+    "status": "CONFIRMED"
+  },
+  "56220514811": {
+    "ticket_id": "56220514811",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.1762,
+    "stop_loss": 1.1797903571428572,
+    "take_profit": 1.1651489285714283,
+    "persisted_at": "2026-04-14T00:05:56.769170+00:00",
+    "status": "CONFIRMED"
+  },
+  "56220514998": {
+    "ticket_id": "56220514998",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.3509,
+    "stop_loss": 1.3551207142857142,
+    "take_profit": 1.3379578571428574,
+    "persisted_at": "2026-04-14T00:05:57.973022+00:00",
+    "status": "CONFIRMED"
+  },
+  "56220515051": {
+    "ticket_id": "56220515051",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.78365,
+    "stop_loss": 0.7804585714285713,
+    "take_profit": 0.7930642857142858,
+    "persisted_at": "2026-04-14T00:05:58.474565+00:00",
+    "status": "CONFIRMED"
+  },
+  "56220515158": {
+    "ticket_id": "56220515158",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.70925,
+    "stop_loss": 0.7122817857142858,
+    "take_profit": 0.7002,
+    "persisted_at": "2026-04-14T00:05:58.992437+00:00",
+    "status": "CONFIRMED"
+  },
+  "56220515364": {
+    "ticket_id": "56220515364",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37889,
+    "stop_loss": 1.3761371428571427,
+    "take_profit": 1.38492,
+    "persisted_at": "2026-04-14T00:05:59.514579+00:00",
+    "status": "CONFIRMED"
+  },
+  "56220950080": {
+    "ticket_id": "56220950080",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.70882,
+    "stop_loss": 0.7025447142857143,
+    "take_profit": 0.7273258571428569,
+    "persisted_at": "2026-04-14T00:51:14.126719+00:00",
+    "status": "CONFIRMED"
+  },
+  "56221122558": {
+    "ticket_id": "56221122558",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.70907,
+    "stop_loss": 0.7119585714285714,
+    "take_profit": 0.7003242857142857,
+    "persisted_at": "2026-04-14T01:09:29.950124+00:00",
+    "status": "CONFIRMED"
+  },
+  "56221300091": {
+    "ticket_id": "56221300091",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.70884,
+    "stop_loss": 0.70583,
+    "take_profit": 0.71755,
+    "persisted_at": "2026-04-14T01:28:48.332750+00:00",
+    "status": "CONFIRMED"
+  },
+  "56221570123": {
+    "ticket_id": "56221570123",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35053,
+    "stop_loss": 1.3545739285714284,
+    "take_profit": 1.3383182142857144,
+    "persisted_at": "2026-04-14T01:58:58.150836+00:00",
+    "status": "CONFIRMED"
+  },
+  "56221793049": {
+    "ticket_id": "56221793049",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.17583,
+    "stop_loss": 1.1790767857142856,
+    "take_profit": 1.16831,
+    "persisted_at": "2026-04-14T02:26:51.491993+00:00",
+    "status": "CONFIRMED"
+  },
+  "56238655790": {
+    "ticket_id": "56238655790",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.17939,
+    "stop_loss": 1.1814852857142857,
+    "take_profit": 1.1729041428571423,
+    "persisted_at": "2026-04-14T18:44:07.213260+00:00",
+    "status": "CONFIRMED"
+  },
+  "56238656136": {
+    "ticket_id": "56238656136",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35662,
+    "stop_loss": 1.3506274285714286,
+    "take_profit": 1.3744377142857147,
+    "persisted_at": "2026-04-14T18:44:09.575163+00:00",
+    "status": "CONFIRMED"
+  },
+  "56238656213": {
+    "ticket_id": "56238656213",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78108,
+    "stop_loss": 0.7840204285714285,
+    "take_profit": 0.7722987142857146,
+    "persisted_at": "2026-04-14T18:44:10.184621+00:00",
+    "status": "CONFIRMED"
+  },
+  "56238656288": {
+    "ticket_id": "56238656288",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71284,
+    "stop_loss": 0.707357,
+    "take_profit": 0.7290889999999998,
+    "persisted_at": "2026-04-14T18:44:12.352641+00:00",
+    "status": "CONFIRMED"
+  },
+  "56238656485": {
+    "ticket_id": "56238656485",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37719,
+    "stop_loss": 1.3727384285714286,
+    "take_profit": 1.3898000000000001,
+    "persisted_at": "2026-04-14T18:44:13.103285+00:00",
+    "status": "CONFIRMED"
+  },
+  "56240182204": {
+    "ticket_id": "56240182204",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35692,
+    "stop_loss": 1.3593002857142857,
+    "take_profit": 1.3502,
+    "persisted_at": "2026-04-14T23:18:42.329588+00:00",
+    "status": "CONFIRMED"
+  },
+  "56240853839": {
+    "ticket_id": "56240853839",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.17906,
+    "stop_loss": 1.181435,
+    "take_profit": 1.1719749999999993,
+    "persisted_at": "2026-04-15T00:52:18.868144+00:00",
+    "status": "CONFIRMED"
+  },
+  "56241910419": {
+    "ticket_id": "56241910419",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.1783,
+    "stop_loss": 1.1814214285714284,
+    "take_profit": 1.1688157142857145,
+    "persisted_at": "2026-04-15T02:28:33.594827+00:00",
+    "status": "CONFIRMED"
+  },
+  "56241910478": {
+    "ticket_id": "56241910478",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35618,
+    "stop_loss": 1.3592605714285715,
+    "take_profit": 1.3468182857142854,
+    "persisted_at": "2026-04-15T02:28:34.122839+00:00",
+    "status": "CONFIRMED"
+  },
+  "56241910511": {
+    "ticket_id": "56241910511",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37787,
+    "stop_loss": 1.3753314285714284,
+    "take_profit": 1.3848,
+    "persisted_at": "2026-04-15T02:28:34.668663+00:00",
+    "status": "CONFIRMED"
+  },
+  "56242920377": {
+    "ticket_id": "56242920377",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71315,
+    "stop_loss": 0.7097075714285714,
+    "take_profit": 0.7234772857142856,
+    "persisted_at": "2026-04-15T04:21:32.883258+00:00",
+    "status": "CONFIRMED"
+  },
+  "56243083318": {
+    "ticket_id": "56243083318",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71324,
+    "stop_loss": 0.7097075714285714,
+    "take_profit": 0.7235172857142854,
+    "persisted_at": "2026-04-15T04:43:37.875403+00:00",
+    "status": "CONFIRMED"
+  },
+  "56243125814": {
+    "ticket_id": "56243125814",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71323,
+    "stop_loss": 0.7097075714285714,
+    "take_profit": 0.7235572857142857,
+    "persisted_at": "2026-04-15T04:49:18.383216+00:00",
+    "status": "CONFIRMED"
+  },
+  "56243125982": {
+    "ticket_id": "56243125982",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37759,
+    "stop_loss": 1.3733755714285714,
+    "take_profit": 1.3898000000000001,
+    "persisted_at": "2026-04-15T04:49:19.606971+00:00",
+    "status": "CONFIRMED"
+  },
+  "56243358016": {
+    "ticket_id": "56243358016",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71399,
+    "stop_loss": 0.7120814285714285,
+    "take_profit": 0.7195157142857141,
+    "persisted_at": "2026-04-15T05:15:31.491147+00:00",
+    "status": "CONFIRMED"
+  },
+  "56244130812": {
+    "ticket_id": "56244130812",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.78102,
+    "stop_loss": 0.77995,
+    "take_profit": 0.78407,
+    "persisted_at": "2026-04-15T06:14:01.807404+00:00",
+    "status": "CONFIRMED"
+  },
+  "56244131043": {
+    "ticket_id": "56244131043",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71406,
+    "stop_loss": 0.7120239285714286,
+    "take_profit": 0.7198082142857142,
+    "persisted_at": "2026-04-15T06:14:03.015664+00:00",
+    "status": "CONFIRMED"
+  },
+  "56244253357": {
+    "ticket_id": "56244253357",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.78116,
+    "stop_loss": 0.7799671428571427,
+    "take_profit": 0.7846985714285715,
+    "persisted_at": "2026-04-15T06:23:56.510070+00:00",
+    "status": "CONFIRMED"
+  },
+  "56245168561": {
+    "ticket_id": "56245168561",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.7143,
+    "stop_loss": 0.7122860714285715,
+    "take_profit": 0.7198,
+    "persisted_at": "2026-04-15T07:27:06.424010+00:00",
+    "status": "CONFIRMED"
+  },
+  "56245454147": {
+    "ticket_id": "56245454147",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71472,
+    "stop_loss": 0.7126946428571429,
+    "take_profit": 0.7198,
+    "persisted_at": "2026-04-15T07:47:17.891905+00:00",
+    "status": "CONFIRMED"
+  },
+  "56245928632": {
+    "ticket_id": "56245928632",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.77993,
+    "stop_loss": 0.7782092857142856,
+    "take_profit": 0.784972142857143,
+    "persisted_at": "2026-04-15T08:20:19.730257+00:00",
+    "status": "CONFIRMED"
+  },
+  "56246857603": {
+    "ticket_id": "56246857603",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.17824,
+    "stop_loss": 1.1804835714285713,
+    "take_profit": 1.1714692857142857,
+    "persisted_at": "2026-04-15T09:14:26.212389+00:00",
+    "status": "CONFIRMED"
+  },
+  "56247676209": {
+    "ticket_id": "56247676209",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35527,
+    "stop_loss": 1.3582271428571426,
+    "take_profit": 1.3463185714285715,
+    "persisted_at": "2026-04-15T10:03:25.611626+00:00",
+    "status": "CONFIRMED"
+  },
+  "56248036777": {
+    "ticket_id": "56248036777",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.17775,
+    "stop_loss": 1.1804901428571426,
+    "take_profit": 1.1702,
+    "persisted_at": "2026-04-15T10:24:14.441838+00:00",
+    "status": "CONFIRMED"
+  },
+  "56248036889": {
+    "ticket_id": "56248036889",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78237,
+    "stop_loss": 0.7843557142857144,
+    "take_profit": 0.776492857142857,
+    "persisted_at": "2026-04-15T10:24:14.953528+00:00",
+    "status": "CONFIRMED"
+  },
+  "56248037033": {
+    "ticket_id": "56248037033",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71387,
+    "stop_loss": 0.7096774285714286,
+    "take_profit": 0.7261277142857141,
+    "persisted_at": "2026-04-15T10:24:15.540908+00:00",
+    "status": "CONFIRMED"
+  },
+  "56248037191": {
+    "ticket_id": "56248037191",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37777,
+    "stop_loss": 1.3752662857142859,
+    "take_profit": 1.3848,
+    "persisted_at": "2026-04-15T10:24:16.056972+00:00",
+    "status": "CONFIRMED"
+  },
+  "56248527999": {
+    "ticket_id": "56248527999",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.7823,
+    "stop_loss": 0.7842850000000001,
+    "take_profit": 0.7762649999999999,
+    "persisted_at": "2026-04-15T10:51:45.652384+00:00",
+    "status": "CONFIRMED"
+  },
+  "56248656418": {
+    "ticket_id": "56248656418",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35461,
+    "stop_loss": 1.358231,
+    "take_profit": 1.3452,
+    "persisted_at": "2026-04-15T11:00:14.203801+00:00",
+    "status": "CONFIRMED"
+  },
+  "56249816859": {
+    "ticket_id": "56249816859",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37782,
+    "stop_loss": 1.3755842857142857,
+    "take_profit": 1.384527142857143,
+    "persisted_at": "2026-04-15T12:06:16.105793+00:00",
+    "status": "CONFIRMED"
+  },
+  "56250083277": {
+    "ticket_id": "56250083277",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37736,
+    "stop_loss": 1.3755787142857143,
+    "take_profit": 1.382623857142857,
+    "persisted_at": "2026-04-15T12:21:16.510190+00:00",
+    "status": "CONFIRMED"
+  },
+  "56251175752": {
+    "ticket_id": "56251175752",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.78218,
+    "stop_loss": 0.7795595714285714,
+    "take_profit": 0.7898000000000001,
+    "persisted_at": "2026-04-15T13:19:25.564912+00:00",
+    "status": "CONFIRMED"
+  },
+  "56251284368": {
+    "ticket_id": "56251284368",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71444,
+    "stop_loss": 0.7167046428571427,
+    "take_profit": 0.7076060714285716,
+    "persisted_at": "2026-04-15T13:23:33.755040+00:00",
+    "status": "CONFIRMED"
+  },
+  "56251948100": {
+    "ticket_id": "56251948100",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71439,
+    "stop_loss": 0.7118851428571429,
+    "take_profit": 0.7219845714285714,
+    "persisted_at": "2026-04-15T13:49:44.607716+00:00",
+    "status": "CONFIRMED"
+  },
+  "56252426288": {
+    "ticket_id": "56252426288",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37556,
+    "stop_loss": 1.372960714285714,
+    "take_profit": 1.3834378571428574,
+    "persisted_at": "2026-04-15T14:09:46.859186+00:00",
+    "status": "CONFIRMED"
+  },
+  "56253335022": {
+    "ticket_id": "56253335022",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71562,
+    "stop_loss": 0.7118691428571429,
+    "take_profit": 0.7263525714285713,
+    "persisted_at": "2026-04-15T14:53:25.495645+00:00",
+    "status": "CONFIRMED"
+  },
+  "56254009324": {
+    "ticket_id": "56254009324",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.1803,
+    "stop_loss": 1.1834760714285715,
+    "take_profit": 1.171091785714286,
+    "persisted_at": "2026-04-15T15:20:11.188595+00:00",
+    "status": "CONFIRMED"
+  },
+  "56254044713": {
+    "ticket_id": "56254044713",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.7163,
+    "stop_loss": 0.718865357142857,
+    "take_profit": 0.7085239285714288,
+    "persisted_at": "2026-04-15T15:22:03.960384+00:00",
+    "status": "CONFIRMED"
+  },
+  "56254598020": {
+    "ticket_id": "56254598020",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.18008,
+    "stop_loss": 1.1767798571428572,
+    "take_profit": 1.1898,
+    "persisted_at": "2026-04-15T15:43:46.951691+00:00",
+    "status": "CONFIRMED"
+  },
+  "56254826236": {
+    "ticket_id": "56254826236",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71606,
+    "stop_loss": 0.7186860714285713,
+    "take_profit": 0.7081017857142858,
+    "persisted_at": "2026-04-15T15:57:01.834968+00:00",
+    "status": "CONFIRMED"
+  },
+  "56256807455": {
+    "ticket_id": "56256807455",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37285,
+    "stop_loss": 1.3699721428571427,
+    "take_profit": 1.3821635714285716,
+    "persisted_at": "2026-04-15T18:02:28.141175+00:00",
+    "status": "CONFIRMED"
+  },
+  "56258248444": {
+    "ticket_id": "56258248444",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35622,
+    "stop_loss": 1.3582444285714286,
+    "take_profit": 1.350106714285714,
+    "persisted_at": "2026-04-15T22:01:27.451633+00:00",
+    "status": "CONFIRMED"
+  },
+  "56258601417": {
+    "ticket_id": "56258601417",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.3735,
+    "stop_loss": 1.3702582142857143,
+    "take_profit": 1.3827853571428574,
+    "persisted_at": "2026-04-15T22:57:14.231312+00:00",
+    "status": "CONFIRMED"
+  },
+  "56258608532": {
+    "ticket_id": "56258608532",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.18017,
+    "stop_loss": 1.1829767857142857,
+    "take_profit": 1.1719496428571428,
+    "persisted_at": "2026-04-15T22:58:07.597562+00:00",
+    "status": "CONFIRMED"
+  },
+  "56258608567": {
+    "ticket_id": "56258608567",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35682,
+    "stop_loss": 1.3539402857142857,
+    "take_profit": 1.3648,
+    "persisted_at": "2026-04-15T22:58:08.166543+00:00",
+    "status": "CONFIRMED"
+  },
+  "56258608604": {
+    "ticket_id": "56258608604",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71724,
+    "stop_loss": 0.7200171428571428,
+    "take_profit": 0.7088685714285715,
+    "persisted_at": "2026-04-15T22:58:08.728012+00:00",
+    "status": "CONFIRMED"
+  },
+  "56258820667": {
+    "ticket_id": "56258820667",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35704,
+    "stop_loss": 1.3539662857142858,
+    "take_profit": 1.3648,
+    "persisted_at": "2026-04-15T23:33:35.229261+00:00",
+    "status": "CONFIRMED"
+  },
+  "56258820770": {
+    "ticket_id": "56258820770",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.7171,
+    "stop_loss": 0.7196685714285714,
+    "take_profit": 0.7101999999999999,
+    "persisted_at": "2026-04-15T23:33:35.753285+00:00",
+    "status": "CONFIRMED"
+  },
+  "56258820851": {
+    "ticket_id": "56258820851",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.3735,
+    "stop_loss": 1.3704878571428571,
+    "take_profit": 1.3823364285714288,
+    "persisted_at": "2026-04-15T23:33:36.286737+00:00",
+    "status": "CONFIRMED"
+  },
+  "56259478798": {
+    "ticket_id": "56259478798",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.3573,
+    "stop_loss": 1.3539777142857143,
+    "take_profit": 1.3665868571428577,
+    "persisted_at": "2026-04-16T00:57:35.106423+00:00",
+    "status": "CONFIRMED"
+  },
+  "56259507873": {
+    "ticket_id": "56259507873",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.78099,
+    "stop_loss": 0.7790578571428571,
+    "take_profit": 0.7865064285714286,
+    "persisted_at": "2026-04-16T01:01:13.697741+00:00",
+    "status": "CONFIRMED"
+  },
+  "56259891261": {
+    "ticket_id": "56259891261",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71709,
+    "stop_loss": 0.7196164285714285,
+    "take_profit": 0.7101999999999999,
+    "persisted_at": "2026-04-16T01:42:21.544580+00:00",
+    "status": "CONFIRMED"
+  },
+  "56259894284": {
+    "ticket_id": "56259894284",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.18013,
+    "stop_loss": 1.1769778571428573,
+    "take_profit": 1.1893064285714285,
+    "persisted_at": "2026-04-16T01:42:37.743436+00:00",
+    "status": "CONFIRMED"
+  },
+  "56260344371": {
+    "ticket_id": "56260344371",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.78096,
+    "stop_loss": 0.7789342857142857,
+    "take_profit": 0.7865971428571429,
+    "persisted_at": "2026-04-16T02:41:21.129877+00:00",
+    "status": "CONFIRMED"
+  },
+  "56260594970": {
+    "ticket_id": "56260594970",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.18184,
+    "stop_loss": 1.1841510714285712,
+    "take_profit": 1.1752,
+    "persisted_at": "2026-04-16T03:14:41.080914+00:00",
+    "status": "CONFIRMED"
+  },
+  "56260598050": {
+    "ticket_id": "56260598050",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35893,
+    "stop_loss": 1.3616714285714286,
+    "take_profit": 1.350265714285714,
+    "persisted_at": "2026-04-16T03:15:04.050631+00:00",
+    "status": "CONFIRMED"
+  },
+  "56260598122": {
+    "ticket_id": "56260598122",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.78024,
+    "stop_loss": 0.7782803571428571,
+    "take_profit": 0.7848,
+    "persisted_at": "2026-04-16T03:15:04.779519+00:00",
+    "status": "CONFIRMED"
+  },
+  "56260600709": {
+    "ticket_id": "56260600709",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71925,
+    "stop_loss": 0.7219639285714285,
+    "take_profit": 0.7111082142857144,
+    "persisted_at": "2026-04-16T03:15:28.597635+00:00",
+    "status": "CONFIRMED"
+  },
+  "56260600897": {
+    "ticket_id": "56260600897",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37144,
+    "stop_loss": 1.368894642857143,
+    "take_profit": 1.37731,
+    "persisted_at": "2026-04-16T03:15:29.825006+00:00",
+    "status": "CONFIRMED"
+  },
+  "56260736022": {
+    "ticket_id": "56260736022",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.18158,
+    "stop_loss": 1.178044,
+    "take_profit": 1.1919480000000002,
+    "persisted_at": "2026-04-16T03:33:20.573820+00:00",
+    "status": "CONFIRMED"
+  },
+  "56260736134": {
+    "ticket_id": "56260736134",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.3585,
+    "stop_loss": 1.354913,
+    "take_profit": 1.369381,
+    "persisted_at": "2026-04-16T03:33:21.107108+00:00",
+    "status": "CONFIRMED"
+  },
+  "56260736186": {
+    "ticket_id": "56260736186",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71898,
+    "stop_loss": 0.7216939285714286,
+    "take_profit": 0.7108382142857144,
+    "persisted_at": "2026-04-16T03:33:21.629352+00:00",
+    "status": "CONFIRMED"
+  },
+  "56260736246": {
+    "ticket_id": "56260736246",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37169,
+    "stop_loss": 1.3691246428571429,
+    "take_profit": 1.37731,
+    "persisted_at": "2026-04-16T03:33:22.148802+00:00",
+    "status": "CONFIRMED"
+  },
+  "56263167223": {
+    "ticket_id": "56263167223",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71877,
+    "stop_loss": 0.7212010714285715,
+    "take_profit": 0.7113167857142857,
+    "persisted_at": "2026-04-16T07:10:43.482821+00:00",
+    "status": "CONFIRMED"
+  },
+  "56263167366": {
+    "ticket_id": "56263167366",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37192,
+    "stop_loss": 1.3745415714285714,
+    "take_profit": 1.3639352857142861,
+    "persisted_at": "2026-04-16T07:10:44.009153+00:00",
+    "status": "CONFIRMED"
+  },
+  "56264330741": {
+    "ticket_id": "56264330741",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35491,
+    "stop_loss": 1.3518239285714286,
+    "take_profit": 1.3642082142857144,
+    "persisted_at": "2026-04-16T08:25:38.242119+00:00",
+    "status": "CONFIRMED"
+  },
+  "56264331082": {
+    "ticket_id": "56264331082",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78288,
+    "stop_loss": 0.7847425,
+    "take_profit": 0.7771725,
+    "persisted_at": "2026-04-16T08:25:39.479762+00:00",
+    "status": "CONFIRMED"
+  },
+  "56264331392": {
+    "ticket_id": "56264331392",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37263,
+    "stop_loss": 1.3745517142857142,
+    "take_profit": 1.3667048571428573,
+    "persisted_at": "2026-04-16T08:25:40.012511+00:00",
+    "status": "CONFIRMED"
+  },
+  "56264607928": {
+    "ticket_id": "56264607928",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17844,
+    "stop_loss": 1.1758689285714286,
+    "take_profit": 1.1848,
+    "persisted_at": "2026-04-16T08:45:14.860171+00:00",
+    "status": "CONFIRMED"
+  },
+  "56268775298": {
+    "ticket_id": "56268775298",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71731,
+    "stop_loss": 0.7200285714285714,
+    "take_profit": 0.7101999999999999,
+    "persisted_at": "2026-04-16T13:07:59.655989+00:00",
+    "status": "CONFIRMED"
+  },
+  "56271575544": {
+    "ticket_id": "56271575544",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35179,
+    "stop_loss": 1.347817142857143,
+    "take_profit": 1.3639085714285712,
+    "persisted_at": "2026-04-16T14:50:55.786231+00:00",
+    "status": "CONFIRMED"
+  },
+  "56272232206": {
+    "ticket_id": "56272232206",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.17802,
+    "stop_loss": 1.1827414285714284,
+    "take_profit": 1.1637757142857146,
+    "persisted_at": "2026-04-16T15:15:52.829989+00:00",
+    "status": "CONFIRMED"
+  },
+  "56272232336": {
+    "ticket_id": "56272232336",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35351,
+    "stop_loss": 1.359897857142857,
+    "take_profit": 1.3352,
+    "persisted_at": "2026-04-16T15:15:53.338052+00:00",
+    "status": "CONFIRMED"
+  },
+  "56272232436": {
+    "ticket_id": "56272232436",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78389,
+    "stop_loss": 0.7861117857142857,
+    "take_profit": 0.7769846428571429,
+    "persisted_at": "2026-04-16T15:15:53.858006+00:00",
+    "status": "CONFIRMED"
+  },
+  "56272232539": {
+    "ticket_id": "56272232539",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71704,
+    "stop_loss": 0.7200449999999999,
+    "take_profit": 0.7083050000000002,
+    "persisted_at": "2026-04-16T15:15:54.365533+00:00",
+    "status": "CONFIRMED"
+  },
+  "56272232658": {
+    "ticket_id": "56272232658",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37104,
+    "stop_loss": 1.3741514285714285,
+    "take_profit": 1.3617057142857139,
+    "persisted_at": "2026-04-16T15:15:54.880802+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273640296": {
+    "ticket_id": "56273640296",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.17712,
+    "stop_loss": 1.182737714285714,
+    "take_profit": 1.162226857142858,
+    "persisted_at": "2026-04-16T16:34:19.998946+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273640490": {
+    "ticket_id": "56273640490",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35255,
+    "stop_loss": 1.3598972857142857,
+    "take_profit": 1.3319081428571429,
+    "persisted_at": "2026-04-16T16:34:20.559006+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273640770": {
+    "ticket_id": "56273640770",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78415,
+    "stop_loss": 0.7861471428571428,
+    "take_profit": 0.7767985714285713,
+    "persisted_at": "2026-04-16T16:34:21.080120+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273640946": {
+    "ticket_id": "56273640946",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71569,
+    "stop_loss": 0.7134742857142858,
+    "take_profit": 0.7241371428571427,
+    "persisted_at": "2026-04-16T16:34:21.606919+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273641223": {
+    "ticket_id": "56273641223",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37096,
+    "stop_loss": 1.3680503571428573,
+    "take_profit": 1.3788489285714287,
+    "persisted_at": "2026-04-16T16:34:22.146398+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273643972": {
+    "ticket_id": "56273643972",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17732,
+    "stop_loss": 1.174167857142857,
+    "take_profit": 1.1864164285714285,
+    "persisted_at": "2026-04-16T16:34:26.316940+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273644297": {
+    "ticket_id": "56273644297",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35284,
+    "stop_loss": 1.3599017142857142,
+    "take_profit": 1.330454857142857,
+    "persisted_at": "2026-04-16T16:34:26.839367+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273644568": {
+    "ticket_id": "56273644568",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.784,
+    "stop_loss": 0.7864971428571429,
+    "take_profit": 0.7769485714285714,
+    "persisted_at": "2026-04-16T16:34:27.379768+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273644995": {
+    "ticket_id": "56273644995",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71595,
+    "stop_loss": 0.7130689285714286,
+    "take_profit": 0.723953214285714,
+    "persisted_at": "2026-04-16T16:34:27.914093+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273645324": {
+    "ticket_id": "56273645324",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37082,
+    "stop_loss": 1.3741551428571428,
+    "take_profit": 1.361454571428571,
+    "persisted_at": "2026-04-16T16:34:28.438936+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273734710": {
+    "ticket_id": "56273734710",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.17762,
+    "stop_loss": 1.1827478571428571,
+    "take_profit": 1.1621964285714288,
+    "persisted_at": "2026-04-16T16:38:49.492940+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273738626": {
+    "ticket_id": "56273738626",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35308,
+    "stop_loss": 1.3599059999999998,
+    "take_profit": 1.3328020000000003,
+    "persisted_at": "2026-04-16T16:39:03.715836+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273740580": {
+    "ticket_id": "56273740580",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35305,
+    "stop_loss": 1.3599059999999998,
+    "take_profit": 1.332762,
+    "persisted_at": "2026-04-16T16:39:12.029617+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273740691": {
+    "ticket_id": "56273740691",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78381,
+    "stop_loss": 0.7861957142857143,
+    "take_profit": 0.7765328571428571,
+    "persisted_at": "2026-04-16T16:39:12.551153+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273742565": {
+    "ticket_id": "56273742565",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71632,
+    "stop_loss": 0.7134867857142858,
+    "take_profit": 0.7246996428571426,
+    "persisted_at": "2026-04-16T16:39:20.255813+00:00",
+    "status": "CONFIRMED"
+  },
+  "56273744322": {
+    "ticket_id": "56273744322",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.3705,
+    "stop_loss": 1.3677367857142857,
+    "take_profit": 1.3787496428571429,
+    "persisted_at": "2026-04-16T16:39:29.078344+00:00",
+    "status": "CONFIRMED"
+  },
+  "56276473506": {
+    "ticket_id": "56276473506",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35249,
+    "stop_loss": 1.348472142857143,
+    "take_profit": 1.364263571428571,
+    "persisted_at": "2026-04-16T20:28:22.912271+00:00",
+    "status": "CONFIRMED"
+  },
+  "56276473523": {
+    "ticket_id": "56276473523",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.78354,
+    "stop_loss": 0.7802982857142857,
+    "take_profit": 0.7928251428571428,
+    "persisted_at": "2026-04-16T20:28:23.441646+00:00",
+    "status": "CONFIRMED"
+  },
+  "56276511124": {
+    "ticket_id": "56276511124",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35274,
+    "stop_loss": 1.348722142857143,
+    "take_profit": 1.364513571428571,
+    "persisted_at": "2026-04-16T20:51:59.710373+00:00",
+    "status": "CONFIRMED"
+  },
+  "56278580807": {
+    "ticket_id": "56278580807",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17761,
+    "stop_loss": 1.1753014285714287,
+    "take_profit": 1.184935714285714,
+    "persisted_at": "2026-04-17T02:42:15.656970+00:00",
+    "status": "CONFIRMED"
+  },
+  "56278580899": {
+    "ticket_id": "56278580899",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.3518,
+    "stop_loss": 1.3484910714285714,
+    "take_profit": 1.3618467857142855,
+    "persisted_at": "2026-04-17T02:42:16.619407+00:00",
+    "status": "CONFIRMED"
+  },
+  "56278581131": {
+    "ticket_id": "56278581131",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78353,
+    "stop_loss": 0.7848071428571429,
+    "take_profit": 0.7802,
+    "persisted_at": "2026-04-17T02:42:17.168135+00:00",
+    "status": "CONFIRMED"
+  },
+  "56278581295": {
+    "ticket_id": "56278581295",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71623,
+    "stop_loss": 0.7147338571428571,
+    "take_profit": 0.7198,
+    "persisted_at": "2026-04-17T02:42:17.695633+00:00",
+    "status": "CONFIRMED"
+  },
+  "56278581352": {
+    "ticket_id": "56278581352",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.3701,
+    "stop_loss": 1.3737985714285712,
+    "take_profit": 1.3589242857142863,
+    "persisted_at": "2026-04-17T02:42:18.204889+00:00",
+    "status": "CONFIRMED"
+  },
+  "56278750973": {
+    "ticket_id": "56278750973",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36969,
+    "stop_loss": 1.3727548571428572,
+    "take_profit": 1.3604554285714285,
+    "persisted_at": "2026-04-17T03:03:36.848648+00:00",
+    "status": "CONFIRMED"
+  },
+  "56278775035": {
+    "ticket_id": "56278775035",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71647,
+    "stop_loss": 0.7147465714285715,
+    "take_profit": 0.7212802857142854,
+    "persisted_at": "2026-04-17T03:05:36.064709+00:00",
+    "status": "CONFIRMED"
+  },
+  "56278780911": {
+    "ticket_id": "56278780911",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.17776,
+    "stop_loss": 1.1799114285714285,
+    "take_profit": 1.1713057142857144,
+    "persisted_at": "2026-04-17T03:06:01.194157+00:00",
+    "status": "CONFIRMED"
+  },
+  "56278781114": {
+    "ticket_id": "56278781114",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35205,
+    "stop_loss": 1.348965714285714,
+    "take_profit": 1.361142857142857,
+    "persisted_at": "2026-04-17T03:06:01.856782+00:00",
+    "status": "CONFIRMED"
+  },
+  "56279827694": {
+    "ticket_id": "56279827694",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36829,
+    "stop_loss": 1.3699014285714288,
+    "take_profit": 1.3634957142857143,
+    "persisted_at": "2026-04-17T05:20:42.261029+00:00",
+    "status": "CONFIRMED"
+  },
+  "56279832079": {
+    "ticket_id": "56279832079",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35211,
+    "stop_loss": 1.3496046428571429,
+    "take_profit": 1.3593460714285714,
+    "persisted_at": "2026-04-17T05:21:09.407660+00:00",
+    "status": "CONFIRMED"
+  },
+  "56279851648": {
+    "ticket_id": "56279851648",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78333,
+    "stop_loss": 0.7847811428571428,
+    "take_profit": 0.7789765714285717,
+    "persisted_at": "2026-04-17T05:23:28.411028+00:00",
+    "status": "CONFIRMED"
+  },
+  "56280752381": {
+    "ticket_id": "56280752381",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.3685,
+    "stop_loss": 1.371421,
+    "take_profit": 1.3602,
+    "persisted_at": "2026-04-17T06:31:54.536723+00:00",
+    "status": "CONFIRMED"
+  },
+  "56280848364": {
+    "ticket_id": "56280848364",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71619,
+    "stop_loss": 0.7147845714285714,
+    "take_profit": 0.7198,
+    "persisted_at": "2026-04-17T06:37:29.857988+00:00",
+    "status": "CONFIRMED"
+  },
+  "56281069028": {
+    "ticket_id": "56281069028",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17783,
+    "stop_loss": 1.1764895714285715,
+    "take_profit": 1.181811285714286,
+    "persisted_at": "2026-04-17T07:01:04.231103+00:00",
+    "status": "CONFIRMED"
+  },
+  "56281070444": {
+    "ticket_id": "56281070444",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.1778,
+    "stop_loss": 1.1764895714285715,
+    "take_profit": 1.1817312857142854,
+    "persisted_at": "2026-04-17T07:01:10.626193+00:00",
+    "status": "CONFIRMED"
+  },
+  "56281699634": {
+    "ticket_id": "56281699634",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17812,
+    "stop_loss": 1.1764844285714287,
+    "take_profit": 1.1827867142857145,
+    "persisted_at": "2026-04-17T07:46:06.964971+00:00",
+    "status": "CONFIRMED"
+  },
+  "56281699820": {
+    "ticket_id": "56281699820",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35221,
+    "stop_loss": 1.3501054285714287,
+    "take_profit": 1.3582437142857144,
+    "persisted_at": "2026-04-17T07:46:07.505218+00:00",
+    "status": "CONFIRMED"
+  },
+  "56281699933": {
+    "ticket_id": "56281699933",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.7832,
+    "stop_loss": 0.7847770000000001,
+    "take_profit": 0.7786689999999997,
+    "persisted_at": "2026-04-17T07:46:08.015707+00:00",
+    "status": "CONFIRMED"
+  },
+  "56281700022": {
+    "ticket_id": "56281700022",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36817,
+    "stop_loss": 1.3711137142857142,
+    "take_profit": 1.360018857142857,
+    "persisted_at": "2026-04-17T07:46:08.537169+00:00",
+    "status": "CONFIRMED"
+  },
+  "56281872686": {
+    "ticket_id": "56281872686",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71706,
+    "stop_loss": 0.7147805714285714,
+    "take_profit": 0.7236982857142855,
+    "persisted_at": "2026-04-17T07:57:04.154839+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282197453": {
+    "ticket_id": "56282197453",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35199,
+    "stop_loss": 1.3501032857142858,
+    "take_profit": 1.3574101428571428,
+    "persisted_at": "2026-04-17T08:21:10.619963+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282311769": {
+    "ticket_id": "56282311769",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17841,
+    "stop_loss": 1.1767084285714287,
+    "take_profit": 1.183394714285714,
+    "persisted_at": "2026-04-17T08:31:55.585217+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282311904": {
+    "ticket_id": "56282311904",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35245,
+    "stop_loss": 1.3500994285714287,
+    "take_profit": 1.3591017142857136,
+    "persisted_at": "2026-04-17T08:31:56.088961+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282312059": {
+    "ticket_id": "56282312059",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78301,
+    "stop_loss": 0.7846427142857143,
+    "take_profit": 0.7780318571428573,
+    "persisted_at": "2026-04-17T08:31:56.588914+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282312195": {
+    "ticket_id": "56282312195",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71742,
+    "stop_loss": 0.7147811428571429,
+    "take_profit": 0.7249765714285711,
+    "persisted_at": "2026-04-17T08:31:57.109223+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282312318": {
+    "ticket_id": "56282312318",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36755,
+    "stop_loss": 1.3691253571428572,
+    "take_profit": 1.362783928571429,
+    "persisted_at": "2026-04-17T08:31:57.617624+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282318650": {
+    "ticket_id": "56282318650",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17842,
+    "stop_loss": 1.1767084285714287,
+    "take_profit": 1.183394714285714,
+    "persisted_at": "2026-04-17T08:32:14.352963+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282318789": {
+    "ticket_id": "56282318789",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35248,
+    "stop_loss": 1.3500994285714287,
+    "take_profit": 1.3591417142857138,
+    "persisted_at": "2026-04-17T08:32:14.869256+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282318928": {
+    "ticket_id": "56282318928",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78302,
+    "stop_loss": 0.7846427142857143,
+    "take_profit": 0.7780718571428571,
+    "persisted_at": "2026-04-17T08:32:15.392907+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282319079": {
+    "ticket_id": "56282319079",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71741,
+    "stop_loss": 0.7147811428571429,
+    "take_profit": 0.7248,
+    "persisted_at": "2026-04-17T08:32:15.913820+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282319221": {
+    "ticket_id": "56282319221",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36754,
+    "stop_loss": 1.3691853571428572,
+    "take_profit": 1.3628439285714289,
+    "persisted_at": "2026-04-17T08:32:16.434806+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282502664": {
+    "ticket_id": "56282502664",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17914,
+    "stop_loss": 1.1766994285714287,
+    "take_profit": 1.1861017142857144,
+    "persisted_at": "2026-04-17T08:44:57.628419+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282503023": {
+    "ticket_id": "56282503023",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35311,
+    "stop_loss": 1.3500937142857143,
+    "take_profit": 1.361598857142857,
+    "persisted_at": "2026-04-17T08:44:58.845340+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282503299": {
+    "ticket_id": "56282503299",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78263,
+    "stop_loss": 0.7846471428571429,
+    "take_profit": 0.7766185714285713,
+    "persisted_at": "2026-04-17T08:44:59.376116+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282503600": {
+    "ticket_id": "56282503600",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71793,
+    "stop_loss": 0.7147735714285715,
+    "take_profit": 0.7271992857142856,
+    "persisted_at": "2026-04-17T08:45:00.071020+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282504011": {
+    "ticket_id": "56282504011",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36716,
+    "stop_loss": 1.3689114285714286,
+    "take_profit": 1.3623057142857145,
+    "persisted_at": "2026-04-17T08:45:00.601410+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282506569": {
+    "ticket_id": "56282506569",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17907,
+    "stop_loss": 1.1766985714285716,
+    "take_profit": 1.1862242857142857,
+    "persisted_at": "2026-04-17T08:45:06.600341+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282506893": {
+    "ticket_id": "56282506893",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.353,
+    "stop_loss": 1.3500927142857144,
+    "take_profit": 1.3618418571428565,
+    "persisted_at": "2026-04-17T08:45:07.805997+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282507061": {
+    "ticket_id": "56282507061",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78269,
+    "stop_loss": 0.7846471428571429,
+    "take_profit": 0.7765785714285715,
+    "persisted_at": "2026-04-17T08:45:08.331478+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282507348": {
+    "ticket_id": "56282507348",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36726,
+    "stop_loss": 1.3688214285714286,
+    "take_profit": 1.3622157142857145,
+    "persisted_at": "2026-04-17T08:45:08.838281+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282932925": {
+    "ticket_id": "56282932925",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36757,
+    "stop_loss": 1.3691453571428571,
+    "take_profit": 1.3628039285714288,
+    "persisted_at": "2026-04-17T09:13:17.667031+00:00",
+    "status": "CONFIRMED"
+  },
+  "56282936185": {
+    "ticket_id": "56282936185",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36758,
+    "stop_loss": 1.3691453571428571,
+    "take_profit": 1.3628039285714288,
+    "persisted_at": "2026-04-17T09:13:23.780346+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283004816": {
+    "ticket_id": "56283004816",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71759,
+    "stop_loss": 0.7147697142857142,
+    "take_profit": 0.7248,
+    "persisted_at": "2026-04-17T09:18:20.558263+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283111880": {
+    "ticket_id": "56283111880",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17976,
+    "stop_loss": 1.176691142857143,
+    "take_profit": 1.1888465714285719,
+    "persisted_at": "2026-04-17T09:25:53.180799+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283111978": {
+    "ticket_id": "56283111978",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.3538,
+    "stop_loss": 1.350087,
+    "take_profit": 1.3644190000000005,
+    "persisted_at": "2026-04-17T09:25:53.693481+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283112061": {
+    "ticket_id": "56283112061",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78214,
+    "stop_loss": 0.7842528571428571,
+    "take_profit": 0.7756014285714289,
+    "persisted_at": "2026-04-17T09:25:54.212318+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283112133": {
+    "ticket_id": "56283112133",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71787,
+    "stop_loss": 0.7147697142857142,
+    "take_profit": 0.7271308571428572,
+    "persisted_at": "2026-04-17T09:25:54.738711+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283112178": {
+    "ticket_id": "56283112178",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36752,
+    "stop_loss": 1.3690803571428571,
+    "take_profit": 1.3626389285714289,
+    "persisted_at": "2026-04-17T09:25:55.265727+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283279536": {
+    "ticket_id": "56283279536",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71734,
+    "stop_loss": 0.7147657142857143,
+    "take_profit": 0.724862857142857,
+    "persisted_at": "2026-04-17T09:38:06.578480+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283382233": {
+    "ticket_id": "56283382233",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17917,
+    "stop_loss": 1.1766887142857145,
+    "take_profit": 1.1866938571428571,
+    "persisted_at": "2026-04-17T09:46:33.093803+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283382408": {
+    "ticket_id": "56283382408",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35282,
+    "stop_loss": 1.3500834285714287,
+    "take_profit": 1.361229714285714,
+    "persisted_at": "2026-04-17T09:46:33.610093+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283382610": {
+    "ticket_id": "56283382610",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36805,
+    "stop_loss": 1.3708607142857143,
+    "take_profit": 1.3602,
+    "persisted_at": "2026-04-17T09:46:34.152399+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283587500": {
+    "ticket_id": "56283587500",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17921,
+    "stop_loss": 1.1766917142857145,
+    "take_profit": 1.1867248571428566,
+    "persisted_at": "2026-04-17T10:03:28.818824+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283587593": {
+    "ticket_id": "56283587593",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35316,
+    "stop_loss": 1.3500882857142857,
+    "take_profit": 1.3622151428571432,
+    "persisted_at": "2026-04-17T10:03:29.340758+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283631702": {
+    "ticket_id": "56283631702",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36798,
+    "stop_loss": 1.3708535714285714,
+    "take_profit": 1.3602,
+    "persisted_at": "2026-04-17T10:06:59.677674+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283845947": {
+    "ticket_id": "56283845947",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17957,
+    "stop_loss": 1.176688142857143,
+    "take_profit": 1.1877755714285718,
+    "persisted_at": "2026-04-17T10:22:15.593689+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283846003": {
+    "ticket_id": "56283846003",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35346,
+    "stop_loss": 1.3500828571428571,
+    "take_profit": 1.3629514285714284,
+    "persisted_at": "2026-04-17T10:22:16.122493+00:00",
+    "status": "CONFIRMED"
+  },
+  "56283846097": {
+    "ticket_id": "56283846097",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71745,
+    "stop_loss": 0.7147622857142857,
+    "take_profit": 0.7248,
+    "persisted_at": "2026-04-17T10:22:16.651781+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289279522": {
+    "ticket_id": "56289279522",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.18319,
+    "stop_loss": 1.1802160714285714,
+    "take_profit": 1.1918717857142855,
+    "persisted_at": "2026-04-17T14:04:02.082222+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289279652": {
+    "ticket_id": "56289279652",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35759,
+    "stop_loss": 1.349961857142857,
+    "take_profit": 1.3797544285714287,
+    "persisted_at": "2026-04-17T14:04:02.604463+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289279819": {
+    "ticket_id": "56289279819",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.72091,
+    "stop_loss": 0.7180785714285715,
+    "take_profit": 0.7286842857142858,
+    "persisted_at": "2026-04-17T14:04:03.123431+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289280040": {
+    "ticket_id": "56289280040",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36695,
+    "stop_loss": 1.3706627142857142,
+    "take_profit": 1.3558918571428566,
+    "persisted_at": "2026-04-17T14:04:03.629319+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289454786": {
+    "ticket_id": "56289454786",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.72039,
+    "stop_loss": 0.7150259999999999,
+    "take_profit": 0.7364820000000002,
+    "persisted_at": "2026-04-17T14:10:38.478024+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289503796": {
+    "ticket_id": "56289503796",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.18229,
+    "stop_loss": 1.1767962857142857,
+    "take_profit": 1.1986911428571434,
+    "persisted_at": "2026-04-17T14:12:16.293644+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289522589": {
+    "ticket_id": "56289522589",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35709,
+    "stop_loss": 1.3499558571428572,
+    "take_profit": 1.378212428571429,
+    "persisted_at": "2026-04-17T14:12:43.052009+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289662733": {
+    "ticket_id": "56289662733",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.18252,
+    "stop_loss": 1.1767917142857143,
+    "take_profit": 1.1993848571428578,
+    "persisted_at": "2026-04-17T14:17:40.196252+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289662894": {
+    "ticket_id": "56289662894",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.72067,
+    "stop_loss": 0.7179253571428571,
+    "take_profit": 0.7288239285714285,
+    "persisted_at": "2026-04-17T14:17:40.748771+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289663238": {
+    "ticket_id": "56289663238",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36596,
+    "stop_loss": 1.3706741428571427,
+    "take_profit": 1.3518975714285717,
+    "persisted_at": "2026-04-17T14:17:41.272523+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289670731": {
+    "ticket_id": "56289670731",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35769,
+    "stop_loss": 1.349955,
+    "take_profit": 1.3798000000000001,
+    "persisted_at": "2026-04-17T14:17:59.272330+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289817577": {
+    "ticket_id": "56289817577",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.18295,
+    "stop_loss": 1.1767917142857143,
+    "take_profit": 1.201024857142858,
+    "persisted_at": "2026-04-17T14:24:17.177887+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289817721": {
+    "ticket_id": "56289817721",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35866,
+    "stop_loss": 1.3499465714285714,
+    "take_profit": 1.3841602857142858,
+    "persisted_at": "2026-04-17T14:24:17.686831+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289817859": {
+    "ticket_id": "56289817859",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.72119,
+    "stop_loss": 0.7183553571428571,
+    "take_profit": 0.7292539285714286,
+    "persisted_at": "2026-04-17T14:24:18.224672+00:00",
+    "status": "CONFIRMED"
+  },
+  "56289818057": {
+    "ticket_id": "56289818057",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36527,
+    "stop_loss": 1.3679832142857142,
+    "take_profit": 1.357170357142857,
+    "persisted_at": "2026-04-17T14:24:18.760723+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290074091": {
+    "ticket_id": "56290074091",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35768,
+    "stop_loss": 1.3499414285714286,
+    "take_profit": 1.383055714285714,
+    "persisted_at": "2026-04-17T14:35:27.563011+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290074723": {
+    "ticket_id": "56290074723",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.77866,
+    "stop_loss": 0.7807071428571429,
+    "take_profit": 0.7707585714285713,
+    "persisted_at": "2026-04-17T14:35:28.801545+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290090756": {
+    "ticket_id": "56290090756",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.18225,
+    "stop_loss": 1.1767914285714287,
+    "take_profit": 1.1982657142857143,
+    "persisted_at": "2026-04-17T14:36:08.970731+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290091220": {
+    "ticket_id": "56290091220",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.72065,
+    "stop_loss": 0.7150201428571429,
+    "take_profit": 0.7370595714285715,
+    "persisted_at": "2026-04-17T14:36:10.185627+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290091412": {
+    "ticket_id": "56290091412",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36607,
+    "stop_loss": 1.3706872857142856,
+    "take_profit": 1.3521381428571433,
+    "persisted_at": "2026-04-17T14:36:10.688348+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290213670": {
+    "ticket_id": "56290213670",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.18238,
+    "stop_loss": 1.1767884285714287,
+    "take_profit": 1.1989947142857136,
+    "persisted_at": "2026-04-17T14:41:43.045733+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290214186": {
+    "ticket_id": "56290214186",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35832,
+    "stop_loss": 1.3499414285714286,
+    "take_profit": 1.382895714285714,
+    "persisted_at": "2026-04-17T14:41:44.255101+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290214315": {
+    "ticket_id": "56290214315",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.72101,
+    "stop_loss": 0.7181617857142857,
+    "take_profit": 0.7292746428571428,
+    "persisted_at": "2026-04-17T14:41:44.768937+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290214464": {
+    "ticket_id": "56290214464",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36636,
+    "stop_loss": 1.3706872857142856,
+    "take_profit": 1.3529781428571435,
+    "persisted_at": "2026-04-17T14:41:45.296567+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290366300": {
+    "ticket_id": "56290366300",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.77821,
+    "stop_loss": 0.780747142857143,
+    "take_profit": 0.7707985714285713,
+    "persisted_at": "2026-04-17T14:48:22.946516+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290404100": {
+    "ticket_id": "56290404100",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.18216,
+    "stop_loss": 1.1767884285714287,
+    "take_profit": 1.1984347142857144,
+    "persisted_at": "2026-04-17T14:50:05.526287+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290404258": {
+    "ticket_id": "56290404258",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35767,
+    "stop_loss": 1.3499414285714286,
+    "take_profit": 1.3798000000000001,
+    "persisted_at": "2026-04-17T14:50:06.029313+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290417515": {
+    "ticket_id": "56290417515",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.72036,
+    "stop_loss": 0.7150201428571429,
+    "take_profit": 0.7367395714285712,
+    "persisted_at": "2026-04-17T14:50:37.460955+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290417688": {
+    "ticket_id": "56290417688",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36718,
+    "stop_loss": 1.3706872857142856,
+    "take_profit": 1.356298142857143,
+    "persisted_at": "2026-04-17T14:50:37.968660+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290561046": {
+    "ticket_id": "56290561046",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.77882,
+    "stop_loss": 0.781137142857143,
+    "take_profit": 0.7711885714285713,
+    "persisted_at": "2026-04-17T14:56:33.071905+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290561392": {
+    "ticket_id": "56290561392",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36666,
+    "stop_loss": 1.3706891428571426,
+    "take_profit": 1.3552,
+    "persisted_at": "2026-04-17T14:56:34.284349+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290567193": {
+    "ticket_id": "56290567193",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35706,
+    "stop_loss": 1.3499414285714286,
+    "take_profit": 1.3783757142857145,
+    "persisted_at": "2026-04-17T14:56:55.347085+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290611674": {
+    "ticket_id": "56290611674",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.18147,
+    "stop_loss": 1.176782142857143,
+    "take_profit": 1.1948,
+    "persisted_at": "2026-04-17T14:59:20.592807+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290647890": {
+    "ticket_id": "56290647890",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71998,
+    "stop_loss": 0.7154847142857143,
+    "take_profit": 0.7336658571428571,
+    "persisted_at": "2026-04-17T15:00:42.840432+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290781172": {
+    "ticket_id": "56290781172",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35647,
+    "stop_loss": 1.3499358571428572,
+    "take_profit": 1.376552428571429,
+    "persisted_at": "2026-04-17T15:06:04.089354+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290781297": {
+    "ticket_id": "56290781297",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.77902,
+    "stop_loss": 0.7815442857142857,
+    "take_profit": 0.7713671428571427,
+    "persisted_at": "2026-04-17T15:06:04.600850+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290781390": {
+    "ticket_id": "56290781390",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36688,
+    "stop_loss": 1.3706969999999998,
+    "take_profit": 1.3552,
+    "persisted_at": "2026-04-17T15:06:05.092423+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290910002": {
+    "ticket_id": "56290910002",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.7197,
+    "stop_loss": 0.7154721428571429,
+    "take_profit": 0.7325435714285712,
+    "persisted_at": "2026-04-17T15:11:14.748775+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290921505": {
+    "ticket_id": "56290921505",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.18133,
+    "stop_loss": 1.1767765714285716,
+    "take_profit": 1.1948,
+    "persisted_at": "2026-04-17T15:11:37.494096+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290973664": {
+    "ticket_id": "56290973664",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36687,
+    "stop_loss": 1.3706969999999998,
+    "take_profit": 1.3553890000000006,
+    "persisted_at": "2026-04-17T15:14:13.423009+00:00",
+    "status": "CONFIRMED"
+  },
+  "56290978804": {
+    "ticket_id": "56290978804",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35636,
+    "stop_loss": 1.3499358571428572,
+    "take_profit": 1.3748,
+    "persisted_at": "2026-04-17T15:14:32.161337+00:00",
+    "status": "CONFIRMED"
+  },
+  "56291077022": {
+    "ticket_id": "56291077022",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.3567,
+    "stop_loss": 1.3499358571428572,
+    "take_profit": 1.3768724285714284,
+    "persisted_at": "2026-04-17T15:18:43.558789+00:00",
+    "status": "CONFIRMED"
+  },
+  "56291077311": {
+    "ticket_id": "56291077311",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.77884,
+    "stop_loss": 0.7814075,
+    "take_profit": 0.7711374999999999,
+    "persisted_at": "2026-04-17T15:18:44.072978+00:00",
+    "status": "CONFIRMED"
+  },
+  "56291077443": {
+    "ticket_id": "56291077443",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36666,
+    "stop_loss": 1.3706969999999998,
+    "take_profit": 1.3552,
+    "persisted_at": "2026-04-17T15:18:44.656404+00:00",
+    "status": "CONFIRMED"
+  },
+  "56291436142": {
+    "ticket_id": "56291436142",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71968,
+    "stop_loss": 0.715463,
+    "take_profit": 0.7320109999999999,
+    "persisted_at": "2026-04-17T15:35:31.295835+00:00",
+    "status": "CONFIRMED"
+  },
+  "56291792282": {
+    "ticket_id": "56291792282",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17976,
+    "stop_loss": 1.1767697142857143,
+    "take_profit": 1.1892108571428572,
+    "persisted_at": "2026-04-17T16:01:11.102365+00:00",
+    "status": "CONFIRMED"
+  },
+  "56291792509": {
+    "ticket_id": "56291792509",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35534,
+    "stop_loss": 1.3499274285714287,
+    "take_profit": 1.371577714285714,
+    "persisted_at": "2026-04-17T16:01:11.631565+00:00",
+    "status": "CONFIRMED"
+  },
+  "56291792797": {
+    "ticket_id": "56291792797",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.77966,
+    "stop_loss": 0.7843314285714286,
+    "take_profit": 0.7656457142857143,
+    "persisted_at": "2026-04-17T16:01:12.157889+00:00",
+    "status": "CONFIRMED"
+  },
+  "56291793009": {
+    "ticket_id": "56291793009",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71894,
+    "stop_loss": 0.7155461428571428,
+    "take_profit": 0.7291215714285714,
+    "persisted_at": "2026-04-17T16:01:12.705058+00:00",
+    "status": "CONFIRMED"
+  },
+  "56291793135": {
+    "ticket_id": "56291793135",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36694,
+    "stop_loss": 1.3705351428571428,
+    "take_profit": 1.355794571428571,
+    "persisted_at": "2026-04-17T16:01:13.268354+00:00",
+    "status": "CONFIRMED"
+  },
+  "56295581667": {
+    "ticket_id": "56295581667",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17391,
+    "stop_loss": 1.1690842857142856,
+    "take_profit": 1.187347142857143,
+    "persisted_at": "2026-04-19T22:10:38.152860+00:00",
+    "status": "CONFIRMED"
+  },
+  "56295582307": {
+    "ticket_id": "56295582307",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.34886,
+    "stop_loss": 1.3427978571428572,
+    "take_profit": 1.3648,
+    "persisted_at": "2026-04-19T22:10:39.388917+00:00",
+    "status": "CONFIRMED"
+  },
+  "56295582703": {
+    "ticket_id": "56295582703",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78328,
+    "stop_loss": 0.7866542857142858,
+    "take_profit": 0.7730771428571428,
+    "persisted_at": "2026-04-19T22:10:39.942952+00:00",
+    "status": "CONFIRMED"
+  },
+  "56295582927": {
+    "ticket_id": "56295582927",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71341,
+    "stop_loss": 0.7089710714285713,
+    "take_profit": 0.7248,
+    "persisted_at": "2026-04-19T22:10:40.505211+00:00",
+    "status": "CONFIRMED"
+  },
+  "56295583346": {
+    "ticket_id": "56295583346",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37031,
+    "stop_loss": 1.374102857142857,
+    "take_profit": 1.3588114285714286,
+    "persisted_at": "2026-04-19T22:10:41.048780+00:00",
+    "status": "CONFIRMED"
+  },
+  "56295741999": {
+    "ticket_id": "56295741999",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71322,
+    "stop_loss": 0.7089267857142857,
+    "take_profit": 0.7261396428571428,
+    "persisted_at": "2026-04-19T22:22:20.131867+00:00",
+    "status": "CONFIRMED"
+  },
+  "56295773828": {
+    "ticket_id": "56295773828",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17316,
+    "stop_loss": 1.1683471428571426,
+    "take_profit": 1.1846,
+    "persisted_at": "2026-04-19T22:24:27.349134+00:00",
+    "status": "CONFIRMED"
+  },
+  "56295811833": {
+    "ticket_id": "56295811833",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.34802,
+    "stop_loss": 1.3422203571428573,
+    "take_profit": 1.3648,
+    "persisted_at": "2026-04-19T22:27:36.340229+00:00",
+    "status": "CONFIRMED"
+  },
+  "56295894236": {
+    "ticket_id": "56295894236",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17355,
+    "stop_loss": 1.1691171428571427,
+    "take_profit": 1.1874085714285716,
+    "persisted_at": "2026-04-19T22:33:59.891066+00:00",
+    "status": "CONFIRMED"
+  },
+  "56295894495": {
+    "ticket_id": "56295894495",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.34851,
+    "stop_loss": 1.3429603571428574,
+    "take_profit": 1.3648,
+    "persisted_at": "2026-04-19T22:34:01.135192+00:00",
+    "status": "CONFIRMED"
+  },
+  "56295894681": {
+    "ticket_id": "56295894681",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78348,
+    "stop_loss": 0.7867578571428572,
+    "take_profit": 0.7729664285714286,
+    "persisted_at": "2026-04-19T22:34:01.656967+00:00",
+    "status": "CONFIRMED"
+  },
+  "56295894964": {
+    "ticket_id": "56295894964",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71414,
+    "stop_loss": 0.7111105714285714,
+    "take_profit": 0.7218800000000001,
+    "persisted_at": "2026-04-19T22:34:02.179679+00:00",
+    "status": "CONFIRMED"
+  },
+  "56295895109": {
+    "ticket_id": "56295895109",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37059,
+    "stop_loss": 1.374290357142857,
+    "take_profit": 1.3586489285714287,
+    "persisted_at": "2026-04-19T22:34:02.703907+00:00",
+    "status": "CONFIRMED"
+  },
+  "56296001515": {
+    "ticket_id": "56296001515",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71402,
+    "stop_loss": 0.7111094285714286,
+    "take_profit": 0.72188,
+    "persisted_at": "2026-04-19T22:43:38.651850+00:00",
+    "status": "CONFIRMED"
+  },
+  "56296091774": {
+    "ticket_id": "56296091774",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.34857,
+    "stop_loss": 1.3428203571428574,
+    "take_profit": 1.3648,
+    "persisted_at": "2026-04-19T22:53:03.657587+00:00",
+    "status": "CONFIRMED"
+  },
+  "56296091855": {
+    "ticket_id": "56296091855",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78348,
+    "stop_loss": 0.7868978571428572,
+    "take_profit": 0.7731064285714286,
+    "persisted_at": "2026-04-19T22:53:04.195535+00:00",
+    "status": "CONFIRMED"
+  },
+  "56296290527": {
+    "ticket_id": "56296290527",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17436,
+    "stop_loss": 1.1697492857142857,
+    "take_profit": 1.187712142857143,
+    "persisted_at": "2026-04-19T23:10:45.880725+00:00",
+    "status": "CONFIRMED"
+  },
+  "56296290607": {
+    "ticket_id": "56296290607",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71439,
+    "stop_loss": 0.7111222857142857,
+    "take_profit": 0.72188,
+    "persisted_at": "2026-04-19T23:10:46.485993+00:00",
+    "status": "CONFIRMED"
+  },
+  "56296290655": {
+    "ticket_id": "56296290655",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37038,
+    "stop_loss": 1.374260357142857,
+    "take_profit": 1.3602,
+    "persisted_at": "2026-04-19T23:10:47.105053+00:00",
+    "status": "CONFIRMED"
+  },
+  "56296441287": {
+    "ticket_id": "56296441287",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78323,
+    "stop_loss": 0.7866010714285715,
+    "take_profit": 0.7729167857142857,
+    "persisted_at": "2026-04-19T23:24:28.812016+00:00",
+    "status": "CONFIRMED"
+  },
+  "56296474250": {
+    "ticket_id": "56296474250",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.34874,
+    "stop_loss": 1.3430253571428572,
+    "take_profit": 1.3648,
+    "persisted_at": "2026-04-19T23:28:18.352125+00:00",
+    "status": "CONFIRMED"
+  },
+  "56297246307": {
+    "ticket_id": "56297246307",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.34919,
+    "stop_loss": 1.3435107142857143,
+    "take_profit": 1.3661878571428567,
+    "persisted_at": "2026-04-20T00:21:09.126554+00:00",
+    "status": "CONFIRMED"
+  },
+  "56297246443": {
+    "ticket_id": "56297246443",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.7829,
+    "stop_loss": 0.7864128571428572,
+    "take_profit": 0.7721214285714286,
+    "persisted_at": "2026-04-20T00:21:10.085942+00:00",
+    "status": "CONFIRMED"
+  },
+  "56297246671": {
+    "ticket_id": "56297246671",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71436,
+    "stop_loss": 0.7110951428571428,
+    "take_profit": 0.7240345714285713,
+    "persisted_at": "2026-04-20T00:21:10.765339+00:00",
+    "status": "CONFIRMED"
+  },
+  "56297246817": {
+    "ticket_id": "56297246817",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37006,
+    "stop_loss": 1.3739160714285714,
+    "take_profit": 1.3583317857142858,
+    "persisted_at": "2026-04-20T00:21:11.326977+00:00",
+    "status": "CONFIRMED"
+  },
+  "56297297308": {
+    "ticket_id": "56297297308",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17546,
+    "stop_loss": 1.1723882857142858,
+    "take_profit": 1.1846,
+    "persisted_at": "2026-04-20T00:25:54.158222+00:00",
+    "status": "CONFIRMED"
+  },
+  "56297528082": {
+    "ticket_id": "56297528082",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71463,
+    "stop_loss": 0.7110888571428571,
+    "take_profit": 0.7248,
+    "persisted_at": "2026-04-20T00:51:01.235444+00:00",
+    "status": "CONFIRMED"
+  },
+  "56297528163": {
+    "ticket_id": "56297528163",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36964,
+    "stop_loss": 1.373553214285714,
+    "take_profit": 1.357540357142857,
+    "persisted_at": "2026-04-20T00:51:02.295450+00:00",
+    "status": "CONFIRMED"
+  },
+  "56297578743": {
+    "ticket_id": "56297578743",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.7826,
+    "stop_loss": 0.78622,
+    "take_profit": 0.7716999999999999,
+    "persisted_at": "2026-04-20T00:55:49.546880+00:00",
+    "status": "CONFIRMED"
+  },
+  "56297752226": {
+    "ticket_id": "56297752226",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71513,
+    "stop_loss": 0.711095,
+    "take_profit": 0.7271149999999998,
+    "persisted_at": "2026-04-20T01:06:05.074663+00:00",
+    "status": "CONFIRMED"
+  },
+  "56297803243": {
+    "ticket_id": "56297803243",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.3496,
+    "stop_loss": 1.3440317857142858,
+    "take_profit": 1.3661446428571429,
+    "persisted_at": "2026-04-20T01:09:19.642497+00:00",
+    "status": "CONFIRMED"
+  },
+  "56298245720": {
+    "ticket_id": "56298245720",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17591,
+    "stop_loss": 1.1723834285714287,
+    "take_profit": 1.1846,
+    "persisted_at": "2026-04-20T01:39:42.466440+00:00",
+    "status": "CONFIRMED"
+  },
+  "56298245859": {
+    "ticket_id": "56298245859",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35002,
+    "stop_loss": 1.3443875,
+    "take_profit": 1.3669574999999998,
+    "persisted_at": "2026-04-20T01:39:43.129538+00:00",
+    "status": "CONFIRMED"
+  },
+  "56298245952": {
+    "ticket_id": "56298245952",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78221,
+    "stop_loss": 0.7859257142857143,
+    "take_profit": 0.7710628571428572,
+    "persisted_at": "2026-04-20T01:39:43.757264+00:00",
+    "status": "CONFIRMED"
+  },
+  "56298246031": {
+    "ticket_id": "56298246031",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71542,
+    "stop_loss": 0.7110885714285714,
+    "take_profit": 0.7280942857142858,
+    "persisted_at": "2026-04-20T01:39:45.340570+00:00",
+    "status": "CONFIRMED"
+  },
+  "56298807132": {
+    "ticket_id": "56298807132",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17612,
+    "stop_loss": 1.172436,
+    "take_profit": 1.1846,
+    "persisted_at": "2026-04-20T02:33:33.888718+00:00",
+    "status": "CONFIRMED"
+  },
+  "56298807294": {
+    "ticket_id": "56298807294",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35054,
+    "stop_loss": 1.34697,
+    "take_profit": 1.3596000000000001,
+    "persisted_at": "2026-04-20T02:33:34.416932+00:00",
+    "status": "CONFIRMED"
+  },
+  "56302066919": {
+    "ticket_id": "56302066919",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17634,
+    "stop_loss": 1.1724951428571428,
+    "take_profit": 1.1891145714285714,
+    "persisted_at": "2026-04-20T07:00:25.568404+00:00",
+    "status": "CONFIRMED"
+  },
+  "56302067065": {
+    "ticket_id": "56302067065",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78208,
+    "stop_loss": 0.7842127142857144,
+    "take_profit": 0.7752018571428572,
+    "persisted_at": "2026-04-20T07:00:26.087611+00:00",
+    "status": "CONFIRMED"
+  },
+  "56302067212": {
+    "ticket_id": "56302067212",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71542,
+    "stop_loss": 0.711167,
+    "take_profit": 0.7293789999999998,
+    "persisted_at": "2026-04-20T07:00:26.596006+00:00",
+    "status": "CONFIRMED"
+  },
+  "56302067449": {
+    "ticket_id": "56302067449",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.3696,
+    "stop_loss": 1.3712714285714285,
+    "take_profit": 1.3652,
+    "persisted_at": "2026-04-20T07:00:27.101644+00:00",
+    "status": "CONFIRMED"
+  },
+  "56302178967": {
+    "ticket_id": "56302178967",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35064,
+    "stop_loss": 1.3470305714285715,
+    "take_profit": 1.361388285714286,
+    "persisted_at": "2026-04-20T07:05:15.509162+00:00",
+    "status": "CONFIRMED"
+  },
+  "56302344334": {
+    "ticket_id": "56302344334",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17675,
+    "stop_loss": 1.1724895714285715,
+    "take_profit": 1.189491285714286,
+    "persisted_at": "2026-04-20T07:14:37.355995+00:00",
+    "status": "CONFIRMED"
+  },
+  "56302344494": {
+    "ticket_id": "56302344494",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35124,
+    "stop_loss": 1.3559049999999997,
+    "take_profit": 1.3373650000000008,
+    "persisted_at": "2026-04-20T07:14:37.876895+00:00",
+    "status": "CONFIRMED"
+  },
+  "56302344593": {
+    "ticket_id": "56302344593",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71611,
+    "stop_loss": 0.7111597142857142,
+    "take_profit": 0.7298,
+    "persisted_at": "2026-04-20T07:14:38.394977+00:00",
+    "status": "CONFIRMED"
+  },
+  "56302480049": {
+    "ticket_id": "56302480049",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78159,
+    "stop_loss": 0.7842197142857144,
+    "take_profit": 0.773860857142857,
+    "persisted_at": "2026-04-20T07:21:24.981453+00:00",
+    "status": "CONFIRMED"
+  },
+  "56302487244": {
+    "ticket_id": "56302487244",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36894,
+    "stop_loss": 1.3712802857142856,
+    "take_profit": 1.3619591428571427,
+    "persisted_at": "2026-04-20T07:21:37.661411+00:00",
+    "status": "CONFIRMED"
+  },
+  "56311298191": {
+    "ticket_id": "56311298191",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17737,
+    "stop_loss": 1.173326142857143,
+    "take_profit": 1.1896215714285707,
+    "persisted_at": "2026-04-20T14:34:33.483333+00:00",
+    "status": "CONFIRMED"
+  },
+  "56311298478": {
+    "ticket_id": "56311298478",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78025,
+    "stop_loss": 0.7841662857142857,
+    "take_profit": 0.7683011428571428,
+    "persisted_at": "2026-04-20T14:34:33.981343+00:00",
+    "status": "CONFIRMED"
+  },
+  "56311425282": {
+    "ticket_id": "56311425282",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36695,
+    "stop_loss": 1.3710658571428571,
+    "take_profit": 1.3552,
+    "persisted_at": "2026-04-20T14:39:02.893575+00:00",
+    "status": "CONFIRMED"
+  },
+  "56312260386": {
+    "ticket_id": "56312260386",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35203,
+    "stop_loss": 1.3560364285714284,
+    "take_profit": 1.3401307142857142,
+    "persisted_at": "2026-04-20T15:07:40.031576+00:00",
+    "status": "CONFIRMED"
+  },
+  "56312260570": {
+    "ticket_id": "56312260570",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.77883,
+    "stop_loss": 0.7838397142857143,
+    "take_profit": 0.763120857142857,
+    "persisted_at": "2026-04-20T15:07:40.531907+00:00",
+    "status": "CONFIRMED"
+  },
+  "56312352955": {
+    "ticket_id": "56312352955",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71642,
+    "stop_loss": 0.7138682857142857,
+    "take_profit": 0.7240351428571429,
+    "persisted_at": "2026-04-20T15:11:21.794771+00:00",
+    "status": "CONFIRMED"
+  },
+  "56312964135": {
+    "ticket_id": "56312964135",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.77778,
+    "stop_loss": 0.7749717857142857,
+    "take_profit": 0.7860846428571429,
+    "persisted_at": "2026-04-20T15:33:52.804420+00:00",
+    "status": "CONFIRMED"
+  },
+  "56313041926": {
+    "ticket_id": "56313041926",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35344,
+    "stop_loss": 1.3576675,
+    "take_profit": 1.3407975,
+    "persisted_at": "2026-04-20T15:37:05.030516+00:00",
+    "status": "CONFIRMED"
+  },
+  "56313081571": {
+    "ticket_id": "56313081571",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.77769,
+    "stop_loss": 0.7748910714285714,
+    "take_profit": 0.7860467857142857,
+    "persisted_at": "2026-04-20T15:39:00.038973+00:00",
+    "status": "CONFIRMED"
+  },
+  "56313086032": {
+    "ticket_id": "56313086032",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.17866,
+    "stop_loss": 1.1820589285714285,
+    "take_profit": 1.1685032142857146,
+    "persisted_at": "2026-04-20T15:39:15.277203+00:00",
+    "status": "CONFIRMED"
+  },
+  "56313086118": {
+    "ticket_id": "56313086118",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36505,
+    "stop_loss": 1.3676564285714286,
+    "take_profit": 1.3571507142857144,
+    "persisted_at": "2026-04-20T15:39:15.788143+00:00",
+    "status": "CONFIRMED"
+  },
+  "56313532846": {
+    "ticket_id": "56313532846",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.7781,
+    "stop_loss": 0.7753,
+    "take_profit": 0.78622,
+    "persisted_at": "2026-04-20T16:02:23.476950+00:00",
+    "status": "CONFIRMED"
+  },
+  "56313617309": {
+    "ticket_id": "56313617309",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71735,
+    "stop_loss": 0.713862,
+    "take_profit": 0.727774,
+    "persisted_at": "2026-04-20T16:06:45.292304+00:00",
+    "status": "CONFIRMED"
+  },
+  "56313622441": {
+    "ticket_id": "56313622441",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.3648,
+    "stop_loss": 1.3674742857142856,
+    "take_profit": 1.3566971428571428,
+    "persisted_at": "2026-04-20T16:07:04.330683+00:00",
+    "status": "CONFIRMED"
+  },
+  "56314890335": {
+    "ticket_id": "56314890335",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35337,
+    "stop_loss": 1.357667857142857,
+    "take_profit": 1.3402764285714286,
+    "persisted_at": "2026-04-20T17:27:00.766381+00:00",
+    "status": "CONFIRMED"
+  },
+  "56314890657": {
+    "ticket_id": "56314890657",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.77854,
+    "stop_loss": 0.7757346428571429,
+    "take_profit": 0.7868760714285713,
+    "persisted_at": "2026-04-20T17:27:02.018373+00:00",
+    "status": "CONFIRMED"
+  },
+  "56314890849": {
+    "ticket_id": "56314890849",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71717,
+    "stop_loss": 0.7200953571428571,
+    "take_profit": 0.7083539285714288,
+    "persisted_at": "2026-04-20T17:27:02.563879+00:00",
+    "status": "CONFIRMED"
+  },
+  "56314890951": {
+    "ticket_id": "56314890951",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36463,
+    "stop_loss": 1.3673864285714286,
+    "take_profit": 1.3562807142857143,
+    "persisted_at": "2026-04-20T17:27:03.112222+00:00",
+    "status": "CONFIRMED"
+  },
+  "56315630742": {
+    "ticket_id": "56315630742",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.17879,
+    "stop_loss": 1.1821735714285713,
+    "take_profit": 1.1686392857142862,
+    "persisted_at": "2026-04-20T18:18:12.352196+00:00",
+    "status": "CONFIRMED"
+  },
+  "56315645532": {
+    "ticket_id": "56315645532",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.3638,
+    "stop_loss": 1.3666574999999999,
+    "take_profit": 1.3551875,
+    "persisted_at": "2026-04-20T18:19:25.735622+00:00",
+    "status": "CONFIRMED"
+  },
+  "56315691139": {
+    "ticket_id": "56315691139",
+    "symbol": "EURUSD",
+    "direction": "SELL",
+    "entry_price": 1.17885,
+    "stop_loss": 1.1822207142857142,
+    "take_profit": 1.1686578571428576,
+    "persisted_at": "2026-04-20T18:23:09.179815+00:00",
+    "status": "CONFIRMED"
+  },
+  "56336833684": {
+    "ticket_id": "56336833684",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.34912,
+    "stop_loss": 1.3439424999999998,
+    "take_profit": 1.3646125000000002,
+    "persisted_at": "2026-04-21T18:48:40.243603+00:00",
+    "status": "CONFIRMED"
+  },
+  "56336833744": {
+    "ticket_id": "56336833744",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78132,
+    "stop_loss": 0.7844157142857142,
+    "take_profit": 0.7719528571428571,
+    "persisted_at": "2026-04-21T18:48:40.770099+00:00",
+    "status": "CONFIRMED"
+  },
+  "56336833807": {
+    "ticket_id": "56336833807",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36642,
+    "stop_loss": 1.3695378571428571,
+    "take_profit": 1.3571464285714283,
+    "persisted_at": "2026-04-21T18:48:41.290433+00:00",
+    "status": "CONFIRMED"
+  },
+  "56336934506": {
+    "ticket_id": "56336934506",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.7809,
+    "stop_loss": 0.7829772857142857,
+    "take_profit": 0.7733481428571432,
+    "persisted_at": "2026-04-21T18:55:54.350986+00:00",
+    "status": "CONFIRMED"
+  },
+  "56336934979": {
+    "ticket_id": "56336934979",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36631,
+    "stop_loss": 1.3680554285714286,
+    "take_profit": 1.3602,
+    "persisted_at": "2026-04-21T18:55:55.611258+00:00",
+    "status": "CONFIRMED"
+  },
+  "56337064891": {
+    "ticket_id": "56337064891",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78061,
+    "stop_loss": 0.7829684285714286,
+    "take_profit": 0.7733747142857146,
+    "persisted_at": "2026-04-21T19:04:25.150213+00:00",
+    "status": "CONFIRMED"
+  },
+  "56337065065": {
+    "ticket_id": "56337065065",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36595,
+    "stop_loss": 1.3680512857142857,
+    "take_profit": 1.3602,
+    "persisted_at": "2026-04-21T19:04:25.716922+00:00",
+    "status": "CONFIRMED"
+  },
+  "56337362640": {
+    "ticket_id": "56337362640",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.35113,
+    "stop_loss": 1.3544832857142857,
+    "take_profit": 1.341510142857143,
+    "persisted_at": "2026-04-21T19:26:15.498248+00:00",
+    "status": "CONFIRMED"
+  },
+  "56337697375": {
+    "ticket_id": "56337697375",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17235,
+    "stop_loss": 1.1676489285714287,
+    "take_profit": 1.1848,
+    "persisted_at": "2026-04-21T19:42:59.415694+00:00",
+    "status": "CONFIRMED"
+  },
+  "56338058471": {
+    "ticket_id": "56338058471",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.34846,
+    "stop_loss": 1.3426957142857143,
+    "take_profit": 1.3648,
+    "persisted_at": "2026-04-21T19:56:56.041764+00:00",
+    "status": "CONFIRMED"
+  },
+  "56338063319": {
+    "ticket_id": "56338063319",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17266,
+    "stop_loss": 1.1682389285714285,
+    "take_profit": 1.1848,
+    "persisted_at": "2026-04-21T19:57:13.404641+00:00",
+    "status": "CONFIRMED"
+  },
+  "56338139687": {
+    "ticket_id": "56338139687",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17438,
+    "stop_loss": 1.1713625714285716,
+    "take_profit": 1.1837922857142857,
+    "persisted_at": "2026-04-21T20:10:10.953573+00:00",
+    "status": "CONFIRMED"
+  },
+  "56338139747": {
+    "ticket_id": "56338139747",
+    "symbol": "GBPUSD",
+    "direction": "SELL",
+    "entry_price": 1.34986,
+    "stop_loss": 1.3545472857142855,
+    "take_profit": 1.3362781428571433,
+    "persisted_at": "2026-04-21T20:10:11.477878+00:00",
+    "status": "CONFIRMED"
+  },
+  "56338139799": {
+    "ticket_id": "56338139799",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78105,
+    "stop_loss": 0.7845857142857143,
+    "take_profit": 0.7701228571428571,
+    "persisted_at": "2026-04-21T20:10:12.020702+00:00",
+    "status": "CONFIRMED"
+  },
+  "56338139862": {
+    "ticket_id": "56338139862",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.36609,
+    "stop_loss": 1.3626980000000002,
+    "take_profit": 1.3748,
+    "persisted_at": "2026-04-21T20:10:12.562686+00:00",
+    "status": "CONFIRMED"
+  },
+  "56338354698": {
+    "ticket_id": "56338354698",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36639,
+    "stop_loss": 1.3699585714285716,
+    "take_profit": 1.355724285714286,
+    "persisted_at": "2026-04-21T21:43:55.242103+00:00",
+    "status": "CONFIRMED"
+  },
+  "56338424283": {
+    "ticket_id": "56338424283",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.36629,
+    "stop_loss": 1.3627064285714288,
+    "take_profit": 1.3767607142857137,
+    "persisted_at": "2026-04-21T22:02:28.793908+00:00",
+    "status": "CONFIRMED"
+  },
+  "56338606688": {
+    "ticket_id": "56338606688",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.36643,
+    "stop_loss": 1.362705,
+    "take_profit": 1.3772850000000005,
+    "persisted_at": "2026-04-21T22:27:42.124687+00:00",
+    "status": "CONFIRMED"
+  },
+  "56339415402": {
+    "ticket_id": "56339415402",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71604,
+    "stop_loss": 0.712529,
+    "take_profit": 0.7264130000000001,
+    "persisted_at": "2026-04-22T00:19:20.555611+00:00",
+    "status": "CONFIRMED"
+  },
+  "56341295741": {
+    "ticket_id": "56341295741",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71569,
+    "stop_loss": 0.7189955714285714,
+    "take_profit": 0.7057332857142861,
+    "persisted_at": "2026-04-22T04:08:42.629612+00:00",
+    "status": "CONFIRMED"
+  },
+  "56341295799": {
+    "ticket_id": "56341295799",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.36588,
+    "stop_loss": 1.3627555714285715,
+    "take_profit": 1.3748,
+    "persisted_at": "2026-04-22T04:08:43.198579+00:00",
+    "status": "CONFIRMED"
+  },
+  "56341295967": {
+    "ticket_id": "56341295967",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71569,
+    "stop_loss": 0.7189955714285714,
+    "take_profit": 0.7057332857142861,
+    "persisted_at": "2026-04-22T04:08:45.701762+00:00",
+    "status": "CONFIRMED"
+  },
+  "56341296018": {
+    "ticket_id": "56341296018",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.36588,
+    "stop_loss": 1.3627555714285715,
+    "take_profit": 1.3748,
+    "persisted_at": "2026-04-22T04:08:46.276960+00:00",
+    "status": "CONFIRMED"
+  },
+  "56341296983": {
+    "ticket_id": "56341296983",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.7157,
+    "stop_loss": 0.7189955714285714,
+    "take_profit": 0.7057332857142861,
+    "persisted_at": "2026-04-22T04:08:56.247195+00:00",
+    "status": "CONFIRMED"
+  },
+  "56341297040": {
+    "ticket_id": "56341297040",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.36588,
+    "stop_loss": 1.3627555714285715,
+    "take_profit": 1.3748,
+    "persisted_at": "2026-04-22T04:08:58.862406+00:00",
+    "status": "CONFIRMED"
+  },
+  "56342095217": {
+    "ticket_id": "56342095217",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71699,
+    "stop_loss": 0.7206146428571428,
+    "take_profit": 0.7059160714285715,
+    "persisted_at": "2026-04-22T05:24:48.945486+00:00",
+    "status": "CONFIRMED"
+  },
+  "56342095363": {
+    "ticket_id": "56342095363",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.36503,
+    "stop_loss": 1.3622135714285712,
+    "take_profit": 1.3735192857142857,
+    "persisted_at": "2026-04-22T05:24:49.476376+00:00",
+    "status": "CONFIRMED"
+  },
+  "56342096720": {
+    "ticket_id": "56342096720",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71703,
+    "stop_loss": 0.7206146428571428,
+    "take_profit": 0.7059160714285715,
+    "persisted_at": "2026-04-22T05:24:54.956296+00:00",
+    "status": "CONFIRMED"
+  },
+  "56342097210": {
+    "ticket_id": "56342097210",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71702,
+    "stop_loss": 0.7206146428571428,
+    "take_profit": 0.7059160714285715,
+    "persisted_at": "2026-04-22T05:24:57.526305+00:00",
+    "status": "CONFIRMED"
+  },
+  "56343545480": {
+    "ticket_id": "56343545480",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71612,
+    "stop_loss": 0.7192453571428571,
+    "take_profit": 0.7069039285714285,
+    "persisted_at": "2026-04-22T07:24:01.756563+00:00",
+    "status": "CONFIRMED"
+  },
+  "56343545737": {
+    "ticket_id": "56343545737",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.36591,
+    "stop_loss": 1.3642584285714288,
+    "take_profit": 1.3698000000000001,
+    "persisted_at": "2026-04-22T07:24:03.069023+00:00",
+    "status": "CONFIRMED"
+  },
+  "56343546231": {
+    "ticket_id": "56343546231",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71614,
+    "stop_loss": 0.7192253571428571,
+    "take_profit": 0.7068839285714285,
+    "persisted_at": "2026-04-22T07:24:05.434546+00:00",
+    "status": "CONFIRMED"
+  },
+  "56343546314": {
+    "ticket_id": "56343546314",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.36593,
+    "stop_loss": 1.3642584285714288,
+    "take_profit": 1.3698000000000001,
+    "persisted_at": "2026-04-22T07:24:06.033460+00:00",
+    "status": "CONFIRMED"
+  },
+  "56343549926": {
+    "ticket_id": "56343549926",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71603,
+    "stop_loss": 0.7192335714285715,
+    "take_profit": 0.7068992857142857,
+    "persisted_at": "2026-04-22T07:24:22.999217+00:00",
+    "status": "CONFIRMED"
+  },
+  "56343550076": {
+    "ticket_id": "56343550076",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.36592,
+    "stop_loss": 1.3642585714285715,
+    "take_profit": 1.3698000000000001,
+    "persisted_at": "2026-04-22T07:24:24.273835+00:00",
+    "status": "CONFIRMED"
+  },
+  "56356642763": {
+    "ticket_id": "56356642763",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71576,
+    "stop_loss": 0.7175807142857143,
+    "take_profit": 0.7102978571428571,
+    "persisted_at": "2026-04-22T22:57:29.719856+00:00",
+    "status": "CONFIRMED"
+  },
+  "56356642801": {
+    "ticket_id": "56356642801",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.36709,
+    "stop_loss": 1.3639904285714286,
+    "take_profit": 1.3761087142857147,
+    "persisted_at": "2026-04-22T22:57:30.234174+00:00",
+    "status": "CONFIRMED"
+  },
+  "56357358943": {
+    "ticket_id": "56357358943",
+    "symbol": "AUDUSD",
+    "direction": "SELL",
+    "entry_price": 0.71396,
+    "stop_loss": 0.7172822857142858,
+    "take_profit": 0.7031531428571426,
+    "persisted_at": "2026-04-23T00:17:06.137070+00:00",
+    "status": "CONFIRMED"
+  },
+  "56357359560": {
+    "ticket_id": "56357359560",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.36777,
+    "stop_loss": 1.3642937142857143,
+    "take_profit": 1.3786788571428572,
+    "persisted_at": "2026-04-23T00:17:07.040075+00:00",
+    "status": "CONFIRMED"
+  },
+  "56359467637": {
+    "ticket_id": "56359467637",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.34839,
+    "stop_loss": 1.34641,
+    "take_profit": 1.35212,
+    "persisted_at": "2026-04-23T03:24:59.359849+00:00",
+    "status": "CONFIRMED"
+  },
+  "56377237218": {
+    "ticket_id": "56377237218",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36985,
+    "stop_loss": 1.3733003571428573,
+    "take_profit": 1.3602,
+    "persisted_at": "2026-04-23T22:22:22.489220+00:00",
+    "status": "CONFIRMED"
+  },
+  "56377241318": {
+    "ticket_id": "56377241318",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71309,
+    "stop_loss": 0.710673,
+    "take_profit": 0.7198209999999998,
+    "persisted_at": "2026-04-23T22:23:03.132047+00:00",
+    "status": "CONFIRMED"
+  },
+  "56377241387": {
+    "ticket_id": "56377241387",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36985,
+    "stop_loss": 1.373312142857143,
+    "take_profit": 1.3602,
+    "persisted_at": "2026-04-23T22:23:03.691177+00:00",
+    "status": "CONFIRMED"
+  },
+  "56377386761": {
+    "ticket_id": "56377386761",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71337,
+    "stop_loss": 0.7106701428571428,
+    "take_profit": 0.7198,
+    "persisted_at": "2026-04-23T22:52:49.613620+00:00",
+    "status": "CONFIRMED"
+  },
+  "56377386937": {
+    "ticket_id": "56377386937",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36962,
+    "stop_loss": 1.371817,
+    "take_profit": 1.3629889999999998,
+    "persisted_at": "2026-04-23T22:52:50.914707+00:00",
+    "status": "CONFIRMED"
+  },
+  "56377390711": {
+    "ticket_id": "56377390711",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.36962,
+    "stop_loss": 1.371817,
+    "take_profit": 1.3629889999999998,
+    "persisted_at": "2026-04-23T22:53:23.093561+00:00",
+    "status": "CONFIRMED"
+  },
+  "56378962518": {
+    "ticket_id": "56378962518",
+    "symbol": "NZDUSD",
+    "direction": "SELL",
+    "entry_price": 0.58566,
+    "stop_loss": 0.5891728571428572,
+    "take_profit": 0.5750814285714284,
+    "persisted_at": "2026-04-24T02:12:00.614514+00:00",
+    "status": "CONFIRMED"
+  },
+  "56378962598": {
+    "ticket_id": "56378962598",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.16848,
+    "stop_loss": 1.1665107142857145,
+    "take_profit": 1.174227857142857,
+    "persisted_at": "2026-04-24T02:12:01.126922+00:00",
+    "status": "CONFIRMED"
+  },
+  "56378962666": {
+    "ticket_id": "56378962666",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.34685,
+    "stop_loss": 1.344339142857143,
+    "take_profit": 1.3515,
+    "persisted_at": "2026-04-24T02:12:01.662878+00:00",
+    "status": "CONFIRMED"
+  },
+  "56378962734": {
+    "ticket_id": "56378962734",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.78639,
+    "stop_loss": 0.7828527142857142,
+    "take_profit": 0.7968818571428572,
+    "persisted_at": "2026-04-24T02:12:02.204274+00:00",
+    "status": "CONFIRMED"
+  },
+  "56379760386": {
+    "ticket_id": "56379760386",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78719,
+    "stop_loss": 0.7897971428571429,
+    "take_profit": 0.7802,
+    "persisted_at": "2026-04-24T03:33:37.824447+00:00",
+    "status": "CONFIRMED"
+  },
+  "56379761225": {
+    "ticket_id": "56379761225",
+    "symbol": "NZDUSD",
+    "direction": "BUY",
+    "entry_price": 0.58419,
+    "stop_loss": 0.5810846428571428,
+    "take_profit": 0.5930260714285716,
+    "persisted_at": "2026-04-24T03:33:43.098464+00:00",
+    "status": "CONFIRMED"
+  },
+  "56379942986": {
+    "ticket_id": "56379942986",
+    "symbol": "USDCHF",
+    "direction": "SELL",
+    "entry_price": 0.78692,
+    "stop_loss": 0.7894960714285715,
+    "take_profit": 0.7802,
+    "persisted_at": "2026-04-24T03:58:17.831080+00:00",
+    "status": "CONFIRMED"
+  },
+  "56379943223": {
+    "ticket_id": "56379943223",
+    "symbol": "NZDUSD",
+    "direction": "BUY",
+    "entry_price": 0.58452,
+    "stop_loss": 0.5814403571428571,
+    "take_profit": 0.5934389285714287,
+    "persisted_at": "2026-04-24T03:58:18.358591+00:00",
+    "status": "CONFIRMED"
+  },
+  "56380673689": {
+    "ticket_id": "56380673689",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.34622,
+    "stop_loss": 1.3444068571428571,
+    "take_profit": 1.35088,
+    "persisted_at": "2026-04-24T05:06:00.661348+00:00",
+    "status": "CONFIRMED"
+  },
+  "56381308938": {
+    "ticket_id": "56381308938",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.763,
+    "stop_loss": 159.3787714285714,
+    "take_profit": 160.8930857142858,
+    "persisted_at": "2026-04-24T06:04:26.656474+00:00",
+    "status": "CONFIRMED"
+  },
+  "56382190954": {
+    "ticket_id": "56382190954",
+    "symbol": "USDCHF",
+    "direction": "BUY",
+    "entry_price": 0.78734,
+    "stop_loss": 0.7842131428571428,
+    "take_profit": 0.7963205714285714,
+    "persisted_at": "2026-04-24T07:10:11.564707+00:00",
+    "status": "CONFIRMED"
+  },
+  "56382728988": {
+    "ticket_id": "56382728988",
+    "symbol": "NZDUSD",
+    "direction": "SELL",
+    "entry_price": 0.5854,
+    "stop_loss": 0.5879165714285715,
+    "take_profit": 0.5775302857142858,
+    "persisted_at": "2026-04-24T07:53:59.801723+00:00",
+    "status": "CONFIRMED"
+  },
+  "56382729036": {
+    "ticket_id": "56382729036",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.16882,
+    "stop_loss": 1.166582142857143,
+    "take_profit": 1.1748,
+    "persisted_at": "2026-04-24T07:54:00.310587+00:00",
+    "status": "CONFIRMED"
+  },
+  "56382729100": {
+    "ticket_id": "56382729100",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71336,
+    "stop_loss": 0.710778,
+    "take_profit": 0.7198,
+    "persisted_at": "2026-04-24T07:54:00.821855+00:00",
+    "status": "CONFIRMED"
+  },
+  "56382729283": {
+    "ticket_id": "56382729283",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37003,
+    "stop_loss": 1.3717124285714286,
+    "take_profit": 1.3651027142857144,
+    "persisted_at": "2026-04-24T07:54:01.335401+00:00",
+    "status": "CONFIRMED"
+  },
+  "56383100605": {
+    "ticket_id": "56383100605",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.3477,
+    "stop_loss": 1.3450045714285714,
+    "take_profit": 1.3548,
+    "persisted_at": "2026-04-24T08:18:23.707793+00:00",
+    "status": "CONFIRMED"
+  },
+  "56383253419": {
+    "ticket_id": "56383253419",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.16926,
+    "stop_loss": 1.1668654285714286,
+    "take_profit": 1.1763637142857144,
+    "persisted_at": "2026-04-24T08:27:46.484034+00:00",
+    "status": "CONFIRMED"
+  },
+  "56383253543": {
+    "ticket_id": "56383253543",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.34807,
+    "stop_loss": 1.344995142857143,
+    "take_profit": 1.3571345714285714,
+    "persisted_at": "2026-04-24T08:27:46.984465+00:00",
+    "status": "CONFIRMED"
+  },
+  "56383552386": {
+    "ticket_id": "56383552386",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.3689,
+    "stop_loss": 1.3717268571428571,
+    "take_profit": 1.3602,
+    "persisted_at": "2026-04-24T08:51:11.337005+00:00",
+    "status": "CONFIRMED"
+  },
+  "56392440410": {
+    "ticket_id": "56392440410",
+    "symbol": "NZDUSD",
+    "direction": "SELL",
+    "entry_price": 0.58803,
+    "stop_loss": 0.5905192857142857,
+    "take_profit": 0.580442142857143,
+    "persisted_at": "2026-04-24T17:05:15.388500+00:00",
+    "status": "CONFIRMED"
+  },
+  "56392440694": {
+    "ticket_id": "56392440694",
+    "symbol": "EURUSD",
+    "direction": "BUY",
+    "entry_price": 1.17206,
+    "stop_loss": 1.166797,
+    "take_profit": 1.1873290000000003,
+    "persisted_at": "2026-04-24T17:05:15.905065+00:00",
+    "status": "CONFIRMED"
+  },
+  "56392440758": {
+    "ticket_id": "56392440758",
+    "symbol": "GBPUSD",
+    "direction": "BUY",
+    "entry_price": 1.35215,
+    "stop_loss": 1.3449015714285715,
+    "take_profit": 1.373695285714286,
+    "persisted_at": "2026-04-24T17:05:16.405551+00:00",
+    "status": "CONFIRMED"
+  },
+  "56392440870": {
+    "ticket_id": "56392440870",
+    "symbol": "USDJPY",
+    "direction": "BUY",
+    "entry_price": 159.342,
+    "stop_loss": 158.93070714285716,
+    "take_profit": 160.46927857142856,
+    "persisted_at": "2026-04-24T17:05:16.932246+00:00",
+    "status": "CONFIRMED"
+  },
+  "56392441073": {
+    "ticket_id": "56392441073",
+    "symbol": "AUDUSD",
+    "direction": "BUY",
+    "entry_price": 0.71533,
+    "stop_loss": 0.7110707142857143,
+    "take_profit": 0.7280278571428571,
+    "persisted_at": "2026-04-24T17:05:17.456996+00:00",
+    "status": "CONFIRMED"
+  },
+  "56392445977": {
+    "ticket_id": "56392445977",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.3673,
+    "stop_loss": 1.3717485714285713,
+    "take_profit": 1.3539142857142856,
+    "persisted_at": "2026-04-24T17:05:39.430587+00:00",
+    "status": "CONFIRMED"
+  }
+}

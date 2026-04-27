@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-04-25T00:16:23.422163",
+  "data_source": "real_historical_mt5_conservative",
+  "spread_modeling": "2_points",
+  "parameters": {
+    "quality_floor": 70,
+    "adx_min": 25,
+    "rsi_lower": 30,
+    "rsi_upper": 60,
+    "atr_sl_multiplier": 2.8,
+    "atr_tp_multiplier": 4.0
+  },
+  "metrics": {
+    "win_rate": 0.3797,
+    "total_pnl": -11985.06,
+    "total_trades": 245,
+    "sharpe_ratio": -2.0369,
+    "max_drawdown_pct": 73.902,
+    "profit_factor": 0.7673,
+    "fitness_score": 0.35
+  }
+}

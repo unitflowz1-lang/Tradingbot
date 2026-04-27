@@ -1,0 +1,10 @@
+{
+  "updated_at": "2026-04-27T00:07:31.677759+00:00",
+  "source": "llm_macro_monitor",
+  "penalties": {
+    "MACRO_RISK_PENALTY": 0.0
+  },
+  "reasons": {
+    "MACRO_RISK_PENALTY": "No_Macro_Risk"
+  }
+}

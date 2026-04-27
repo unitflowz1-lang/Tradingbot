@@ -1,0 +1,36 @@
+{
+  "optimization_date": "2026-04-25T06:15:00.000000+00:00",
+  "optimization_method": "goldilocks_sweep",
+  "fitness_score": null,
+  "stability_rank": 1,
+  "entry_filters": {
+    "quality_floor": 70,
+    "adx_min": 20,
+    "rsi_upper": 65,
+    "max_spread_pts": 20
+  },
+  "risk_management": {
+    "atr_sl_multiplier": 2.2,
+    "atr_tp_multiplier": 3.2,
+    "aggressive_compounding": true,
+    "streak_threshold": 3,
+    "compounding_multiplier": 1.2
+  },
+  "signal_weights": {
+    "ml_weight": 0.50,
+    "technical_weight": 0.50
+  },
+  "expected_performance": {
+    "target_win_rate": "54-59%",
+    "target_profit_factor": ">1.7",
+    "target_trades_per_month": "60-90",
+    "target_max_drawdown": "<12%"
+  },
+  "alpha_pairs": [
+    "EUR/USD",
+    "GBP/USD"
+  ],
+  "low_aggression_pairs": [
+    "USD/JPY"
+  ]
+}

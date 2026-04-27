@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "strategy_id": "rl_strategy_f21e1339",
+    "name": "PPO Momentum Strategy",
+    "description": "PPO agent with momentum indicators",
+    "agent_type": "PPO",
+    "version": "1.0.0",
+    "status": "APPROVED",
+    "created_at": "2025-08-13T03:50:28.359116",
+    "updated_at": "2025-08-13T03:50:28.359116",
+    "created_by": "strategy_team",
+    "tags": [
+      "momentum",
+      "ppo",
+      "v1.0"
+    ],
+    "currency_pairs": [
+      "EURUSD",
+      "GBPUSD"
+    ],
+    "timeframe": "1H",
+    "model_path": null,
+    "config_path": null,
+    "training_data_period": null,
+    "validation_data_period": null
+  },
+  "performance_metrics": {
+    "total_return": 0.18,
+    "sharpe_ratio": 1.35,
+    "max_drawdown": 0.08,
+    "win_rate": 0.62,
+    "profit_factor": 1.6,
+    "calmar_ratio": 2.25,
+    "sortino_ratio": 1.8,
+    "num_trades": 150,
+    "avg_trade_duration": 3.2,
+    "volatility": 0.13,
+    "beta": 0.8,
+    "alpha": 0.05,
+    "information_ratio": 0.9
+  },
+  "config": {},
+  "training_history": [],
+  "validation_results": [],
+  "deployment_history": []
+}

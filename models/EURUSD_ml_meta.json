@@ -1,0 +1,9 @@
+{
+  "symbol": "EUR/USD",
+  "trained_at": "2026-04-26T22:25:54.631144+00:00",
+  "training_samples": 4981,
+  "data_source": "synthetic",
+  "model_type": "RandomForestClassifier",
+  "accuracy_score": 0.49096385542168675,
+  "training_bars": 5000
+}

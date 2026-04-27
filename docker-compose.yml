@@ -1,0 +1,83 @@
+version: '3.8'
+
+services:
+  forex-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: ai-forex-trading-bot
+    restart: unless-stopped
+    environment:
+      - ENVIRONMENT=prod
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_DATABASE=forex_bot_prod
+      - DB_USERNAME=forex_user
+      - DB_PASSWORD=${DB_PASSWORD}
+      - LLM_API_KEY=${LLM_API_KEY}
+      - BROKER_API_KEY=${BROKER_API_KEY}
+      - BROKER_API_SECRET=${BROKER_API_SECRET}
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./config:/app/config
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - forex-bot-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: forex-bot-db
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=forex_bot_prod
+      - POSTGRES_USER=forex_user
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - forex-bot-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U forex_user -d forex_bot_prod"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: forex-bot-cache
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    networks:
+      - forex-bot-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  forex-bot-network:
+    driver: bridge

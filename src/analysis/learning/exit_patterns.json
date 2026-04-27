@@ -1,0 +1,10 @@
+{
+    "momentum_shift_count": 1,
+    "news_spike_count": 0,
+    "profit_taking_count": 1,
+    "sensitivity_adjustments": {
+        "momentum": 0.1,
+        "liquidity": 0.0,
+        "volatility": 0.0
+    }
+}

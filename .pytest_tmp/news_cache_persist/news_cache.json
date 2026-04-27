@@ -1,0 +1,20 @@
+{
+  "saved_at": "2026-04-23T03:45:33.142845+00:00",
+  "cache": {
+    "general_forex": [
+      {
+        "title": "Persistent forex cache",
+        "content": "Forex cache persistence should survive restarts.",
+        "source": "TestWire",
+        "published_at": "2026-04-23T03:45:33.142845+00:00",
+        "url": "https://example.com/persisted",
+        "symbols": [
+          "EUR/USD"
+        ]
+      }
+    ]
+  },
+  "timestamps": {
+    "general_forex": "2026-04-23T03:45:33.142845+00:00"
+  }
+}

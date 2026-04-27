@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-04-25T03:35:22.557889+00:00",
+  "baseline": {
+    "quality_floor": 0.75,
+    "ml_weight": 0.4,
+    "technical_weight": 0.55,
+    "atr_sl_multiplier": 2.5,
+    "atr_tp_multiplier": 2.5,
+    "win_rate": 0.6013,
+    "profit_factor": 2.0,
+    "sharpe_ratio": 2.49,
+    "max_drawdown_pct": 10.14,
+    "trades_per_month": 45,
+    "total_net_profit": 2500.0
+  },
+  "aggressive_optimized": {
+    "quality_floor": 72.0,
+    "ml_weight": 0.45,
+    "technical_weight": 0.5,
+    "atr_sl_multiplier": 2.0,
+    "atr_tp_multiplier": 3.0,
+    "win_rate": 0.6413100342149618,
+    "profit_factor": 1.8058102578184823,
+    "sharpe_ratio": 2.499999718299935,
+    "max_drawdown_pct": 0.11854702516199632,
+    "fitness_score": 17.916665492916394
+  },
+  "changes": {
+    "quality_floor": -3.0,
+    "ml_weight": 0.04999999999999999,
+    "technical_weight": -0.050000000000000044,
+    "atr_sl": -0.5,
+    "atr_tp": 0.5,
+    "win_rate": 0.040010034214961854,
+    "profit_factor": -0.19418974218151774,
+    "sharpe": 0.009999718299934734,
+    "drawdown": -10.021452974838004
+  },
+  "validation_checks": {
+    "Sharpe Ratio > 2.0": true,
+    "Max Drawdown < 15%": true,
+    "TP Multiplier > SL Multiplier": true,
+    "ML Weight <= 0.60": true,
+    "Quality Floor >= 65%": true
+  },
+  "all_checks_passed": true
+}

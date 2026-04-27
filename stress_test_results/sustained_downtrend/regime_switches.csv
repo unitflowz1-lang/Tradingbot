@@ -1,0 +1,10 @@
+timestamp,old_regime,new_regime,strategy_switched,old_strategy,new_strategy,confidence
+2024-01-01 01:00:00,normal,downtrend_strong,True,sma,sma,0.85
+2024-01-07 22:00:00,downtrend_strong,volatility_spike,True,sma,mean_reversion,0.85
+2024-01-14 20:00:00,volatility_spike,volatile_range,True,mean_reversion,sma,0.85
+2024-01-01 01:00:00,volatile_range,downtrend_strong,True,sma,sma,0.85
+2024-01-07 22:00:00,downtrend_strong,volatility_spike,True,sma,mean_reversion,0.85
+2024-01-14 20:00:00,volatility_spike,volatile_range,True,mean_reversion,sma,0.85
+2024-01-01 01:00:00,volatile_range,downtrend_strong,True,sma,sma,0.85
+2024-01-07 22:00:00,downtrend_strong,volatility_spike,True,sma,mean_reversion,0.85
+2024-01-14 20:00:00,volatility_spike,volatile_range,True,mean_reversion,sma,0.85

@@ -1,0 +1,81 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rl-inference
+  namespace: rl-trading
+  labels:
+    app: rl-inference
+    component: inference
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: rl-inference
+      component: inference
+  template:
+    metadata:
+      labels:
+        app: rl-inference
+        component: inference
+    spec:
+      containers:
+      - name: rl-inference
+        image: rl-trading/inference:latest
+        imagePullPolicy: Always
+        resources:
+          requests:
+            memory: "2Gi"
+            cpu: "1"
+          limits:
+            memory: "4Gi"
+            cpu: "2"
+        env:
+        - name: MODEL_PATH
+          value: "/app/models"
+        - name: INFERENCE_WORKERS
+          value: "4"
+        ports:
+        - containerPort: 8080
+          name: http
+        volumeMounts:
+        - name: models-volume
+          mountPath: /app/models
+          readOnly: true
+        - name: config-volume
+          mountPath: /app/config
+          readOnly: true
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 30
+          periodSeconds: 15
+          timeoutSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 8080
+          initialDelaySeconds: 10
+          periodSeconds: 5
+      volumes:
+      - name: models-volume
+        persistentVolumeClaim:
+          claimName: models-pvc
+      - name: config-volume
+        configMap:
+          name: rl-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rl-inference-service
+  namespace: rl-trading
+spec:
+  selector:
+    app: rl-inference
+    component: inference
+  ports:
+  - name: http
+    port: 80
+    targetPort: 8080
+  type: LoadBalancer

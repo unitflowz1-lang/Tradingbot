@@ -1,0 +1,72 @@
+{
+  "training": {
+    "num_episodes": 1000,
+    "max_steps_per_episode": 1000,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "gamma": 0.99,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.01,
+    "epsilon_decay": 0.995,
+    "target_update_frequency": 100,
+    "checkpoint_frequency": 100,
+    "validation_frequency": 50,
+    "early_stopping_patience": 20,
+    "gradient_clip_norm": 1.0
+  },
+  "network": {
+    "hidden_layers": [256, 128, 64],
+    "activation": "relu",
+    "dropout_rate": 0.1,
+    "batch_norm": true,
+    "optimizer": "adam",
+    "weight_decay": 0.0001,
+    "learning_rate_schedule": "cosine"
+  },
+  "environment": {
+    "lookback_window": 20,
+    "transaction_cost": 0.0001,
+    "max_position_size": 1.0,
+    "initial_balance": 10000.0,
+    "normalization_method": "minmax",
+    "reward_function": "sharpe_adjusted",
+    "state_features": [
+      "price_features",
+      "technical_indicators", 
+      "portfolio_state"
+    ],
+    "action_space_type": "discrete",
+    "num_actions": 8
+  },
+  "dqn": {
+    "memory_size": 100000,
+    "min_memory_size": 1000,
+    "double_dqn": true,
+    "dueling_dqn": true,
+    "prioritized_replay": false,
+    "noisy_networks": false
+  },
+  "ppo": {
+    "clip_ratio": 0.2,
+    "entropy_coef": 0.01,
+    "value_coef": 0.5,
+    "gae_lambda": 0.95,
+    "ppo_epochs": 4,
+    "mini_batch_size": 64,
+    "normalize_advantages": true
+  },
+  "logging": {
+    "log_level": "INFO",
+    "log_dir": "logs/rl",
+    "tensorboard_dir": "logs/tensorboard",
+    "model_save_dir": "models/rl",
+    "checkpoint_dir": "checkpoints/rl",
+    "log_training_metrics": true,
+    "log_inference_metrics": true,
+    "save_training_plots": true
+  },
+  "device": "auto",
+  "num_workers": 4,
+  "seed": null,
+  "debug_mode": false
+}

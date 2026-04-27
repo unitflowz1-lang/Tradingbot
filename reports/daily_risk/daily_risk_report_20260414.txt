@@ -1,0 +1,70 @@
+
+
+[2026-04-14 17:36:29]
+================================================================================
+DAILY RISK REPORT - INSTITUTIONAL MONITORING
+================================================================================
+
+Report Date: 2026-04-14 17:36:20
+
+┌─ TRADES OVERVIEW
+├─ Executed Trades:            20
+├─ Won:                         0 (  0.0%)
+├─ Lost:                        0 (  0.0%)
+├─ Break-even:                  0 (  0.0%)
+├─ Max Consecutive Losses:      0
+└─ Total P&L:              $      0.00
+
+┌─ TRADE REJECTIONS
+├─ Total Rejected:              0
+├─ Rejection Rate:           0.0%
+└─
+
+┌─ MARKET VOLATILITY
+├─ Average:                 0.094%
+├─ Minimum:                 0.046%
+├─ Maximum:                 0.131%
+└─ Samples:                  7478
+
+┌─ POSITION SIZING
+├─ Average Multiplier:       1.00x
+├─ Multiplier Range:       0.50x - 1.00x (volatility adjusted)
+└─ Trades Affected:            40
+
+┌─ WORST TRADE
+├─ Pair:                   EUR/USD
+├─ Direction:              SHORT
+├─ Entry:                  1.17635
+├─ Exit:                   OPEN
+├─ P&L:                    $      0.00
+├─ Volatility at Entry:    0.090%
+├─ Position Multiplier:    1.00x
+├─ Regime:                 UNKNOWN
+└─ Entry Time:             2026-04-13 23:04:55
+
+┌─ BEST TRADE
+├─ Pair:                   EUR/USD
+├─ Direction:              SHORT
+├─ Entry:                  1.17635
+├─ Exit:                   OPEN
+├─ P&L:                    $      0.00
+├─ Volatility at Entry:    0.090%
+├─ Position Multiplier:    1.00x
+├─ Regime:                 UNKNOWN
+└─ Entry Time:             2026-04-13 23:04:55
+
+┌─ P&L BY REGIME
+├─ UNKNOWN
+│  ├─ Trades:     20
+│  ├─ Won:         0 (  0.0%)
+│  ├─ Lost:        0
+│  └─ P&L:       $      0.00
+└─
+
+┌─ DRAWDOWN ANALYSIS
+├─ Largest Drawdown Streak: $      0.00
+├─ Max Consecutive Losses:       0 trades
+└─
+
+================================================================================
+

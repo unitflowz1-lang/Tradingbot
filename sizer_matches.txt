@@ -1,0 +1,10 @@
+﻿C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:419:    # Initialize Position Sizer for limits and sizing
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:425:    sizer = AdaptivePositionSizer(sizer_config)
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:426:    logger.info("[OK] Position Sizer initialized (Adaptive/Blended)")
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:708:                    "(8) Position Sizer Logging: [EXECUTION_SIZE] logs Final Lot Size | "
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1460:                        # Check daily limit and sizer
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1463:                        # Use the sizer to get recommended position size
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1464:                        # **IMPROVED:** BLENDED ADAPTIVE SIZER used for elite signals
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1472:                            # Calculate size immediately using internal sizer logic
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1632:                        limits_ok, limit_reason = sizer.check_limits(
+C:\Users\macki\Desktop\v3.0-core TradingBot\main.py:1688:                        # 2. Correlation Throttle moved to sizer.check_limits()

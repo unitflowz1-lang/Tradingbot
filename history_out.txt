@@ -1,0 +1,8 @@
+﻿
+Deals for position 55302996914:
+Deal type: 0, Entry: 0, Reason: 3, Comment: TP_TEST, Price: 1.18017
+Deal type: 1, Entry: 1, Reason: 5, Comment: [tp 1.18038], Price: 1.18038
+
+Deals for position 55303028242:
+Deal type: 0, Entry: 0, Reason: 3, Comment: SL_TEST, Price: 1.18043
+Deal type: 1, Entry: 1, Reason: 4, Comment: [sl 1.18006], Price: 1.18006

@@ -1,0 +1,9 @@
+{
+  "symbol": "GBP/USD",
+  "trained_at": "2026-04-26T22:26:04.700031+00:00",
+  "training_samples": 4981,
+  "data_source": "synthetic",
+  "model_type": "RandomForestClassifier",
+  "accuracy_score": 0.5471887550200804,
+  "training_bars": 5000
+}

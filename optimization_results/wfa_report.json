@@ -1,0 +1,43 @@
+{
+  "optimization_date": "2026-04-24T20:18:28.065226+00:00",
+  "method": "walk_forward_multi_objective",
+  "best_parameters": {
+    "ml_weight": 0.4,
+    "technical_weight": 0.55,
+    "adx_min": 18,
+    "rsi_lower": 30,
+    "rsi_upper": 60,
+    "quality_floor": 75,
+    "lot_mismatch_threshold": 0.5,
+    "auto_rotation_score": 85,
+    "atr_sl_multiplier": 2.5,
+    "atr_tp_multiplier": 2.5
+  },
+  "in_sample_vs_out_of_sample": [
+    {
+      "period": "Period_1",
+      "train_win_rate": 0.5624233770950856,
+      "test_win_rate": 0.6012576244580046,
+      "train_profit_factor": 1.9394514526447015,
+      "test_profit_factor": 1.9990331762807272,
+      "train_recovery_factor": 3.5837368498059146,
+      "test_recovery_factor": 5.8110479871989185,
+      "overfitting_ratio": 1.6215052138980655,
+      "is_overfitted": false
+    }
+  ],
+  "alpha_pairs": [
+    "EUR/USD",
+    "GBP/USD"
+  ],
+  "low_aggression_pairs": [
+    "USD/JPY"
+  ],
+  "stability_metrics": {
+    "win_rate_std": 0.0,
+    "profit_factor_std": 0.0,
+    "sharpe_std": 0.0,
+    "sensitivity_score": 0.05219230535764945,
+    "is_overfitted": false
+  }
+}

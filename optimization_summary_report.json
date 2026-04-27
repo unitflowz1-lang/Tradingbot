@@ -1,0 +1,44 @@
+{
+  "report_date": "2026-04-17T03:47:21.690845+00:00",
+  "optimization_method": "Walk-Forward 3-Period Grid Search",
+  "baseline_configuration": {
+    "ml_weight": 0.7,
+    "technical_weight": 0.3,
+    "trailing_stop_pips": 20.0,
+    "lock_increment_usd": 2.0
+  },
+  "optimized_configuration": {
+    "ml_weight": 0.4,
+    "technical_weight": 0.6,
+    "trailing_stop_pips": 5.0,
+    "lock_increment_usd": 1.0,
+    "stability_rank": 1,
+    "stability_score": 0.0
+  },
+  "parameter_changes": {
+    "ml_weight": -0.29999999999999993,
+    "technical_weight": 0.3,
+    "trailing_stop_pips": -15.0,
+    "lock_increment_usd": -1.0
+  },
+  "performance_improvements": {
+    "win_rate_pct_change": 10.0,
+    "profit_factor_change": 1.5200000000000002,
+    "sharpe_ratio_improvement_pct": 0,
+    "baseline_metrics": {
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "sharpe_ratio": 0.0
+    },
+    "optimized_metrics": {
+      "win_rate": 10.0,
+      "profit_factor": 1.5200000000000002,
+      "sharpe_ratio": 1.734723475976807e-18
+    }
+  },
+  "deployment_status": {
+    "config_file": "C:\\Users\\macki\\Desktop\\v8.5 core RL TradingBot\\config\\optimized_params.json",
+    "auto_reload_enabled": true,
+    "deployment_ready": true
+  }
+}

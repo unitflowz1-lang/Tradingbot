@@ -1,0 +1,20 @@
+{
+  "optimization_method": "BASELINE_CURRENT_CONFIG",
+  "ml_weight": 0.7,
+  "technical_weight": 0.3,
+  "baseline_metrics": {
+    "start_date": "N/A",
+    "end_date": "N/A",
+    "total_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "win_rate_pct": 0.0,
+    "profit_factor": 0.0,
+    "total_pnl": 0.0,
+    "avg_trade_pnl": 0.0,
+    "max_drawdown_pct": 0.0,
+    "sharpe_ratio": 0.0,
+    "avg_rr_ratio": 0.0
+  },
+  "generated_at": "2026-04-16T22:40:08.384437"
+}

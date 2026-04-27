@@ -1,0 +1,38 @@
+{
+  "trading": {
+    "supported_pairs": ["EUR/USD", "GBP/USD", "USD/JPY", "USD/CHF", "AUD/USD"],
+    "max_positions": 5,
+    "max_daily_trades": 10,
+    "risk_per_trade": 0.02,
+    "max_drawdown": 0.10,
+    "trading_hours": {
+      "monday": ["00:00", "23:59"],
+      "tuesday": ["00:00", "23:59"],
+      "wednesday": ["00:00", "23:59"],
+      "thursday": ["00:00", "23:59"],
+      "friday": ["00:00", "21:00"]
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-4",
+    "api_key": "your-openai-api-key",
+    "max_tokens": 1000,
+    "temperature": 0.1,
+    "timeout": 30
+  },
+  "risk": {
+    "max_position_size": 0.05,
+    "stop_loss_pct": 0.02,
+    "take_profit_pct": 0.04,
+    "max_correlation": 0.7,
+    "drawdown_limit": 0.10
+  },
+  "broker": {
+    "broker_name": "your-broker",
+    "api_key": "your-broker-api-key",
+    "api_secret": "your-broker-api-secret",
+    "base_url": "https://api.broker.com",
+    "timeout": 30
+  }
+}

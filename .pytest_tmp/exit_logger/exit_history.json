@@ -1,0 +1,1 @@
+[{"position_id": "1", "symbol": "EUR/USD", "entry_time": "2026-03-27T00:00:00+00:00", "exit_time": "2026-03-27T01:00:00+00:00", "entry_price": 1.1, "exit_price": 1.11, "direction": "LONG", "quantity": 0.1, "reason": "tp_hit", "profit_loss": 10.0, "profit_loss_pips": 10.0, "hold_time_seconds": 60}]

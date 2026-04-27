@@ -1,0 +1,9 @@
+{
+  "symbol": "USD/JPY",
+  "trained_at": "2026-04-26T22:26:14.920955+00:00",
+  "training_samples": 4981,
+  "data_source": "synthetic",
+  "model_type": "RandomForestClassifier",
+  "accuracy_score": 0.5,
+  "training_bars": 5000
+}

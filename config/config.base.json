@@ -1,0 +1,68 @@
+{
+  "trading": {
+    "supported_pairs": [
+      "EUR/USD",
+      "GBP/USD",
+      "USD/JPY",
+      "USD/CHF",
+      "AUD/USD"
+    ],
+    "max_total_positions": 7,
+    "max_direction_positions": 7,
+    "max_correlated_exposure": 7,
+    "max_daily_trades": 0,
+    "risk_per_trade": 0.02,
+    "max_drawdown": 0.10,
+    "trading_hours": {
+      "monday": [
+        "00:00",
+        "23:59"
+      ],
+      "tuesday": [
+        "00:00",
+        "23:59"
+      ],
+      "wednesday": [
+        "00:00",
+        "23:59"
+      ],
+      "thursday": [
+        "00:00",
+        "23:59"
+      ],
+      "friday": [
+        "00:00",
+        "21:00"
+      ]
+    }
+  },
+  "llm": {
+    "provider": "google",
+    "model": "gemini-2.5-pro",
+    "max_tokens": 1000,
+    "temperature": 0.1,
+    "timeout": 30
+  },
+  "risk": {
+    "max_position_size": 0.05,
+    "stop_loss_pct": 0.02,
+    "take_profit_pct": 0.04,
+    "max_correlation": 0.7,
+    "drawdown_limit": 0.10
+  },
+  "market_data_cache_ttl": 60,
+  "api_timeout": 30,
+  "max_data_age_seconds": 300,
+  "max_spread_threshold": 0.01,
+  "api_max_retries": 3,
+  "api_retry_delay": 1,
+  "resilience": {
+    "service_timeout_seconds": 10,
+    "backoff_base_seconds": 1.0,
+    "backoff_max_seconds": 300,
+    "outage_preservation_threshold_seconds": 1800,
+    "preservation_mode_sl_tightening_pct": 50.0,
+    "hard_sync_retry_attempts": 3,
+    "monitoring_check_interval_seconds": 10
+  }
+}

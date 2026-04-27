@@ -1,0 +1,22 @@
+{
+  "signal_weights": {
+    "weight_technical": 0.3,
+    "weight_ml": 0.7,
+    "weight_mtf": 0.0
+  },
+  "exit_config": {
+    "tp_multiplier": 2.5,
+    "trailing_activation_r": 0.5,
+    "time_exit_bars": 20,
+    "partial_profit_levels": [
+      [
+        1.0,
+        0.3
+      ],
+      [
+        1.5,
+        0.2
+      ]
+    ]
+  }
+}

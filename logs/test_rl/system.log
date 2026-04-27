@@ -1,0 +1,5 @@
+2025-08-04 03:08:43,244 - rl.system - INFO - System event: {"event_type": "test_event", "message": "Testing system event", "details": {}, "timestamp": "2025-08-04T03:08:43.244293"}
+2025-08-04 03:08:43,245 - rl.system - INFO - Test info message
+2025-08-04 03:08:43,249 - rl.system - INFO - System event: {"event_type": "monitoring_start", "message": "Training monitoring started", "details": {"patience": 5, "min_improvement": 0.01, "check_frequency": 10}, "timestamp": "2025-08-04T03:08:43.249498"}
+2025-08-04 03:08:43,250 - rl.system - INFO - System event: {"event_type": "performance_improvement", "message": "New best performance: 0.0000", "details": {"episode": 0, "improvement": 0.0}, "timestamp": "2025-08-04T03:08:43.250498"}
+2025-08-04 03:08:43,250 - rl.system - INFO - System event: {"event_type": "monitoring_stop", "message": "Training monitoring stopped", "details": {}, "timestamp": "2025-08-04T03:08:43.250498"}

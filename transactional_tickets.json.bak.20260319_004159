@@ -1,0 +1,62 @@
+{
+  "55802490335": {
+    "ticket_id": "55802490335",
+    "symbol": "USDCAD",
+    "direction": "BUY",
+    "entry_price": 1.37178,
+    "stop_loss": 1.36837,
+    "take_profit": 1.37686,
+    "persisted_at": "2026-03-18T19:41:17.943830+00:00",
+    "status": "CONFIRMED"
+  },
+  "55802564077": {
+    "ticket_id": "55802564077",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37192,
+    "stop_loss": 1.37474,
+    "take_profit": 1.36908,
+    "persisted_at": "2026-03-18T19:46:15.789277+00:00",
+    "status": "CONFIRMED"
+  },
+  "55802661852": {
+    "ticket_id": "55802661852",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37212,
+    "stop_loss": 1.37503,
+    "take_profit": 1.36908,
+    "persisted_at": "2026-03-18T19:51:25.009307+00:00",
+    "status": "CONFIRMED"
+  },
+  "55802757997": {
+    "ticket_id": "55802757997",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37246,
+    "stop_loss": 1.37539,
+    "take_profit": 1.36908,
+    "persisted_at": "2026-03-18T19:56:32.516297+00:00",
+    "status": "CONFIRMED"
+  },
+  "55802837484": {
+    "ticket_id": "55802837484",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37256,
+    "stop_loss": 1.37538,
+    "take_profit": 1.36908,
+    "persisted_at": "2026-03-18T20:01:43.688858+00:00",
+    "status": "CONFIRMED"
+  },
+  "55803104144": {
+    "ticket_id": "55803104144",
+    "symbol": "USDCAD",
+    "direction": "SELL",
+    "entry_price": 1.37307,
+    "stop_loss": 1.37597,
+    "take_profit": 1.36908,
+    "persisted_at": "2026-03-18T20:16:11.536937+00:00",
+    "status": "CONFIRMED"
+  }
+}

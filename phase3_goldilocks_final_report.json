@@ -1,0 +1,39 @@
+{
+  "optimization_complete": true,
+  "timestamp": "2026-04-17T03:55:56.065337+00:00",
+  "methodology": "3-Way Walk-Forward Anti-Overfit (Goldilocks Selection)",
+  "selection_criteria": "Ranked by Calmar Ratio (Profit/Drawdown), out-of-sample test survivors only",
+  "account_balance_usd": 100.0,
+  "current_configuration": {
+    "ml_weight": 0.7,
+    "technical_weight": 0.3,
+    "trailing_stop_pips": 20.0,
+    "lock_increment_usd": 2.0
+  },
+  "optimized_configuration": {
+    "ml_weight": 0.8,
+    "technical_weight": 0.2,
+    "trailing_stop_pips": 30,
+    "lock_increment_usd": 2.75,
+    "robustness_rank": 1,
+    "calmar_ratio": 1.1276595744680853,
+    "survived_oos_testing": true
+  },
+  "oos_test_results": {
+    "win_rate_pct": 50.03364723069664,
+    "profit_factor": 1.218,
+    "total_pnl_usd": 5.301933032269216,
+    "max_drawdown_pct": 4.7,
+    "avg_expectancy_per_trade": 0.2650966516134608
+  },
+  "monthly_projections": {
+    "expected_pnl_usd": 21.207732129076863,
+    "max_drawdown_usd": 4.7,
+    "risk_reward_ratio": 1.1280708579296204
+  },
+  "deployment": {
+    "config_file": "C:\\Users\\macki\\Desktop\\v8.5 core RL TradingBot\\config\\optimized_params.json",
+    "auto_reload_enabled": true,
+    "ready_to_activate": true
+  }
+}

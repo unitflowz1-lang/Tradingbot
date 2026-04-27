@@ -1,0 +1,11 @@
+{
+  "atr_period": 20,
+  "risk_reward_ratio": 1.5,
+  "entry_filter": {
+    "adx_min": 25,
+    "rsi_min": 30,
+    "rsi_max": 70,
+    "name": "STRICT_FILTER"
+  },
+  "name": "ATR20_RR1.5_STRICT_FILTER"
+}

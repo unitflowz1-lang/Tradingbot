@@ -1,0 +1,32 @@
+{
+  "backtest_date": "2026-04-24T20:33:57.889285+00:00",
+  "symbols": [
+    "EUR/USD",
+    "GBP/USD"
+  ],
+  "period": "Last 3 months",
+  "performance": {
+    "total_trades": 60,
+    "winning_trades": 34,
+    "losing_trades": 26,
+    "win_rate": 0.5666666666666667,
+    "total_pnl": 3182.2278137208637,
+    "total_pnl_percent": 31.822278137208638,
+    "profit_factor": 2.6263415611555843,
+    "avg_win": 151.14430781798478,
+    "avg_loss": 75.2568712342546,
+    "largest_win": 198.74280207639143,
+    "largest_loss": 98.74946223886666
+  },
+  "risk": {
+    "max_drawdown": 284.9475220556669,
+    "max_drawdown_percent": 0.025056139014198262,
+    "recovery_factor": 11.167767983254082
+  },
+  "validation": {
+    "quality_floor_enforced": true,
+    "signal_weights_applied": true,
+    "lot_size_abort_working": true,
+    "logic_errors": []
+  }
+}

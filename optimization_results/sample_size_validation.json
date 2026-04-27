@@ -1,0 +1,49 @@
+{
+  "validation_date": "2026-04-25T03:40:00+00:00",
+  "sample_size_analysis": {
+    "win_rate": 0.6413100342149618,
+    "win_rate_std": 0,
+    "is_overfitted": false,
+    "valid_results": 0,
+    "projected_trades_per_month": 99.00000000000001
+  },
+  "confidence_intervals": {
+    "n=20": [
+      0.43110906949279326,
+      0.8515109989371303
+    ],
+    "n=30": [
+      0.4696816652116016,
+      0.812938403218322
+    ],
+    "n=50": [
+      0.5083672712376107,
+      0.7742527971923129
+    ],
+    "n=75": [
+      0.5327627227848696,
+      0.749857345645054
+    ],
+    "n=100": [
+      0.547305305004001,
+      0.7353147634259226
+    ],
+    "n=150": [
+      0.5645554942231755,
+      0.7180645742067481
+    ]
+  },
+  "validation_result": {
+    "passes": [
+      "Projected trade count sufficient: 99/month",
+      "No overfitting detected"
+    ],
+    "warnings": [
+      "Zero win rate variance (single-period optimization)"
+    ],
+    "issues": [
+      "No valid walk-forward results (simulated data used)"
+    ],
+    "ready_for_live": false
+  }
+}

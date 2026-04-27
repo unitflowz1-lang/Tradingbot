@@ -1,0 +1,457 @@
+21:43:24 | INFO | AI Forex Trading Bot v1.0.0 initialized
+21:43:24 | INFO | [MACRO_CACHE_LOADED] 1 penalties loaded from data\macro_risk_cache.json
+21:43:25 | INFO | [INIT] >> AI Forex Trading Bot Starting...
+21:43:25 | INFO | [VIRTUAL_TP_INIT] Initialized virtual TP persistence with 0 saved targets
+21:43:25 | INFO | Hot-reload enabled for configuration files in config
+21:43:25 | INFO | [RUNTIME_PHASE] raw='6' | resolved_level=6 | pipeline=True snapshot=True orchestrator=True execution=True ai=True
+21:43:25 | INFO | Health check system started
+21:43:25 | INFO | [RESILIENCE_INIT] UnifiedResilienceController initialized | Backoff: 1.0s-300s | Preservation threshold: 1800s
+21:43:25 | INFO | [RESILIENCE_MONITOR] Started (interval: 10s)
+21:43:25 | INFO | [RESILIENCE_CONTROLLER] Initialized and monitoring started
+21:43:25 | INFO | Initializing MT5 Broker...
+21:43:25 | INFO | [FILL_CACHE] Loaded 7 persisted fill-mode entries from C:\Users\macki\Desktop\v8.5 core RL TradingBot\data\fill_mode_cache.json
+21:43:25 | INFO | [MT5_PROPERTY_MANAGER_INIT] ✅ MT5 broker reachable | Login=5044383203 | Server=MetaQuotes-Demo
+21:43:25 | INFO | [MT5_PROPERTY_MANAGER_STARTUP] [OK] Initialized | Ready for cost penalty scoring
+21:43:25 | INFO | Connection attempt (Process Elevation: Standard User)
+21:43:25 | WARNING | Bot is NOT running as Administrator. If MT5 is elevated, IPC connection WILL fail with timeout.
+21:43:25 | INFO | Connecting to existing terminal...
+21:43:27 | INFO | [OK] Connected and authorized with MT5 terminal
+21:43:27 | INFO | [OK] Already logged in to account 5044383203
+21:43:27 | INFO | --------------------------------------------------
+21:43:27 | INFO | [OK] AI TRADING BOT ACTIVATED | v2.1.0
+21:43:27 | INFO | --------------------------------------------------
+21:43:27 | INFO | [RUNTIME_MODE] Experimental execution modes disabled. Running default conservative execution mode.
+21:43:27 | INFO | [OK] Mode: ACTIVE TRADING
+21:43:27 | INFO | [OK] Strategy: TREND FOLLOWING + ML
+21:43:27 | INFO | [OK] Feature: MAXOUT MODE [OFF]
+21:43:27 | INFO | [OK] Feature: AUTO-TRAIL [ON] (Dynamic Stop Loss)
+21:43:27 | INFO | [OK] Feature: SECURE PROFIT [ON] (Bank Gains > $50)
+21:43:27 | INFO | [OK] Feature: PARTIAL PROFIT [ON] (Multi-stage exits)
+21:43:27 | INFO | [OK] Feature: TIME EXIT [ON] (Close stagnated trades)
+21:43:27 | INFO | [OK] Feature: LIVE IMPROVEMENTS [ON] (Margin, Slippage, Sizing)
+21:43:27 | INFO | --------------------------------------------------
+21:43:27 | CRITICAL | [SYSTEM_PROTECTED_V12] Unified Risk Profile ACTIVE
+21:43:27 | CRITICAL | [SYSTEM_PROTECTED_V12] 7-position capacity active | Max Total: 7 | Max Dir: 7 | Max Corr: 7
+21:43:27 | CRITICAL | [SYSTEM_PROTECTED_V12] Execution queue online | Ghost ticket purge active | No startup bypasses
+21:43:27 | CRITICAL | [SYSTEM_LIMITS_EXPANDED_V12] ??? ALL LIMITS EXPANDED | Modification Retry Loop ONLINE
+21:43:27 | CRITICAL | [SYSTEM_PROTECTED_V12] ??? Broker Crash-Protection ACTIVE | NoneType Guard ON | Basket TP ARMED ($250) | Auto Profit Banking AUTHORIZED
+21:43:27 | CRITICAL | [CONFIG_LOCKDOWN_ACTIVE] Runtime limits aligned for 7 positions | Max=7, Dir=7, USD=12 | Quality Floor=65.0
+21:43:27 | INFO | --------------------------------------------------
+21:43:27 | INFO | Loaded admission history: 120570 evaluations, 1 regimes
+21:43:27 | INFO | Loaded performance matrix with 1 regimes
+21:43:27 | INFO | Loaded 3071 exit records
+21:43:27 | INFO | Loaded state for 3 positions
+21:43:27 | CRITICAL | [TRANSACTIONAL_REGISTRY_SYNC] Successfully recovered 499 tickets from transactional registry.
+21:43:27 | INFO | Daily loss limit set to $100.00
+21:43:27 | CRITICAL | [AUTO_ROTATION] ??? Auto-Rotation Engine ONLINE. Elite signals (forced_execution=True OR score>=90) will trigger rotation protocol when portfolio is full. Will sacrifice lowest P&L positions first.
+21:43:27 | INFO | [USER_LEARNING] UserInterventionLearner online. Loaded 269 historical intervention records.
+21:43:27 | CRITICAL | [USER_LEARNING] ??? Manual Intervention Detector ONLINE. Every manual MT5 close will be captured to user_intervention_history.json and a Smarter Exit cooldown will block immediate re-entry.
+21:43:27 | INFO | [OK] Decision Matrix initialized - Lookback: 21 days
+21:43:27 | INFO | [OK] Decision Matrix initialized - Autonomous governance active
+21:43:27 | INFO | [STARTUP] Syncing live MT5 positions...
+21:43:27 | INFO | [SYNC_MT5_STATE] Rebuilt runtime state from MT5 | live_positions=3
+21:43:27 | INFO | [STARTUP] Live position sync complete | positions=3
+21:43:27 | INFO | [RUNTIME_PIPELINE] Phase 2 enabled: runtime risk pre-gate is ACTIVE.
+21:43:27 | INFO | [RUNTIME_SNAPSHOT] Phase 3 enabled: shared cycle snapshot service is ACTIVE.
+21:43:27 | INFO | [RUNTIME_ORCHESTRATOR] Phase 4 enabled: symbol batch orchestration routed via runtime module.
+21:43:27 | INFO | [RUNTIME_EXECUTION] Phase 5 enabled: queue execution routed via runtime processor.
+21:43:27 | INFO | [RUNTIME_AI_ADVISORY] Phase 6 enabled: LLM advisory routed via runtime adapter.
+21:43:27 | INFO | [OK] Position Sizer initialized (Adaptive/Blended)
+21:43:27 | INFO | [STARTUP_CHECK] Verifying Risk-to-Reward Gatekeeping Logic...
+21:43:27 | INFO | [INIT] Initializing Three-Layer Architecture...
+21:43:27 | INFO | Multi-Level Profit Taker initialized
+21:43:27 | INFO |   Level 1: Quick Profit | TP: 0.5R | Exit: 20% | Remaining: 80%
+21:43:27 | INFO |   Level 2: Half Position | TP: 1.0R | Exit: 35% | Remaining: 45%
+21:43:27 | INFO |   Level 3: Lock Gains | TP: 1.5R | Exit: 30% | Remaining: 15%
+21:43:27 | INFO |   Level 4: Trail Remaining | TP: 2.0R | Exit: 0% | Remaining: 15%
+21:43:27 | INFO | Reversal Exit Detector initialized
+21:43:27 | INFO |   3-candle reversal: True
+21:43:27 | INFO |   Opposite signal: True
+21:43:27 | INFO |   RSI divergence: True
+21:43:27 | INFO |   Price action: True
+21:43:27 | INFO |   Momentum loss: True
+21:43:27 | INFO | Market Mode Detector initialized
+21:43:27 | INFO |   High vol threshold: 80th percentile
+21:43:27 | INFO |   Low vol threshold: 20th percentile
+21:43:27 | INFO |   Strong trend ADX: > 25.0
+21:43:27 | INFO |   Weak trend ADX: < 15.0
+21:43:27 | INFO | Breakout TP Calculator initialized
+21:43:27 | INFO |   Breakout: TP=3.0R, SL=0.5R
+21:43:27 | INFO |   Bounce: TP=2.0R, SL=1.0R
+21:43:27 | INFO |   Range: TP=1.5R, SL=0.8R
+21:43:27 | INFO | [PHASE3] Exit Manager initialized
+21:43:27 | CRITICAL | [EXIT_AGGRESSION_CONTROL] DISABLE_EXIT_AGGRESSION=True | FEATURE_AUTO_TRAIL=False | USE_PROFIT_PROTECTION=False
+21:43:27 | CRITICAL | [TRADE_PSYCHOLOGY_FIX] EXIT AGGRESSION DISABLED | Trades will run to completion based on initial RR | SL/TP fixed at entry | Only manual exit: Basket TP ($10.00) or broker hit
+21:43:27 | CRITICAL | ================================================================================
+21:43:27 | CRITICAL | [HARD-CODE ENFORCEMENT] These settings are HARD-CODED and CANNOT be overridden:
+21:43:27 | CRITICAL |   • DISABLE_EXIT_AGGRESSION = True
+21:43:27 | CRITICAL |   • FEATURE_AUTO_TRAIL = False (DynamicTrailingSLManager DISABLED)
+21:43:27 | CRITICAL |   • USE_PROFIT_PROTECTION = False (ProfitProtectionModule DISABLED)
+21:43:27 | CRITICAL | [RESULT] Stop Loss WILL NOT be modified. Trades run to SL/TP or Basket TP.
+21:43:27 | CRITICAL | ================================================================================
+21:43:27 | CRITICAL | 
+21:43:27 | CRITICAL | [DISABLED FEATURES] The following SL modification logic has been HARD-DISABLED:
+21:43:27 | CRITICAL |   ✗ DynamicTrailingSLManager (continuous SL tightening)
+21:43:27 | CRITICAL |   ✗ ProfitProtectionModule (breakeven, profit locking, scale-outs)
+21:43:27 | CRITICAL |   ✗ Strategy Trailing SL (strategy-defined SL modifications)
+21:43:27 | CRITICAL |   ✗ Risk Ceiling Enforcement (SL ceiling clamping)
+21:43:27 | CRITICAL |   ✗ Dynamic Profit Compression (DPC tier activation)
+21:43:27 | CRITICAL |   ✗ Profit Sniper (tiered profit locking)
+21:43:27 | CRITICAL |   ✗ ATR-based SL buffering
+21:43:27 | CRITICAL | 
+21:43:27 | CRITICAL | [PRESERVED FEATURES] These features remain ACTIVE:
+21:43:27 | CRITICAL |   ✓ Basket Profit Reset ($10.00 target)
+21:43:27 | CRITICAL |   ✓ Hard Stop Loss at entry (NO MODIFICATION)
+21:43:27 | CRITICAL |   ✓ Hard Take Profit at entry (NO MODIFICATION)
+21:43:27 | CRITICAL |   ✓ Trades close when price hits SL/TP or portfolio hits Basket TP
+21:43:27 | CRITICAL | ================================================================================
+21:43:27 | CRITICAL | [DISABLED] Profit Protection Module DISABLED | SL/TP remain fixed at entry | No dynamic modifications (trailing, breakeven, profit locking) will be executed
+21:43:27 | CRITICAL | [DISABLED] Dynamic Trailing SL Manager DISABLED | No trailing stop loss modifications will occur
+21:43:27 | INFO | [FEE_UPDATE_SCHEDULER] Initialized | Interval: 300 seconds (5 minutes)
+21:43:27 | INFO | [CONFIG_AUDIT] Scale-Out: False | Trigger: 1.00R | Close: 50% | BE-Spread: True
+21:43:27 | INFO | [CONFIG_AUDIT] DynamicProfitLock: False | MinStep: 2.0p | Levels: 1.5R->Lock 25% floating
+21:43:27 | INFO | [CONFIG_AUDIT] No environment override detected for BREAKEVEN_TRIGGER_R.
+21:43:27 | INFO | [CONFIG_AUDIT] No environment override detected for TRAILING_ACTIVATION_R.
+21:43:27 | INFO | [CONFIG_AUDIT] No environment override detected for USE_DYNAMIC_PROFIT_LOCKING.
+21:43:27 | INFO | [CONFIG_AUDIT] No environment override detected for DYNAMIC_PROFIT_LOCK_MIN_STEP_PIPS.
+21:43:27 | INFO | [CONFIG_AUDIT] No environment override detected for DYNAMIC_PROFIT_LOCK_LEVELS.
+21:43:27 | INFO | [CONFIG_AUDIT] No environment override detected for USE_SCALE_OUT.
+21:43:27 | INFO | [CONFIG_AUDIT] No environment override detected for SCALE_OUT_TRIGGER_R.
+21:43:27 | INFO | [CONFIG_AUDIT] No environment override detected for SCALE_OUT_CLOSE_PERCENT.
+21:43:27 | INFO | [CONFIG_AUDIT] No environment override detected for SCALE_OUT_BE_WITH_SPREAD.
+21:43:27 | CRITICAL | [BASKET_TP_PRESERVED] Basket Profit Reset logic ACTIVE | Target: $10.00 | This is the ONLY portfolio-level exit when EXIT_AGGRESSION disabled
+21:43:27 | INFO | [INIT] Initializing Monitoring & Alerts...
+21:43:27 | INFO | Starting performance monitoring
+21:43:27 | INFO | [OK] Alert system initialized (Channels: [])
+21:43:27 | INFO | [INIT] Initializing Daily Risk Report Generator...
+21:43:27 | INFO | [DAILY_RISK_REPORT] Initialized - Reports directory: reports\daily_risk
+21:43:27 | INFO | [OK] Daily Risk Report Generator initialized - Reports every 24 hours
+21:43:27 | INFO | [OK] Weekly Distribution Report Generator initialized - Reports every 7 days
+21:43:27 | INFO | [OK] Margin Manager initialized - Dynamic safety buffers active
+21:43:27 | INFO | [OK] Position Direction Tracker initialized
+21:43:27 | INFO | [INIT] Three-Layer Architecture initialized [OK]
+21:43:27 | INFO | [INIT] Activating User Trade Learner...
+21:43:27 | INFO | [INIT] UserTradeLearner v2.0 active | Trades: 83 | Rejection history: 4 entries
+21:43:27 | INFO | [OK] User Trade Learner active and monitoring manual trades
+21:43:27 | INFO | [DECISION_MATRIX] Loaded 6 performance weights.
+21:43:27 | CRITICAL | [INIT] Decision Matrix Weights: LOADED (Success)
+21:43:27 | INFO | [INIT] Initializing Enhanced Signal Validator...
+21:43:27 | INFO | [OK] Enhanced Signal Validator initialized (Min Score: 45, MTF: 1 TFs)
+21:43:27 | INFO | [OK] Applied learned weights from UserTradeLearner
+21:43:27 | INFO | [OK] Predictive Price Engine initialized (Additive confidence modifier)
+21:43:27 | INFO | [CONFIG] Macro/news max staleness threshold set to 60 minutes.
+21:43:27 | INFO | SimpleTrendStrategy initialized for AUD/USD
+21:43:27 | CRITICAL | [SURGICAL_PATCH] Global Quality Floor lowered to 65% for 4 hours. Temporary market-relaxation window is active.
+21:43:27 | INFO | [ADAPTIVE FILTER] Initialized with adaptive thresholds
+21:43:27 | INFO | [ADAPTIVE FILTER] • ML Override: ≥70% confidence → auto-accept
+21:43:27 | INFO | [ADAPTIVE FILTER] • Session Aware: Tokyo +5 bonus, relaxed ADX
+21:43:27 | INFO | [ADAPTIVE FILTER] • Auto-Adjust: Threshold lowers when ML accuracy <50%
+21:43:27 | INFO | [ADAPTIVE FILTER] • Rejection Logging: Specific fixes suggested
+21:43:27 | INFO | [ADAPTIVE STRICTNESS] Initialized
+21:43:27 | INFO | [ADAPTIVE STRICTNESS] • STRICT in strong trends (ADX ≥28)
+21:43:27 | INFO | [ADAPTIVE STRICTNESS] • MODERATE in weak trends (ADX ≥18)
+21:43:27 | INFO | [ADAPTIVE STRICTNESS] • ML-OVERRIDE in sideways/weak markets (ML ≥75%)
+21:43:27 | INFO | [ADAPTIVE STRICTNESS] • EXTRA STRICT in choppy/erratic markets
+21:43:27 | CRITICAL | [TEMP_FILTER_RELAXATION] AUD/USD | Active until 2026-04-22 01:43:27 UTC | Quality floor -> 70% | ADX thresholds -> 80% of configured values | REGRET ANALYSIS logs disabled.
+21:43:27 | INFO | SimpleTrendStrategy initialized for USD/CAD
+21:43:27 | CRITICAL | [SURGICAL_PATCH] Global Quality Floor lowered to 65% for 4 hours. Temporary market-relaxation window is active.
+21:43:27 | INFO | [ADAPTIVE FILTER] Initialized with adaptive thresholds
+21:43:27 | INFO | [ADAPTIVE FILTER] • ML Override: ≥70% confidence → auto-accept
+21:43:27 | INFO | [ADAPTIVE FILTER] • Session Aware: Tokyo +5 bonus, relaxed ADX
+21:43:27 | INFO | [ADAPTIVE FILTER] • Auto-Adjust: Threshold lowers when ML accuracy <50%
+21:43:27 | INFO | [ADAPTIVE FILTER] • Rejection Logging: Specific fixes suggested
+21:43:27 | INFO | [ADAPTIVE STRICTNESS] Initialized
+21:43:27 | INFO | [ADAPTIVE STRICTNESS] • STRICT in strong trends (ADX ≥28)
+21:43:27 | INFO | [ADAPTIVE STRICTNESS] • MODERATE in weak trends (ADX ≥18)
+21:43:27 | INFO | [ADAPTIVE STRICTNESS] • ML-OVERRIDE in sideways/weak markets (ML ≥75%)
+21:43:27 | INFO | [ADAPTIVE STRICTNESS] • EXTRA STRICT in choppy/erratic markets
+21:43:27 | CRITICAL | [TEMP_FILTER_RELAXATION] USD/CAD | Active until 2026-04-22 01:43:27 UTC | Quality floor -> 70% | ADX thresholds -> 80% of configured values | REGRET ANALYSIS logs disabled.
+21:43:27 | CRITICAL | [AUTO-RELOAD] ✅ Loaded optimized parameters from config\optimized_params.json
+21:43:27 | INFO | ══════════════════════════════════════════════════════════════════════
+21:43:27 | INFO |   [AUTO-RELOAD] PHASE 3: APPLYING WALK-FORWARD OPTIMIZED PARAMETERS   
+21:43:27 | INFO |                Stability Rank: 0 (Lower = More Stable)                
+21:43:27 | INFO | ══════════════════════════════════════════════════════════════════════
+21:43:27 | INFO | ✅ [EUR/USD] Parameters applied
+21:43:27 | INFO | ✅ [GBP/USD] Parameters applied
+21:43:27 | INFO | ✅ [USD/JPY] Parameters applied
+21:43:27 | INFO | ✅ [USD/CHF] Parameters applied
+21:43:27 | INFO | ✅ [AUD/USD] Parameters applied
+21:43:27 | INFO | ✅ [USD/CAD] Parameters applied
+21:43:27 | INFO | ✅ [NZD/USD] Parameters applied
+21:43:27 | INFO | ══════════════════════════════════════════════════════════════════════
+21:43:27 | INFO | ✅ APPLIED OPTIMIZED PARAMETERS TO 7/7 STRATEGIES
+21:43:27 | INFO | ══════════════════════════════════════════════════════════════════════
+
+21:43:27 | INFO | [PARAMETER SUMMARY]
+21:43:27 | INFO |   Phase 3 Optimized Configuration:
+21:43:27 | INFO |     • ML Weight: 0.80
+21:43:27 | INFO |     • Technical Weight: 0.20
+21:43:27 | INFO |     • Trailing Stop Activation: 30 pips
+21:43:27 | INFO |     • Dynamic Lock Increment: $2.75
+21:43:27 | INFO |     • Avg Test Win Rate: 55.0%
+21:43:27 | INFO |     • Win Rate Variance: 0.015000
+21:43:27 | INFO | 
+21:43:27 | INFO | [OK] Slippage Tracking active
+21:43:27 | INFO | [INIT] Bot initialization complete | Symbols: ['EUR/USD', 'GBP/USD', 'USD/JPY', 'USD/CHF', 'AUD/USD', 'USD/CAD', 'NZD/USD']
+21:43:27 | INFO | Performance metrics updated
+21:43:27 | INFO | [MACRO_MONITOR] Available Ollama models: ['phi3:mini', 'qwen3.5:4b', 'qwen3.5:0.8b', 'deepseek-v3.1:671b-cloud', 'minimax-m2:cloud']
+21:43:27 | INFO | [MACRO_MONITOR] ✅ qwen3.5:0.8b ready for macro analysis
+21:43:27 | INFO | [MACRO_MONITOR] Started | symbols=['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'USDCAD', 'NZDUSD'] | interval=900s
+21:43:27 | INFO | [MACRO_HEALTHMONITOR] ✅ Health monitor thread started | Check interval: 60s | Stale limit: 15.0 minutes
+21:43:27 | INFO | [FINNHUB_INIT] FinnhubMacroManager initialized | Symbols: ['EUR/USD', 'GBP/USD', 'USD/JPY', 'USD/CHF', 'AUD/USD', 'USD/CAD', 'NZD/USD'] | Calendar: True | Sentiment: True | Rate Limit: 60 calls/60 sec
+21:43:27 | INFO | [FINNHUB_TEST] ✅ API connectivity OK (HTTP 200)
+21:43:27 | INFO | [FINNHUB_START] ✅ Background monitoring started | Heartbeat tracking active | Timeout: 60s | Max consecutive failures: 5
+21:43:27 | CRITICAL | [FINNHUB_MANAGER_INIT] [OK] Started | Background refresh: 5 min | Main pulse latency impact: 0ms (cache reads only)
+21:43:35 | INFO | [LOCAL_LLM_OK] Ollama reachable | Models=['phi3:mini', 'qwen3.5:4b', 'qwen3.5:0.8b', 'deepseek-v3.1:671b-cloud', 'minimax-m2:cloud'] | JSON mode verified for governance.
+21:43:35 | CRITICAL | [SYSTEM_READY] ??? Expectancy Mismatch resolved. All internal communication syncs passed. Bot is CAPABLE of executing first trade. Ready to enter market conditions evaluation loop.
+21:43:35 | CRITICAL | [INIT] Conditional Governor active. Saturation mode now requires equity threshold and LOW macro risk.
+21:43:35 | CRITICAL | [DATA_INTEGRITY_OK] ??? RR Ratio inheritance verified. Module data flow: signal_combiner -> admission_controller -> position_sizer. OK
+21:43:35 | CRITICAL | [COMMUNICATION_SYNC_VERIFIED] ??? SUCCESS: Dummy signal RR 2.25R > 1.0R. RR pipeline communication working. Signal inheritance confirmed. Hard-lock ADX override active. Force-Pass Gate ready. All internal syncs locked. BOT READY FOR LIVE EXECUTION.
+21:43:35 | CRITICAL | [AMNESIA_GATE] Amnesia cycles: DISABLED (Recommended for production). Set ENABLE_AMNESIA_CYCLES=1 to enable.
+21:43:35 | CRITICAL | [HARVEST_MODE_ACTIVE] Shadow merged. Time-exits disabled. Portfolio locked at 7/7.
+21:43:35 | CRITICAL | [WINNER_ADOPTION_ENABLED] Quarantines cleared. Final lot floor 0.05 enforced.
+21:43:35 | CRITICAL | [WEEK_AHEAD_READY] Ready to strike at Sunday Open. Spread guard active (5.0 pips).
+21:43:35 | CRITICAL | [REOPEN_STRIKE_READY] Spread filters disabled. Floor set to 30%. Ready for session start.
+21:43:35 | INFO | [HEARTBEAT] Execution cycle active.
+21:43:35 | CRITICAL | [SYSTEM_DEPLOYED_V12] Unified risk profile active. Enhanced Validator required for every trade.
+21:43:35 | CRITICAL | [QUALITY_FLOOR_ACTIVE] Global quality floor 65%% | Validator min score 45 | Min RR 1.5R hard reject.
+21:43:35 | CRITICAL | [SYSTEM_EXPANDED_V12] PORTFOLIO CAPACITY NORMALIZED | Correlation, limit, and validator checks remain active for all entries | No forced-execution bypass at startup | State reconciliation active.
+21:43:35 | CRITICAL | [SYSTEM_READY_V12] RISK GATES ENFORCED | Enhanced Validator ACTIVE | ADX Minimum Standard: 15.0 | ADX Minimum Relaxed: 12.0 | Confidence no longer skips news or validator | Zombie purge remains active in reconcile loop.
+21:43:35 | CRITICAL | [SYSTEM_FULLY_OPERATIONAL_V12] ACTIVE_STRIKING READY | Signal RR, admission, validator, and execution now share the same hard floors | No expectancy hardcoding | No validator bypass | No news-skip confidence override.
+21:43:35 | CRITICAL | [SYSTEM_STABLE_V12] Startup reconciliation complete | Execution pipeline synchronized | Quality floor 65%%, validator active, and macro shield now depends on real news or extreme volatility.
+21:43:35 | CRITICAL | [STATE-CLEAN_SKIPPED] Startup state-clean bypassed because MT5 still reports 3 live position(s). Preserving adopted ticket memory.
+21:43:35 | INFO | [STATE-CLEAN_SYNC] Adopted 3 live MT5 position(s) into the Three-Layer Architecture for active exit management.
+21:43:35 | INFO | [SYNC_MT5_STATE] Rebuilt runtime state from MT5 | live_positions=3
+21:43:35 | INFO | [MT5_EXECUTION_PULSE] Cycle 1 | Live Tickets Managed: 3 | Monitored Symbols: 7
+21:43:35 | CRITICAL | [SYSTEM_READY_V2] ??? EQUITY ACCESS VERIFIED | Equity: $95315.61 | Available Margin: $95149.40 | Portfolio object properties confirmed. Bot is ready for live execution with working account info access.
+21:43:35 | CRITICAL | [FINAL_CALIBRATION_COMPLETE] ??? ALL VERIFICATION CHECKS PASSED. Bot has successfully completed final logic calibration. System is authorized to enter first live trade without further manual approval. Ready for execution.
+21:43:35 | CRITICAL | [GATEWAY_OPEN] ??? QUALITY BARRIER LOWERED FROM 76% TO 60% | Bot is now in active SNIPER MODE. High-Confidence Quality Floor activated at 85%->45%. Global Quality Reset complete. Elite signals will trigger immediately. Ready to engage targets with precision.
+21:43:35 | CRITICAL | [SYSTEM_PROTECTED] Safety Gates and Quality Vetoes are ACTIVE. Quality Floor enforced at 65%. Admission, validator, and execution now follow one final accept-or-reject path. Exploration no longer re-enters downstream accuracy rejection. Spread and live quote protections remain active.
+21:43:35 | INFO | [CYCLE_1_STARTUP] EUR/USD and GBP/USD prioritized as FIRST evaluation symbols (positions 1-2) | Remaining symbols: ['USD/JPY', 'USD/CHF', 'AUD/USD', 'USD/CAD', 'NZD/USD']
+21:43:35 | CRITICAL | [PULSE_REFRESH] Cycle 1 | Initiating comprehensive re-evaluation cycle for 7 pairs under hard-locked parameters: ADX override active, Force-Pass gate ready, RSI standardized (25-75), RR integrity verified, Sharpe silence active.
+21:43:35 | INFO | [PULSE_REFRESH_SUMMARY] Cycle 1 | Evaluated 7 symbols | Skipped 0 (cooldown/managed)
+21:43:35 | INFO | [STATS] --- [CYCLE 1] ---
+21:43:35 | INFO | [FINNHUB_LOOP] Background monitoring loop started | Economic Calendar: True | Sentiment: True | Interval: 1800s
+21:43:35 | INFO | [STATS] Balance: 95323.87 | Equity: 95315.61 | Active: 3 | Margin: 95149.40 | Util: 0.2%
+21:43:35 | INFO | [POSITION STATS] Total Open: 3 (Bot: 3, ShadowUnique: 0) | Total Unr PnL: $-8.26 (Bot: $-8.26, ShadowUnique: $0.00)
+21:43:35 | INFO | [LONG POSITIONS] Count: 1 | Win Rate: 0.0% | Gross P&L: $-0.99 | Spread: $0.00 | Swap: $0.00 | Commission: $0.00 | Net P&L: $-0.99
+21:43:35 | INFO | [SHORT POSITIONS] Count: 2 | Win Rate: 0.0% | Gross P&L: $-7.27 | Spread: $0.00 | Swap: $0.00 | Commission: $0.00 | Net P&L: $-7.27
+21:43:35 | INFO | [POSITION STATS] Total Open: 3 | Total Unr PnL: $-8.26 (Gross) | Spread Cost: $0.00 | Swap Cost: $0.00 | Commission: $0.00 | NET PnL: $-8.26 (After All Costs)
+21:43:35 | INFO | [ANALYSIS] Examining NZD/USD | Time: 00:00 | Bars: 150 | Trigger: Initial analysis
+21:43:35 | INFO | [VOLATILITY] NZD/USD: 0.145%
+21:43:35 | INFO | [SYMBOL_REPORT] NZD/USD | Price=0.58912 | RSI=50.0 | ML=UP | Conf=45% | Spread=2.7p (OK <= 10.0p)
+21:43:35 | WARNING | [VOLATILITY_CACHE] USD/JPY spread 0.06900 >= 0.05880. Soft-locking for 180s to save CPU.
+21:43:35 | INFO | [ANALYSIS] Examining AUD/USD | Time: 00:00 | Bars: 150 | Trigger: Initial analysis
+21:43:35 | INFO | [VOLATILITY] AUD/USD: 0.118%
+21:43:35 | INFO | Updated entry filters for AUD/USD: {'adx_min': 12, 'rsi_min': 25, 'rsi_max': 75, 'ml_confidence_min': 0.4, 'meta_win_prob_min': 0.3, 'signal_quality_min': 0.4, 'chop_max': 60.0}
+21:43:35 | CRITICAL | [ANALYZE_ENTRY] AUD/USD | Called with 150 candles
+21:43:35 | CRITICAL | [FALLBACK_REPORT_SET] AUD/USD | Initial fallback UP
+21:43:35 | INFO | [NEWS_FETCH] Fetching fresh news for AUD/USD (timeframe=1h)
+21:43:35 | INFO | [ANALYSIS] Examining USD/CAD | Time: 00:00 | Bars: 150 | Trigger: Initial analysis
+21:43:35 | INFO | [VOLATILITY] USD/CAD: 0.052%
+21:43:35 | INFO | Updated entry filters for USD/CAD: {'adx_min': 12, 'rsi_min': 25, 'rsi_max': 75, 'ml_confidence_min': 0.4, 'meta_win_prob_min': 0.3, 'signal_quality_min': 0.4, 'chop_max': 60.0}
+21:43:35 | CRITICAL | [ANALYZE_ENTRY] USD/CAD | Called with 150 candles
+21:43:35 | CRITICAL | [FALLBACK_REPORT_SET] USD/CAD | Initial fallback DOWN
+21:43:35 | ERROR | Error fetching news data for AUD/USD: No live news articles matched for AUD/USD
+21:43:35 | WARNING | [NEWS_SILENT_FAILOVER] AUD/USD | Failed to fetch news data for AUD/USD: No live news articles matched for AUD/USD. Falling back to technical-only macro mode without retry spam.
+21:43:35 | WARNING | No news articles found for AUD/USD
+21:43:35 | INFO | [NEWS_FETCH] Fetching fresh news for USD/CAD (timeframe=1h)
+21:43:35 | INFO | Adaptive Learning for AUD/USD: Fine-tuning ML model on 150 local bars...
+21:43:37 | INFO | ML Model for AUD/USD trained | Acc: 70.00% | Brier: 0.2124 | Calib: sigmoid | Top feature: rvi_14
+21:43:37 | INFO | ✓ Fine-tuning complete. Accuracy: 70.0%
+21:43:37 | INFO | [ML_INFERENCE_ATTEMPT_START] AUD/USD | is_trained=True | model_available=True | bars_since_loss=999 | historical_bars=150
+21:43:37 | INFO | [ML_INFERENCE_ATTEMPT] AUD/USD | Raw model output (predict_proba): [DOWN: 0.284722, UP: 0.715278] | shape: (1, 2)
+21:43:37 | INFO | [ML_INFERENCE_ATTEMPT_RESULT] AUD/USD | direction=UP | raw_confidence=0.771549 | fallback_reason=model_trained | meta_win_prob=0.9798 | all_details={'primary_prob_up': 0.7152780131959722, 'directional_confidence': 0.7152780131959722, 'meta_win_prob': 0.9797860885118344, 'calibrated_confidence': 0.7715486082884664}
+21:43:37 | CRITICAL | [LAST_SYMBOL_REPORT_SET] AUD/USD | direction=UP | confidence=0.77 | rsi=45.3 | This is the actual data, not fallback
+21:43:37 | INFO | [META-GATE-BYPASS] AUD/USD | TECHNICAL_ONLY_MODE active. Meta gate disabled for bootstrap trading.
+21:43:37 | INFO | [META-GATE-BYPASS] AUD/USD | TECHNICAL_ONLY_MODE active | MetaWin=98.0% | Gate=DISABLED
+21:43:37 | INFO | [EXPLORATION_OVERRIDE_ACTIVE] AUD/USD | Score 1.00 >= 0.40 | ADX 20.60 >= 15.40 | Confidence 77.15% >= 28.00% | Exploration path admitted and downstream accuracy gates skipped | Mode=EXPLORATION
+21:43:37 | CRITICAL | [SIGNAL_GEN_DEBUG] AUD/USD | Generated 1 technical signals from indicators
+21:43:37 | CRITICAL | [SYNTHETIC_ML_SIGNAL] AUD/USD | Adding ML signal (dir=UP, conf=0.77)
+21:43:37 | INFO | [STRATEGY] Added synthetic ML BUY signal (conf: 0.77)
+21:43:37 | CRITICAL | [COMBINER_SIGNAL_GATE_PASS] AUD/USD | Direction: Direction.LONG | Confidence: 0.855 >= Min: 0.180 | Creating trading signal...
+21:43:37 | INFO | [SLTP_CALC] AUD/USD | Computed exact price-based RR 2.92R from Entry=0.71525 SL=0.71069 TP=0.72856
+21:43:37 | INFO | ATR-based SL/TP: Entry=0.71525, Dir=LONG, SL=0.71069, TP=0.72856, Period=14, RR=3.0
+21:43:37 | CRITICAL | [RR_MAPPING_SOURCE] AUD/USD | Direct assignment: real_risk_reward_ratio (3.009R) -> TradingSignal.rr_ratio (source: SLTPCalculator)
+21:43:37 | INFO | [BOOTSTRAP_MODE] AUD/USD | Technical-only=True | LowAccCycles=0 | Cycle=1 | Trades=212 | Admission confidence gate relaxed for fail-forward learning.
+21:43:37 | INFO | [CORRELATION_GATE] AUD/USD | MaxCorr=0.931 | Ref=GBPUSD | Threshold=0.70 | Reject=False
+21:43:37 | CRITICAL | [STRATEGY_FULLY_UNLEASHED] AUD/USD | AdjProbFloor=0.60 | EVThreshold=-2.00R | Uncaged=False | FullAuto=True
+21:43:37 | CRITICAL | [REOPEN_STRIKE_READY] Runtime active. Quality floor locked at 65% and hard gates remain enforced.
+21:43:37 | INFO | [EV_GATE] AUD/USD | CalibConf=0.855 | MacroPenalty=0.000 | AdjProb=0.855 | RR=3.009R | EV=2.427R | Threshold=-2.000R
+21:43:37 | CRITICAL | [DEPLOYING_BOOSTED_CAPITAL] AUD/USD | Position Multiplier: 0.25x (>= 0.23x threshold) | High-confidence trade. Bot is leaning into elite signal with strong capital allocation.
+21:43:37 | INFO | [TRADE_ADMISSION] AUD/USD | Regime: LOW_LIQUIDITY | Action: ADMITTED | Admitted by EV gate: EV 2.427R > -2.000R | Conf: 0.855, AdjProb: 0.855, RR: 3.01R | Size: 0.25x
+21:43:37 | INFO | [TECHNICAL_ONLY_MODE] AUD/USD | Macro/news penalties may be relaxed, but hard safety gates remain active.
+21:43:37 | INFO | [AUTHORITY_LEVEL] AUD/USD | LEVEL_3 | Evaluated
+21:43:37 | CRITICAL | [DEBUG_RR_SYNC] AUD/USD | RR: 3.009R | Admission Status: ADMITTED | EV: 2.427R | Penalty: 0.000 | AdjProb: 0.855 | ForcedBypass: DISABLED | Data source confirmed
+21:43:37 | CRITICAL | [PIPELINE_INTEGRITY_VERIFIED] ✅ SUCCESS | AUD/USD | Non-default R:R (3.009R) successfully passed entire pipeline: Strategy → SLTPCalculator → SignalCombiner (RR_MAPPING_SOURCE logged) → TradeAdmissionController (DEBUG_RR_SYNC logged) → SignalFilter → Final Admission | Confidence: 85.5% | Regime: LOW_LIQUIDITY | Score: 85.5%
+21:43:37 | CRITICAL | [OVERRIDE_AUTHORIZED] AUD/USD (Score: 85.5) admitted via Priority 0 Score Override. All accuracy gates bypassed. RR=3.01R (>1.5), Spread=0.00042000000000008697 (<10.0)
+21:43:37 | INFO | [TRACE-2] Passed Hard Safety Gates for AUD/USD
+21:43:38 | INFO | [RL_TACTIC] AUD/USD | Action: LOW_AGGRESSION | Applied: True | Warmup: True | Reason: RL policy decision
+21:43:38 | INFO | [TRACE-3] Passed RL Tactical Dispatcher for AUD/USD
+21:43:38 | CRITICAL | [HARD_MAPPING_RR] AUD/USD | Direct assignment: real_risk_reward_ratio = 3.009R (NO default fallback allowed) | Type: float | Confidence: 0.855(float) | Accuracy: 0.672(float) | Value guaranteed non-default
+21:43:38 | CRITICAL | [LEVEL_LOCK_ENFORCED] AUD/USD | SL=0.71069 TP=0.72856 RR=3.009R | IMMUTABLE LOCK ACTIVATED | admission_locked=True bypasses downstream veto | RR DRIFT PREVENTED
+21:43:38 | INFO | [TRACE-4] Handed to Execution Engine for AUD/USD
+21:43:38 | INFO | [TRACE-1] Signal Generated for AUD/USD
+21:43:38 | CRITICAL | [COMBINE_RESULT_DEBUG] AUD/USD | Tech signals in: 2 | Signal out: True | Conf: 0.85
+21:43:38 | CRITICAL | [SYNTHETIC_FORCE_EXEC] AUD/USD | signal.confidence 0.85 >= 0.75 -> forced_execution=True
+21:43:38 | INFO | [ML_INFERENCE_ATTEMPT] AUD/USD | Raw model output (predict_proba): [DOWN: 0.284722, UP: 0.715278] | shape: (1, 2)
+21:43:38 | INFO | [META-GATE-BYPASS] AUD/USD | TECHNICAL_ONLY_MODE active. Meta gate disabled for bootstrap trading.
+21:43:38 | INFO | [META-GATE-BYPASS] AUD/USD | TECHNICAL_ONLY_MODE active pre-admission | MetaWin=98.0% | Gate=DISABLED
+21:43:38 | INFO | [ADAPTIVE STRICTNESS] RANGING: Threshold 70.0 → 63.0 (-7.0)
+21:43:38 | INFO | [ADX_FLOOR_VERIFY] AUD/USD | Session: TOKYO | Effective ADX Floor: 10.0
+21:43:38 | INFO | [ACCEPTED] [OK] ML OVERRIDE | ML Confidence: 77.2% >= 70% | Score: 85.3 | TOKYO
+21:43:38 | INFO | [ADAPTIVE DECISION] AUD/USD | TIER: TIER_A
+   Market: RANGING (RELAXED)
+   Adjustments: Score -7.0, ML -7.0%, ADX -5.0
+   Decision: ✓ TRADE (Score=85.3, ML=77.2%)
+   Regime Stats: 0 trades, $0.00 cumulative PnL, 1 accepted / 0 rejected
+21:43:38 | INFO | [✓ ACCEPTED] AUD/USD
+   [OK] ML OVERRIDE | ML Confidence: 77.2% >= 70% | Score: 85.3 | TOKYO
+   Regime: TRENDING/HIGH_VOL
+   Position: 0.56x (quality=0.75, regime=0.75)
+   Entry: 0.71525 | ML: 77.2%
+21:43:38 | CRITICAL | [TRADE_READY] AUD/USD LONG | ALL FILTERS PASSED | Ready for Admission Controller evaluation | Entry: 0.71525 | SL: 0.71069 | TP: 0.72856 | RR: 2.92R | Size: 0.56x | ML: 77.2% | Confidence: 85.3 | Source: CONFIDENCE_ALPHA (TIER_A)
+21:43:38 | CRITICAL | [ANALYZE_EXIT] AUD/USD | Returning signal | direction=UP | confidence=0.77 | signal_present=True
+21:43:38 | INFO | [SYMBOL_REPORT] AUD/USD | Price=0.71515 | RSI=45.3 | ML=UP | Conf=84% | Spread=4.2p (OK <= 12.0p)
+21:43:38 | INFO | [HUNTER_MODE] AUD/USD | Market High (Vol: 0.206%) | Threshold set to 0.05 | Signal Admitted
+21:43:38 | INFO | [STRYKE_ZONE] AUD/USD | Authority: LEVEL 3 (Standard AI) | Gate relaxed: 0.18 -> 0.05 | ADMITTED
+21:43:38 | INFO | [PREDICTIVE_CHART] AUD/USD | LIQUIDITY SWEEP | Edge applied: +0.03
+21:43:38 | CRITICAL | [RISK_GUARD] ExposureNow=0.06% | Limit=2.00% | Proposed=0.27% | PostTrade=0.32% | Tier=TIER_A | Score=85.3 | Conviction=STANDARD | Override=ON | Decision=admitted
+21:43:38 | CRITICAL | [SECONDARY_REGIME_BYPASS] AUD/USD | forced_execution=True in TRENDING/NORMAL_VOL. Regime allows forced execution. Proceeding.
+21:43:38 | INFO | [PHASE1-REGIME] AUD/USD allowed | FORCED_EXECUTION (TRENDING/NORMAL_VOL) | Trend: TRENDING | Vol: NORMAL_VOL | Size Mult: 1.00x
+21:43:38 | CRITICAL | [LEVEL_LOCK] AUD/USD | Reusing admitted SL/TP without recalculation | SL=0.71069 | TP=0.72856
+21:43:38 | INFO | [SIGNAL] AUD/USD | LONG | Entry=0.71525 | SL=0.71069 | TP=0.72856 | Confidence=0.79
+21:43:38 | CRITICAL | [IMMEDIATE_TRANSMIT] ??? Forced execution detected for AUD/USD. Running enhanced gate checks.
+21:43:38 | CRITICAL | [FORCED_EXEC_AUDIT] AUD/USD | Dir: LONG | ML Conf: 77.2% | Signal Conf: 79.5% | Regime: TRENDING/NORMAL_VOL | Base Size (pre-floor): 0.2000 lots | Final Lots: 0.2000 (FLOOR: 0.08) | Volatility: 0.118%
+21:43:38 | INFO | 🕶️ [SHADOW_ONLY] Opened shadow candidate S1776807818 for AUD/USD. Monitoring for PnL proof...
+21:43:38 | INFO | [SHADOW_INIT] AUD/USD moved to shadow monitoring (ID: S1776807818). Live trade pending PnL proof.
+21:43:38 | INFO | [FINNHUB_NEWS_CACHED_FOREX] Cached general forex articles: 1 | Sentiment: 0.50
+21:43:38 | ERROR | Error fetching news data for USD/CAD: No live news articles matched for USD/CAD
+21:43:38 | WARNING | [NEWS_SILENT_FAILOVER] USD/CAD | Failed to fetch news data for USD/CAD: No live news articles matched for USD/CAD. Falling back to technical-only macro mode without retry spam.
+21:43:38 | WARNING | No news articles found for USD/CAD
+21:43:38 | INFO | Adaptive Learning for USD/CAD: Fine-tuning ML model on 150 local bars...
+21:43:46 | INFO | ML Model for USD/CAD trained | Acc: 40.00% | Brier: 0.2969 | Calib: sigmoid | Top feature: volatility_norm_10
+21:43:46 | INFO | ✓ Fine-tuning complete. Accuracy: 40.0%
+21:43:46 | INFO | [ML_INFERENCE_ATTEMPT_START] USD/CAD | is_trained=True | model_available=True | bars_since_loss=999 | historical_bars=150
+21:43:46 | INFO | [ML_INFERENCE_ATTEMPT] USD/CAD | Raw model output (predict_proba): [DOWN: 0.500616, UP: 0.499384] | shape: (1, 2)
+21:43:46 | INFO | [ML_INFERENCE_ATTEMPT_RESULT] USD/CAD | direction=DOWN | raw_confidence=0.568149 | fallback_reason=model_trained | meta_win_prob=0.7243 | all_details={'primary_prob_up': 0.4993843428004189, 'directional_confidence': 0.5006156571995811, 'meta_win_prob': 0.7242784076736715, 'calibrated_confidence': 0.5681485366919742}
+21:43:46 | CRITICAL | [LAST_SYMBOL_REPORT_SET] USD/CAD | direction=DOWN | confidence=0.57 | rsi=54.2 | This is the actual data, not fallback
+21:43:46 | INFO | [META-GATE-BYPASS] USD/CAD | TECHNICAL_ONLY_MODE active. Meta gate disabled for bootstrap trading.
+21:43:46 | INFO | [META-GATE-BYPASS] USD/CAD | TECHNICAL_ONLY_MODE active | MetaWin=72.4% | Gate=DISABLED
+21:43:46 | INFO | [EXPLORATION_OVERRIDE_ACTIVE] USD/CAD | Score 1.00 >= 0.40 | ADX 15.53 >= 15.40 | Confidence 56.81% >= 28.00% | Exploration path admitted and downstream accuracy gates skipped | Mode=EXPLORATION
+21:43:46 | CRITICAL | [SIGNAL_GEN_DEBUG] USD/CAD | Generated 1 technical signals from indicators
+21:43:46 | CRITICAL | [SYNTHETIC_ML_SIGNAL] USD/CAD | Adding ML signal (dir=DOWN, conf=0.57)
+21:43:46 | INFO | [STRATEGY] Added synthetic ML SELL signal (conf: 0.57)
+21:43:46 | CRITICAL | [COMBINER_SIGNAL_GATE_PASS] USD/CAD | Direction: Direction.SHORT | Confidence: 0.631 >= Min: 0.080 | Creating trading signal...
+21:43:46 | INFO | [SLTP_CALC] USD/CAD | Computed exact price-based RR 2.90R from Entry=1.36631 SL=1.36996 TP=1.35572
+21:43:46 | INFO | ATR-based SL/TP: Entry=1.36631, Dir=SHORT, SL=1.36996, TP=1.35572, Period=14, RR=3.0
+21:43:46 | CRITICAL | [RR_MAPPING_SOURCE] USD/CAD | Direct assignment: real_risk_reward_ratio (3.011R) -> TradingSignal.rr_ratio (source: SLTPCalculator)
+21:43:46 | INFO | [BOOTSTRAP_MODE] USD/CAD | Technical-only=True | LowAccCycles=0 | Cycle=1 | Trades=201 | Admission confidence gate relaxed for fail-forward learning.
+21:43:46 | INFO | [CORRELATION_GATE] USD/CAD | MaxCorr=0.918 | Ref=USDCHF | Threshold=0.70 | Reject=False
+21:43:46 | CRITICAL | [STRATEGY_FULLY_UNLEASHED] USD/CAD | AdjProbFloor=0.60 | EVThreshold=-2.00R | Uncaged=False | FullAuto=True
+21:43:46 | CRITICAL | [REOPEN_STRIKE_READY] Runtime active. Quality floor locked at 65% and hard gates remain enforced.
+21:43:46 | INFO | [EV_GATE] USD/CAD | CalibConf=0.631 | MacroPenalty=0.000 | AdjProb=0.631 | RR=3.011R | EV=1.530R | Threshold=-2.000R
+21:43:46 | CRITICAL | [DEPLOYING_BOOSTED_CAPITAL] USD/CAD | Position Multiplier: 0.25x (>= 0.23x threshold) | High-confidence trade. Bot is leaning into elite signal with strong capital allocation.
+21:43:46 | INFO | [TRADE_ADMISSION] USD/CAD | Regime: RANGING | Action: ADMITTED | Admitted by EV gate: EV 1.530R > -2.000R | Conf: 0.631, AdjProb: 0.631, RR: 3.01R | Size: 0.25x
+21:43:46 | INFO | [TECHNICAL_ONLY_MODE] USD/CAD | Macro/news penalties may be relaxed, but hard safety gates remain active.
+21:43:46 | INFO | [AUTHORITY_LEVEL] USD/CAD | LEVEL_3 | Evaluated
+21:43:46 | CRITICAL | [DEBUG_RR_SYNC] USD/CAD | RR: 3.011R | Admission Status: ADMITTED | EV: 1.530R | Penalty: 0.000 | AdjProb: 0.631 | ForcedBypass: DISABLED | Data source confirmed
+21:43:46 | CRITICAL | [PIPELINE_INTEGRITY_VERIFIED] ✅ SUCCESS | USD/CAD | Non-default R:R (3.011R) successfully passed entire pipeline: Strategy → SLTPCalculator → SignalCombiner (RR_MAPPING_SOURCE logged) → TradeAdmissionController (DEBUG_RR_SYNC logged) → SignalFilter → Final Admission | Confidence: 63.1% | Regime: RANGING | Score: 63.1%
+21:43:46 | INFO | [TRACE-2] Passed Hard Safety Gates for USD/CAD
+21:43:47 | INFO | [RL_TACTIC] USD/CAD | Action: LOW_AGGRESSION | Applied: True | Warmup: True | Reason: RL policy decision
+21:43:47 | INFO | [TRACE-3] Passed RL Tactical Dispatcher for USD/CAD
+21:43:47 | CRITICAL | [HARD_MAPPING_RR] USD/CAD | Direct assignment: real_risk_reward_ratio = 3.011R (NO default fallback allowed) | Type: float | Confidence: 0.631(float) | Accuracy: 0.384(float) | Value guaranteed non-default
+21:43:47 | CRITICAL | [LEVEL_LOCK_ENFORCED] USD/CAD | SL=1.36996 TP=1.35572 RR=3.011R | IMMUTABLE LOCK ACTIVATED | admission_locked=True bypasses downstream veto | RR DRIFT PREVENTED
+21:43:47 | INFO | [TRACE-4] Handed to Execution Engine for USD/CAD
+21:43:47 | INFO | [TRACE-1] Signal Generated for USD/CAD
+21:43:47 | CRITICAL | [COMBINE_RESULT_DEBUG] USD/CAD | Tech signals in: 2 | Signal out: True | Conf: 0.63
+21:43:47 | INFO | [ML_INFERENCE_ATTEMPT] USD/CAD | Raw model output (predict_proba): [DOWN: 0.500616, UP: 0.499384] | shape: (1, 2)
+21:43:47 | INFO | [META-GATE-BYPASS] USD/CAD | TECHNICAL_ONLY_MODE active. Meta gate disabled for bootstrap trading.
+21:43:47 | INFO | [META-GATE-BYPASS] USD/CAD | TECHNICAL_ONLY_MODE active pre-admission | MetaWin=72.4% | Gate=DISABLED
+21:43:47 | INFO | [ADAPTIVE STRICTNESS] RANGING: Threshold 70.0 → 63.0 (-7.0)
+21:43:47 | INFO | [ADX_FLOOR_VERIFY] USD/CAD | Session: TOKYO | Effective ADX Floor: 10.0
+21:43:47 | INFO | [ACCEPTED] ✓ EXCELLENT | Score: 77.8 (Threshold: 25.0) | Base=64.2 | ML=+8.5 | Session=+5.0 | TOKYO
+21:43:47 | INFO | [ADAPTIVE DECISION] USD/CAD | TIER: TIER_B
+   Market: RANGING (RELAXED)
+   Adjustments: Score -7.0, ML -7.0%, ADX -5.0
+   Decision: ✓ TRADE (Score=77.8, ML=56.8%)
+   Regime Stats: 0 trades, $0.00 cumulative PnL, 1 accepted / 0 rejected
+21:43:47 | INFO | [✓ ACCEPTED] USD/CAD
+   ✓ EXCELLENT | Score: 77.8 (Threshold: 25.0) | Base=64.2 | ML=+8.5 | Session=+5.0 | TOKYO
+   Regime: RANGING/HIGH_VOL
+   Position: 0.31x (quality=0.75, regime=0.60)
+   Entry: 1.36631 | ML: 56.8%
+21:43:47 | CRITICAL | [TRADE_READY] USD/CAD SHORT | ALL FILTERS PASSED | Ready for Admission Controller evaluation | Entry: 1.36631 | SL: 1.36996 | TP: 1.35572 | RR: 2.90R | Size: 0.31x | ML: 56.8% | Confidence: 77.8 | Source: CONFIDENCE_ALPHA (TIER_B)
+21:43:47 | CRITICAL | [ANALYZE_EXIT] USD/CAD | Returning signal | direction=DOWN | confidence=0.57 | signal_present=True
+21:43:47 | INFO | [SYMBOL_REPORT] USD/CAD | Price=1.36641 | RSI=54.2 | ML=DOWN | Conf=64% | Spread=2.7p (OK <= 10.0p)
+21:43:47 | INFO | [HUNTER_MODE] USD/CAD | Market Quiet (Vol: 0.086%) | Threshold set to 0.08 | Signal Admitted
+21:43:47 | CRITICAL | [RISK_GUARD] ExposureNow=0.06% | Limit=2.00% | Proposed=0.12% | PostTrade=0.18% | Tier=TIER_B | Score=77.8 | Conviction=STANDARD | Override=ON | Decision=admitted
+21:43:47 | INFO | [PHASE1-REGIME] USD/CAD allowed | Optimal Trending | Trend: TRENDING | Vol: NORMAL_VOL | Size Mult: 1.50x
+21:43:47 | CRITICAL | [LEVEL_LOCK] USD/CAD | Reusing admitted SL/TP without recalculation | SL=1.36996 | TP=1.35572
+21:43:47 | INFO | [SIGNAL] USD/CAD | SHORT | Entry=1.36631 | SL=1.36996 | TP=1.35572 | Confidence=0.64
+21:43:47 | INFO | [DECISION] USD/CAD | SHORT @ 1.36631 | SL: 1.36996 | TP: 1.35572
+21:43:47 | INFO | [VALIDATOR_BYPASS] USD/CAD | BYPASSING all confluence/accuracy filters | Accepting all EV-admitted signals
+21:43:47 | INFO | [ENHANCED FILTER] USD/CAD SHORT APPROVED | Score: 100.0/100 | MTF: 100 | Vol: 100 | Mom: 100 | Liq: 100 | Size: 1.00x
+21:43:47 | INFO | [ADMITTED] USD/CAD | Signal verified. Handing off to execution engine.
+21:43:47 | INFO | [AUTHORITY_LEVEL] USD/CAD | LEVEL_3 | ADMITTED
+21:43:47 | INFO | [POSITION_SIZING_CALC] USD/CAD | Base Size: 0.6531 lots | Confidence: 0.64x | Tier: 0.60x | Volatility: 0.90x | Applied Multiplier (lowest): 0.60x | Final Size: 0.3919 lots
+21:43:47 | INFO | [SIZE_SYNC] Conviction Floor applied for TIER_B signal.
+21:43:47 | CRITICAL | [LOT_FLOOR_ENFORCED] USD/CAD | Account $95315.61 > $50k threshold | Calculated: 0.3919 lots | Applied Floor: 0.0800 lots | Final: 0.2351 lots
+21:43:47 | INFO | [LIQUIDITY_CHECK] Account Balance: $95315.61 | Risk Calculation Base: $238.29 (0.25%)
+21:43:47 | CRITICAL | [READY_TO_STRIKE] Risking $238.29 on NEW_ORDER | USD/CAD | Position Size: 0.2351 | Tolerance: 1.5 pips | Confirms 0.25% risk model active
+21:43:47 | INFO | [POSITION_SIZING_CALC] USD/CAD | Base Size: 0.6531 lots | Confidence: 0.64x | Tier: 0.60x | Volatility: 0.90x | Applied Multiplier (lowest): 0.60x | Final Size: 0.3919 lots
+21:43:47 | INFO | [SIZE_SYNC] Conviction Floor applied for TIER_B signal.
+21:43:47 | CRITICAL | [LOT_FLOOR_ENFORCED] USD/CAD | Account $95315.61 > $50k threshold | Calculated: 0.3919 lots | Applied Floor: 0.0800 lots | Final: 0.2351 lots
+21:43:47 | INFO | [LIQUIDITY_CHECK] Account Balance: $95315.61 | Risk Calculation Base: $238.29 (0.25%)
+21:43:47 | CRITICAL | [READY_TO_STRIKE] Risking $238.29 on NEW_ORDER | USD/CAD | Position Size: 0.2351 | Tolerance: 1.5 pips | Confirms 0.25% risk model active
+21:43:47 | CRITICAL | [LOT_FLOOR_ENFORCED] USD/CAD | Account $95315.61 > $50k threshold | Calculated: 0.1516 lots | Applied Floor: 0.0800 lots | Final: 0.1000 lots
+21:43:47 | CRITICAL | [READY_TO_STRIKE] Risking $238.29 on NEW_ORDER | USD/CAD | Size: 0.1000 | (Adaptive blended)
+21:43:47 | INFO | [SPREAD_ADJUSTMENT] Wide spread detected (2.7 pips) | Reducing size by 10%
+21:43:47 | INFO | [VOLATILITY SIZING] Vol: 0.052% | Multiplier: 1.00x | Size after vol: 0.09
+21:43:47 | INFO | [ACTION] Risk OK | Score: 0.00 | TIER: TIER_B | RawSize: 31.5000% | EquitySize: 1.9063 | ConfMult: 0.5x | Final: 0.04 lots
+21:43:47 | INFO | [SYMBOL_STACK_RISK_OK] USD/CAD | positions=0 -> 1 | symbol_risk_used=0.0000 | portfolio_risk_used=0.0006 | candidate=0.0002 | symbol_budget=0.0050 | portfolio_budget=0.0500
+21:43:47 | INFO | [COST_PENALTY] USD/CAD | Direction=short | Penalty=0.00000
+21:43:47 | INFO | [LLM_GOVERNANCE_AUDIT] INPUT_HASH | USD/CAD | SHA256=4d5fb484c680f9b4de77371614593df5bff30e82d67b5d0427090d8c3bbc66b8
+21:43:55 | INFO | [LLM_DEBUG] Raw response length: 91 | Latency: 7713ms | Snippet: '{"decision":"approve","confidence":75,"risk_flag":'
+21:43:55 | INFO | [LLM_GOVERNANCE_AUDIT] USD/CAD | Decision=APPROVE | Confidence=75 | RiskFlag=False | Latency=7713ms | Tier=FAST | Reason: RSI OK, RR 2.5R, ML 65%
+21:43:55 | INFO | [FAST_CACHE_STORE] USD/CAD | Decision: approve | TTL: 120.0s
+21:43:55 | INFO | [RUNTIME_ORCH_HANDOFF] USD/CAD queued for execution | direction=SHORT | entry=1.36631
+21:43:55 | INFO | [RUNTIME_ORCH_HANDOFF] USD/CAD accepted for execution queue.
+21:43:55 | CRITICAL | [EXECUTION_QUEUE] Processing 1 queued strikes...
+21:43:55 | INFO | [ORDER_ATTEMPT] USD/CAD | load=3/7 | direction=SHORT | size=0.04 | entry=1.36631 | sl=1.36996 | tp=1.35572
+21:43:55 | INFO | Executing order order_1776807835_USD/CAD for USD/CAD
+21:43:55 | INFO | [READY_TO_EXECUTE] USD/CAD | Final Lot Size: 0.04 | Risk Amount: $0.00 | Direction: SHORT | Entry: 1.36631 | SL: 1.36996 | TP: 1.35572 | Sending order to MT5 terminal...
+21:43:55 | INFO | [ORDER_EXECUTION] USD/CAD | PRE-SEND | SHORT | Entry=1.36639 | SL=1.36996 | TP=1.35572 | R:R=2.99R | Volume=0.04 lots | BrokerValidation=PENDING
+21:43:55 | CRITICAL | [POSITIVE_SLIPPAGE_ACCEPT] USD/CAD | Market moved favorably | Original RR: 1.50R | Current RR: 2.99R | Slippage: 0.80 pips (IN OUR FAVOR) | Signal=1.36631 Market=1.36639 | ACCEPTING IMPROVED ENTRY
+21:43:55 | CRITICAL | [TP_ADJUSTED_FOR_SLIPPAGE] USD/CAD | Positive slippage detected: +0.80 pips | TP extended: 1.35572 → 1.36104 (53.13 pips) | RR restored to 1.50R
+21:43:55 | CRITICAL | [PRE_FLIGHT_REFRESH] USD/CAD | Price refreshed | Old Entry: 1.36639 (RR=2.99R) | Fresh Entry: 1.36639 (RR=2.99R) | Slippage: 0.00000 | Market OK - PROCEEDING WITH UPDATED PRICE
+21:43:55 | INFO | [ORDER_EXECUTION] USD/CAD | PREFLIGHT | symbol=USDCAD point=1e-05 digits=5 trade_stops_level=0 min_dist=0.00020 entryâ‰ˆ1.36639 | SL/TP within broker constraints | SL=1.36996 TP=1.35572 | BrokerValidation=OK
+21:43:55 | INFO | [ORDER_EXECUTION] USD/CAD | SHORT | Entry=1.36639 | SL=1.36996 | TP=1.35572 | R:R=2.99R | Volume=0.04 lots
+21:43:55 | INFO | [ORDER_EXECUTION] USD/CAD | SEND | fill_mode=0 | attempt=1/3 | SL=1.36996 TP=1.35572
+21:43:55 | CRITICAL | [TRANSACTIONAL_PERSISTENCE] âœ… Ticket 56338354698 (USDCAD SELL) IMMEDIATELY PERSISTED TO DISK | Entry: 1.36639 | SL: 1.36996 | TP: 1.35572
+21:43:55 | INFO | [ORDER_EXECUTION] USD/CAD | FILLED | ticket=56338354698 | mode=0
+21:43:55 | INFO | [FINNHUB_NEWS] Fallback: Found 1 general forex articles for EUR/USD
+21:43:55 | INFO | [FINNHUB_NEWS] EUR/USD | Sentiment: 0.50 | Articles: 1 (general_forex)
+21:43:55 | INFO | [FINNHUB_NEWS] Fallback: Found 1 general forex articles for GBP/USD
+21:43:55 | INFO | [FINNHUB_NEWS] GBP/USD | Sentiment: 0.50 | Articles: 1 (general_forex)
+21:43:55 | INFO | [ORDER_EXECUTION] USD/CAD | CONFIRMED | ticket=56338354698 | SL=1.36996 TP=1.35572
+21:43:55 | CRITICAL | [STRIKE_AUTHORIZED] USD/CAD | Spread: 2.9 pips | Limit: 2.0 pips | Ticket: 56338354698 | Lot Size: 0.04 | Rule: PROFIT_OVERRIDE | RR: 2.99R | Entry: 1.36639 | SL: 1.36996 | TP: 1.35572
+21:43:55 | INFO | Order order_1776807835_USD/CAD executed: success=True, price=1.36639
+21:43:55 | INFO | [ORDER_SUCCESS] Ticket=56338354698 | USD/CAD | 0.04 lots | Price=1.36639
+21:43:55 | INFO | Registered attribution data for position 56338354698
+21:43:55 | INFO | [POSITION CALL] SHORT | USD/CAD | Entry: 1.36639 | Qty: 0.04
+21:43:55 | INFO | [IDLE] Waiting for next market pulse...
+21:43:55 | INFO | Order reconciliation complete: 1 reconciled, 0 errors
+21:43:55 | INFO | [HEARTBEAT] Cycle 1 | Positions: 3
+21:43:55 | CRITICAL | [TERMINAL_SYNC_COMPLETE] Shadow state protection pass complete. Cooldowns dead. Volume floor 0.05 locked at broker level.
+21:43:55 | INFO | [FINNHUB_NEWS] Fallback: Found 1 general forex articles for USD/JPY
+21:43:55 | INFO | [FINNHUB_NEWS] USD/JPY | Sentiment: 0.50 | Articles: 1 (general_forex)
+21:43:55 | INFO | [FINNHUB_NEWS] Fallback: Found 1 general forex articles for USD/CHF
+21:43:55 | INFO | [FINNHUB_NEWS] USD/CHF | Sentiment: 0.50 | Articles: 1 (general_forex)
+21:43:56 | INFO | [FINNHUB_NEWS] Fallback: Found 1 general forex articles for AUD/USD
+21:43:56 | INFO | [FINNHUB_NEWS] AUD/USD | Sentiment: 0.50 | Articles: 1 (general_forex)
+21:43:56 | INFO | [FINNHUB_NEWS] Fallback: Found 1 general forex articles for USD/CAD
+21:43:56 | INFO | [FINNHUB_NEWS] USD/CAD | Sentiment: 0.50 | Articles: 1 (general_forex)
+21:43:56 | INFO | [FINNHUB_NEWS] Fallback: Found 1 general forex articles for NZD/USD
+21:43:56 | INFO | [FINNHUB_NEWS] NZD/USD | Sentiment: 0.50 | Articles: 1 (general_forex)
+21:43:56 | INFO | [FINNHUB_NEWS_REFRESH] News sentiment analysis completed successfully | Optimization A: General forex cached and reused 7 times (saved ~7 API calls)
